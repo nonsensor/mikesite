@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Mike&#39;s Site</title>
+	<subtitle>Mike&#39;s blog.</subtitle>
+	
+	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
+	<link href="http://mikepropst.com/"/>
+	<updated>2023-02-12T00:00:00Z</updated>
+	<id>http://mikepropst.com/</id>
+	<author>
+		<name>Mike Propst</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Building a useful homelab</title>
+		<link href="http://mikepropst.com/blog/building-a-useful-homelab/"/>
+		<updated>2023-02-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/building-a-useful-homelab/</id>
+		<content type="html">&lt;p&gt;A while back I started getting nervous about hosted services. Google starting to limit storage, Amazon killing off their music hosting, all of these were catalysts but a desire for privacy and a kind of old-school internet experience also drove my plans.&lt;/p&gt;
+&lt;p&gt;After some semi-successful experimentation with Plex on a Raspberry Pi, I started thinking about how the same priciple could be applied to other services, like photo galleries. Turns out that not only are there a ton of self-hosted, open-source options for doing a lot of things you might want to do, most of them have been containerized to run in Docker.&lt;/p&gt;
+&lt;h2 id=&quot;the-components&quot; tabindex=&quot;-1&quot;&gt;The components &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#the-components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;a-computer&quot; tabindex=&quot;-1&quot;&gt;A computer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#a-computer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;My machine is not that powerful. It&#39;s a 4-core Pentium Lenovo Thinkstation with its main drive replaced with an SSD. It previously ran Mint desktop as a basic home computer. But after I got an old Macbook I didn&#39;t really need it, so it seemed like a perfect box to repurpose.&lt;/p&gt;
+&lt;h3 id=&quot;openmediavault&quot; tabindex=&quot;-1&quot;&gt;openmediavault &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#openmediavault&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Far and away the most popular operating system for these kinds of boxes is &lt;a href=&quot;https://www.openmediavault.org/&quot;&gt;openmediavault&lt;/a&gt;, a Debian distro with no desktop but a convenient web interface that allows even a relative dumbo like myself to mount drives and share them with services like SMB or FTP.&lt;/p&gt;
+&lt;h3 id=&quot;portainer&quot; tabindex=&quot;-1&quot;&gt;Portainer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#portainer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As you might imagine, the web UI of OMV makes one want to do everything via your browser. SSH is not super hard, but it&#39;s mighty convenient to use Portainer, a great web UI for Docker.&lt;/p&gt;
+&lt;h3 id=&quot;jellyfin&quot; tabindex=&quot;-1&quot;&gt;Jellyfin &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#jellyfin&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;After spending what I consider to be too much money to watch my own stuff (PlexPass at $5/month), I went with &lt;a href=&quot;https://jellyfin.org/&quot;&gt;Jellyfin&lt;/a&gt;, an open-source fork of Emby. I tell you what, we&#39;ve come a long way since the old XBMC running on an overheating computer attached directly to the TV. It has clients for our computers, iOS and Android devices, and Roku, and perhaps because it doesn&#39;t need to do transcoding for those devices, the old computer barely even has to work when streaming to two different devices.&lt;/p&gt;
+&lt;h3 id=&quot;navidrome&quot; tabindex=&quot;-1&quot;&gt;Navidrome &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#navidrome&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Music was never a strong point of Plex, though it was capable. &lt;a href=&quot;https://navidrome.org/&quot;&gt;Navidrome&lt;/a&gt; implements the Subsonic API, which is pretty well supported in a range of (admittedly varying-quality) third party apps, though it&#39;s better than Subsonic itself, which is Java. Is it your personal Spotify? Not quite, but close enough.&lt;/p&gt;
+&lt;h3 id=&quot;cups&quot; tabindex=&quot;-1&quot;&gt;CUPS &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#cups&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Of course, right? We have a laser printer with no built-in network capabilities, and frankly we&#39;ve had better luck using this old box than a dedicated print server from Monoprice.&lt;/p&gt;
+&lt;h3 id=&quot;paperless-ngx&quot; tabindex=&quot;-1&quot;&gt;Paperless-ngx &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#paperless-ngx&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a really great &lt;a href=&quot;https://paperless-ngx.com/&quot;&gt;document archive system&lt;/a&gt; that lets you specify all kinds of great metadata for finding your stuff when you need it (say, tax time or when the insurance company asks for documentation). An iOS app scans directly into it, where the server then OCRs all documents. From there, machine learning tools start trying to automatically apply metadata based on your defined patterns of text.&lt;/p&gt;
+&lt;h3 id=&quot;duplicati&quot; tabindex=&quot;-1&quot;&gt;Duplicati &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#duplicati&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It&#39;s a GUI backup tool. Easy cheesy, and now all my stuff is backed up in Backblaze B2.&lt;/p&gt;
+&lt;h3 id=&quot;photos&quot; tabindex=&quot;-1&quot;&gt;Photos &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#photos&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a whole other post. What a fun and frustrating journey.&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#resources&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&#39;s hard to overstate the usefulness of &lt;strong&gt;/r/selfhosted&lt;/strong&gt; as well as the subreddits for all the individual tools. Lots of people of varying levels of expertise willing to help.&lt;/p&gt;
+&lt;p&gt;If you have any questions on how I did some of this stuff, hit me on twitter/cohost/FB/whatever and I can try to explain it in my just-enough-to-be-dangerous way.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Burt Bacharach</title>
+		<link href="http://mikepropst.com/blog/rip-burt-bacharach/"/>
+		<updated>2023-02-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-burt-bacharach/</id>
+		<content type="html">&lt;p&gt;Are these the only posts I write anymore? Talk about a legend right here, Burt Bacharach shuffled off at 94. I have to say that&#39;s a good run.&lt;/p&gt;
+&lt;p&gt;The man, along with Hal David turned complex, jazz-derived chords and combinations into sublime, accessible pop. He collaborated with Elvis Costello and of course Dionne Warwick, among others, and inspired not just easy-listening mellow cats, but a huge range of artists that included Arthur Lee and his proto-punk band Love.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ftO9ClIhFAo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;A true titan of music. Rest well and thanks for the music.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Yukihiro Takahashi</title>
+		<link href="http://mikepropst.com/blog/rip-yukihiro-takahashi/"/>
+		<updated>2023-02-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-yukihiro-takahashi/</id>
+		<content type="html">&lt;p&gt;This one is a little late. But here&#39;s a guy who was the vocalist and drummer of the legendary Yellow Magic Orchestra, and then — like his other two bandmates — went on to an almost equally-legendary solo discography. Like Bowie, Peter Gabriel, and Robert Fripp, Takahashi is a big inspiration on everything I do that involves &amp;quot;songs&amp;quot; or &amp;quot;musicality.&amp;quot; He never strayed away from pop or accessibility, but always kept it a little left-of-center.&lt;/p&gt;
+&lt;p&gt;Here&#39;s an insanely 80s video for the title track of my favorite of his, &lt;em&gt;Murdered By The Music.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/qRs_o_9S3WU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>In praise of Jellyfin (so far)</title>
+		<link href="http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/"/>
+		<updated>2023-01-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/</id>
+		<content type="html">&lt;p&gt;Lately I&#39;ve been doing more fighting with Plex (slogan: &amp;quot;Pay $5 a month to use your own server&amp;quot;) and my Raspberry Pi-based media server than actually watching or listening anything, so I tried a few new things.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I repurposed a desktop that I hadn&#39;t been using since getting a 2015 Macbook that was just a place to randomly try new distros and desktop environments for no reason.&lt;/li&gt;
+&lt;li&gt;I put Openmediavault (the OS) on it, and slapped a Dockerized Jellyfin in there.&lt;/li&gt;
+&lt;li&gt;I added Tailscale to the equation so I could get there from the other end of the house (don&#39;t ask, our house is bad at internet) or from outside the house.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately, Tailscale doesn&#39;t let Roku type devices get on my tunnel, so maybe I&#39;ll use the old Pi for some kind of perma-VPN or reverse proxy or some shit I clearly do not understand.&lt;/p&gt;
+&lt;p&gt;But I&#39;ve found Jellyfin to be more bare-bones yet also much more performant, more likely to direct stream than attempt to transcode, and really a breeze to work with. If you&#39;ve ever wondered about switching from Plex, it might be for you. If you are wondering about Emby, don&#39;t — Jellyfin is an open-sourced fork that is more up to date.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Music I liked in 2022</title>
+		<link href="http://mikepropst.com/blog/music-i-liked-in-2022/"/>
+		<updated>2023-01-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/music-i-liked-in-2022/</id>
+		<content type="html">&lt;p&gt;I always do this, but honestly it was not a huge year for me in terms of listening to new music. I&#39;m still jamming Necrot&#39;s &lt;em&gt;Mortal&lt;/em&gt; (2020) on the regular and couldn&#39;t tell you much about what new death metal is out there. And two of my favorite bands were cut down by tragedy: Low due to Mimi Parker&#39;s untimely death from cancer, and Neurosis from the revelation that Scott Kelly was an abusive sociopath.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sky Pig - &lt;em&gt;It Thrives In Darkness&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Petbrick - &lt;em&gt;Liminal&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Blut Aus Nord - &lt;em&gt;Disharmonium - Undreamable Abysses&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lykotonon - &lt;em&gt;Promethean Pathology&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hissing - &lt;em&gt;Hypervirulence Architecture&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ADULT. - &lt;em&gt;Becoming Undone&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nik Colk Void - &lt;em&gt;Bucked up Space&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wet Leg - &lt;em&gt;Wet Leg&lt;/em&gt; (I&#39;m still hip!)&lt;/li&gt;
+&lt;li&gt;Jóhann Jóhannsson - &lt;em&gt;Drone Mass&lt;/em&gt; (this is mostly here because it exists. It&#39;s a gift to have more Jóhann after his death)&lt;/li&gt;
+&lt;li&gt;Locrian - &lt;em&gt;New Catastrophism&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vermin Womb - &lt;em&gt;Retaliation&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Primitive Man - &lt;em&gt;Insurmountable&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Undeath - &lt;em&gt;It&#39;s Time... To Rise From The Grave&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hällas - &lt;em&gt;Isle of WIsdom&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;KEN Mode - &lt;em&gt;NULL&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Conjurer - &lt;em&gt;Pathos&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Crowbar - &lt;em&gt;Zero and Below&lt;/em&gt; (It&#39;s Crowbar... come on)&lt;/li&gt;
+&lt;li&gt;Orthodox - &lt;em&gt;Proceed&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vanum - &lt;em&gt;Legend&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That was in no particular order, but I think the top spot is occupied by Haunted Horses&#39; &lt;em&gt;The Worst Has Finally Happened&lt;/em&gt;. Monstrous and unique. It does the things I like. Check it out.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Real ones we lost in 2022</title>
+		<link href="http://mikepropst.com/blog/deaths-in-2022/"/>
+		<updated>2023-01-04T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/deaths-in-2022/</id>
+		<content type="html">&lt;p&gt;If the memes and jokes are to be believed, 2022 wasn&#39;t any more of a picnic than any year since the pandemic started. Or since 2015 maybe. Or the century. Or eternity maybe. But truly, we did lose some real ones in the music world.&lt;/p&gt;
+&lt;p&gt;If you haven&#39;t heard of any of these folks, I suggest you check them out. There&#39;s a lot of great art here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Terry Hall.&lt;/strong&gt; The last one of the year to go that I noticed, the &lt;a href=&quot;http://mikepropst.com/blog/rip-terry-hall/&quot;&gt;Specials singer&lt;/a&gt; was a big loss to my musical history.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keith Levine.&lt;/strong&gt; I was a little late to PiL, but so many of the guitarists I admire, like Daniel Ash, owe a ton to him. His work on &lt;em&gt;Metal Box&lt;/em&gt; still blows me away.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D.H. Peligro.&lt;/strong&gt; An incredible drummer for one of the greats in hardcore, and one of the few and the proud who proved that punk wasn&#39;t just white guys and Bad Brains.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jerry Lee Lewis.&lt;/strong&gt; What can you say about the Killer that hasn&#39;t been said? Not the original wild man of rock and roll, but an early trash fire who paved the way for many more. Still energizing to listen to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pharaoh Sanders.&lt;/strong&gt; One of the few jazz guys I really get into. Truly expanding stuff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Andy Fletcher.&lt;/strong&gt; Depeche Mode was an early expansion into electronic music for me, and probably half the known universe too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mark Lanegan.&lt;/strong&gt; One of those guys who seemed to court death for a long time before they finally hooked up. A great lyricist and so unsung in the world of Seattle music.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rachel Nagy.&lt;/strong&gt; I think I only saw the Detroit Cobras once when I lived there, but they were legendary. Too young, and I still haven&#39;t heard what happened.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vangelis.&lt;/strong&gt; I was never a huge fan, but it&#39;s safe to say in hindsight he&#39;s one of the people who introduced me to electronic music. Maybe Jarre had more influence on me, but only because he came later — and because Vangelis&#39;s &amp;quot;Chariots of Fire&amp;quot; was so omnipresent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lamont Dozier, Dennis Waterman, Ken WIlliams.&lt;/strong&gt; You might not know these names. Look them up. That&#39;s a lot of firepower lost. These are guys with both art and craft, guys whose results are very difficult to argue with.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Klaus Schulze.&lt;/strong&gt; Up until relatively recently, I knew him mostly from the first Tangerine Dream album and Ash Ra Tempel, but even that&#39;d be enough to cement him in my mind as one of the greats. But then there&#39;s &lt;em&gt;Timewind,&lt;/em&gt; &lt;em&gt;Angst,&lt;/em&gt; and a billion other releases. A master.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The big hoedown in the sky.&lt;/strong&gt; Country was hit hard in &#39;22. C.W. McCall might&#39;ve been a one-hit wonder (&amp;quot;Convoy&amp;quot;) but it was a monster and it always makes me think of my uncle who knew every word and maybe still does. Then Mickey Gilly, Naomi Judd, and Loretta Lynn? All pioneers and legends.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classic rock radio.&lt;/strong&gt; Dan McCafferty of Nazareth, Wilko Johnson of Dr. Feelgood, Christine McVee, Meat Loaf. Can&#39;t say I&#39;m necessarily a fan of any of them, but their stature was undeniable. And of course, there&#39;s Meat&#39;s masterful performance in &lt;em&gt;Fight Club.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coolio.&lt;/strong&gt; It&#39;s fucking Coolio. How is Coolio gone?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taylor Hawkins.&lt;/strong&gt; The Foos are not one of my favorites either, but it sure seems to me that he was loved by pretty much everyone who came across him.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The lords of the synth.&lt;/strong&gt; This year we lost both John Appleton, the inventor of the Synclavier, and &lt;a href=&quot;http://mikepropst.com/blog/rip-dave-smith/&quot;&gt;Dave Smith&lt;/a&gt;, the man behind Sequential Circuits and one half of the pair responsible for MIDI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ronnie Spector.&lt;/strong&gt; Between her and Lamont Dozier both leaving the building, a massive chunk of Motown is gone. No disrespect to Diana Ross but Ronnie was always my favorite.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Angelo Badalamenti and Julee Cruise.&lt;/strong&gt; This is some serious garmonbozia. &lt;a href=&quot;http://mikepropst.com/blog/angelo/&quot;&gt;Angelo&lt;/a&gt; had a good run at least, but I was hoping to hear more from him.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mimi Parker.&lt;/strong&gt; Saved the hardest for last. I truly don&#39;t know what to say about this one. So here&#39;s a video.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/gBtJpVY7NkE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Terry Hall</title>
+		<link href="http://mikepropst.com/blog/rip-terry-hall/"/>
+		<updated>2022-12-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-terry-hall/</id>
+		<content type="html">&lt;p&gt;I feel like I&#39;ve been posting a lot of these RIP things lately. The Specials were, in hindsight a big deal for me. Ska was a sound that was punk-approved. And other than hip-hop, it was the first music I got into on my own that wasn&#39;t &amp;quot;loud guitar music.&amp;quot; That certainly opened up the way for so many of the things I love, from James Brown to Autechre. Arguably the only band &lt;em&gt;more&lt;/em&gt; important for my branching-out was Joy Division.&lt;/p&gt;
+&lt;p&gt;And I can&#39;t get enough of watching them play in their heyday. They looked impossibly cool, a wild mass of energy and high pants cuffs. And there was Terry Hall at the center, totally serious and almost menacing while chaos erupted.&lt;/p&gt;
+&lt;p&gt;The guy had a terrible life story with great pain in his childhood, but he translated that into a great thoughtfulness and empathy for the less fortunate in the Thatcher era. It was through him that the great contrast of the Specials — fun Jamaican-inspired music with black-humor or straight-up dark punk lyrics — manifested, and without him they&#39;ve been only half of their glory.&lt;/p&gt;
+&lt;p&gt;Instead of a classic Special song, here&#39;s the video for &amp;quot;Our Lips Are Sealed,&amp;quot; which Hall cowrote, and in which he looks like Robert Smith.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/QhVhK-VVeXo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>I can&#39;t have nice things</title>
+		<link href="http://mikepropst.com/blog/i-cant-have-nice-things.md/"/>
+		<updated>2022-12-14T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/i-cant-have-nice-things.md/</id>
+		<content type="html">&lt;p&gt;Yes, Lite XL happened this year and it&#39;s been great on Linux but is a little janky on Mac. So I&#39;ve stuck with what I know, which is the electron-based Atom by Github. Imagine my surprise when I went to make a couple CSS tweaks to this site today and found that Atom will be sunset... tomorrow.&lt;/p&gt;
+&lt;p&gt;So here I am with VSCodium, the MS-telemetry-free version of their VS Code. I&#39;d like to take the opportunity to try something that isn&#39;t electron (even though a text editor for web projects might be the most logical use of the technology), but I need to get some requisite Python tools to make CudaText work and the list is actually pretty short these days. Seems that if you have the money for Sublime you&#39;re using it, and if you don&#39;t you&#39;re on VS Code. Oh well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Angelo Badalamenti</title>
+		<link href="http://mikepropst.com/blog/angelo/"/>
+		<updated>2022-12-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/angelo/</id>
+		<content type="html">&lt;p&gt;First Julee Cruise, now Angelo Badalamenti. One was estranged, one was presumably still a close friend. But either way, the David Lynch musical universe is a silent place now.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the maestro talking about building perhaps his most iconic piece, &lt;em&gt;Laura Palmer&#39;s Theme.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/e-eqgr_gn4k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Rest well and thanks for the music.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>In Praise and Defense of the Novation Circuits</title>
+		<link href="http://mikepropst.com/blog/in-defense-of-the-novation-circuits/"/>
+		<updated>2022-12-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-defense-of-the-novation-circuits/</id>
+		<content type="html">&lt;p&gt;Pretty regularly on the Novation Circuit subreddit, a &lt;a href=&quot;https://www.reddit.com/r/novationcircuit/comments/zhzbmc/next_hardware_steps_from_tracks_rhythm/&quot;&gt;question like this&lt;/a&gt; or a comment expressing the same general idea appears. I&#39;m not familiar with any other music gear subs where the users are so often actively trying to get away from their chosen devices.&lt;/p&gt;
+&lt;p&gt;The Circuit OG/Tracks/Rhythm are very interesting devices. Novation took the success of the Launchpad, an Ableton clip launch controller, and expanded it into a standalone device that really isn&#39;t like anything else. There&#39;s no screen. The pad grid serves as the user feedback for every function: step sequencing, keyboard, pattern launching, mixing, even the tempo display. That makes it a device that sometimes needs a great deal of memorizing (or RTFM, initially). But it also makes it a device that absolutely nails what it means to be &lt;em&gt;immediate&lt;/em&gt; and &lt;em&gt;tactile&lt;/em&gt; — attributes that screen-poisoned musicians supposedly crave these days when they step away from the DAW. There&#39;s no clicking, no menu diving, no using a scroll wheel to name a pattern. There&#39;s you, there&#39;s the buttons and knobs, and there&#39;s the music. And trust me, it&#39;s extremely quick to get to the &amp;quot;music&amp;quot; step. Features of both current-gen Circuits include one-button &amp;quot;scene&amp;quot; launching, sequencer probability and random mutation, pattern chaining for very long variations, and really usable reverb and delay.&lt;/p&gt;
+&lt;p&gt;So why does everyone think they need to &amp;quot;upgrade&amp;quot; to an Elektron machine, an MPC, or god forbid a Roland MC-707?&lt;/p&gt;
+&lt;h2 id=&quot;cheap&quot; tabindex=&quot;-1&quot;&gt;Cheap... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#cheap&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Firstly, these things are not expensive. About $350 gets you a new one, and for better or worse this &amp;quot;gotta upgrade&amp;quot; attitude leaves Reverb stocked with them for much less. I think there&#39;s an attitude with all kinds of musicians that the more you spend, the better your stuff is. Surprise! That&#39;s bullshit. It&#39;s not that I&#39;m that old blues lawyer guitarist insisting that &amp;quot;tone is in the fingers&amp;quot; — after all, these same people are connecting 1958 Les Pauls to Dumble amps via Monster cables.&lt;/p&gt;
+&lt;p&gt;What I mean is electronic musical instruments are very rarely apples-to-apples comparisons. They all have their strengths and their frustrations. And good stuff has never been cheaper than it is right now.&lt;/p&gt;
+&lt;h2 id=&quot;and-unspecialized&quot; tabindex=&quot;-1&quot;&gt;And unspecialized... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#and-unspecialized&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The second thing is that, possibly because of said price, no pros have decided that these things have a certain space. If you want to make hard techno or dancey industrial, people like NIN and Richard Devine have sold you on Elektron machines and their hyped, exciter-pumped sounds. If you make lo-fi or boom bap, you want an SP-404 because Madlib, J Dilla, Flying Lotus, and who knows who else used one to make their iconic material. Even doofy gear gets this treatment at times, like the really uninspiring Microkorg being anointed the &amp;quot;synth for an indie rock band that has a synth.&amp;quot;&lt;/p&gt;
+&lt;p&gt;What is the Circuit&#39;s space? It doesn&#39;t have one. I wouldn&#39;t say it&#39;s a &amp;quot;master of none&amp;quot; because it&#39;s quite good at plenty of things, but looking at it you don&#39;t say &amp;quot;ah yes, this thing is for X.&amp;quot;&lt;/p&gt;
+&lt;iframe id=&quot;reddit-embed&quot; src=&quot;https://www.redditmedia.com/r/novationcircuit/comments/vgvqt2/first_composition_with_both_tracks_and_rhythm/?ref_source=embed&amp;amp;ref=share&amp;amp;embed=true&amp;amp;theme=dark&quot; sandbox=&quot;allow-scripts allow-same-origin allow-popups&quot; style=&quot;border: none;&quot; scrolling=&quot;no&quot; width=&quot;100%&quot; height=&quot;auto&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;just-like-me&quot; tabindex=&quot;-1&quot;&gt;Just like me. &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#just-like-me&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;What I can say about the Circuits, especially the Circuit Tracks, is that they are now my centerpiece for both performing and composing, and in 20+ years of making live electronic music I have not owned another machine that enabled my way of working so thoroughly.&lt;/p&gt;
+&lt;p&gt;Would I like more precise sample cutting onboard? Yeah probably. What about separate outputs? Always want those. But &amp;quot;missing&amp;quot; features like these imply that the very purposeful design of these devices somehow includes more mistakes than it actually does. And the sum of the features versus tradeoffs is unlike anything else out there for both utility and (&lt;em&gt;gasp&lt;/em&gt;) fun. So I&#39;m not sure that an upgrade would actually be one at all.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Witchin&#39;</title>
+		<link href="http://mikepropst.com/blog/witchin/"/>
+		<updated>2022-12-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/witchin/</id>
+		<content type="html">&lt;p&gt;Partially because there have been vast swathes of my life that went un-gamed, and partially because I have only kept a nintendo console around for quite a few years now, I tend to get into games late. My latest to finally add to the pile was &lt;em&gt;The Witcher III: Wild Hunt&lt;/em&gt;, the main storyline of which I finished today, probably prematurely due to a week of being sick.&lt;/p&gt;
+&lt;h2 id=&quot;openness&quot; tabindex=&quot;-1&quot;&gt;Openness &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#openness&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Holy shit it&#39;s a lot of game. And unlike Skyrim, you can go just about anywhere. Nobody climbs like Link, but Geralt does a good job of getting around territory. At least until he dies of falling from any height greater than 6 feet.&lt;/p&gt;
+&lt;h2 id=&quot;combat&quot; tabindex=&quot;-1&quot;&gt;Combat &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#combat&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Like most 3d action RPGs, you can either parry or dodge-and-roll your way through combat. And as with all the rest, I take the latter path (arguably blocking is better since a perfect parry almost always gets you a nice opening — probably just one of the many reasons I&#39;m shit at &lt;em&gt;Souls&lt;/em&gt;). But either way the combat is a lot of fun. Much like Link&#39;s runes or a weapon/destruction hybrid build in Skyrim, the weapon and magic combo is really satisfying and gives combat a lot of variety. Geralt is a little slower to act than say, Link, but you get his timing down and you feel unstoppable.&lt;/p&gt;
+&lt;h2 id=&quot;using-mechanics-to-tell-the-story&quot; tabindex=&quot;-1&quot;&gt;Using mechanics to tell the story &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#using-mechanics-to-tell-the-story&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I really think one the bar to hit here is &lt;em&gt;Nier: Automata&lt;/em&gt;, but W3 does a great job sporadically. Playing as Ciri in flashback (or her supremely overpowered moment near the end, one-hitting wild hunt warriors) is a fun mix-up that lets you &amp;quot;live&amp;quot; the story a bit more. With a few exceptions, I have very little idea what the dialog options did to my playthrough and that&#39;s kinda cool. I guess it&#39;s a choice-mechanic equivalent of the open world.&lt;/p&gt;
+&lt;h2 id=&quot;bummers&quot; tabindex=&quot;-1&quot;&gt;Bummers &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#bummers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Like I said, something about the linear story that&#39;s very cleverly woven into an open-world game left me feeling &amp;quot;done&amp;quot; when it resolved. And I know there&#39;s a lot more there I haven&#39;t done.&lt;/p&gt;
+&lt;p&gt;Load times are really unfortunate, at least on the Switch. In story-heavy sections, there&#39;s a lot of it. Fast travel feels not all that fast when you can sometimes ride your horse there faster.&lt;/p&gt;
+&lt;p&gt;Frame rate is not great. &lt;em&gt;Automata&lt;/em&gt; is a newer game that feels really intensive, but it rarely got herky-jerky. When it rains in a busy place like Novigrad (which is often), Geralt starts doing the robot. Weirder and more distracting is the crappy framerate in some cut scenes. In a game with so many of them, it&#39;s unfortunate.&lt;/p&gt;
+&lt;p&gt;None of this impeding me enjoying the shit out of it. Even the fall damage thing, because I laughed my ass off every time Geralt died by tripping over a rock.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Is this really it?</title>
+		<link href="http://mikepropst.com/blog/is-this-really-it/"/>
+		<updated>2022-10-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/is-this-really-it/</id>
+		<content type="html">&lt;p&gt;The number of occasions I&#39;ve heard masses of people say they&#39;re going to walk away from Twitter now numbers in the dozens over the years. The company has demonstrated contempt for the users that can be rivaled only by Meta, having pivoted many years ago from adding features based on usage (&lt;em&gt;Retweets&lt;/em&gt;) to generally delivering weird non-features that even the advertisers don&#39;t really want (&lt;em&gt;Blue&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;But now it&#39;s being bought by a guy who has latched onto the &amp;quot;free speech brigade&amp;quot; not because he&#39;s particularly pro-free-speech (he&#39;s not), or because his politics align with those kinds of people (they do), but because he seems dumb enough to believe their spiel (he might be). A union-buster, an apartheid-profiter, and a guy who has used the platform that will soon be his to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get yelled at by a Wachowski&lt;/li&gt;
+&lt;li&gt;Libel the guy who saved that Thai sports team after nobody liked his coffin submarine idea&lt;/li&gt;
+&lt;li&gt;Predict the end of COVID-19 with the accuracy of Nate Silver picking numbers out of a hat&lt;/li&gt;
+&lt;li&gt;Generally sound like a dumbass who&#39;d be cringey and goofy if he wasn&#39;t so simultaneously powerful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anyway. Doesn&#39;t bode all that well. Maybe it&#39;s time.&lt;/p&gt;
+&lt;p&gt;What is Cohost? I dunno. Probably another thing that&#39;ll come and go quickly. I still get spam emails from Ello, the supposed Facebook-killer that was all in black-and-white Courier font and whose name I had to look up.&lt;/p&gt;
+&lt;p&gt;I don&#39;t know how to Mastodon despite being acquainted with its founder and signing up for many servers over the years. Somehow the email model of &amp;quot;different servers but everyone can talk&amp;quot; fails to make sense to me in a social media context.&lt;/p&gt;
+&lt;p&gt;But I use Twitter less and less every year, and these days even the months show decline. And maybe it&#39;s time for us all to stop trying to post through it anyway.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>One year with Obsidian</title>
+		<link href="http://mikepropst.com/blog/one-year-with-obsidian/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/one-year-with-obsidian/</id>
+		<content type="html">&lt;p&gt;It occurs to me that I wrote this &lt;a href=&quot;http://mikepropst.com/blog/a-better-way-to-keep-notes/&quot;&gt;post about trying Obsidian&lt;/a&gt; about a year ago. In that time, I have not really strayed from it, which is pretty unusual for me. I get really restless with tools. Thanks to a very active plugin community, theme ecosystem, and subreddit, it&#39;s become a great tool that is super customizable. I adapted a few times and that was no biggie at all thanks to the fact that Obsidian is based entirely around discrete files, stored in your file system, with their own regular ol&#39; file names.&lt;/p&gt;
+&lt;p&gt;My current way of operating is shamefully trendy; I&#39;m using Tiago Forte&#39;s &lt;em&gt;Building a Second Brain&lt;/em&gt; as the methodology. One reason is that it works reasonably well with other tools including paper journaling and &lt;a href=&quot;https://raindrop.io/&quot;&gt;Raindrop&lt;/a&gt; bookmarks. Though he apparently uses Evernote and swears by its search (which is still quite good despite Evernote&#39;s many problems), I think the linking features in Obsidian are really what makes it good for this system. Knowledge doesn&#39;t just go in a filing cabinet and get dusty. You can always see it thanks to links and unlinked mentions.&lt;/p&gt;
+&lt;p&gt;I&#39;m still not interested in changing, and as long as I am still locked into the old $5 rate for syncing, I will keep that as well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title></title>
+		<link href="http://mikepropst.com/blog/"/>
+		<updated>2022-08-08T20:44:29Z</updated>
+		<id>http://mikepropst.com/blog/</id>
+		<content type="html">
+
+&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;div class=&quot;post__body&quot;&gt;
+  
+  
+  &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/&quot; class=&quot;postlist-link&quot;&gt;Building a useful homelab&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-02-12&quot;&gt;Feb 12, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-burt-bacharach/&quot; class=&quot;postlist-link&quot;&gt;RIP Burt Bacharach&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-02-11&quot;&gt;Feb 11, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-yukihiro-takahashi/&quot; class=&quot;postlist-link&quot;&gt;RIP Yukihiro Takahashi&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-02-03&quot;&gt;Feb 3, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/&quot; class=&quot;postlist-link&quot;&gt;In praise of Jellyfin (so far)&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-01-10&quot;&gt;Jan 10, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/music-i-liked-in-2022/&quot; class=&quot;postlist-link&quot;&gt;Music I liked in 2022&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-01-05&quot;&gt;Jan 5, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/deaths-in-2022/&quot; class=&quot;postlist-link&quot;&gt;Real ones we lost in 2022&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-01-04&quot;&gt;Jan 4, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-terry-hall/&quot; class=&quot;postlist-link&quot;&gt;RIP Terry Hall&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-12-21&quot;&gt;Dec 21, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/i-cant-have-nice-things.md/&quot; class=&quot;postlist-link&quot;&gt;I can&amp;#39;t have nice things&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-12-14&quot;&gt;Dec 14, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/angelo/&quot; class=&quot;postlist-link&quot;&gt;RIP Angelo Badalamenti&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-12-13&quot;&gt;Dec 13, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/&quot; class=&quot;postlist-link&quot;&gt;In Praise and Defense of the Novation Circuits&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-12-12&quot;&gt;Dec 12, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/witchin/&quot; class=&quot;postlist-link&quot;&gt;Witchin&amp;#39;&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-12-08&quot;&gt;Dec 8, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/is-this-really-it/&quot; class=&quot;postlist-link&quot;&gt;Is this really it?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-10-27&quot;&gt;Oct 27, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/one-year-with-obsidian/&quot; class=&quot;postlist-link&quot;&gt;One year with Obsidian&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-08-10&quot;&gt;Aug 10, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/whoops/&quot; class=&quot;postlist-link&quot;&gt;Whoops&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-08-08&quot;&gt;Aug 8, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/disappointing/&quot; class=&quot;postlist-link&quot;&gt;Disappointing&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-07-26&quot;&gt;Jul 26, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/dark-days-ahead/&quot; class=&quot;postlist-link&quot;&gt;Dark days ahead&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-06-26&quot;&gt;Jun 26, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-julee-cruise/&quot; class=&quot;postlist-link&quot;&gt;RIP Julee Cruise&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-06-11&quot;&gt;Jun 11, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-dave-smith/&quot; class=&quot;postlist-link&quot;&gt;RIP Dave Smith&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-06-03&quot;&gt;Jun 3, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/yes-virginia-there-is-a-microsoft-version-of-that/&quot; class=&quot;postlist-link&quot;&gt;Yes, Virginia, there is a Microsoft version of that&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-05-09&quot;&gt;May 9, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/lite-xl/&quot; class=&quot;postlist-link&quot;&gt;Lite XL&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-04-23&quot;&gt;Apr 23, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/yes-this-etc/&quot; class=&quot;postlist-link&quot;&gt;Yes, this, etc.&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-04-22&quot;&gt;Apr 22, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/365-days-of-type/&quot; class=&quot;postlist-link&quot;&gt;365 days of type 9 from TRUF&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-04-19&quot;&gt;Apr 19, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/another-day-another-blog-redesign/&quot; class=&quot;postlist-link&quot;&gt;Another day, another blog redesign&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-04-13&quot;&gt;Apr 13, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/utopian-thinking/&quot; class=&quot;postlist-link&quot;&gt;Utopian thinking&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-04-06&quot;&gt;Apr 6, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/the-fbi-guide-to-internet-slang/&quot; class=&quot;postlist-link&quot;&gt;The FBI Guide to Internet Slang&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-03-25&quot;&gt;Mar 25, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/problems-i-m-glad-im-not-dealing-with/&quot; class=&quot;postlist-link&quot;&gt;Problems I&amp;#39;m glad I&amp;#39;m not dealing with&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-03-22&quot;&gt;Mar 22, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/is-this-it/&quot; class=&quot;postlist-link&quot;&gt;Is this it?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-03-10&quot;&gt;Mar 10, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/i-salute-you-mmt-8/&quot; class=&quot;postlist-link&quot;&gt;I salute you, MMT-8&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-03-03&quot;&gt;Mar 3, 2022&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/bob-moog-and-usability-heuristics/&quot; class=&quot;postlist-link&quot;&gt;Bob Moog and usability heuristics&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-08-10&quot;&gt;Aug 10, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/a-better-way-to-keep-notes/&quot; class=&quot;postlist-link&quot;&gt;A better way to keep notes&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-08-02&quot;&gt;Aug 2, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/figma-organization-for-busy-designers/&quot; class=&quot;postlist-link&quot;&gt;Figma organization for busy designers&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-05-24&quot;&gt;May 24, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/typora-for-windows/&quot; class=&quot;postlist-link&quot;&gt;Typora for Windows&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-05-05&quot;&gt;May 5, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/the-great-un-googling/&quot; class=&quot;postlist-link&quot;&gt;The great un-googling&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-04-25&quot;&gt;Apr 25, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/new-device-behringer-td-3/&quot; class=&quot;postlist-link&quot;&gt;New device: Behringer TD-3&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-04-25&quot;&gt;Apr 25, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/adee-figma-a11y-testing-tool/&quot; class=&quot;postlist-link&quot;&gt;Adee - Figma a11y testing tool&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-03-29&quot;&gt;Mar 29, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/creating-music-during-the-pandemic/&quot; class=&quot;postlist-link&quot;&gt;Creating music during the pandemic&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-03-20&quot;&gt;Mar 20, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/cranking-the-engine-back-up/&quot; class=&quot;postlist-link&quot;&gt;Cranking the engine back up&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2021-03-20&quot;&gt;Mar 20, 2021&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/can-ux-be-remote/&quot; class=&quot;postlist-link&quot;&gt;Can UX be remote?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2020-04-13&quot;&gt;Apr 13, 2020&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/&quot; class=&quot;postlist-link&quot;&gt;Boring gear post (pedalboard layout&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2019-07-15&quot;&gt;Jul 15, 2019&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/when-you-have-to-do-a-focus-group/&quot; class=&quot;postlist-link&quot;&gt;When you &amp;quot;have&amp;quot; to do a focus group&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2019-04-04&quot;&gt;Apr 4, 2019&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/scott/&quot; class=&quot;postlist-link&quot;&gt;Scott&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2019-03-25&quot;&gt;Mar 25, 2019&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/hopefully-the-last-word-on-design-thinking/&quot; class=&quot;postlist-link&quot;&gt;Hopefully The Last Word on Design Thinking&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-12-18&quot;&gt;Dec 18, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/programming-css/&quot; class=&quot;postlist-link&quot;&gt;Programming CSS&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-12-17&quot;&gt;Dec 17, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/ideo-responds/&quot; class=&quot;postlist-link&quot;&gt;IDEO responds&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-10-31&quot;&gt;Oct 31, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/pure-framework/&quot; class=&quot;postlist-link&quot;&gt;PURE Framework&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-10-16&quot;&gt;Oct 16, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/design-thinking-considered-harmful/&quot; class=&quot;postlist-link&quot;&gt;Design Thinking Considered Harmful&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-10-09&quot;&gt;Oct 9, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/familytronica/&quot; class=&quot;postlist-link&quot;&gt;Familytronica&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-08-22&quot;&gt;Aug 22, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/making-heroes/&quot; class=&quot;postlist-link&quot;&gt;Making Heroes&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-07-14&quot;&gt;Jul 14, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/synthesizin/&quot; class=&quot;postlist-link&quot;&gt;Synthesizin&amp;#39;&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-04-10&quot;&gt;Apr 10, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/reapin/&quot; class=&quot;postlist-link&quot;&gt;Reapin&amp;#39;&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-11-08&quot;&gt;Nov 8, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/no-need-for-abstraction-layers-with-css-grid/&quot; class=&quot;postlist-link&quot;&gt;No need for an abstraction layer with CSS Grid&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-10-30&quot;&gt;Oct 30, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/the-golden-age-of-ux/&quot; class=&quot;postlist-link&quot;&gt;Is the golden age of UX really over, and what does that really mean&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-08-24&quot;&gt;Aug 24, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/on-mistral/&quot; class=&quot;postlist-link&quot;&gt;On Mistral&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-08-01&quot;&gt;Aug 1, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/stealing-your-way-to-original-design/&quot; class=&quot;postlist-link&quot;&gt;Stealing your way to original design with Dan Mall&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-07-05&quot;&gt;Jul 5, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/inline-validation-considered-harmful/&quot; class=&quot;postlist-link&quot;&gt;Inline validation considered harmful&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-06-28&quot;&gt;Jun 28, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/type-on-the-web/&quot; class=&quot;postlist-link&quot;&gt;Type on the web&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-06-11&quot;&gt;Jun 11, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/juicero-teardown/&quot; class=&quot;postlist-link&quot;&gt;Juicero teardown&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-05-01&quot;&gt;May 1, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/switching-to-studio-one/&quot; class=&quot;postlist-link&quot;&gt;Switching to Studio One&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-03-23&quot;&gt;Mar 23, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/ikea-hacking-for-the-studio/&quot; class=&quot;postlist-link&quot;&gt;IKEA hacking for the studio&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-03-23&quot;&gt;Mar 23, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/linting-html-with-css/&quot; class=&quot;postlist-link&quot;&gt;Linting HTML with CSS&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-03-14&quot;&gt;Mar 14, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/its-grid-time/&quot; class=&quot;postlist-link&quot;&gt;It&amp;#39;s grid time!&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-03-13&quot;&gt;Mar 13, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/front-end-styleguides-by-anna-debenham/&quot; class=&quot;postlist-link&quot;&gt;Front End Style Guides by Anna Debenham&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2017-01-13&quot;&gt;Jan 13, 2017&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/people-are-bad-at-computers/&quot; class=&quot;postlist-link&quot;&gt;Nielsen: Computer skills are worse than you think&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-11-21&quot;&gt;Nov 21, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/japanese-logos/&quot; class=&quot;postlist-link&quot;&gt;Japanese logos&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-11-04&quot;&gt;Nov 4, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/disenfranchised-by-bad-design/&quot; class=&quot;postlist-link&quot;&gt;Disenfranchised by bad design&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-10-24&quot;&gt;Oct 24, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/when-to-use-you-and-me-in-a-user-interface/&quot; class=&quot;postlist-link&quot;&gt;When to use &amp;quot;me&amp;quot; and &amp;quot;you&amp;quot; in a user interface&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-08-13&quot;&gt;Aug 13, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/dont-do-it-no-2137/&quot; class=&quot;postlist-link&quot;&gt;Don&amp;#39;t Do It, No. 2137&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-08-01&quot;&gt;Aug 1, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/ignore-some-user-feedback/&quot; class=&quot;postlist-link&quot;&gt;Ignore (some) user feedback&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-07-15&quot;&gt;Jul 15, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/to-icon-or-not-to-icon/&quot; class=&quot;postlist-link&quot;&gt;To icon or not to icon&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-06-10&quot;&gt;Jun 10, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/meaningful-css/&quot; class=&quot;postlist-link&quot;&gt;Meaningful CSS (Basically, what he said)&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-05-25&quot;&gt;May 25, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/semantics-vs-objects/&quot; class=&quot;postlist-link&quot;&gt;Semantics vs Objects and other scary CSS animals&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-05-18&quot;&gt;May 18, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/new-impercept-ep/&quot; class=&quot;postlist-link&quot;&gt;New Impercept EP&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-28&quot;&gt;Mar 28, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Whoops</title>
+		<link href="http://mikepropst.com/blog/whoops/"/>
+		<updated>2022-08-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/whoops/</id>
+		<content type="html">&lt;p&gt;When moving site hosts to save a buck I seem to have screwed some things up. I&#39;m not interested in paying for a new Kirby license so I&#39;m trying a static site generator (&lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;). Unfortunately, as much as I was able to do some bulk text conversion, I&#39;m just not an expert at that stuff. For everything I love about Kirby, it unfortunately does not store all the page data in frontmatter like almost every other CMS or site generator. So it&#39;s been a bit of a pain.&lt;/p&gt;
+&lt;p&gt;The upshot: even compared to Kirby or Grav or whatever, this thing should be &lt;em&gt;fast.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;TODO:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Relocate older posts&lt;/li&gt;
+&lt;li&gt;Recreate the old listing page (maybe?)&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Get rid of &amp;quot;/blog/&amp;quot; as the first link in the listing&lt;/s&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Disappointing</title>
+		<link href="http://mikepropst.com/blog/disappointing/"/>
+		<updated>2022-07-26T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/disappointing/</id>
+		<content type="html">&lt;p&gt;At least once a year we try to get out to Cape Disappointment on Washington&#39;s Long Beach Peninsula. It&#39;s a beautiful state park where the Columbia meets the ocean. Good to get that sea air.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/cape.jpg&quot; alt=&quot;Lighthouse&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Dark days ahead</title>
+		<link href="http://mikepropst.com/blog/dark-days-ahead/"/>
+		<updated>2022-06-26T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/dark-days-ahead/</id>
+		<content type="html">&lt;p&gt;I wish I had any idea what to do. The dems&#39; plan is &amp;quot;vote!&amp;quot; but they don&#39;t even really &lt;em&gt;win&lt;/em&gt; when they win. So now what?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Julee Cruise</title>
+		<link href="http://mikepropst.com/blog/rip-julee-cruise/"/>
+		<updated>2022-06-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-julee-cruise/</id>
+		<content type="html">&lt;p&gt;Not much else to say. An iconic voice inextricably tied to something I love, though her feelings on that were mixed.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/uKDetywgLb4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Dave Smith</title>
+		<link href="http://mikepropst.com/blog/rip-dave-smith/"/>
+		<updated>2022-06-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-dave-smith/</id>
+		<content type="html">&lt;p&gt;Less than 3 weeks after making an appearance at Superbooth and looking healthy and enthusiastic, Dave Smith is dead at 72.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t know who he is, Smith is a synth pioneer who founded Sequential Circuits in the 70s. They made a lot of iconic synths but were most famous for the Prophet 5, pretty much the first programmable polyphonic synth. It really has yet to be topped, which is probably why the re-built company is still making a Prophet 5.&lt;/p&gt;
+&lt;p&gt;Then, in the early 80s he conceived of and developed a universal interface for synthesizers from different manufacturers to talk to each other. Whether the fact that it&#39;s still in use today is evidence of its effectiveness or of how out-of-date it is now, you can&#39;t argue that MIDI is one of the most important things to happen in the world of music since the development of the synthesizer itself. He and Roland founder Ikutaro Kakehashi (also sadly no longer with us) even received a Grammy for the development of MIDI.&lt;/p&gt;
+&lt;p&gt;For those of us who might never afford a Prophet, MIDI is the great unifier. Since its inception, it has allowed the fanciest Oberheim, the lowliest Volca, your SP-404 loaded with samples of farts, whatever it is, to talk to each other. The standard even continues into the computer, where I can download MIDI files of Clyde Stubblefield playing drums and replace all the hits with sounds of dogs barking or car crashes. I&#39;m sure that&#39;s exactly what Smith had in mind.&lt;/p&gt;
+&lt;p&gt;And speaking of that, one of Smith&#39;s other ventures was the first real software synth, Reality. Though he didn&#39;t ultimately care for making music inside a computer, it&#39;s another project he spearheaded that pretty much changed music forever.&lt;/p&gt;
+&lt;p&gt;So the only thing left to say is thanks. You&#39;ll be missed.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Yes, Virginia, there is a Microsoft version of that</title>
+		<link href="http://mikepropst.com/blog/yes-virginia-there-is-a-microsoft-version-of-that/"/>
+		<updated>2022-05-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/yes-virginia-there-is-a-microsoft-version-of-that/</id>
+		<content type="html">&lt;p&gt;It can be tough when you&#39;re stuck in Windows world, with security lockdowns on your computer and a ban on most cloud services. With the notable exceptions of UserZoom, Figma, and Overflow, I&#39;m in MS world and that&#39;s been an adjustment after the world of Google Apps and other lightweight, web-based tools.&lt;/p&gt;
+&lt;p&gt;There&#39;s a benefit to being entirely in Microsoftland, or at least in theory there is. Kinda looks like with the advent of &lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-loop?ms.url=microsoftcommicrosoft-loop&quot;&gt;Loop&lt;/a&gt; they are trying to make good on that theory and put it into real practice.&lt;/p&gt;
+&lt;p&gt;So to say that Loop is a Notion ripoff seems partially true. But for those of us stuck here in Office 365 with no hope of using the real thing, that&#39;s totally &lt;em&gt;fine&lt;/em&gt;. Just like Planner is not Trello and Todo isn&#39;t quite what Wunderlist was, and Power Automate is far from being as easy to work as IFTTT or Zapier — but they exist. I can imagine a lightweight database table like what Notion employs would be so much easier for many of the small tasks where I&#39;m using SharePoint Lists. But the &amp;quot;components&amp;quot; feature of Loop seems to be where MS are really trying to take it a bit further.&lt;/p&gt;
+&lt;p&gt;The idea behind components seems to be that the pieces of functionality (like Notion blocks?) are available elsewhere in the Office ecosystem: Teams chats, Word docs, email messages. And that&#39;s the kind of interoperability that we really don&#39;t enjoy today, even though that should be a prime selling point of Microsoftland. Mail Merge isn&#39;t exactly the future. But maybe Loop will be?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lite XL</title>
+		<link href="http://mikepropst.com/blog/lite-xl/"/>
+		<updated>2022-04-23T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/lite-xl/</id>
+		<content type="html">&lt;p&gt;Love the &lt;a href=&quot;https://lite-xl.com/&quot;&gt;contradictory name&lt;/a&gt;. I don&#39;t necessarily want to get on the Electron hate train, but when you see the speed at which this thing fires up (much faster than VSCode, faster than GEdit, even) you might consider ditching Atom. It strikes a nice balance of features and performance.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Yes, this, etc.</title>
+		<link href="http://mikepropst.com/blog/yes-this-etc/"/>
+		<updated>2022-04-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/yes-this-etc/</id>
+		<content type="html">&lt;p&gt;My quest for simplicity has led to some people doing some pretty interesting stuff. Even more appealing to me than Utopia is &lt;a href=&quot;https://every-layout.dev/&quot;&gt;Every Layout&lt;/a&gt;, which frankly seems hard to sum up in an elevator pitch, but like Utopia it aims to get CSS back to declaration and away from prescription. In this case, it seems largely because declarative just &lt;em&gt;works better&lt;/em&gt;. My only beef with this thing is the price. It&#39;s no doubt that a lot of work went into it but 70 bucks is steep.&lt;/p&gt;
+&lt;p&gt;The further I read into the sample content, the more I&#39;m standing up, punching the air, screaming. It&#39;s that invigorating and it makes that much sense.&lt;/p&gt;
+&lt;p&gt;Incidentally, one of the authors is responsible for &lt;a href=&quot;https://cube.fyi/&quot;&gt;CUBE CSS&lt;/a&gt;, which I&#39;m been looking at with interest too. I&#39;m a BEM-head from way back, but this looks like an interesting philosophical take on CSS that embraces a recent trend among true HTML/CSS folks: &lt;strong&gt;Stop fighting the cascade.&lt;/strong&gt; You&#39;re speaking my language.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>365 days of type 9 from TRUF</title>
+		<link href="http://mikepropst.com/blog/365-days-of-type/"/>
+		<updated>2022-04-19T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/365-days-of-type/</id>
+		<content type="html">&lt;p&gt;I don&#39;t think much about cool typefaces these days, I&#39;m generally just looking for something readable and pleasant for UIs and websites. But I still get a kick out of my favorite subject from school. &lt;a href=&quot;https://www.thisiscolossal.com/2022/04/truf-36-days-of-type/&quot;&gt;This is really beautiful.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Another day, another blog redesign</title>
+		<link href="http://mikepropst.com/blog/another-day-another-blog-redesign/"/>
+		<updated>2022-04-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/another-day-another-blog-redesign/</id>
+		<content type="html">&lt;p&gt;Been thinking about doing this ever since I did the last one. It never quite came out the way I wanted and frankly, the newspaper-ish feel just didn&#39;t work. It worked in my head, and it sorta-kinda worked in Figma, and it just didn&#39;t translate.&lt;/p&gt;
+&lt;p&gt;After reading about Utopia and thinking, hey maybe I should do that, I went a little deeper into the rabbit hole of simplicity.&lt;/p&gt;
+&lt;p&gt;Some notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There was no Figma phase to the &amp;quot;design.&amp;quot;&lt;/li&gt;
+&lt;li&gt;I did this entirely live by mounting my website with &lt;code&gt;rclone&lt;/code&gt; and editing live with GEdit (Atom couldn&#39;t browse and edit the remote files fast enough).&lt;/li&gt;
+&lt;li&gt;There are 157 lines of CSS, un-minified, with a carriage return between each rule. It uses &lt;strong&gt;zero&lt;/strong&gt; media queries. There aren&#39;t even any columns, so I didn&#39;t get the chance to evolve from flexbox to grid.&lt;/li&gt;
+&lt;li&gt;I&#39;m using CSS custom properties for the second time in my life, and though it doesn&#39;t give me everything I want from the Sass feature set, it&#39;s really great to get variables while staying native.&lt;/li&gt;
+&lt;li&gt;I didn&#39;t quite leave the HTML unchanged, but I probably could&#39;ve. I&#39;ve been using almost the same HTML pretty much since I switched to Kirby many years ago.&lt;/li&gt;
+&lt;li&gt;Standard posts have a larger first paragraph. This might possibly be inspired by &lt;a href=&quot;https://gmi.skyjake.fi/lagrange/&quot;&gt;Lagrange&lt;/a&gt;, the nicest Gemini client out there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I suppose I&#39;ll enjoy looking at this for a couple weeks and then off we go again, probably with a pendulum swing to complexity. Or maybe I&#39;ll just change that yellow to something else to tide me over for a bit.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Utopian thinking</title>
+		<link href="http://mikepropst.com/blog/utopian-thinking/"/>
+		<updated>2022-04-06T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/utopian-thinking/</id>
+		<content type="html">&lt;p&gt;Now &lt;a href=&quot;https://utopia.fyi/&quot;&gt;this&lt;/a&gt; is something interesting.&lt;/p&gt;
+&lt;p&gt;Obviously we&#39;ve gotten pretty far away from the fundamentals of the web. &amp;quot;Text with hyperlinks&amp;quot; is the mission of the &lt;a href=&quot;https://gemini.circumlunar.space/&quot;&gt;Gemini project&lt;/a&gt;, something that&#39;s described as heavier than Gopher and lighter than the web. So there&#39;s an appetite for those simpler days. All the myriad ways we&#39;ve strayed from Hypertext&#39;s light would take quite a few more blog posts and sound like an old man yelling at clouds, but in terms of web design it feels pretty specific. Build tools. Compiled code. Scoping and renaming classes at runtime. Arguments about whether to put CSS in JS. Not gonna belabor that, you get it.&lt;/p&gt;
+&lt;p&gt;I taught myself to ditch tables around 2002-2003 by reading Eric Meyer&#39;s O&#39;Reilly title &lt;em&gt;CSS: The Definitive Guide&lt;/em&gt;, which is purely a reference title. It was not what I would call complicated. It probably took me just as long to figure out how to implement Grunt, which was already supplanted by Gulp by that time. Life is complicated, and I guess life in CSS has gotten that way as well. It feels such a long way from the &lt;a href=&quot;http://www.csszengarden.com/&quot;&gt;CSS Zen Garden&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don&#39;t necessarily think that breakpoints and media queries are an extreme example of the complication — remember conditional comments? Remember writing separate sites from Netscape and Internet Explorer? But I do think Utopia&#39;s authors asserting that their framework is &amp;quot;declarative&amp;quot; instead of &amp;quot;prescriptive&amp;quot; or &amp;quot;instructive&amp;quot; brings it back to the fundamentals of CSS. I find it a bit ironic though that they&#39;re using some really complicated calculations to achieve simplicity for the user. I recognize that bootstrap does something similar when calculating the grid, but the deeper the math I don&#39;t understand burrows, the more scared I am of relying on it.&lt;/p&gt;
+&lt;p&gt;I haven&#39;t read enough of the material here to understand how they handle anything other than the spacing and typography — and whether they like it or not, there is more to it than that, even if those are the only two things you &lt;em&gt;can&#39;t&lt;/em&gt; take away. Looks like it may be relying on CSS grids to keep things in one media space. And lord knows I haven&#39;t adequately learned CSS grids yet. But I&#39;m going to give this a shot. Maybe the next version of this site will be Utopian.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The FBI Guide to Internet Slang</title>
+		<link href="http://mikepropst.com/blog/the-fbi-guide-to-internet-slang/"/>
+		<updated>2022-03-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/the-fbi-guide-to-internet-slang/</id>
+		<content type="html">&lt;p&gt;Pentagram does a &lt;a href=&quot;https://www.itsnicethat.com/news/pentagram-the-fbi-guide-to-internet-slang-graphic-design-100322&quot;&gt;snarky thing with a fun type design&lt;/a&gt;. Like Bierut, I wonder if any of these terms the FBI notes have ever been used by &lt;em&gt;anyone&lt;/em&gt;. The idea of the document reminds me of the old &lt;a href=&quot;https://archive.org/details/LawEnforcementGuideToSatanicCults1994VHSOccultHilarity&quot;&gt;Law Enforcement Guide to Satanic Cults&lt;/a&gt;. Link is to the film but its print predecessor baffled me even in middle school.&lt;/p&gt;
+&lt;p&gt;It speaks to the (uh, problematic) law enforcement mindset that there are dark forces and coded evils working in all corners of the world and they&#39;re the last bastion of defense against it. Too often those &amp;quot;evil&amp;quot; symbols are just non-WASP identifiers, and fear of youth comes from the same place — especially when so much of internet slang comes from AAVE and other non-white sources.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Problems I&#39;m glad I&#39;m not dealing with</title>
+		<link href="http://mikepropst.com/blog/problems-i-m-glad-im-not-dealing-with/"/>
+		<updated>2022-03-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/problems-i-m-glad-im-not-dealing-with/</id>
+		<content type="html">&lt;p&gt;Eric Meyer on the CSS Working Group&#39;s attempts to add conditionals to CSS. My most recent side project uses pure CSS with variables, which is a huge step toward me not caring about preprocessors anymore. With logic, the only things left are concatenation (probably solved already), and nesting syntax, which I find cleaner to go through later on. He&#39;s right though, as a Sass user I can easily see both sides of this argument and don&#39;t know what&#39;s right. But I know it&#39;s progress, and in my current way of thinking, more features in CSS is better. Because no matter how &amp;quot;bloated&amp;quot; you think it&#39;ll be, it&#39;s still better than having to use extra tools that aren&#39;t natively parsed by the web browser.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Is this it?</title>
+		<link href="http://mikepropst.com/blog/is-this-it/"/>
+		<updated>2022-03-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/is-this-it/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.framer.com/sites/&quot;&gt;Framer Sites&lt;/a&gt; looks wild. Framer already generates pretty good HTML, and this seems to represent the final few pieces necessary to actually turn that into a functional website. And CMS features are coming soon? Finally someone&#39;s really coming for the king in a big way, for the first time since the king has been Figma.&lt;/p&gt;
+&lt;p&gt;Is this finally The Thing we&#39;ve been looking for? A design tool that builds websites visually, but in a real &amp;quot;web-like&amp;quot; way? That&#39;s been an unsatisfactory process since my first job using NetObjects Fusion (which apparently is better in itself these days, using CSS grid instead of the absolute positioning it employed almost 25 years ago). Frankly, potentially exciting, although these days — as in those days — it&#39;s fun to whip up some HTML to create a nice looking site. Still feels like alchemy to me.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I salute you, MMT-8</title>
+		<link href="http://mikepropst.com/blog/i-salute-you-mmt-8/"/>
+		<updated>2022-03-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/i-salute-you-mmt-8/</id>
+		<content type="html">&lt;p&gt;Few pieces of gear are, on their own, really inspiring. Even the worst gear has its merits, but even the best sounding stuff isn&#39;t enough to be a wellspring of creativity. Ableton Live comes to mind, as well as the truly unique Novation Circuit, a cheap groovebox with no screen that I love almost as much as a family pet.&lt;/p&gt;
+&lt;p&gt;Lately I&#39;ve been digging an old school piece of hardware that probably sounds the least likely to fall into this category. The &lt;strong&gt;Alesis MMT-8&lt;/strong&gt; is technically not a sequencer, but an 8-channel MIDI &amp;quot;recorder&amp;quot; and playback machine. It really does work a lot like an 8-track tape machine, but with MIDI data instead of audio. That means that it can control up to 8 devices by either playing notes, triggering their own sequencers, sending program change, and transmitting CC data. It&#39;s become the central master of my setup, and though it has its faults, it&#39;s so refreshing to get away from the computer for real that I&#39;m itching to get on with writing new music.&lt;/p&gt;
+&lt;p&gt;It&#39;s a strange design that could only come out of the late 80s, like Knight Rider. It shares the lazer-zap shape with its brother the HR-16 (precursor to the &lt;a href=&quot;http://mikepropst.com/blog/in-praise-of-the-alesis-sr-16&quot;&gt;most successful drum machine of all time&lt;/a&gt;, as well as the strange flip-up panel on top that contains an abbreviated user manual. Oddly, that shape does have the advantage of fitting a Korg Volca really nicely.&lt;/p&gt;
+&lt;p&gt;![Alesis MMT-8](/img/mmt8.jpg | url)&lt;/p&gt;
+&lt;p&gt;The first &amp;quot;issue&amp;quot; with the machine is that it doesn&#39;t have a very accurate clock. It&#39;s slow by about a whole BPM. If you want to be tempo-accurate, you need something else to send the data. On its own though, it has a pretty solid clock, though it purely transmits what was recorded into it, so if you want some unique feel or timing with &amp;quot;character&amp;quot; you&#39;ll need to trigger other sequencers. I&#39;m just dreading when I play a show and someone comes up to me to say &amp;quot;I bet you thought you were playing at 74 bpm but that was really 73.&amp;quot; They&#39;re out there. I&#39;m sure of it.&lt;/p&gt;
+&lt;p&gt;The one workflow issue it has is a lack of overdubbing. If, for instance, I want drums and hi hats to be on the same track, I have to play the whole mess at once. Potentially a challenge, and more or less impossible if I want some kind of CC data at the same time. So those have to go on different channels. That being said, I have yet to feel like I need more than 8 channels. And when I do, I&#39;ll probably just find another MMT for about a hundred bucks. It does have extremely detailed editing capability as long as you&#39;re willing to do it on a 2-line LCD screen with squishy rubber buttons.&lt;/p&gt;
+&lt;p&gt;It&#39;s remarkably fast and intuitive once you&#39;re in there, and that has always been the most important thing to me in a creative tool. Get me punching in notes and feeling the song, not thinking about how a thing works. And it&#39;s rare to get that along with the immediacy of hardware.&lt;/p&gt;
+&lt;p&gt;So, Alesis MMT-8, I salute you.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Bob Moog and usability heuristics</title>
+		<link href="http://mikepropst.com/blog/bob-moog-and-usability-heuristics/"/>
+		<updated>2021-08-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/bob-moog-and-usability-heuristics/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://uxdesign.cc/how-bob-moog-brought-usability-heuristics-to-the-electronic-synthesizer-a6797a3a9192&quot;&gt;Here&#39;s a rare intersection of my interests.&lt;/a&gt; This is actually a great article for UX folks who don&#39;t know anything about synthesizers.&lt;/p&gt;
+&lt;p&gt;The author makes the (accurate) argument that Bob Moog changed the game by hard-wiring some signal paths and abandoning the fully customizable cable-based routing of modular synths.&lt;/p&gt;
+&lt;p&gt;This is essentially what Apple did in terms of UI as well that led to their early success:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Preset the red routes.&lt;/li&gt;
+&lt;li&gt;Enable other routes with some switches that are not part of the main UI.&lt;/li&gt;
+&lt;li&gt;Just abandon the ability to do some things that most users won&#39;t need.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That made Apple popular with artists, designers and musicians, just as the Model D became the first synth truly popular with a wide range of musicians. Sure, the Rick Wakemans (and Linus Torvalds) of the world might want more, but they have their complicated alternatives. For the rest of us, it was finally time to make music with synths. Just watch any gear-focused interview with John Foxx, Gary Numan, George Clinton, Rick Wright, you name it — the Model D hugely influenced their worlds so they could influence the rest of the world.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/modeld.jpg&quot; alt=&quot;Minimoog Model D&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This philosophy can still be controversial at times, as with GNOME 3 (which, incidentally, &lt;a href=&quot;https://www.pcworld.com/article/2691192/how-gnome-3-14-is-winning-back-disillusioned-linux-users.html&quot;&gt;has become less loathed&lt;/a&gt; in the years since its release), but in general the idea of solving for the 90% of users who don&#39;t need 50% of the features is considered an obvious one nowadays.&lt;/p&gt;
+&lt;p&gt;Of course, modulars have seen a resurgence lately because once you&#39;re in deep you inevitably want to start making your own synths. But that hasn&#39;t stopped the steady stream of simplistic analog boxes like the Volca series or Behringer&#39;s slavish old-school synth imitations. Options are great, but menu diving is no fun and the quickest way to get a musician to love your instrument is to get them creating quickly.&lt;/p&gt;
+&lt;p&gt;And this, as the article gets across pretty well, is what we should learn from Moog.&lt;/p&gt;
+&lt;p&gt;Apple would&#39;ve patented the pitch wheel though.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A better way to keep notes</title>
+		<link href="http://mikepropst.com/blog/a-better-way-to-keep-notes/"/>
+		<updated>2021-08-02T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/a-better-way-to-keep-notes/</id>
+		<content type="html">&lt;p&gt;I&#39;m definitely not alone here but finding the perfect toolset is a slight neurosis of mine. And I thought I had it with &lt;a href=&quot;http://mikepropst.com/blog/typora-for-windows&quot;&gt;Typora&lt;/a&gt;, a flat, local markdown editor with a notebook view and cross-platform access. But along comes a reference to &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; — in our local Nextdoor of all places — and I feel finally ready to move things off Notion and out of the cloud.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/obs_screenshot.png&quot; alt=&quot;Obsidian&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Obsidian has a lot of great features on top of being a markdown notebook, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web-less encrypted sync&lt;/li&gt;
+&lt;li&gt;images&lt;/li&gt;
+&lt;li&gt;CSS-based themes&lt;/li&gt;
+&lt;li&gt;wiki-style internal linking&lt;/li&gt;
+&lt;li&gt;a nifty graph of all the links&lt;/li&gt;
+&lt;li&gt;mobile version&lt;/li&gt;
+&lt;li&gt;plugin architecture with a very active community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The one thing it lacks from Notion is a database, but increasingly I find that the kitchen-sink approach isn&#39;t working for me. I just want structured text with images, and I can go to LibreOffice Base or Airtable to organize data.&lt;/p&gt;
+&lt;p&gt;Summary:&lt;/p&gt;
+&lt;p&gt;Tags: tools,markdown,notes&lt;/p&gt;
+&lt;p&gt;Posttype: editorial&lt;/p&gt;
+&lt;p&gt;Postlink:&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Figma organization for busy designers</title>
+		<link href="http://mikepropst.com/blog/figma-organization-for-busy-designers/"/>
+		<updated>2021-05-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/figma-organization-for-busy-designers/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;EDIT TO THIS POST: (link: &lt;a href=&quot;https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files&quot;&gt;https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files&lt;/a&gt; Figma has a much more native way of handling this now). It&#39;s pretty rad, try it out.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you&#39;re like a lot of designers, especially young enthusiastic ones or possibly freelancers with time between projects, you love to organize and beautify your systems. I&#39;ve made a new CSS theme for my markdown editor! I built a home page for my browser that beautifully links to my current projects and most common pages. Etc.&lt;/p&gt;
+&lt;p&gt;One of the big offenders in the mess of my work life is the list of Figma projects. It&#39;ll always be preferable to the classic joke of &lt;code&gt;design_final_final_r2__final.sketch&lt;/code&gt; that anyone still in pre-Figma world is probably still dealing with, but it can be rough on the eyes.&lt;/p&gt;
+&lt;p&gt;I came up with something that works well for me.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Firstly, you &lt;strong&gt;have to give files a cover page&lt;/strong&gt;.  Just do it. Mine use a frame that is 1240px x 660px.&lt;/li&gt;
+&lt;li&gt;Each Figma project is actually a project category: Online banking designs, public web page designs,  internal software tools, customer journey maps, and libraries. Within those, each has its own style of cover page. This gives each listing page a unified feel and it&#39;s always obvious which list I&#39;m looking at.&lt;/li&gt;
+&lt;li&gt;I use the default gray background on the cover page, unless it&#39;s something I&#39;m actively working on at the moment. Then I change it to green. This gives the cover a green border around it in the listing page.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/figma_home.png&quot; alt=&quot;Figma&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Create components for those covers in case you feel like you might want to change them down the road. Et voila, you&#39;ve really simply gone from a mess in your projects list to an organized and legible design portal.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Typora for Windows</title>
+		<link href="http://mikepropst.com/blog/typora-for-windows/"/>
+		<updated>2021-05-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/typora-for-windows/</id>
+		<content type="html">&lt;p&gt;I&#39;ve now been on Windows at work for 3 years and finally found a notes solution that seems to work. I have a weird set of requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I want it to look reasonably good if I&#39;m looking at it all day&lt;/li&gt;
+&lt;li&gt;It has to support Markdown&lt;/li&gt;
+&lt;li&gt;It should support images&lt;/li&gt;
+&lt;li&gt;It should have a &amp;quot;notebook&amp;quot; interface&lt;/li&gt;
+&lt;li&gt;It can&#39;t use web sync because I work at a financial institution&lt;/li&gt;
+&lt;li&gt;I can&#39;t run installers (unless they&#39;re single-user) because my work machine is locked down&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, I found &lt;a href=&quot;https://www.typora.io/&quot;&gt;Typora&lt;/a&gt;. Insanely, it actually meets all these requirements, including a great notebook-style interface when you open an entire folder. Plus it has a few other features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Document outline&lt;/li&gt;
+&lt;li&gt;Multiple themes (most of which aren&#39;t super great)&lt;/li&gt;
+&lt;li&gt;Export into HTML, PDF and all kinds of other formats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&#39;re on Windows or Linux, give it a shot. It&#39;s on Mac OS as well, but Mac users have such a glut of great markdown editors and notebooks (Bear and Byword are still among my favorites) that I&#39;m not sure it&#39;s worth mentioning for them.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update: I have moved away from Typora in favor of a complete knowledgebase approach of Obsidian, which is far more of a &amp;quot;notebook.&amp;quot; Plus Typora has a cost and I can&#39;t buy stuff like this for my work machine.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The great un-googling</title>
+		<link href="http://mikepropst.com/blog/the-great-un-googling/"/>
+		<updated>2021-04-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/the-great-un-googling/</id>
+		<content type="html">&lt;p&gt;They said it couldn&#39;t be done — removing yourself from Amazon. In truth, it mostly can&#39;t. If you use almost any web-based service, you&#39;re using AWS. And if you&#39;re like me, stretched out across multiple different platforms, you probably use some of those. But we stopped shopping there, I got a Kobo, and we&#39;re on the way to replacing our smart speaker. Honestly? Not that hard. Prime video is about the only true difficulty, especially since they have Star Trek&lt;/p&gt;
+&lt;p&gt;So, riding high on this pseudo-victory, I have declared I&#39;m going to remove Google from my life.&lt;/p&gt;
+&lt;h2 id=&quot;hashtag-goals&quot; tabindex=&quot;-1&quot;&gt;Hashtag #goals &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/the-great-un-googling/#hashtag-goals&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Here&#39;s the deal, though. I&#39;ve read posts like this from people more tech-savvy and smarter than myself, and I don&#39;t think I can go that hard. It sounds... tough. I just want to stop depending on them, stop letting them see everything I do, and generally stop supporting them. There are so many reasons out there for doing so, but that&#39;s not what this is about. This is about a quest for alternatives to the company that practically wrote the book on doing stuff in the browser.&lt;/p&gt;
+&lt;h2 id=&quot;the-pieces&quot; tabindex=&quot;-1&quot;&gt;The pieces &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/the-great-un-googling/#the-pieces&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Once you start cataloging it, there&#39;s a lot. And some are just gonna have to slide, no doubt about it, but I&#39;ll get there eventually. Here&#39;s where I&#39;m at with alternatives.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gmail.&lt;/strong&gt; I looked at Proton, which is great if you really want to get into the extremes of privacy, and a few others, before settling on &lt;a href=&quot;http://fastmail.com/&quot;&gt;Fastmail&lt;/a&gt;. Fastmail won out for its UI, pricing to storage ratio, and inclusion of a calendar. Some friends&#39; recommendations sealed that deal. Fastmail also features alias boxes, which can send or receive mail, and those are helping me get rid of the numerous random Gmail boxes in addition to the main one.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docs.&lt;/strong&gt; At the end of the day, I so rarely need a word processor and almost any will work. My personal hangup about docs is that I usually want structure rather than WYSIWYG layouts. It&#39;s a big part of why I use &lt;s&gt;Notion&lt;/s&gt; Obsidian and frankly in most cases I&#39;ll just publish a PDF out of there. I write my post drafts in there since it&#39;s Markdown. But Apple&#39;s Pages online and MS Word online are totally fine, and more recently I found the hosted version of open-source OnlyOffice. As a bonus, it&#39;s a great replacement for the aging and frustrating LibreOffice on the Linux desktop.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sheets.&lt;/strong&gt; When Google Sheets launched, it was insane. Zoho had done it, but not well, and that&#39;s about it. There are all kinds of great tools out there now that make a spreadsheet seem quaint, but sometimes you just need a spreadsheet. It&#39;s still the &amp;quot;killer app.&amp;quot; And the originator is still pretty good at it. &lt;a href=&quot;http://excel.office.com/&quot;&gt;Excel&lt;/a&gt; online is a little more computer-intensive, but it does the thing well and doesn&#39;t get into other stuff. Coda is a possibility, but the learning curve is steep, and I&#39;ve seen recommendations for Airtable but as cool as it is (I use it for a few things) it&#39;s really a different animal. OnlyOffice wins again, for anything that needs more math and fewer relationships than I would handle with Airtable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drive.&lt;/strong&gt; My god, it&#39;s full of storage. There are so many alternatives out there it&#39;s not even worth it. If you want to use the same provider as your docs or sheets, then go with Microsoft or Apple. If privacy is your main value, try &lt;a href=&quot;http://pcloud.com/&quot;&gt;pCloud&lt;/a&gt; or Mega. I&#39;ve personally gone with pCloud because of its media capabilities and generous size (not to mention its charmingly rough edges and desktop Linux integration), but my eggs are well distributed among many baskets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos.&lt;/strong&gt; Unlike email, there just aren&#39;t a lot of low-cost storage options for photos. Flickr has been so fucked-with for so long since Yahoo! took over that I can&#39;t make heads or tails of where they&#39;re going with it, and most services (that aren&#39;t AMZ) are geared toward photographers, not regular folks backing up their stuff. So for now, I have nothing except redundant external drives and possibly a larger pCloud plan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chromebook.&lt;/strong&gt; Obviously Google tracking your entire operating system is not super ideal. However, this was easier to resolve than I expected. &lt;a href=&quot;https://github.com/dnschneid/crouton&quot;&gt;Crouton&lt;/a&gt; makes it easy to install a Linux environment with xfce. I&#39;m still tweaking but it&#39;s working pretty well, especially considering my Chromebook runs on a Rockchip, which I think is like an ARM?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The world of technology used to be this way. We used the best provider for each service or application. The idea of going to a one-stop shop is relatively new. Yeah, it makes things simple, but if the price for turning computing devices into dead-simple consumer electronics is all my privacy, I&#39;m going to try to roll my own life.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New device: Behringer TD-3</title>
+		<link href="http://mikepropst.com/blog/new-device-behringer-td-3/"/>
+		<updated>2021-04-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/new-device-behringer-td-3/</id>
+		<content type="html">&lt;p&gt;It&#39;s pretty safe to call Behringer &amp;quot;much-maligned.&amp;quot; Obviously they have a tendency to do the cheap imitation version of gear, and Uli seems like kind of a dick. But rather than Mackie mixers or random pedals, they&#39;ve set their sights in the past decade on the unobtanium of electronic music stuff. The Minimoog, the ARP 2600, the 808. And one of the recent ones is the Roland TB-303.&lt;/p&gt;
+&lt;p&gt;I picked one up on Reverb for under $100 shipped, so it&#39;s kind of hard to say no. It goes well with my other small, cheap desktop modules like the Volca series and Arturia Microbrute. It is, however, a bit flimsier feeling than the others. But I&#39;ve been assured by some owners of the original that it was also a plastic box that you wouldn&#39;t want to drop from too far up.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/td3.jpg&quot; alt=&quot;TD-3&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;sounds&quot; tabindex=&quot;-1&quot;&gt;Sounds &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/new-device-behringer-td-3/#sounds&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;So how does it sound? There are plenty of YouTube videos at this point, but more than any other piece of synth gear I have, it does One Thing. It does that thing right, though. There are two wave shapes, the saw and square, and simplistic filter controls that were meant for guitarists rather than subtractive synth experts to work. The TB-3 adds a nice distortion option that the 303 lacked, and it really helps the bass cut through a thicker mix. I almost never turn it off, especially on the square wave shape. There&#39;s also a little patch bay at the top that lets you do some very basic CV controls. I could probably sync the filter to the kick pattern of the Volca Beats or send gate info to the Microbrute arpeggiator, but I have yet to play with it.&lt;/p&gt;
+&lt;h3 id=&quot;sequences&quot; tabindex=&quot;-1&quot;&gt;Sequences &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/new-device-behringer-td-3/#sequences&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The one thing that I almost wish wasn&#39;t so authentic is the sequencer. It works by programming notes, then by going back and programming all their lengths, including rests and holds. You really have to plan out your patterns in advance before starting to punch buttons. Fortunately, you can switch the thing into pitch mode and send it notes from somewhere else, like Ableton Live or my Alesis MMT-8 sequencer.&lt;/p&gt;
+&lt;h3 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/new-device-behringer-td-3/#summary&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Those folks who automatically won&#39;t buy Behringer aside (I get you), the TB-3 isn&#39;t a device for everyone. It only does one thing, and chances are it&#39;ll makes you think of acid house as soon as it starts playing. But if you need bass in your setup, you could do a lot worse than around a hundred bucks for something that can shake the floor.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Adee - Figma a11y testing tool</title>
+		<link href="http://mikepropst.com/blog/adee-figma-a11y-testing-tool/"/>
+		<updated>2021-03-29T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/adee-figma-a11y-testing-tool/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.figma.com/community/plugin/931280467863251825/Adee---Comprehensive-Accessibility-Testing-Tool&quot;&gt;This is pretty cool&lt;/a&gt;. Figma core features and plugins continue to narrow the gap between designing and building.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Creating music during the pandemic</title>
+		<link href="http://mikepropst.com/blog/creating-music-during-the-pandemic/"/>
+		<updated>2021-03-20T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/creating-music-during-the-pandemic/</id>
+		<content type="html">&lt;p&gt;I suppose I was fortunate, really. My band&#39;s drummer, who also wrote maybe 70% of the guitar riffs, finished his PhD and left the country to go work in Switzerland. Writing out that sentence makes me realize he was the &lt;em&gt;really&lt;/em&gt; fortunate one. But what I mean is, a lot of my musician friends had to deal with the fact that they couldn&#39;t get together during the pandemic. For better or worse, I didn&#39;t have a band anymore to worry about.  Fortunately, prior to 2020 I&#39;d released about a dozen releases (between digital, CD and cassette) over the past 20 years that featured no other musicians but me. So I started to hit the shed.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been a process musician for most of that time. Each project, each release, is the result of a way of working. It comes from being in the experimental world for so long. Now, even when I make something that I find enjoyable to listen to, it&#39;s still gonna be made via a specific process. And when I make something with that process, I tend to move on. But that kind of indulgence is tough for someone with kids and a day job. Movement doesn&#39;t happen quickly enough, and output is minimal.&lt;/p&gt;
+&lt;p&gt;So I came up with the plan of forcing myself into the shed once a week, and I decided I wasn&#39;t going to come out of the shed until I had a finished song.  Talking it out with a friend, I realized this accomplishes a few things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It opens the throttle on that speed of progress. If you just &amp;quot;play around&amp;quot; once a week for a couple hours, you&#39;re not going to get anywhere for a long time. Validating an idea once a week gets you through the ruts and the familiar patterns and into new ideas sooner.&lt;/li&gt;
+&lt;li&gt;It keeps you from being precious about polish and &amp;quot;finish.&amp;quot; The dumb truth of a piece of music or art is that it&#39;s finished when you say it is. &lt;em&gt;Bee Thousand&lt;/em&gt; is just as &amp;quot;finished&amp;quot; as &lt;em&gt;Dark Side of the Moon&lt;/em&gt;, and they&#39;re both classics of their space. One was made by a group of guys with infinite time and money, and the other was made by a drunk schoolteacher with kids.&lt;/li&gt;
+&lt;li&gt;It makes you go with your gut. Maybe if I hadn&#39;t been doing this for close to 25 years, I wouldn&#39;t feel like the gut was a useful thing. But the gut has become experienced.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&#39;m currently using this process to create new Various Reasons tunes, always with the further constraint that someday they can be recreated live, but the first work I did with a &amp;quot;live band&amp;quot; style and put onto Bandcamp as Mezzo Cortex.&lt;/p&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https://bandcamp.com/EmbeddedPlayer/album=4022765204/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/artwork=small/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;https://mezzocortex.bandcamp.com/album/a-litany-of-bad-news&quot;&gt;A Litany of Bad News by mezzo cortex&lt;/a&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cranking the engine back up</title>
+		<link href="http://mikepropst.com/blog/cranking-the-engine-back-up/"/>
+		<updated>2021-03-20T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/cranking-the-engine-back-up/</id>
+		<content type="html">&lt;p&gt;I think I&#39;m going to maybe do some blogging again? I&#39;ve always had trouble with writing in the blog because I feel like it should be about UX. I generally want to write about synths and studio stuff. It is what it is. I&#39;m now officially Too Old to be concerned whether potential employers look at my portfolio, see my blog, and realize that I don&#39;t spend every waking hour thinking about designing software. Also, I&#39;m not really looking.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Can UX be remote?</title>
+		<link href="http://mikepropst.com/blog/can-ux-be-remote/"/>
+		<updated>2020-04-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/can-ux-be-remote/</id>
+		<content type="html">&lt;p&gt;Jakob Nielsen answers a question that&#39;s on a lot of people&#39;s minds right now. Weird times we&#39;re living in.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/MG64QcjRL8c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Boring gear post (pedalboard layout</title>
+		<link href="http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/"/>
+		<updated>2019-07-15T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/pedalbored.jpg&quot; alt=&quot;Pedalboard&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Like any mediocre guitarist, I spend a lot of time rethinking my tone and my pedalboard. Like any experimental musician who likes to turn guitars into other sounds, I spend a lot of time trying to balance versatility and ease of use. Nobody likes to tap dance one-footed, even if you can perform an entire symphony.&lt;/p&gt;
+&lt;p&gt;Over the course of the last year, I&#39;ve really landed on a layout that I like. In order of the signal chain, here it is.&lt;/p&gt;
+&lt;h3 id=&quot;boss-tu-2&quot; tabindex=&quot;-1&quot;&gt;Boss TU-2 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#boss-tu-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Not much to say about this. Fancy tuners come around every once in a while, but for accuracy, visibility, and durability, it&#39;s hard to beat the classic Boss.&lt;/p&gt;
+&lt;h3 id=&quot;pepers-pedals-rad&quot; tabindex=&quot;-1&quot;&gt;Pepers Pedals RAD &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#pepers-pedals-rad&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a Rat pedal. Pretty simple. It&#39;s made by Tony Pepers in New Zealand, and when you buy his pedals they come with this amazing gummy candy that&#39;s only available there. There are standard Rat controls and a switch that changes the clipping mode from standard Rat to Turbo Rat, or removes the clipping altogether. Without clipping, it&#39;s decidedly less Rat-like but it&#39;s still a very hairy fuzz. I don&#39;t stack overdrives and distortions anymore. I just crank up a Rat.&lt;/p&gt;
+&lt;h3 id=&quot;morley-mini-volume&quot; tabindex=&quot;-1&quot;&gt;Morley Mini Volume &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#morley-mini-volume&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I love the size of this thing. I always put volume pedals after the distortion, even though I sometimes can&#39;t get total silence with it rocked down, because that way the tone doesn&#39;t change when I fade it up and down. I do waffle on whether to put it in front of or behind my preamp pedal.&lt;/p&gt;
+&lt;h3 id=&quot;joyo-british-sound&quot; tabindex=&quot;-1&quot;&gt;Joyo British Sound &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#joyo-british-sound&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Yes, this is 100% a ripoff, possibly a stolen board design, of the Tech 21 British pedal, and it&#39;s probably unethical to buy this or any Joyo pedal because even the original designs have been more or less funded by this kind of stuff. But damn, it cost me $20 and it helps add that throaty, low-midrange roar to my plain sounding solid state amp. Plus I can dial in just the right amount of gain so that even the clean tone has a tiny bit of breakup. That helps make my cleans a little softer on the attack and less obviously solid-state.&lt;/p&gt;
+&lt;h3 id=&quot;line-6-m5&quot; tabindex=&quot;-1&quot;&gt;Line 6 M5 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#line-6-m5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Line 6 is not exactly the most prestigious brand to put on your board, but this pedal is ridiculously useful for keeping said board from getting completely out of hand. I use it primarily for modulation and special effects. I currently use the M5 for the pitch detune effect at the end of &amp;quot;We Are The Life of the Future,&amp;quot; and for wah/filter during &amp;quot;We Live Inside.&amp;quot; Both of these use the M-Audio expression pedal that&#39;s plugged into it (another not-great brand but it&#39;s lasted longer than the Roland one I used to have). Beyond the tremolos, choruses, flangers and other modulators, there are some fun (if not super useful) synth sounds and other random effects. Any effect can have its settings changed with the expression, which makes it doubly useful. And it&#39;s true-bypass, so even if you&#39;re worried about Patented Line 6 Tone altering your signal, it&#39;s alright. Personally, I would never use the preamp and distortion sounds, they&#39;re just not that good, but for single-use sounds you don&#39;t want to add a whole pedal for... why not?&lt;/p&gt;
+&lt;h3 id=&quot;seymour-duncan-deja-vu&quot; tabindex=&quot;-1&quot;&gt;Seymour Duncan Deja Vu &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#seymour-duncan-deja-vu&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a little-known delay with a hugely useful feature set and a great, live-friendly layout. There&#39;s tap tempo that can be set to either delay at the exact tempo you press, or at measure divisions, e.g. you tap the quarter note but it&#39;ll delay on a dotted eighth. It has an analog circuit simulator (cuts a lot of highs out of the repeats) with variable modulation (warble, basically) and you can dial any combination between the digital and analog for a lot of tonal variation. You can switch between tails or true bypass (I usually leave tails on and it doesn&#39;t really suck tone at all). As a bonus, cranking the delay speed knob way over will give you a looper function.&lt;/p&gt;
+&lt;p&gt;As if all that wasn&#39;t enough, you can plug a TRS into its &amp;quot;insert&amp;quot; jack and put a whole chain of effects there that will only effect the repeats. That&#39;s what the Boss PS-2 is doing there: adding either compounding delays or pitch shifts to the repeats. Insane possibilities.&lt;/p&gt;
+&lt;p&gt;It&#39;s basically the best delay pedal I&#39;ve ever used, and the right combination of simple and powerful.&lt;/p&gt;
+&lt;h3 id=&quot;catalinbread-topanga&quot; tabindex=&quot;-1&quot;&gt;Catalinbread Topanga &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#catalinbread-topanga&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I switch reverbs out sometimes but this one is too fun to leave at home. It&#39;s supposed to be an emulation of a Fender spring reverb unit. Yes, you can get some super wet Dick Dale sounds out of it. One of its more enjoyable features is that it&#39;s sensitive to volume and creates breakup as you feed it a louder signal. Made in Portland.&lt;/p&gt;
+&lt;h3 id=&quot;hotone-wally&quot; tabindex=&quot;-1&quot;&gt;Hotone Wally &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#hotone-wally&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I may never figure out how to pronounce Hotone, but the Wally is a great little looper. You can stack a lot of loops of different times, you can change their pitch after you&#39;ve recorded, and change the output volume of the playback. Great features for a tiny pedal. Unfortunately with its single button it&#39;s complicated to control and you can&#39;t end a loop at an exact time. And believe it or not, for most boards it&#39;s actually a little too small. I can&#39;t manage to get enough Velcro on the thing to keep it from moving around, and there&#39;s nowhere to zip-tie it.&lt;/p&gt;
+&lt;h3 id=&quot;tc-voicelive-not-pictured&quot; tabindex=&quot;-1&quot;&gt;TC Voicelive (not pictured) &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#tc-voicelive-not-pictured&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The empty space usually has my vocal processor on it. This thing is basically just delays, but it has some sort of compression and possibly EQ in it because everything comes out of it sounding so polished. It was purchased by my bandmate from Mike Scheidt, so it&#39;s seen some action but it&#39;s really tough. Unlike many other vocal effects I&#39;ve used, sound people do not hate it.&lt;/p&gt;
+&lt;h3 id=&quot;the-board&quot; tabindex=&quot;-1&quot;&gt;The Board &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/boring-gear-post-pedalboard-layout/#the-board&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The board itself is a handmade wooden job that a friend built at a custom size for a pretty meager amount of money. I painted and velcro&#39;d it, and even though it doesn&#39;t have a case and the slats can be a bit weird for the odd form-factor pedals like the Deja Vu, it&#39;s solid and really does the trick. The power supply is hidden out of sight and I have been able to velcro-tie the extra cabling. I just need to get an angled plug into that Topanga...&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>When you &quot;have&quot; to do a focus group</title>
+		<link href="http://mikepropst.com/blog/when-you-have-to-do-a-focus-group/"/>
+		<updated>2019-04-04T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/when-you-have-to-do-a-focus-group/</id>
+		<content type="html">&lt;p&gt;Most UX researchers will parrot the line that focus groups are terrible, and even if they are parroting, they&#39;re right. Erika Hall, in &lt;em&gt;Just Enough Research&lt;/em&gt;, calls focus groups &amp;quot;research theater.&amp;quot;&lt;/p&gt;
+&lt;p&gt;But often, you&#39;ll find that budget and/or time constraints can manipulate your beautifully planned user research into a focus group. Is there anything you can do about it?&lt;/p&gt;
+&lt;p&gt;As usual, Pentagram and other gatekeeping haters be damned, design thinking (or human-centered design) comes to the rescue. Co-design doesn&#39;t just mean working in cross-functional teams in your own organization, it means involving your users. If we truly believe that they know best, then why not involve them?&lt;/p&gt;
+&lt;p&gt;About a year ago, I got access to a group of young people who were acting as an advisory board to a client. The client made e-learning modules for an urban teen market and we were building the interface and helping with their product design philosophy. The problem with this access was that not only were the kids biased — they had volunteered for the position and were paid a stipend — but when they got together they were effectively a focus group. All of them were smart and motivated, but they weren&#39;t always motivated to give the kind of feedback we needed, and we continued to see patterns of one person leading the group (a standard focus group behavior).&lt;/p&gt;
+&lt;p&gt;Since we met them regularly, I started to give them homework. They put together mood boards and talked about the kinds of sites they regularly visited. Maybe they all colluded, but it didn&#39;t matter quite as much because it was an intentional collaboration on their part in this case.&lt;/p&gt;
+&lt;p&gt;Then we eased into some design thinking exercises, and conducted a design studio workshop. I instructed them to think of the particular details of what made them frustrated with, apathetic to, or unable to operate the current layouts. Then they drew. Standard practice applies here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We were remote, but I instructed the moderators to give them sharpies so we didn&#39;t fall into the detailed drawing trap.&lt;/li&gt;
+&lt;li&gt;The youth liaison to the company, as well as the product leader and another product manager, participated.&lt;/li&gt;
+&lt;li&gt;The drawings were timeboxed, then presented and lightly critiqued as a group.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;They took pictures and sent them to us, and we did affinity mapping and more detailed analysis after the workshop.&lt;/p&gt;
+&lt;p&gt;None of this is really rocket surgery, but it&#39;s worth mentioning that as long as you have the right participants, any user research should be considered useful and there&#39;s a lot of value in being able to &amp;quot;make lemonade.&amp;quot;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Scott</title>
+		<link href="http://mikepropst.com/blog/scott/"/>
+		<updated>2019-03-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/scott/</id>
+		<content type="html">&lt;p&gt;This one is tough. Mark Hollis recently passed, and that was difficult to process but in the musical sense he was already gone, having left a near-perfect legacy of forward-thinking avant-pop that to most people&#39;s minds invented post-rock.&lt;/p&gt;
+&lt;p&gt;Scott Walker on the other hand, despite his age, was still fairly prolific, especially considering his attention to craft and detail.&lt;/p&gt;
+&lt;p&gt;I can think of at least 4 moments where he defied expectations: Quitting teen idoldom to write music, &lt;em&gt;Scott 4&lt;/em&gt;, his songs on &lt;em&gt;Nite Flights&lt;/em&gt;, and &lt;em&gt;Climate of Hunter&lt;/em&gt;, which really established the rest of his career. There was nothing else on earth like them. There was nobody on earth like &lt;em&gt;him&lt;/em&gt;. And there never will be.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/G_NIop72vis&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hopefully The Last Word on Design Thinking</title>
+		<link href="http://mikepropst.com/blog/hopefully-the-last-word-on-design-thinking/"/>
+		<updated>2018-12-18T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/hopefully-the-last-word-on-design-thinking/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.subtraction.com/2018/04/02/in-defense-of-design-thinking-which-is-terrible/&quot;&gt;Khoi Vinh, a voice of reason, finally weighs in&lt;/a&gt; on the debate with &amp;quot;In Defense of Design Thinking, Which Is Terrible.&amp;quot; Apparently he also thinks that most of the arguments against design thinking are anti-democratization.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So when I consider design thinking, it matters less to me whether it leads to a lot of bad design or not. What matters to me is whether it helps broaden the language of design, if it helps expand the community of design, if it helps build a world that values and understands design better than it does today. If design thinking is making us more relevant to the world at large, leading non-designers to embrace the way designers think, then the net effect strikes me as positive.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Programming CSS</title>
+		<link href="http://mikepropst.com/blog/programming-css/"/>
+		<updated>2018-12-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/programming-css/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://adactio.com/journal/14574&quot;&gt;Here&#39;s Jeremy Keith&lt;/a&gt; on the logic inherent in CSS, and putting in guardrails.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>IDEO responds</title>
+		<link href="http://mikepropst.com/blog/ideo-responds/"/>
+		<updated>2018-10-31T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/ideo-responds/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.fastcompany.com/90257718/ideo-breaks-its-silence-on-design-thinkings-critics&quot;&gt;Following up on all the bad takes on design thinking&lt;/a&gt; (some of which they published), Fast Co has a small interview with an IDEO partner about why everyone suddenly hates design thinking. Short answer: it&#39;s just a tool, and one that looks shiny enough that there are tons of people using it poorly.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>PURE Framework</title>
+		<link href="http://mikepropst.com/blog/pure-framework/"/>
+		<updated>2018-10-16T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/pure-framework/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://measuringu.com/pure/&quot;&gt;This article&lt;/a&gt; came out early last year, but PURE is a new-to-me usability evaluation method from Intel Security and the master of UX metrics, Jeff Sauro. I&#39;m always looking for low-impact, low-cost ways of evaluating the usability of features before (or, god forbid, in lieu of) a full moderated test.&lt;/p&gt;
+&lt;p&gt;In some cases, that can be done. Even if you&#39;re against the idea as a useful method on its own, it can point to the places that need to have full testing done on them. PURE is nice because a decently-trained person can do it without having to hold tons of heuristic guidelines in their head. And you get a pretty nice-looking chart result at the end.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/example_pure.png&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;ve created a spreadsheet that calculates up the scores, and some Figma components to build the chart. I think this might be the case I&#39;ve been looking for to develop a tool for Figma using their API.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://measuringu.com/wp-content/uploads/2016/05/CHI-pure2016.pdf&quot;&gt;Here&#39;s the full whitepaper.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Design Thinking Considered Harmful</title>
+		<link href="http://mikepropst.com/blog/design-thinking-considered-harmful/"/>
+		<updated>2018-10-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/design-thinking-considered-harmful/</id>
+		<content type="html">&lt;p&gt;Not long after the recent Fast Co &lt;a href=&quot;https://www.fastcompany.com/90166804/design-thinking-is-b-s&quot;&gt;article by the bigtime Pentagram designer&lt;/a&gt;  about how Design Thinking sucks, here&#39;s that bastion of both design and progressive thinking, the...  &lt;a href=&quot;https://hbr.org/2018/09/design-thinking-is-fundamentally-conservative-and-preserves-the-status-quo&quot;&gt;Harvard Business Review&lt;/a&gt;? The thing that the author is mad about does not seem to be the kind of design thinking that I have either implemented or learned.&lt;/p&gt;
+&lt;p&gt;The whole point of &amp;quot;human centered design&amp;quot; is to eliminate the concept of the designer dictating from on high. The version the author refers to, where a holy anointed designer filters the input of the unwashed masses, is something I&#39;m wholly against as well. After all, I went to a two-year for-profit design school. Iskander has the right idea: we should be democratizing design and acting on the bottom-up, boots-on-the-ground perspective that we get from users/customers/beneficiaries and from non-designers in our organization. Unfortunately, it feels to me like she&#39;s been given a tainted version of design thinking -- one that I think a lot of other people have also received.&lt;/p&gt;
+&lt;p&gt;My cognitive dissonance here is that these articles written by people named Natasha can&#39;t both be true. Jen, highfalutin Pentagram partner, can&#39;t be right about design thinking usurping the dominance of designers like her while Iskander is simultaneously right about the methods actually maintaining that dominance.&lt;/p&gt;
+&lt;p&gt;At the end of the day, design thinking is, as Iskander says, a dumbed-down scientific method. So to my mind, what you do with that hypothesize-and-test framework can be conservative (blarg), innovative (bleh), or serve people well, depending on your hypotheses, the makeup of your team, and the projects you&#39;re working on. Keep the tools in your toolbox, keep serving the people you&#39;re designing for, and you&#39;ll be fine.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Familytronica</title>
+		<link href="http://mikepropst.com/blog/familytronica/"/>
+		<updated>2018-08-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/familytronica/</id>
+		<content type="html">&lt;p&gt;I sat down with my son (5) and the Alesis Micron that is now anchoring my live set and we made a little track together. It was going to be called &amp;quot;Disco Slash&amp;quot; but for unknown reasons, he retitled it to the less inspiring &amp;quot;Disco Party.&amp;quot; I helped with the mechanics but all the sequencing is him.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480442689&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Making Heroes</title>
+		<link href="http://mikepropst.com/blog/making-heroes/"/>
+		<updated>2018-07-14T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/making-heroes/</id>
+		<content type="html">&lt;p&gt;Here&#39;s cool video with Tony Visconti discussing the creation of &amp;quot;Heroes,&amp;quot; the title song of maybe the best of Bowie&#39;s Berlin albums. It&#39;s amazing just to hear the multi tracks — Fripp&#39;s brilliant feedback guitar, the crack band, and Bowie&#39;s vocal takes, which get written about a lot but prove his power when you hear them on their own.&lt;/p&gt;
+&lt;p&gt;It&#39;d be easy to take away that the era of true studio innovation with giant budgets and beautiful studios is mostly at an end so we&#39;ll never get great records like this anymore, but it&#39;s all there available to us. You could recreate so many of these things and more in your own house. The inspiration is what&#39;s important, and there&#39;s a lot of it in this video.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/9ClNGJXUWvk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Synthesizin&#39;</title>
+		<link href="http://mikepropst.com/blog/synthesizin/"/>
+		<updated>2018-04-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/synthesizin/</id>
+		<content type="html">&lt;p&gt;One of the more fun things about playing electronic music is figuring out how to perform live. To some people, Ableton Live and its external controllers made the question moot. And to a large number of others, Elektron’s highly playable devices have become the de facto way of low-impact performance design.&lt;/p&gt;
+&lt;p&gt;But when you’re not interested in bringing out a computer and you don’t have nice Elektron stuff, creating a way to connect and perform on your equipment is a fun and sometimes ridiculous challenge.&lt;/p&gt;
+&lt;p&gt;Various Reasons, for me, has always been about this. And usually it’s been a little too complicated and unreliable to make things easy to play. But discovering some of the features of my Alesis Micron has really opened up my options.&lt;/p&gt;
+&lt;h3 id=&quot;what-it-is&quot; tabindex=&quot;-1&quot;&gt;What it is &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/synthesizin/#what-it-is&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Today, my setup starts with the (non-pro) Arturia BeatStep, which mostly provides master clock but runs the sequence on a couple songs. It’s a fun way to run things because even though I can’t hard-wire a tempo to songs, the analog clock helps me go by “feel” a little bit.&lt;/p&gt;
+&lt;p&gt;From there, the MIDI chain goes to the Micron, which can run a multi-track sequencer. Unfortunately, having multiple sequences in songs means holding down keys and moving your finger around. That’s fine in some cases, and in others I’ve adapted tunes to use the same bassline moved around in key. There can even be rhythms.&lt;/p&gt;
+&lt;p&gt;In theory, a whole song can be built on the Micron, but I consider my modded Alesis HR-16 to be a signature part of my sound. So that is next in the chain. The snare runs to a cheap delay pedal to help alter sounds and add dubby effects to the beats. From there, I send MIDI clock to my Arturia Microbrute, which is almost always running an arpeggiator timed to that clock. It goes through a preamp for distortion and a Catalinbread spring reverb.&lt;/p&gt;
+&lt;p&gt;The last piece is a Korg Volca Keys. I use it for pads, leads, and with
+the aid of a Hotone Wally looper, transitions between songs for less awkward silence while I change patches. The hardest part of this is hitting keys, but I don’t have a small enough MIDI controller to justify bringing out something else.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/vrsrsns.jpg&quot; alt=&quot;Setup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It’s not the simplest setup I have. There are quite a few connections, and a couple analog synths with no patch recall. It does make changing parts within songs much easier than my previous setup, which had me running around like a crazy person trying to change patterns on multiple sequencers — some of which require two fingers. It’s got a bit of a shambolic timing, which is not ideal in some cases, but a lot more interesting and unique than a perfect computer or Octatrack clock. An audience member described it as “raw,” but to excerpt some of the lyrics, it’s also a mess of tangled wires.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Reapin&#39;</title>
+		<link href="http://mikepropst.com/blog/reapin/"/>
+		<updated>2017-11-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/reapin/</id>
+		<content type="html">&lt;p&gt;In the quest for audio perfection, I&#39;ve found myself trying yet another tool.&lt;/p&gt;
+&lt;p&gt;This time it was thanks to a mastering project — at the end of the day I still ended up doing mastering in DSP-Quattro, an unreliable piece of software that nevertheless is a dedicated mastering DAW. When you need things like crossfades, effects on regions, and DDP export... you need them. It&#39;s another 300 bucks to upgrade Studio One to the version that has a mastering workflow, so guess who isn&#39;t doing that? I&#39;m continually frustrated by DSP-Quattro&#39;s odd workflows and constant crashing, but it does the job eventually.&lt;/p&gt;
+&lt;p&gt;In the meantime, though, I gave REAPER a shot at it. If you&#39;re not familiar, Reaper (it&#39;s an acronym but I get really tired of capitalizing it) is a constantly-developing DAW that carries a $60 price tag for amateurs and $225 for pros. My impression of Reaper has always been that it&#39;s a technician&#39;s tool or &amp;quot;computer person&amp;quot; version of a DAW. That is to say, kind of the opposite of Pro Tools&#39;s heavy mimicry of a console-based workflow. One thing that its proponents are always fond of pimping is the customization. Reaper can, within reason, work any way you want it to, but there&#39;s a massive learning and setup curve to get there.&lt;/p&gt;
+&lt;p&gt;Or maybe not. Turns out, it isn&#39;t that hard to do a lot of the customizations that force Reaper to work the way you want to work, from tool behavior to making F3 toggle the mixer like Pro Tools.&lt;/p&gt;
+&lt;p&gt;It also sounds at least as good as Studio One, and has a much cleaner, more native-feeling interface than it used to. And I think that the the &amp;quot;computer-like&amp;quot; focus of the UI as opposed to slavish console worship is actually a strength. There are no audio or MIDI tracks, just &lt;em&gt;tracks&lt;/em&gt;, and there are no groups, VCAs, or busses. Every track can be anything, so it supports an &amp;quot;as you go&amp;quot; creative workflow. Takes and playlists work easily.&lt;/p&gt;
+&lt;p&gt;The shortcoming that most DAWs run up against versus Pro Tools is always audio editing, so that remains to be seen.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to continue any client work that comes along in Studio One, but try the next &lt;a href=&quot;http://anemptyroom.net/&quot;&gt;An Empty Room&lt;/a&gt; recording with Reaper and see how it goes.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>No need for an abstraction layer with CSS Grid</title>
+		<link href="http://mikepropst.com/blog/no-need-for-abstraction-layers-with-css-grid/"/>
+		<updated>2017-10-30T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/no-need-for-abstraction-layers-with-css-grid/</id>
+		<content type="html">&lt;p&gt;Rachel Andrew, the Guru of Grids, on &lt;a href=&quot;https://rachelandrew.co.uk/archives/2017/07/01/you-do-not-need-a-css-grid-based-grid-system/&quot;&gt;why you don&#39;t need a &amp;quot;Grid Framework&amp;quot; to use CSS Grid&lt;/a&gt;. For me, part of the desire to use grid is right here — the additional overhead of throwing in a grid system is just unnecessary. And with Grid comes horizontal and vertical alignment, markup without containers, and so many more possibilities for layout.&lt;/p&gt;
+&lt;p&gt;Even fallbacks, one reason frameworks tend to get popular, aren&#39;t needed in her estimation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Create solid markup, uncluttered by additional elements that the past tells you that you need. Design your site using what Grid and other new methods have to offer. Then look at how you deal with the browsers without support, by serving them something slightly simpler.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now that Edge fully supports Grid, it&#39;s probably time to stop farting around and really learn it, now that I&#39;ve finally embraced flexbox.&lt;/p&gt;
+&lt;p&gt;date:&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Is the golden age of UX really over, and what does that really mean</title>
+		<link href="http://mikepropst.com/blog/the-golden-age-of-ux/"/>
+		<updated>2017-08-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/the-golden-age-of-ux/</id>
+		<content type="html">&lt;p&gt;Maybe the &amp;quot;golden age of UX&amp;quot; &lt;a href=&quot;https://blog.marvelapp.com/golden-age-ux/&quot;&gt;really is over&lt;/a&gt;. I think a better way to put it is that we&#39;ve been discovered out here in our clubhouse and now we&#39;re gonna have to grow up and play ball with everyone else. But this widely-shared article from Marvel (a tool I like a lot) has missed the mark in a couple fundamental ways.&lt;/p&gt;
+&lt;p&gt;First, strategy is not for everyone. We did what I think is a great job designing strategy at D&amp;amp;B, and it was in itself a design challenge. But not everyone on the team was involved or wanted to be involved. Disparaging non-strategic UX as a &amp;quot;production&amp;quot; role is an insulting mistake. This is skilled practitioner stuff, and there are &lt;em&gt;still&lt;/em&gt; very few people who are actually good at it. The fact that there are exponentially more UX designers out there doesn&#39;t mean there are infinitely more good ones, especially since new folks are being raised on hot takes. So trying to convince the relatively few good ones to move on to strategic roles in companies that still need their user advocacy is not gonna help those companies.&lt;/p&gt;
+&lt;p&gt;Especially if your next aim is to get those designers on the growth or marketing trains.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Growth hacking&amp;quot; is what UX designers are destined for now? Or social media marketing? Turn me into glue now, then, thanks. UX efforts are necessary in all of these worlds, and product marketing is inextricably tied to product design — but the core tenets of UX are unaffected by Valley trends (like &amp;quot;growth hacking&amp;quot;) or marketing efforts, which are famous for attempting to &lt;em&gt;subvert&lt;/em&gt; the true needs of the user.&lt;/p&gt;
+&lt;p&gt;Let&#39;s not lose the voice of the user in an attempt to stay relevant to a fad-driven Product Hunting world. And if the going wisdom is &amp;quot;we solved that, time to move the talented designers on to growth hacking and marketing,&amp;quot; then I&#39;d consider that all the more reason why UX is still badly needed on the ground.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>On Mistral</title>
+		<link href="http://mikepropst.com/blog/on-mistral/"/>
+		<updated>2017-08-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/on-mistral/</id>
+		<content type="html">&lt;p&gt;I think &lt;a href=&quot;https://magenta.as/forget-comic-sans-mistral-is-the-typeface-you-should-love-to-hate-de799d9ea897&quot;&gt;the article itself&lt;/a&gt; disproves the thesis that Mistral is patently hateable— in fact the piece eased my own distaste for it. I am plenty old enough to remember a time before Comic Sans and Papyrus when Mistral was the only typeface to loathe.&lt;/p&gt;
+&lt;p&gt;One point that I think is key is that it was one of the few extant fonts, let alone ones that business owners had access to, that would approximate handwriting or graffiti. It&#39;s a big reason Comic Sans persists, and presumably why sites like Creative Market are flooded with handwritten custom typefaces. I find it hard to hate on small business owners who wanted their signs or truck stickers to be less brutalist. A world where an otherwise solid piece of art like &lt;em&gt;Straight Outta Compton&lt;/em&gt; can be packaged in crap design is a more fun world, anyway.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Stealing your way to original design with Dan Mall</title>
+		<link href="http://mikepropst.com/blog/stealing-your-way-to-original-design/"/>
+		<updated>2017-07-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/stealing-your-way-to-original-design/</id>
+		<content type="html">&lt;p&gt;Mall is a capable, arguably influential designer and writer on the web. It&#39;s always cool to see how the sausage is made, but even cooler to see that a person with his credentials has &lt;a href=&quot;https://danmall.com/posts/stealing-your-way-to-original-designs/&quot;&gt;a framework&lt;/a&gt; for creative &amp;quot;theft&amp;quot; as a basis for starting new designs.&lt;/p&gt;
+&lt;p&gt;When you&#39;re experienced, you start to internalize these kinds of layout patterns. But while recently working on a website, I realized I hadn&#39;t designed one in a very long time and was pretty unfamiliar with the nuts and bolts of a site these days. This would&#39;ve been a great way to get rolling, and I might try it for the next iteration.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Inline validation considered harmful</title>
+		<link href="http://mikepropst.com/blog/inline-validation-considered-harmful/"/>
+		<updated>2017-06-28T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/inline-validation-considered-harmful/</id>
+		<content type="html">&lt;p&gt;Just kidding, &lt;a href=&quot;https://medium.com/simple-human/inline-validation-is-problematic-399dd01d436f&quot;&gt;this article&lt;/a&gt; didn&#39;t really use that word. And rather than an alarmist view, this is a fairly measured take. However, most of the arguments are actually against &lt;em&gt;realtime&lt;/em&gt; (onblur) validation, not &lt;em&gt;inline&lt;/em&gt; validation.&lt;/p&gt;
+&lt;p&gt;I spent two years dealing with some serious problems that were born entirely out of the fact that an application used realtime+inline validation. And that was primarily in a series of wizard-like dialogs, which really didn&#39;t make any sense (the pattern of &amp;quot;disable the continue button until validation is cleared&amp;quot; would&#39;ve worked well).&lt;/p&gt;
+&lt;p&gt;Our problems included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;forms that didn&#39;t require a certain order to filling them out, but validation that did&lt;/li&gt;
+&lt;li&gt;false positives triggered by mouse actions that left users in an unresolvable state if they clicked &amp;quot;wrong&amp;quot;&lt;/li&gt;
+&lt;li&gt;field groups often in a false-positive state (point #4 in the article)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This isn&#39;t the same as saying that &lt;em&gt;per-field&lt;/em&gt; validation is wrong, and I still strongly believe in that, but this article has a lot of solid points.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Type on the web</title>
+		<link href="http://mikepropst.com/blog/type-on-the-web/"/>
+		<updated>2017-06-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/type-on-the-web/</id>
+		<content type="html">&lt;p&gt;Some great fundamentals &lt;a href=&quot;https://css-tricks.com/equilateral-triangle-perfect-paragraph/&quot;&gt;here&lt;/a&gt;. Other than the wide trend toward cranking the size that&#39;s been going on for a few years, really solid type work on the web is only recently coming into its own. It&#39;s kind of like when Khoi Vinh popularized grids a few years back; it made me wonder how many folks in this business have even studied design. I think it&#39;s great when people with more formal knowledge spread it to the web.&lt;/p&gt;
+&lt;p&gt;When it comes to type though, it&#39;s only been recently that we&#39;ve been able to have a real level of control over it.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Juicero teardown</title>
+		<link href="http://mikepropst.com/blog/juicero-teardown/"/>
+		<updated>2017-05-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/juicero-teardown/</id>
+		<content type="html">&lt;p&gt;An engineer shows, from an engineer&#39;s perspective, what we already know from a market and common-sense standpoint: &lt;a href=&quot;https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50&quot;&gt;The Juicero is idiotic.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Switching to Studio One</title>
+		<link href="http://mikepropst.com/blog/switching-to-studio-one/"/>
+		<updated>2017-03-23T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/switching-to-studio-one/</id>
+		<content type="html">&lt;p&gt;I recently worked to record my band&#39;s new EP, and decided to do something I don&#39;t normally have the opportunity to do when someone&#39;s paying me: I changed my DAW.&lt;/p&gt;
+&lt;p&gt;Backstory: my Mac is starting to become inoperable due to the longstanding need for operating system updates. Recently Chrome decided it didn&#39;t like my version of Mac OS anymore. But if I start moving to the California editions, I have to switch to Pro Tools 12. And if you don&#39;t know what that means, imagine moving from Adobe CS to Creative Cloud. Yeah, I sunk a lot of money into Pro Tools and I&#39;m not really into paying $25 a month or $300 for a year at this point.&lt;/p&gt;
+&lt;p&gt;So, I pulled out some old You Might Think We&#39;re Sharks base tracks from our last session that never got overdubs, and finished &lt;a href=&quot;https://soundcloud.com/soundofsharks/summer-moon&quot;&gt;&amp;quot;Summer Moon&amp;quot;&lt;/a&gt; in Presonus Studio One, which I&#39;ve been threatening to switch to for a while.&lt;/p&gt;
+&lt;p&gt;It went well, so I recorded An Empty Room&#39;s new one on it as well. There are some tradeoffs, but overall it&#39;s just a better experience and I wish I&#39;d done it sooner. One thing I missed from Cubase is that the music creation and mixing portions were well integrated. In recent years since dropping Cubase, I tend to compose in Ableton, then finalize and mix in Pro Tools. In Studio One, though it&#39;s obviously not the same as Ableton, I&#39;m able to integrate composition, tracking, and mixing pretty well. That works for our workflow since we&#39;ll add synths and samples in the mix process after doing the tracking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Pros:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Native compatibility with my hardware, which is made by Presonus as well.&lt;/li&gt;
+&lt;li&gt;Almost everything is faster. To send tracks to a bus, just select them all, right click, and select &amp;quot;Create Bus from selected tracks.&amp;quot; No more routing.&lt;/li&gt;
+&lt;li&gt;Track presets and plugin groups (so you can save an entire chain of plugins that you use often).&lt;/li&gt;
+&lt;li&gt;Stock EQ has a frequency analyzer.&lt;/li&gt;
+&lt;li&gt;VSTs and AUs are invariably cheaper and more available than AAX.&lt;/li&gt;
+&lt;li&gt;Comping is incredible. Just highlight each part of the take (&amp;quot;Layer&amp;quot; in Studio One) you want to promote and it&#39;s done.&lt;/li&gt;
+&lt;li&gt;Fades are automatic (like Ableton), and they can be tweaked with bezier curves, as can automation.&lt;/li&gt;
+&lt;li&gt;Dragging and dropping, in most cases, replaces menus and routing. Even importing audio files: just drag them in, and when you save the file Studio One asks if you want to copy the audio files to the project directory.&lt;/li&gt;
+&lt;li&gt;As of version 3.4, there is a Smart Tool just like Pro Tools.&lt;/li&gt;
+&lt;li&gt;Macros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The Cons:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I miss the single-stroke keyboard shortcuts. Leaving the modifier keys behind always made me feel like my keyboard was transformed into a spaceship control center. There are a few in S1, but not as many.&lt;/li&gt;
+&lt;li&gt;By that same token, keyboard focus is sometimes wobbly. You can search for plugins in the Insert/Send menus, which is amazing. But you can&#39;t reliably use the keyboard to select the one you find, and I end up selecting tracks, soloing them, etc.&lt;/li&gt;
+&lt;li&gt;Audio stretching is unintuitive.&lt;/li&gt;
+&lt;li&gt;No Beat Detective equivalent that I know of. I didn&#39;t use it that much anyway.&lt;/li&gt;
+&lt;li&gt;Nothing like Xpand! in the Artist version, but I recently picked up the VST version for a buck.&lt;/li&gt;
+&lt;li&gt;That&#39;s... about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&#39;m currently using Artist Edition with the iPad remote and VST plugin support upgrades. Most of the features that I would love to have in Pro Edition are not things that Pro Tools even had, like the Arranger Track.&lt;/p&gt;
+&lt;p&gt;Overall, it was a small curve, a relatively painless experience, and I didn&#39;t lose much for features. Certainly didn&#39;t lose any fun.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>IKEA hacking for the studio</title>
+		<link href="http://mikepropst.com/blog/ikea-hacking-for-the-studio/"/>
+		<updated>2017-03-23T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/ikea-hacking-for-the-studio/</id>
+		<content type="html">&lt;p&gt;Any time that I spend recording these days tends to be remote, and mixing happens 100% in the box. So loading up the rack spaces in my mix desk with outboard gear doesn&#39;t make a lot of sense. Maybe it would if I had some rackmount synths, but I don&#39;t. I previously traveled to remote gigs in a giant &lt;a href=&quot;http://www.guitarcenter.com/Odyssey/Carpeted-Combo-Mixer-Rack-Case-6-Space-1274115053698.gc&quot;&gt;Odyssey mixer case&lt;/a&gt; with 9 spaces on top and 6 on the bottom. It&#39;s ridiculous, even after adding casters, and near-impossible to load into the truck without risk of a hernia.&lt;/p&gt;
+&lt;p&gt;But even the smallest portable rack case is crazy expensive for my purposes. I&#39;m not going on tour. I&#39;ll move it occasionally from recording location to studio and back, but it&#39;s never going &amp;quot;on the road.&amp;quot; So after looking around I finally found this &lt;a href=&quot;http://www.instructables.com/id/8U-Rack-Case-From-IKEA-RAST-Table/&quot;&gt;simple &amp;quot;IKEA hack.&amp;quot;&lt;/a&gt; Conveniently, the Rast table is 19&amp;quot; wide on the inside and made of unfinished pine. Assembled as-is with some rack rails attached, it&#39;ll hold 6U worth of rack gear. But a slight modification lets it hold 8U. I added handles and a flourescent light in the back, spray painted it black, &lt;em&gt;et voila&lt;/em&gt;, a stupid-simple case.&lt;/p&gt;
+&lt;p&gt;With the bigger items like my ART preamp, there isn&#39;t a lot of horizontal room left, but if I ever did this again I think I&#39;d move the rack rails a little farther inside so the knobs were more protected. And for &lt;a href=&quot;http://www.ikea.com/us/en/catalog/products/44361109/&quot;&gt;$15 at IKEA&lt;/a&gt;, I suppose I &lt;em&gt;could&lt;/em&gt; make another attempt.&lt;/p&gt;
+&lt;p&gt;Cost breakdown:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IKEA Rast - $14.99&lt;/li&gt;
+&lt;li&gt;Rack rails - $6.96 x 2&lt;/li&gt;
+&lt;li&gt;Spray paint - $3&lt;/li&gt;
+&lt;li&gt;Handles - $3 x 2&lt;/li&gt;
+&lt;li&gt;Total: Under $45&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Closest thing I could find pre-made: &lt;a href=&quot;http://www.sweetwater.com/store/detail/RK8&quot;&gt;$130&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/rack_case_sm.jpg&quot; alt=&quot;DIY rack&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;FYI, my el cheapo signal chain, from the bottom up:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BBE bass EQ and preamp.&lt;/strong&gt; I dislike the Sonic Maximizer and the &amp;quot;BBE Sound&amp;quot; in general, but this thing will even out a crappy bass guitar and give it some sustain and punch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ART Pro MPA II (Gold Edition) mic preamp.&lt;/strong&gt; ART get no love, but their black 2U tube units (MPA, VLA, Channel) sell for under $200 and they sound good. The Gold Edition swaps tubes for a less hissy gain. I mostly use it on vocals, but if you have to record a guitar direct it&#39;ll give you real tube gain, which will make any plugin amp simulator sound that much more authentic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dbx 266xs compressor.&lt;/strong&gt; I believe the &amp;quot;xs&amp;quot; stands for &amp;quot;extra shitty&amp;quot; when it comes to dbx&#39;s model line, but honestly it&#39;s still a dbx compressor. Which means it&#39;s pretty transparent and easy to use as well. For vocals I&#39;ll dial in some light compression when recording, but it&#39;s useful as a limiter as well if that&#39;s all you need.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Symetrix 525 compressor.&lt;/strong&gt; I guess these things were originally for radio (duck the music as the DJ talks) but the sound is pretty darn good; I tend to use it to fatten/lengthen the sound of snares. Symetrix compressors have the distinction of being ultra-cheap (now and forever) but somehow approved by the GearSlutz community as useful tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presonus Firestudio Project.&lt;/strong&gt; I now have two of these interfaces because they&#39;re that good. For the money, it&#39;s almost impossible to beat the Presonus stuff. Decent gain on the preamps (could be better for vocals but that&#39;s what the ART is for), low noise, and pretty configurable and versatile. Chaining two is a breeze and gives you 16 mic inputs and 10 stereo outputs for a good bit less than a grand. I have never actually done remote recording with all 16, but in theory you could do a pretty good sized band at once.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Linting HTML with CSS</title>
+		<link href="http://mikepropst.com/blog/linting-html-with-css/"/>
+		<updated>2017-03-14T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/linting-html-with-css/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://bitsofco.de/linting-html-using-css/&quot;&gt;This&lt;/a&gt; is a really cool idea.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>It&#39;s grid time!</title>
+		<link href="http://mikepropst.com/blog/its-grid-time/"/>
+		<updated>2017-03-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/its-grid-time/</id>
+		<content type="html">&lt;p&gt;Firefox and Chrome have now officially launched support for CSS grid. Months of saving Rachel Andrew talks in your Pocket account and saying &amp;quot;I&#39;ll get to that soon, it won&#39;t be ready for a couple years anyway&amp;quot; have finally paid off!&lt;/p&gt;
+&lt;p&gt;I&#39;m kind of stoked to get into it. Here&#39;s a &lt;a href=&quot;https://css-tricks.com/getting-started-css-grid/&quot;&gt;CSS-Tricks primer&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Front End Style Guides by Anna Debenham</title>
+		<link href="http://mikepropst.com/blog/front-end-styleguides-by-anna-debenham/"/>
+		<updated>2017-01-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/front-end-styleguides-by-anna-debenham/</id>
+		<content type="html">&lt;p&gt;I&#39;m still pretty into design systems and style-guide driven design, and I&#39;m encouraged that the faddish nature of the conversation around these methods is passing into general wisdom and best practice. But there&#39;s still a lot of knowledge that has yet to be put &amp;quot;out there.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Brad Frost and Anna Debenham, who co-hosted a podcast together last year, are two of the biggest public proponents to recently release books on the subject. Whereas Frost&#39;s focuses more on the &amp;quot;why&amp;quot; and the philosophy of style-guide-driven design, Debenham&#39;s is very much a &amp;quot;how&amp;quot; book.&lt;/p&gt;
+&lt;p&gt;She first goes through some of the methodologies and techniques that help break designers of the nasty habit of designing by pages: style tiles, element collages, and component libraries. Then she covers the advantages of style guides.&lt;/p&gt;
+&lt;p&gt;From there, it&#39;s all practical. She focuses most of the book on the step by step process of implementing your first style-guide-driven redesign or creation of a component library. Throughout, she answers questions that real people doing real things with real style guides are going to ask: how rigid should I be, what tools should I use, what about maintenance once it&#39;s built... etc.&lt;/p&gt;
+&lt;p&gt;Overall, it&#39;s a short read but dense with useful, practical information from that rare breed — a developer who can write and explain concisely and clearly. If you&#39;ve gotten on board the philosophical train of style guides but aren&#39;t sure where to start, it&#39;s a good buy at $8. &lt;a href=&quot;http://www.maban.co.uk/projects/front-end-style-guides/&quot;&gt;Get it here.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Nielsen: Computer skills are worse than you think</title>
+		<link href="http://mikepropst.com/blog/people-are-bad-at-computers/"/>
+		<updated>2016-11-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/people-are-bad-at-computers/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.nngroup.com/articles/computer-skill-levels/&quot;&gt;Pretty bad&lt;/a&gt;. Not meant to be depressing though, I don&#39;t think. The core thing here is that you can&#39;t assume people are like you. Which you should not be doing, anyway.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Japanese logos</title>
+		<link href="http://mikepropst.com/blog/japanese-logos/"/>
+		<updated>2016-11-04T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/japanese-logos/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://iinejapanesetrademarks.tumblr.com/&quot;&gt;These are great&lt;/a&gt;. The Japanese are particularly  good at (or at least responsive to) character logos, as evidenced by the old classic &lt;a href=&quot;https://oxidedesign.com/a-logo-obsession-confession/&quot;&gt;Mitsui OSK Lines logo&lt;/a&gt; that you might&#39;ve seen on a shipping container.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Disenfranchised by bad design</title>
+		<link href="http://mikepropst.com/blog/disenfranchised-by-bad-design/"/>
+		<updated>2016-10-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/disenfranchised-by-bad-design/</id>
+		<content type="html">&lt;p&gt;Oh yay. &lt;a href=&quot;https://www.propublica.org/article/disenfranchised-by-bad-design&quot;&gt;The intersection of voter disenfranchisement and irresponsible design&lt;/a&gt;, it&#39;s the perfect storm of my rage.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>When to use &quot;me&quot; and &quot;you&quot; in a user interface</title>
+		<link href="http://mikepropst.com/blog/when-to-use-you-and-me-in-a-user-interface/"/>
+		<updated>2016-08-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/when-to-use-you-and-me-in-a-user-interface/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://medium.com/@jsaito/is-this-my-interface-or-yours-b09a7a795256&quot;&gt;This is a pretty good set of guidelines&lt;/a&gt;. I usually set up rules for any given project; I can&#39;t say that I&#39;ve ever really had a major guiding principle for how I&#39;m going to do things.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Don&#39;t Do It, No. 2137</title>
+		<link href="http://mikepropst.com/blog/dont-do-it-no-2137/"/>
+		<updated>2016-08-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/dont-do-it-no-2137/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://pitchfork.com/thepitch/1110-why-viet-cong-have-changed-their-name-an-interview-with-frontman-matt-flegel/&quot;&gt;Don&#39;t name your band after the villains&lt;/a&gt; if you don&#39;t have any idea what you&#39;re talking about. Further... if someone calls you on it, at least pretend you did know what you were doing at the time, otherwise you&#39;re just a tool. It&#39;s almost like #145, &amp;quot;Don&#39;t pretend you don&#39;t understand why your use of Nazi imagery bothers everyone.&amp;quot; (Hi Iceage).&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Ignore (some) user feedback</title>
+		<link href="http://mikepropst.com/blog/ignore-some-user-feedback/"/>
+		<updated>2016-07-15T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/ignore-some-user-feedback/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.erickarjaluoto.com/blog/ignore-some-user-feedback/&quot;&gt;Good points here.&lt;/a&gt; I think we&#39;re actually pretty good at this. We tally Zendesk feedback and periodically meet with customer service to see what&#39;s actually a problem and what is just the result of a few loud voices.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>To icon or not to icon</title>
+		<link href="http://mikepropst.com/blog/to-icon-or-not-to-icon/"/>
+		<updated>2016-06-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/to-icon-or-not-to-icon/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://ia.net/know-how/on-icons&quot;&gt;Pretty comprehensive writeup&lt;/a&gt; about the use of icons from the makers of iA Writer, one of the App Store&#39;s most popular overpriced minimalist writing apps.&lt;/p&gt;
+&lt;p&gt;The long and short of it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icons alone can&#39;t convey the meaning, causing usability issues&lt;/li&gt;
+&lt;li&gt;Text labels without icons are dry and not compelling, which is a UI problem of its own (whether we like that fact or not)&lt;/li&gt;
+&lt;li&gt;Both is almost always going to feel like a compromise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So... everything is bad, more or less. They advise getting things right without icons in the IA and wireframing stage, then adding on the emotional component as part of UI design. Sound approach, but ultimately we&#39;re still left with icons as a &lt;em&gt;pretty good&lt;/em&gt; solution that are still mostly unable to convey verbs and abstract concepts.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Meaningful CSS (Basically, what he said)</title>
+		<link href="http://mikepropst.com/blog/meaningful-css/"/>
+		<updated>2016-05-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/meaningful-css/</id>
+		<content type="html">&lt;p&gt;Here&#39;s Jonathan Snook with what is probably &lt;a href=&quot;http://snook.ca/archives/html_and_css/more-meaningful-css&quot;&gt;a more measured response&lt;/a&gt; than mine.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Semantics vs Objects and other scary CSS animals</title>
+		<link href="http://mikepropst.com/blog/semantics-vs-objects/"/>
+		<updated>2016-05-18T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/semantics-vs-objects/</id>
+		<content type="html">&lt;p&gt;I suppose it was only a matter of time. The backlash always appears. It&#39;s a pretty old argument to be honest, the idea of getting &amp;quot;back to basics&amp;quot; or &amp;quot;using the web as it was meant to be used.&amp;quot; But the reason that front end devs have gotten a bit away from &lt;a href=&quot;http://alistapart.com/article/meaningful-css-style-like-you-mean-it&quot;&gt;these kinds of methods of styling&lt;/a&gt; is that it doesn&#39;t support everything that everyone wants to do anymore.&lt;/p&gt;
+&lt;p&gt;I&#39;d still say that if you&#39;re making a website — even if you&#39;re working with atomic or styleguide-driven design — you&#39;re better off taking advantage of HTML elements, ARIA roles, and the cascade to style your site. But in the world of applications where structure is arbitrary and markup is not necessarily the most readable thing in the world (and guess what, this is often out of our hands), being reusable and &amp;quot;bulletproof&amp;quot; is more important to a lot of front end folks.&lt;/p&gt;
+&lt;p&gt;It&#39;s funny because this debate appears just as I&#39;m finally considering adopting BEM in a project. I love — and need— the idea of a self-contained piece of UI that I can drop anywhere. At its best, this is front-end methodology as UX improvement, because the consistency of those pieces of UI helps the overall experience. Even without that benefit, it aids in speed of dev. Embarrassingly, perhaps the main reason that I gravitated toward BEM is that I&#39;m sick of figuring out what to call things as I place HTML elements on a page.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Impercept EP</title>
+		<link href="http://mikepropst.com/blog/new-impercept-ep/"/>
+		<updated>2016-03-28T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/new-impercept-ep/</id>
+		<content type="html">&lt;p&gt;I spent a lot of time a couple months back experimenting with the new version of Reaktor. It doesn&#39;t actually work on my studio computer because it requires Yosemite, so it was something I could handle while at home on my newer Macbook Air (which runs Reaktor surprisingly well). For a cover and the title, I blasphemed the only &lt;a href=&quot;https://parvulusinfectus.bandcamp.com/album/the-mark-ov-force-unspoken&quot;&gt;Parvulus Infectus album&lt;/a&gt; released while we were together. It&#39;s maybe inspired by Bowie&#39;s cover for &lt;em&gt;The Next Day&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://impercept.bandcamp.com/album/the-force-of-marcus-dont-speak-it&quot;&gt;Check it out here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/marcus.jpg&quot; alt=&quot;MARCUS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Have a listen, and maybe like &lt;a href=&quot;http://facebook.com/impercept&quot;&gt;Impercept on Facebook&lt;/a&gt; for more of my musical experiments that don&#39;t logically fit with one of my bands.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

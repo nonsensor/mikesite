@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+templateClass: container main blog single
+---
+
+<article class="post {% if posttype == "editorial" %} editorial {% endif %}">
+  <div class="post__front">
+    <h1>{{ title }}</h1>
+    <div class="post__date">{{ page.date | readableDate }}</div>
+    <div class="post__body">
+        {{ content | safe }}
+    </div>
+    {% if tags %}
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      {%- for tag in tags | filterTagList %}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <dd><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></dd>
+      {%- endfor %}
+      </dl>
+    </div>
+    {% endif %}
+  </div>
+</article>
+
+
+
+
+
+{%- if collections.posts %}
+{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+
+<nav class="pager pager--listing">
+  <div>{%- if nextPost %}<a class="pager__prev" href="{{ nextPost.url | url }}">❮ {{ nextPost.data.title | truncate(28) }}</a>{% endif %}</div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div>{%- if previousPost %}<a class="pager__next" href="{{ previousPost.url | url }}">{{ previousPost.data.title | truncate(28) }} ❯</a>{% endif %}</div>
+</nav>
+{%- endif %}
+{%- endif %}

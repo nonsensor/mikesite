@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+
+    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
+    {#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+  </head>
+  <body>
+
+    <header class="header">
+     <div class="container header__title">
+       <p>✯ Mike's Site</p>
+     </div>
+    </header>
+
+
+    <div {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+	     <div class="row">
+		       <div class="col-sm-12 text">
+              {{ content | safe }}
+           </div>
+       </div>
+    </div>
+
+    <footer class="footer container cf" role="contentinfo">
+      <div class="copyright">
+        ©2022 Mike Propst
+      </div>
+    </footer>
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>

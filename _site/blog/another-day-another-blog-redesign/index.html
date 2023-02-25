@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another day, another blog redesign</title>
+    <meta name="description" content="Mike&#39;s blog.">
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Mike&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Mike&#39;s Site">
+  </head>
+  <body>
+
+    <header class="header">
+     <div class="container header__title">
+       <p>✯ Mike's Site</p>
+     </div>
+    </header>
+
+
+    <div  class="container main blog single">
+	     <div class="row">
+		       <div class="col-sm-12 text">
+              
+<article class="post ">
+  <div class="post__front">
+    <h1>Another day, another blog redesign</h1>
+    <div class="post__date">Apr 13, 2022</div>
+    <div class="post__body">
+        <p>Been thinking about doing this ever since I did the last one. It never quite came out the way I wanted and frankly, the newspaper-ish feel just didn't work. It worked in my head, and it sorta-kinda worked in Figma, and it just didn't translate.</p>
+<p>After reading about Utopia and thinking, hey maybe I should do that, I went a little deeper into the rabbit hole of simplicity.</p>
+<p>Some notes:</p>
+<ul>
+<li>There was no Figma phase to the &quot;design.&quot;</li>
+<li>I did this entirely live by mounting my website with <code>rclone</code> and editing live with GEdit (Atom couldn't browse and edit the remote files fast enough).</li>
+<li>There are 157 lines of CSS, un-minified, with a carriage return between each rule. It uses <strong>zero</strong> media queries. There aren't even any columns, so I didn't get the chance to evolve from flexbox to grid.</li>
+<li>I'm using CSS custom properties for the second time in my life, and though it doesn't give me everything I want from the Sass feature set, it's really great to get variables while staying native.</li>
+<li>I didn't quite leave the HTML unchanged, but I probably could've. I've been using almost the same HTML pretty much since I switched to Kirby many years ago.</li>
+<li>Standard posts have a larger first paragraph. This might possibly be inspired by <a href="https://gmi.skyjake.fi/lagrange/">Lagrange</a>, the nicest Gemini client out there.</li>
+</ul>
+<p>I suppose I'll enjoy looking at this for a couple weeks and then off we go again, probably with a pendulum swing to complexity. Or maybe I'll just change that yellow to something else to tide me over for a bit.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/365-days-of-type/">❮ 365 days of type 9 from TRUF</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/utopian-thinking/">Utopian thinking ❯</a></div>
+</nav>
+
+           </div>
+       </div>
+    </div>
+
+    <footer class="footer container cf" role="contentinfo">
+      <div class="copyright">
+        ©2022 Mike Propst
+      </div>
+    </footer>
+
+    <!-- Current page: /blog/another-day-another-blog-redesign/ -->
+  </body>
+</html>

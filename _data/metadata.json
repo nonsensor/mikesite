@@ -1,0 +1,21 @@
+{
+  "title": "Mike's Site",
+  "url": "http://mikepropst.com/",
+  "language": "en",
+  "description": "Mike's blog.",
+  "feed": {
+    "subtitle": "Mike's blog.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "http://mikepropst.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "http://mikepropst.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Mike Propst",
+    "email": "youremailaddress@example.com",
+    "url": "http://mikepropst.com/about-me/"
+  }
+}

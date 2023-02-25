@@ -1,0 +1,10 @@
+<ul class="postlist">
+{% for post in postslist | reverse %}
+{% if post.data.title %}
+  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+    <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
+    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>

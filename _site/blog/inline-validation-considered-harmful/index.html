@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline validation considered harmful</title>
+    <meta name="description" content="Mike&#39;s blog.">
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Mike&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Mike&#39;s Site">
+  </head>
+  <body>
+
+    <header class="header">
+     <div class="container header__title">
+       <p>✯ Mike's Site</p>
+     </div>
+    </header>
+
+
+    <div  class="container main blog single">
+	     <div class="row">
+		       <div class="col-sm-12 text">
+              
+<article class="post  editorial ">
+  <div class="post__front">
+    <h1>Inline validation considered harmful</h1>
+    <div class="post__date">Jun 28, 2017</div>
+    <div class="post__body">
+        <p>Just kidding, <a href="https://medium.com/simple-human/inline-validation-is-problematic-399dd01d436f">this article</a> didn't really use that word. And rather than an alarmist view, this is a fairly measured take. However, most of the arguments are actually against <em>realtime</em> (onblur) validation, not <em>inline</em> validation.</p>
+<p>I spent two years dealing with some serious problems that were born entirely out of the fact that an application used realtime+inline validation. And that was primarily in a series of wizard-like dialogs, which really didn't make any sense (the pattern of &quot;disable the continue button until validation is cleared&quot; would've worked well).</p>
+<p>Our problems included:</p>
+<ul>
+<li>forms that didn't require a certain order to filling them out, but validation that did</li>
+<li>false positives triggered by mouse actions that left users in an unresolvable state if they clicked &quot;wrong&quot;</li>
+<li>field groups often in a false-positive state (point #4 in the article)</li>
+</ul>
+<p>This isn't the same as saying that <em>per-field</em> validation is wrong, and I still strongly believe in that, but this article has a lot of solid points.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/design/" class="post-tag">design</a></dd>
+      <dd><a href="/tags/ux/" class="post-tag">UX</a></dd>
+      <dd><a href="/tags/front-end/" class="post-tag">front end</a></dd>
+      <dd><a href="/tags/javascript/" class="post-tag">javascript</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/stealing-your-way-to-original-design/">❮ Stealing your way to...</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/type-on-the-web/">Type on the web ❯</a></div>
+</nav>
+
+           </div>
+       </div>
+    </div>
+
+    <footer class="footer container cf" role="contentinfo">
+      <div class="copyright">
+        ©2022 Mike Propst
+      </div>
+    </footer>
+
+    <!-- Current page: /blog/inline-validation-considered-harmful/ -->
+  </body>
+</html>

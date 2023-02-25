@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a useful homelab</title>
+    <meta name="description" content="Mike&#39;s blog.">
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Mike&#39;s Site">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Mike&#39;s Site">
+  </head>
+  <body>
+
+    <header class="header">
+     <div class="container header__title">
+       <p>✯ Mike's Site</p>
+     </div>
+    </header>
+
+
+    <div  class="container main blog single">
+	     <div class="row">
+		       <div class="col-sm-12 text">
+              
+<article class="post  editorial ">
+  <div class="post__front">
+    <h1>Building a useful homelab</h1>
+    <div class="post__date">Feb 12, 2023</div>
+    <div class="post__body">
+        <p>A while back I started getting nervous about hosted services. Google starting to limit storage, Amazon killing off their music hosting, all of these were catalysts but a desire for privacy and a kind of old-school internet experience also drove my plans.</p>
+<p>After some semi-successful experimentation with Plex on a Raspberry Pi, I started thinking about how the same priciple could be applied to other services, like photo galleries. Turns out that not only are there a ton of self-hosted, open-source options for doing a lot of things you might want to do, most of them have been containerized to run in Docker.</p>
+<h2 id="the-components" tabindex="-1">The components <a class="direct-link" href="#the-components" aria-hidden="true">#</a></h2>
+<h3 id="a-computer" tabindex="-1">A computer <a class="direct-link" href="#a-computer" aria-hidden="true">#</a></h3>
+<p>My machine is not that powerful. It's a 4-core Pentium Lenovo Thinkstation with its main drive replaced with an SSD. It previously ran Mint desktop as a basic home computer. But after I got an old Macbook I didn't really need it, so it seemed like a perfect box to repurpose.</p>
+<h3 id="openmediavault" tabindex="-1">openmediavault <a class="direct-link" href="#openmediavault" aria-hidden="true">#</a></h3>
+<p>Far and away the most popular operating system for these kinds of boxes is <a href="https://www.openmediavault.org/">openmediavault</a>, a Debian distro with no desktop but a convenient web interface that allows even a relative dumbo like myself to mount drives and share them with services like SMB or FTP.</p>
+<h3 id="portainer" tabindex="-1">Portainer <a class="direct-link" href="#portainer" aria-hidden="true">#</a></h3>
+<p>As you might imagine, the web UI of OMV makes one want to do everything via your browser. SSH is not super hard, but it's mighty convenient to use Portainer, a great web UI for Docker.</p>
+<h3 id="jellyfin" tabindex="-1">Jellyfin <a class="direct-link" href="#jellyfin" aria-hidden="true">#</a></h3>
+<p>After spending what I consider to be too much money to watch my own stuff (PlexPass at $5/month), I went with <a href="https://jellyfin.org/">Jellyfin</a>, an open-source fork of Emby. I tell you what, we've come a long way since the old XBMC running on an overheating computer attached directly to the TV. It has clients for our computers, iOS and Android devices, and Roku, and perhaps because it doesn't need to do transcoding for those devices, the old computer barely even has to work when streaming to two different devices.</p>
+<h3 id="navidrome" tabindex="-1">Navidrome <a class="direct-link" href="#navidrome" aria-hidden="true">#</a></h3>
+<p>Music was never a strong point of Plex, though it was capable. <a href="https://navidrome.org">Navidrome</a> implements the Subsonic API, which is pretty well supported in a range of (admittedly varying-quality) third party apps, though it's better than Subsonic itself, which is Java. Is it your personal Spotify? Not quite, but close enough.</p>
+<h3 id="cups" tabindex="-1">CUPS <a class="direct-link" href="#cups" aria-hidden="true">#</a></h3>
+<p>Of course, right? We have a laser printer with no built-in network capabilities, and frankly we've had better luck using this old box than a dedicated print server from Monoprice.</p>
+<h3 id="paperless-ngx" tabindex="-1">Paperless-ngx <a class="direct-link" href="#paperless-ngx" aria-hidden="true">#</a></h3>
+<p>This is a really great <a href="https://paperless-ngx.com/">document archive system</a> that lets you specify all kinds of great metadata for finding your stuff when you need it (say, tax time or when the insurance company asks for documentation). An iOS app scans directly into it, where the server then OCRs all documents. From there, machine learning tools start trying to automatically apply metadata based on your defined patterns of text.</p>
+<h3 id="duplicati" tabindex="-1">Duplicati <a class="direct-link" href="#duplicati" aria-hidden="true">#</a></h3>
+<p>It's a GUI backup tool. Easy cheesy, and now all my stuff is backed up in Backblaze B2.</p>
+<h3 id="photos" tabindex="-1">Photos <a class="direct-link" href="#photos" aria-hidden="true">#</a></h3>
+<p>This is a whole other post. What a fun and frustrating journey.</p>
+<h2 id="resources" tabindex="-1">Resources <a class="direct-link" href="#resources" aria-hidden="true">#</a></h2>
+<p>It's hard to overstate the usefulness of <strong>/r/selfhosted</strong> as well as the subreddits for all the individual tools. Lots of people of varying levels of expertise willing to help.</p>
+<p>If you have any questions on how I did some of this stuff, hit me on twitter/cohost/FB/whatever and I can try to explain it in my just-enough-to-be-dangerous way.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/homelab/" class="post-tag">homelab</a></dd>
+      <dd><a href="/tags/technology/" class="post-tag">technology</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/rip-burt-bacharach/">RIP Burt Bacharach ❯</a></div>
+</nav>
+
+           </div>
+       </div>
+    </div>
+
+    <footer class="footer container cf" role="contentinfo">
+      <div class="copyright">
+        ©2022 Mike Propst
+      </div>
+    </footer>
+
+    <!-- Current page: /blog/building-a-useful-homelab/ -->
+  </body>
+</html>
