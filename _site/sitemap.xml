@@ -597,6 +597,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/blog/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/blog/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -664,5 +669,10 @@
   <url>
     <loc>http://mikepropst.com/blog/building-a-useful-homelab/</loc>
     <lastmod>2023-02-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/blog-enters-the-21st-century/</loc>
+    <lastmod>2023-02-25</lastmod>
   </url>
 </urlset>
