@@ -347,32 +347,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/figma/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/software/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ui/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/a11y/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/synth/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/ux/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ui/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -387,12 +372,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/homelab/</loc>
+    <loc>http://mikepropst.com/tags/figma/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/technology/</loc>
+    <loc>http://mikepropst.com/tags/software/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/a11y/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -403,6 +393,16 @@
   
   <url>
     <loc>http://mikepropst.com/tags/covid/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/homelab/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/technology/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
