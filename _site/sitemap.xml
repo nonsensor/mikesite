@@ -377,11 +377,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/react/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -402,6 +397,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/react/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/gear/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -417,6 +417,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/typography/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -427,17 +432,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/obit/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/audio/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/daw/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -472,7 +477,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/typography/</loc>
+    <loc>http://mikepropst.com/tags/windows/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/markdown/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -483,16 +493,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/copy/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/windows/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/markdown/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -557,17 +557,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/design-thinking/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/composition/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/recording/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design-thinking/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -592,7 +592,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
+    <loc>http://mikepropst.com/tags/customer-experience/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -602,7 +602,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/customer-experience/</loc>
+    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -684,5 +684,10 @@
   <url>
     <loc>http://mikepropst.com/blog/still-getting-things-done/</loc>
     <lastmod>2023-02-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/rip-ryuichi-sakamoto/</loc>
+    <lastmod>2023-04-05</lastmod>
   </url>
 </urlset>

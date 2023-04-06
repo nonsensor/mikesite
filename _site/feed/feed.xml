@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2023-02-28T00:00:00Z</updated>
+	<updated>2023-04-05T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>RIP Ryuchi Sakamoto</title>
+		<link href="http://mikepropst.com/blog/rip-ryuichi-sakamoto/"/>
+		<updated>2023-04-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-ryuichi-sakamoto/</id>
+		<content type="html">&lt;p&gt;It seems so recently that YMO’s Yukihiro Takahashi passed, and now we lose another of the great trio, and probably the one who is most well-known internationally outside of the group. Ryuichi Sakamoto was not only the heartthrob of the band, he had an extremely prolific solo output (his most recent release came out in January), collaborated with rad people like David Sylvian, Fennesz, Alva Noto, and Iggy Pop, and has even won an Oscar for scoring &lt;em&gt;The Last Emperor&lt;/em&gt; (and probably deserved another for &lt;em&gt;The Revenant&lt;/em&gt; but was ruled ineligible for dumb reasons).&lt;/p&gt;
+&lt;p&gt;This article, titled &lt;a href=&quot;https://www.msn.com/en-us/music/news/music-sounds-the-way-it-does-because-of-ryuichi-sakamoto/ar-AA19qzyJ&quot;&gt;“Music Sounds the Way it Does Because of Ryuichi Sakamoto”&lt;/a&gt;, is a great read but if you don&#39;t feel like taking the time, just trust the title. The man lived in the future but was grounded in organic and acoustic sounds, especially the piano. He will be monumentally missed.&lt;/p&gt;
+&lt;p&gt;Here is his beautiful collab with David Sylvian, “World Citizen (I Won’t Be Disappointed).”&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/LlpSj6TlXJ4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
 	
 	<entry>
 		<title>Get things done or die trying</title>
@@ -287,6 +298,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-ryuichi-sakamoto/&quot; class=&quot;postlist-link&quot;&gt;RIP Ryuchi Sakamoto&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-04-05&quot;&gt;Apr 5, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
