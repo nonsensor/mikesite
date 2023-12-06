@@ -5,12 +5,21 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2023-04-05T00:00:00Z</updated>
+	<updated>2023-12-06T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Has it really been that long?</title>
+		<link href="http://mikepropst.com/blog/has-it-been-that-long/"/>
+		<updated>2023-12-06T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/has-it-been-that-long/</id>
+		<content type="html">&lt;p&gt;Not joking, I forgot how Eleventy worked.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>RIP Ryuchi Sakamoto</title>
@@ -298,6 +307,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/has-it-been-that-long/&quot; class=&quot;postlist-link&quot;&gt;Has it really been that long?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-12-06&quot;&gt;Dec 6, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
