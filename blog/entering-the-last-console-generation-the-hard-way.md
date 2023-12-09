@@ -12,4 +12,6 @@ So I did what any insane person would do: I ordered a drive from iFixit, a site 
 
 ![Taking the thing apart](/img/ps4.jpg)
 
-I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there's a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in. All of this was significantly harder than upgrading a PC. But now we have a working PS4 and have been diving into *Spider-Man* (him) and *Horizon: Zero Dawn* (me), all for about $50 and some stressful tiny screw replacement.
+I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there's a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in. 
+
+Overall... significantly harder than upgrading a PC. But now we have a working PS4 and have been diving into *Spider-Man* (him) and *Horizon: Zero Dawn* (me), all for about $50 and some stressful tiny screw replacement.
