@@ -607,6 +607,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/blog/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -694,5 +699,10 @@
   <url>
     <loc>http://mikepropst.com/blog/has-it-been-that-long/</loc>
     <lastmod>2023-12-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/</loc>
+    <lastmod>2023-12-09</lastmod>
   </url>
 </urlset>

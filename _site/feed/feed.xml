@@ -5,12 +5,24 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2023-12-06T00:00:00Z</updated>
+	<updated>2023-12-09T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Entering the last console generation the hard way</title>
+		<link href="http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/"/>
+		<updated>2023-12-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/</id>
+		<content type="html">&lt;p&gt;My son&#39;s friend just straight up gave him a Playstation 4 a few weeks back. I have no idea what the circumstances are in which you have too many PS4s, but there we are. Unfortunately, it had been in storage for a while and someone had attempted a repair on it (for what? I don&#39;t know). So after buying a couple $5 games we found the CD drive just didn&#39;t want to work. I&#39;m not the biggest fan of digital games because of course you don&#39;t actually &lt;em&gt;own&lt;/em&gt; them, not to mention the drive sounds like it&#39;s gonna take off even if there&#39;s no disc in it.&lt;/p&gt;
+&lt;p&gt;So I did what any insane person would do: I ordered a drive from iFixit, a site with a 40%-complete tutorial on how to replace it. Turns out, the actual method for replacing the optical drive in a PS4 Slim is &amp;quot;just take the whole god damn console apart.&amp;quot; That quarter inch of thickness saved over the standard model comes at the expense of modularity.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/ps4.jpg&quot; alt=&quot;Taking the thing apart&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there&#39;s a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in. All of this was significantly harder than upgrading a PC. But now we have a working PS4 and have been diving into &lt;em&gt;Spider-Man&lt;/em&gt; (him) and &lt;em&gt;Horizon: Zero Dawn&lt;/em&gt; (me), all for about $50 and some stressful tiny screw replacement.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Has it really been that long?</title>
@@ -307,6 +319,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/&quot; class=&quot;postlist-link&quot;&gt;Entering the last console generation the hard way&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-12-09&quot;&gt;Dec 9, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
