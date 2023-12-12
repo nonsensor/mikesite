@@ -1,6 +1,7 @@
 ---
 title: What a gas
 date: 2023-12-12
+posttype: editorial
 tags:
   - history
 ---
