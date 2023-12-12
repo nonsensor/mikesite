@@ -5,12 +5,25 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2023-12-09T00:00:00Z</updated>
+	<updated>2023-12-12T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>What a gas</title>
+		<link href="http://mikepropst.com/blog/what-a-gas/"/>
+		<updated>2023-12-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/what-a-gas/</id>
+		<content type="html">&lt;p&gt;There are zillions of one-horse towns across the US, and most of them have a minor story worth going &amp;quot;huh, that&#39;s interesting&amp;quot; over. Mattoon, IL, (pronounced MATT-TOON with no obvious stress on either syllable, but certainly not muh-TOON) the hub of my maternal family side — a town that barely tops 15,000 people even today — has a couple that are way stranger than that.&lt;/p&gt;
+&lt;p&gt;The first of these is the country&#39;s original &lt;a href=&quot;https://en.wikipedia.org/wiki/Burger_King_(Mattoon,_Illinois)&quot;&gt;Burger King&lt;/a&gt;. The origin story was just that an ice cream stand called Frigid Queen (lovely...) needed a king when the owners expanded to fast food, and the logical choice was Burger King. In 1968 a court ruled that the more famous Burger King can&#39;t have a location within 20 miles of Mattoon, nor can the Original Burger King operate another restaurant outside the area. It&#39;s still there, and thriving as far as I know, at least to whatever extent a little burger shop can thrive in a tiny midwest town.&lt;/p&gt;
+&lt;p&gt;Perhaps more famous is the story of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Mad_Gasser_of_Mattoon&quot;&gt;Mad Gasser of Mattoon&lt;/a&gt; aka the Phantom Anesthetist, a 1940s incident that has over time become known as a textbook example of mass psychosis. Atlas Obscura has &lt;a href=&quot;https://www.atlasobscura.com/articles/column-mad-gasser-of-mattoon&quot;&gt;an interesting article on it&lt;/a&gt;. They posit that wartime situations and fears may have contributed to the weird hysteria that hung over the town like a fog. A chemical fog which of course did not actually exist. They make a good case.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/mattoon_headlines.jpg&quot; alt=&quot;Mattoon newspaper front page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Look at this newspaper from the time to get an idea of the national mood. Hopeful but war-weary and still afraid of phantom Nazi or Japanese enemies attacking while most of America&#39;s men are away. So what actually happened? We might never know if there was really an &amp;quot;Anesthetic Prowler&amp;quot; or if any of the attacks actually happened. But it&#39;s a creepy story and a fun one to have in the family.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Entering the last console generation the hard way</title>
@@ -320,6 +333,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/what-a-gas/&quot; class=&quot;postlist-link&quot;&gt;What a gas&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-12-12&quot;&gt;Dec 12, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
