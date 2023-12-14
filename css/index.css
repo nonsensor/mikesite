@@ -32,6 +32,15 @@ body {
   background: var(--header-color);
 }
 
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: var(--hilite-color);
+}
+
 .postlist-item {
   line-height: 1.8em;
 }
