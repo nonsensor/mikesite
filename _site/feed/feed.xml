@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2023-12-12T00:00:00Z</updated>
+	<updated>2023-12-19T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Horizon Zero Dawn</title>
+		<link href="http://mikepropst.com/blog/horizon/"/>
+		<updated>2023-12-19T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/horizon/</id>
+		<content type="html">&lt;p&gt;After undertaking a ridiculous repair job on our &amp;quot;new&amp;quot; Playstation 4, the logical choice was to start playing a game. Not sure what actually got me looking at &lt;em&gt;Horizon Zero Dawn,&lt;/em&gt; but it&#39;s one of the more fun titles I&#39;ve played in a while. I decided after almost 300 hours that I was done with &lt;em&gt;Tears of the Kingdom&lt;/em&gt; so I did the final boss and didn&#39;t look back. So you&#39;d think I might be done with swords-and-bows open world post-apocalyptic fantasy stuff. Yet I picked it up for $10 and it is a blast. Great stealth, fun combat, solid voice acting, and a mystery to unravel. There&#39;s a post-apocalyptic melancholy to the whole thing but it&#39;s shot through with humor too.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/KodUL1r_LFs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Looking forward to getting the sequel on sale, though for some reason the DLC is only on PS5. Get a PS5? No thanks! I will be giving that $500 to my daughter&#39;s preschool for approximately 17 minutes of child care.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>What a gas</title>
@@ -333,6 +344,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/horizon/&quot; class=&quot;postlist-link&quot;&gt;Horizon Zero Dawn&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2023-12-19&quot;&gt;Dec 19, 2023&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
