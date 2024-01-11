@@ -327,22 +327,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/music/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/mixing/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/engineering/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/css/</loc>
+    <loc>http://mikepropst.com/tags/ux/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -352,17 +337,32 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/javascript/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/webdev/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/software/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
+    <loc>http://mikepropst.com/tags/internet/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/housekeeping/</loc>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/css/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -378,6 +378,21 @@
   
   <url>
     <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/music/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/mixing/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/engineering/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -402,17 +417,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/obsidian/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/typography/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/ux/</loc>
+    <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -442,12 +452,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/life/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/internet/</loc>
+    <loc>http://mikepropst.com/tags/technology/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -472,16 +487,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/technology/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/webdev/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/html/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -497,11 +502,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/games/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/user-research/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -512,32 +512,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/housekeeping/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/games/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/work/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/movies/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/blog/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/composition/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/recording/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/covid/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -552,7 +537,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/homelab/</loc>
+    <loc>http://mikepropst.com/tags/movies/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/blog/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -562,12 +552,37 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/democracy/</loc>
+    <loc>http://mikepropst.com/tags/homelab/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/covid/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/composition/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/recording/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/design-thinking/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/democracy/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -592,7 +607,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
+    <loc>http://mikepropst.com/tags/home-studio/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -602,17 +617,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/home-studio/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/javascript/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <loc>http://mikepropst.com/tags/capitalism/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -719,5 +724,10 @@
   <url>
     <loc>http://mikepropst.com/blog/horizon/</loc>
     <lastmod>2023-12-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/i-knew-i-hated-this-game/</loc>
+    <lastmod>2024-01-11</lastmod>
   </url>
 </urlset>
