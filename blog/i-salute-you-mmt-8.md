@@ -14,7 +14,7 @@ Lately I've been digging an old school piece of hardware that probably sounds th
 
 It's a strange design that could only come out of the late 80s, like Knight Rider. It shares the lazer-zap shape with its brother the HR-16 (precursor to the [most successful drum machine of all time](http://mikepropst.com/blog/in-praise-of-the-alesis-sr-16), as well as the strange flip-up panel on top that contains an abbreviated user manual. Oddly, that shape does have the advantage of fitting a Korg Volca really nicely.
 
-![Alesis MMT-8]({{ '/img/mmt8.jpg | url' }})
+![Alesis MMT-8](/img/mmt8.jpg)
 
 The first "issue" with the machine is that it doesn't have a very accurate clock. It's slow by about a whole BPM. If you want to be tempo-accurate, you need something else to send the data. On its own though, it has a pretty solid clock, though it purely transmits what was recorded into it, so if you want some unique feel or timing with "character" you'll need to trigger other sequencers. I'm just dreading when I play a show and someone comes up to me to say "I bet you thought you were playing at 74 bpm but that was really 73." They're out there. I'm sure of it.
 
