@@ -1171,7 +1171,7 @@
 		<link href="http://mikepropst.com/blog/figma-organization-for-busy-designers/"/>
 		<updated>2021-05-24T00:00:00Z</updated>
 		<id>http://mikepropst.com/blog/figma-organization-for-busy-designers/</id>
-		<content type="html">&lt;p&gt;&lt;strong&gt;EDIT TO THIS POST: (link: &lt;a href=&quot;https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files&quot;&gt;https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files&lt;/a&gt; Figma has a much more native way of handling this now). It&#39;s pretty rad, try it out.&lt;/strong&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;strong&gt;EDIT TO THIS POST: &lt;a href=&quot;https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files&quot;&gt;Figma has a much more native way of handling this now&lt;/a&gt;. It&#39;s pretty rad, try it out.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you&#39;re like a lot of designers, especially young enthusiastic ones or possibly freelancers with time between projects, you love to organize and beautify your systems. I&#39;ve made a new CSS theme for my markdown editor! I built a home page for my browser that beautifully links to my current projects and most common pages. Etc.&lt;/p&gt;
 &lt;p&gt;One of the big offenders in the mess of my work life is the list of Figma projects. It&#39;ll always be preferable to the classic joke of &lt;code&gt;design_final_final_r2__final.sketch&lt;/code&gt; that anyone still in pre-Figma world is probably still dealing with, but it can be rough on the eyes.&lt;/p&gt;
 &lt;p&gt;I came up with something that works well for me.&lt;/p&gt;

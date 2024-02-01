@@ -7,7 +7,7 @@ tags:
   - design
 ---
 
-**EDIT TO THIS POST: (link: https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files Figma has a much more native way of handling this now). It's pretty rad, try it out.**
+**EDIT TO THIS POST: [Figma has a much more native way of handling this now](https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files). It's pretty rad, try it out.**
 
 If you're like a lot of designers, especially young enthusiastic ones or possibly freelancers with time between projects, you love to organize and beautify your systems. I've made a new CSS theme for my markdown editor! I built a home page for my browser that beautifully links to my current projects and most common pages. Etc.
 
