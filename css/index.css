@@ -101,12 +101,12 @@ body {
 }
 
 .single .post__front h1 {
-    margin: 0;
+    margin: 0 0 0.24em;
     padding: 0;
     /* padding: 0 0 4px; */
     /* border-bottom: 8px solid var(--hilite-color); */
     font-size: 2.4em;
-    line-height: 1.2em;
+    line-height: 1em;
 }
 
 .listing .post__front h1 {
