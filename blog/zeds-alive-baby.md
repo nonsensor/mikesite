@@ -1,6 +1,7 @@
 ---
 title: Zed's alive, baby
 date: 2024-02-01
+posttype: editorial
 tags:
   - front end
   - software

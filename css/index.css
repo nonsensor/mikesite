@@ -83,9 +83,13 @@ body {
 .single .editorial p:first-child {
     font-size: 1.1em;
     background: var(--lighter-color);
-    /* color: var(--header-color); */
+    color: var(--bg-color);
     padding: 1em;
     border-radius: 1lvw;
+}
+
+.single .editorial p:first-child a {
+    border-bottom: 1px dotted #fff;
 }
 
 *[aria-hidden="true"] {
