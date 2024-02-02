@@ -17,7 +17,7 @@
 		<link href="http://mikepropst.com/blog/migration-and=loss/"/>
 		<updated>2024-02-02T00:00:00Z</updated>
 		<id>http://mikepropst.com/blog/migration-and=loss/</id>
-		<content type="html">&lt;p&gt;I&#39;ve been moving a lot of posts finally from the old Kirby system. It just involves sucking metadata out of the Kirby format and into the frontmatter that Eleventy uses, which is something more portable for the next inevitable move.&lt;/p&gt;
+		<content type="html">&lt;p&gt;As this iteration of the blog enters its tenth year (and I believe it&#39;s on its third CMS? Fourth?) I&#39;ve been moving a lot of posts finally from the old Kirby system. It just involves sucking metadata out of the Kirby format and into the frontmatter that Eleventy uses, which is something more portable for the next inevitable move.&lt;/p&gt;
 &lt;p&gt;But while the process is more manual than I would like, it has given me an opportunity to look at old content. There are some really interesting links I&#39;ve blogged. Unfortunately, a HUGE chunk of them do not work anymore.&lt;/p&gt;
 &lt;p&gt;It&#39;s hard not to see this as something fundamentally messed up. Like, we&#39;ve broken the internet somehow.&lt;/p&gt;
 </content>
@@ -73,7 +73,8 @@
 		<link href="http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/"/>
 		<updated>2023-12-09T00:00:00Z</updated>
 		<id>http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/</id>
-		<content type="html">&lt;p&gt;My son&#39;s friend just straight up gave him a Playstation 4 a few weeks back. I have no idea what the circumstances are in which you have too many PS4s, but there we are. Unfortunately, it had been in storage for a while and someone had attempted a repair on it (for what? I don&#39;t know). So after buying a couple $5 games we found the CD drive just didn&#39;t want to work. I&#39;m not the biggest fan of digital games because of course you don&#39;t actually &lt;em&gt;own&lt;/em&gt; them, not to mention the drive sounds like it&#39;s gonna take off even if there&#39;s no disc in it.&lt;/p&gt;
+		<content type="html">&lt;p&gt;My son&#39;s friend just straight up gave him a Playstation 4 a few weeks back. I have no idea what the circumstances are in which you have too many PS4s, but there we are.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it had been in storage for a while and someone had attempted a repair on it (for what? I don&#39;t know). So after buying a couple $5 games we found the CD drive just didn&#39;t want to work. I&#39;m not the biggest fan of digital games because of course you don&#39;t actually &lt;em&gt;own&lt;/em&gt; them, not to mention the drive sounds like it&#39;s gonna take off even if there&#39;s no disc in it.&lt;/p&gt;
 &lt;p&gt;So I did what any insane person would do: I ordered a drive from iFixit, a site with a 40%-complete tutorial on how to replace it. Turns out, the actual method for replacing the optical drive in a PS4 Slim is &amp;quot;just take the whole god damn console apart.&amp;quot; That quarter inch of thickness saved over the standard model comes at the expense of modularity.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/ps4.jpg&quot; alt=&quot;Taking the thing apart&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there&#39;s a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in.&lt;/p&gt;

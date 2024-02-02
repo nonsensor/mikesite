@@ -5,8 +5,8 @@ templateClass: container main blog single
 
 <article class="post {% if posttype == "editorial" %} editorial {% endif %}">
   <div class="post__front">
-    <h1>{{ title }}</h1>
     <div class="post__date">{{ page.date | readableDate }}</div>
+    <h1>{{ title }}</h1>
     <div class="post__body">
         {{ content | safe }}
     </div>
