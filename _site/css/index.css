@@ -81,7 +81,7 @@ body {
     border-bottom: 1px dotted var(--text-color);
 }
 
-.single .editorial p:first-child {
+.single .editorial .post__body > p:first-child {
     font-size: 1.1em;
     background: var(--lighter-color);
     color: var(--bg-color);
@@ -168,7 +168,7 @@ body {
 }
 
 .post__body h3 {
-    margin-bottom: 0;
+    margin-bottom: 0.32em;
 }
 
 .post__body p {
@@ -327,4 +327,10 @@ h2,
 h3,
 h4 {
     font-family: var(--heading-font);
+}
+
+pre[class*="language-"] {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    border-radius: 10px;
 }

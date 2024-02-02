@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Better static sites with Jade</title>
+        <meta
+            name="description"
+            content="Mike&#39;s blog."
+        />
+        <!-- here is a comment that I am testing deploy with -->
+
+        <link rel="preconnect" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="/css/index.css" />
+        <link
+            rel="stylesheet"
+            href="/css/prism-base16-monokai.dark.css"
+        />
+        <link rel="stylesheet" href="/css/prism-diff.css" />
+        <link
+            rel="alternate"
+            href="/feed/feed.xml"
+            type="application/atom+xml"
+            title="Mike&#39;s Site"
+        />
+        <link
+            rel="alternate"
+            href="/feed/feed.json"
+            type="application/json"
+            title="Mike&#39;s Site"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__title container">
+                <p><a href="/">✯ Mike's Site</a></p>
+            </div>
+        </header>
+
+        <div  class="container main blog single" >
+            <div class="row">
+                <div class="col-sm-12 text">
+<article class="post  editorial ">
+  <div class="post__front">
+    <h1>Better static sites with Jade</h1>
+    <div class="post__date">Aug 5, 2014</div>
+    <div class="post__body">
+        <p><strong>UPDATE:</strong> I haven't used it in a while but in theory I really still like <s>Jade</s> Pug.</p>
+<p>If, like me, you've been riding the current wave of preprocessors and static site generators, you're probably overwhelmed by the choices out there. As with musical tools, I tried to <a href="/2014/04/16/the-enemy-of-done/">take my own advice</a> and pick one thing to stick to for a while, see how it goes. I happened to pick a less-popular, less-mature tool with less documentation and material out there than any other. But it's not based in Ruby, and that should make Alex happy.</p>
+<p>Jade was created by a 22-year-old CS undergraduate in England, and it's a super cool little pseudo-language for templates, written in Node. Unlike Ghost, which powers this blog, you don't need to get Node running on a web server to make sites with it, which can restrict your choice of web hosts. On the contrary, you run Node on your local box and generate a static site with the Jade processor, then host that bad boy pretty much anywhere.</p>
+<p>Here's a little bit about Jade, and if you've used templating engines before you may find it to be pretty familiar. If not, then it's a really good starter language.</p>
+<h2 id="basic-syntax" tabindex="-1">Basic Syntax <a class="direct-link" href="#basic-syntax" aria-hidden="true">#</a></h2>
+<p>If I had to pick a central principle of Jade's syntax, it'd be the indention-awareness. Yes, it's written in Javascript, but you won't see brackets and semicolons everywhere (which is something I think Sass has over LESS). Just indent the next line and you're nesting html or logic.</p>
+<pre class="language-pug"><code class="language-pug"><span class="token tag">body</span><br>  <span class="token tag"><span class="token attr-class">.container</span></span><br>    <span class="token tag">h1<span class="token attr-class">.pagetitle</span></span> <span class="token plain-text">Page Title</span><br>    <span class="token tag">p<span class="token attr-id">#opening-paragraph</span></span> <span class="token plain-text">This is some text.</span></code></pre>
+<p>Pretty simple, right? <code>div</code> is an implied tag, and the <code>#</code> and <code>.</code> do what you might expect if you passed CSS 101. Here's the output:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagetitle<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Page Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>opening-paragraph<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>This is some text.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></code></pre>
+<p>A benefit here is that keeping tags properly nested and closed — which can be a bear when you're dealing with templates — becomes a lot easier.</p>
+<p>Attributes are written as arguments, so this</p>
+<pre class="language-pug"><code class="language-pug"><span class="token tag">a<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">"/blog/"</span></span><span class="token punctuation">,</span><span class="token attr-name">data-custom</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">"val"</span></span><span class="token punctuation">)</span></span></span> <span class="token plain-text">Blog Link</span></code></pre>
+<p>produces</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/blog/<span class="token punctuation">"</span></span> <span class="token attr-name">data-custom</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>val<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Blog Link<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<p>Aside from a few idiosyncracies and some details, that's totally it for markup. I can't speak for all editors, but the always-wonderful Sublime Text does have syntax highlighting schemes for Jade to make life a little easier.</p>
+<h2 id="variables" tabindex="-1">Variables <a class="direct-link" href="#variables" aria-hidden="true">#</a></h2>
+<p>Variables are defined pretty easily — no need to set up a special block of Javascript or anything, just define it with a dash and put spaces around the <code>=</code>.</p>
+<pre class="language-pug"><code class="language-pug">  <span class="token punctuation">-</span><span class="token code"><span class="token keyword">var</span> dogname <span class="token operator">=</span> <span class="token string">"Rufus"</span></span></code></pre>
+<p>There are a couple ways to use variables. THe most basic is to put an <code>=</code> immediately (no spaces) after an element:</p>
+<pre class="language-pug"><code class="language-pug"><span class="token tag">h2</span><span class="token punctuation">=</span><span class="token code"> dogname</span></code></pre>
+<p>This will produce <code>&lt;h2&gt;Rufus&lt;/h2&gt;</code>, which is a pretty great dog name you don't hear nearly often enough. But sometimes things aren't that simple, and you need to get the variable into a string. If you know you want to produce <code>&lt;a href=&quot;Rufus.html&quot;&gt;Rufus&lt;/a&gt;</code>, you can use a pound and curly bracket syntax.</p>
+<pre class="language-pug"><code class="language-pug"><span class="token tag">a<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">href</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">"#{dogname}"</span><span class="token punctuation">.</span>html</span><span class="token punctuation">)</span></span></span><span class="token punctuation">=</span><span class="token code"> dogname</span></code></pre>
+<p>This combination of the two types of variable output gives us what we want.</p>
+<h2 id="mixins-and-includes" tabindex="-1">Mixins and Includes <a class="direct-link" href="#mixins-and-includes" aria-hidden="true">#</a></h2>
+<p>Being tired of typing opening and closing carats is a pretty good reason to use Jade to begin with, but there's a lot more power in it than saved keystrokes and easy tag closing. Like CSS preprocessors, it gives you mixins, and like server-side languages, it provides for includes.</p>
+<p>Includes are so self-explanatory they're barely worth mentioning, but I'll say this: remember your indentation when you call the include. You want to make sure your HTML structure stays intact.</p>
+<p>Mixins are reusable blocks of markup or code that can take arguments. These can be used to absolutely destroy repetitive tasks. If you're in any way familiar with programming, think of a mixin as a function. Because that's what it is.</p>
+<p>The following</p>
+<pre class="language-pug"><code class="language-pug"><span class="token mixin"><span class="token keyword">mixin</span> <span class="token function">gal_image</span><span class="token punctuation">(</span>imgurl<span class="token punctuation">,</span>caption<span class="token punctuation">)</span></span><br>  <span class="token tag">li</span><br>    <span class="token tag">img<span class="token attributes"><span class="token punctuation">(</span><span class="token attr-name">src</span><span class="token punctuation">=</span><span class="token attr-value"><span class="token string">"images/#{imgurl}"</span></span><span class="token punctuation">)</span></span></span><br>    <span class="token tag">p</span><span class="token punctuation">=</span><span class="token code"> caption</span></code></pre>
+<p>Looks a little tricky, but let's break it down.  First you define a mixin using the unsurprising keyword &quot;mixin.&quot; You can add arguments as well — and you will likely need to.</p>
+<p>You can output the arguments in both of the same ways you'd use explicitly defined variables. To use the mixin, just add a <code>+</code> and call it, putting the arguments in parentheses much like a javascript function. Here's an example usage for the above.</p>
+<pre class="language-pug"><code class="language-pug"><span class="token mixin"><span class="token name function">+gal_image</span><span class="token punctuation">(</span><span class="token string">"my_image.png"</span><span class="token punctuation">,</span><span class="token string">"This is an image"</span><span class="token punctuation">)</span></span></code></pre>
+<p>which produces</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/my_image.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is an image<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></code></pre>
+<p>Not bad, right? As in this example, mixins can make short work of repetitive elements like photo gallery or portfolio images.</p>
+<h2 id="extends" tabindex="-1">Extends <a class="direct-link" href="#extends" aria-hidden="true">#</a></h2>
+<p>As with many template languages like Smarty or Django, Jade utilizes the concept of child templates and <em>Extends</em> to make files more efficient and manageable. For instance, a website could have a <code>page</code> template and a <code>company-info</code> page template that's based on it. Extends can go as many levels deep as you like, but a typical case for a static site might be 3 levels: <em>base → page type → individual page.</em></p>
+<p>In order to take advantage of them, just add <code>extends</code> with the URL to the base template at the beginning of your file. If you want them to really work for you, you'll want to use <em>Blocks</em>.</p>
+<h2 id="blocks" tabindex="-1">Blocks <a class="direct-link" href="#blocks" aria-hidden="true">#</a></h2>
+<p>If you've never used a templating system that features them, Blocks aren't immediately intuitive. But they're hugely powerful, and they're what makes Extends really work. In any given template, think of it this way: includes are static markup, but a block is something that could be variable from page to page.</p>
+<pre class="language-pug"><code class="language-pug"><span class="token keyword">include includes/header</span><br><span class="token tag">body</span><br>  <span class="token tag"><span class="token attr-class">.content</span></span><br>    <span class="token keyword">block pagecontent</span><br><span class="token keyword">include includes/footer</span></code></pre>
+<p>Here, the header and footer are includes because they're the same throughout the site. But to get a variable piece of markup or content in the <code>.content</code> div, we use a Block.</p>
+<p>Now, on each page, tell Jade that we're extending the <code>base.jade</code> file, and reference the same <code>pagecontent</code> block:</p>
+<pre class="language-pug"><code class="language-pug"><span class="token keyword">extends base</span><br><br><span class="token keyword">block pagecontent</span><br>  <span class="token tag">h2</span> <span class="token plain-text">My awesome title</span><br>  <span class="token tag">p</span> <span class="token plain-text">Hi I'm writing content! It's king, I hear.</span></code></pre>
+<p>Not rocket surgery. You can also define a default in the base template, so that in the event a given page doesn't have that block you can always fall back.</p>
+<h2 id="getting-it-to-run" tabindex="-1">Getting it to Run <a class="direct-link" href="#getting-it-to-run" aria-hidden="true">#</a></h2>
+<p>So how does this stuff work? I mentioned that it's not a back end language, so you're not going to run it on the server. It's pre-compiled into static files. Jade, like other Node-based tools, can be compiled in a number of ways. I'm not planning on getting too into that, but here are a few:</p>
+<ul>
+<li>Node on the command line. This is the most basic. You can just compile a directory of Jade files into HTML, or have Node &quot;watch&quot; the directory and compile the files as you save them.</li>
+<li><a href="http://gruntjs.com/">Grunt</a>, which can run lots of other Node-based things at the same time with a single command in the terminal, and then get packaged for a deployment environment that works the same as your development one. Unfortunately, Grunt requires a lot of up-front setup to make that single command work. There are resources out there.</li>
+<li><a href="http://incident57.com/">CodeKit for Mac</a> (this app is really what got me into Jade. It's a bit costly but fun and also works with plenty of other pre-compiling tools)</li>
+</ul>
+<p>Next I'll outline how I put together a portfolio site using Jade and LESS. Hopefully this was helpful.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/front-end/" class="post-tag">front end</a></dd>
+      <dd><a href="/tags/webdev/" class="post-tag">webdev</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/curmudgeons/">❮ Curmudgeons, get your facts...</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/strong-foundation/">If you can&#39;t build it all,... ❯</a></div>
+</nav>
+</div>
+            </div>
+        </div>
+
+        <footer class="footer cf container" role="contentinfo">
+            <div class="copyright">©2024 Mike Propst</div>
+        </footer>
+
+        <!-- Current page: /blog/jade/ -->
+    </body>
+</html>

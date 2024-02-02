@@ -2,8 +2,163 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mikepropst.com/blog/uh-oh/</loc>
+    <lastmod>2014-04-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/equals/</loc>
+    <lastmod>2014-04-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/photo-shooting/</loc>
+    <lastmod>2014-04-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/hats/</loc>
+    <lastmod>2014-04-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/tweakin/</loc>
+    <lastmod>2014-04-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/enemy-of-done/</loc>
+    <lastmod>2014-04-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/mac-scrollbars/</loc>
+    <lastmod>2014-06-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/stocco-rhythmic-processing/</loc>
+    <lastmod>2014-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/harrison-mixbus/</loc>
+    <lastmod>2014-07-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/strong-foundation/</loc>
+    <lastmod>2014-07-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/jade/</loc>
+    <lastmod>2014-08-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/curmudgeons/</loc>
+    <lastmod>2014-08-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/grunt/</loc>
+    <lastmod>2014-10-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/tables-considered-good/</loc>
+    <lastmod>2014-11-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/everybody-scrolls/</loc>
+    <lastmod>2014-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/change/</loc>
+    <lastmod>2014-12-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/lobotomized-owl/</loc>
+    <lastmod>2014-12-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/UX-for-enerprise/</loc>
+    <lastmod>2015-01-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/favorite-albums-2014/</loc>
+    <lastmod>2015-01-27</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/blog/editing-images-in-css/</loc>
     <lastmod>2015-02-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/so-long/</loc>
+    <lastmod>2015-02-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/seven-sins-of-css/</loc>
+    <lastmod>2015-03-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/texture-js/</loc>
+    <lastmod>2015-03-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/thanks-byword/</loc>
+    <lastmod>2015-03-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/favorite-mixing-plugins-2015/</loc>
+    <lastmod>2015-04-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/rip-stan-freberg/</loc>
+    <lastmod>2015-04-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/smashing-style-guide-tools/</loc>
+    <lastmod>2015-04-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/mainstream-success-imminent/</loc>
+    <lastmod>2015-04-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/wub-is-in-the-air/</loc>
+    <lastmod>2015-04-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/aria-landmark-roles/</loc>
+    <lastmod>2015-04-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/bad-townies/</loc>
+    <lastmod>2015-04-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/heresie/</loc>
+    <lastmod>2015-04-29</lastmod>
   </url>
   
   <url>
@@ -34,6 +189,11 @@
   <url>
     <loc>http://mikepropst.com/blog/sublime-material-theme/</loc>
     <lastmod>2015-06-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/powerpoint-justice/</loc>
+    <lastmod>2015-06-24</lastmod>
   </url>
   
   <url>
@@ -572,6 +732,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/ui/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/mixing/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -598,11 +763,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/computers/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ui/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -672,7 +832,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/style-guides/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/food/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/life/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -687,7 +857,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/life/</loc>
+    <loc>http://mikepropst.com/tags/dataviz/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -837,7 +1007,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/style-guides/</loc>
+    <loc>http://mikepropst.com/tags/audio-engineering/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   

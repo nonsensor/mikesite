@@ -1158,6 +1158,13 @@
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/powerpoint-justice/&quot; class=&quot;postlist-link&quot;&gt;PowerPoint Justice&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-24&quot;&gt;Jun 24, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
     &lt;a href=&quot;http://mikepropst.com/blog/sublime-material-theme/&quot; class=&quot;postlist-link&quot;&gt;Material Sublime Theme&lt;/a&gt;
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-16&quot;&gt;Jun 16, 2015&lt;/time&gt;
   &lt;/li&gt;
@@ -1200,8 +1207,225 @@
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/heresie/&quot; class=&quot;postlist-link&quot;&gt;Heresie&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-29&quot;&gt;Apr 29, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/bad-townies/&quot; class=&quot;postlist-link&quot;&gt;Bad townies&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-27&quot;&gt;Apr 27, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/aria-landmark-roles/&quot; class=&quot;postlist-link&quot;&gt;ARIA landmark roles&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-24&quot;&gt;Apr 24, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/wub-is-in-the-air/&quot; class=&quot;postlist-link&quot;&gt;Wub is in the air&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-21&quot;&gt;Apr 21, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/mainstream-success-imminent/&quot; class=&quot;postlist-link&quot;&gt;Mainstream success is super imminent&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-21&quot;&gt;Apr 21, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/smashing-style-guide-tools/&quot; class=&quot;postlist-link&quot;&gt;Smashing runs down Style Guide tools&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-17&quot;&gt;Apr 17, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-stan-freberg/&quot; class=&quot;postlist-link&quot;&gt;RIP to Stan Freberg&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-08&quot;&gt;Apr 8, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/&quot; class=&quot;postlist-link&quot;&gt;My favorite recent mixing plugins&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-04-07&quot;&gt;Apr 7, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/thanks-byword/&quot; class=&quot;postlist-link&quot;&gt;Thanks, Byword&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-03-31&quot;&gt;Mar 31, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/texture-js/&quot; class=&quot;postlist-link&quot;&gt;textures.js&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-03-20&quot;&gt;Mar 20, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/seven-sins-of-css/&quot; class=&quot;postlist-link&quot;&gt;Solving the seven sins of CSS&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-03-11&quot;&gt;Mar 11, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/so-long/&quot; class=&quot;postlist-link&quot;&gt;So long, and thanks for all the Lone Star tallboys&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-02-09&quot;&gt;Feb 9, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
     &lt;a href=&quot;http://mikepropst.com/blog/editing-images-in-css/&quot; class=&quot;postlist-link&quot;&gt;Editing images in CSS&lt;/a&gt;
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-02-03&quot;&gt;Feb 3, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/favorite-albums-2014/&quot; class=&quot;postlist-link&quot;&gt;My favorite albums of 2014&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-01-27&quot;&gt;Jan 27, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/UX-for-enerprise/&quot; class=&quot;postlist-link&quot;&gt;UX for enterprise&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-01-20&quot;&gt;Jan 20, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/lobotomized-owl/&quot; class=&quot;postlist-link&quot;&gt;The lobotomized owl&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-12-29&quot;&gt;Dec 29, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/change/&quot; class=&quot;postlist-link&quot;&gt;Change is what the web is about&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-12-17&quot;&gt;Dec 17, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/everybody-scrolls/&quot; class=&quot;postlist-link&quot;&gt;Everybody scrolls&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-12-08&quot;&gt;Dec 8, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/tables-considered-good/&quot; class=&quot;postlist-link&quot;&gt;Tables — no longer the devil&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-11-19&quot;&gt;Nov 19, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/grunt/&quot; class=&quot;postlist-link&quot;&gt;(A series of grunting noises)&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-10-09&quot;&gt;Oct 9, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/curmudgeons/&quot; class=&quot;postlist-link&quot;&gt;Curmudgeons, get your facts straight&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-08-30&quot;&gt;Aug 30, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/jade/&quot; class=&quot;postlist-link&quot;&gt;Better static sites with Jade&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-08-05&quot;&gt;Aug 5, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/strong-foundation/&quot; class=&quot;postlist-link&quot;&gt;If you can&amp;#39;t build it all, build a strong foundation&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-07-04&quot;&gt;Jul 4, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/harrison-mixbus/&quot; class=&quot;postlist-link&quot;&gt;Harrison Mixbus first impressions&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-07-03&quot;&gt;Jul 3, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/stocco-rhythmic-processing/&quot; class=&quot;postlist-link&quot;&gt;Diego Stocco&amp;#39;s Rhythmic Processing&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-06-27&quot;&gt;Jun 27, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/mac-scrollbars/&quot; class=&quot;postlist-link&quot;&gt;Hey screen designers on Macs&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-06-09&quot;&gt;Jun 9, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/enemy-of-done/&quot; class=&quot;postlist-link&quot;&gt;The enemy of done&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-16&quot;&gt;Apr 16, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/tweakin/&quot; class=&quot;postlist-link&quot;&gt;Tweakin&amp;#39;&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-11&quot;&gt;Apr 11, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/hats/&quot; class=&quot;postlist-link&quot;&gt;Hats&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-08&quot;&gt;Apr 8, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/photo-shooting/&quot; class=&quot;postlist-link&quot;&gt;Photo Shooting&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-07&quot;&gt;Apr 7, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/equals/&quot; class=&quot;postlist-link&quot;&gt;The Equals&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-07&quot;&gt;Apr 7, 2014&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/uh-oh/&quot; class=&quot;postlist-link&quot;&gt;Uh Oh&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2014-04-06&quot;&gt;Apr 6, 2014&lt;/time&gt;
   &lt;/li&gt;
   
 
@@ -2370,6 +2594,15 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 	</entry>
 	
 	<entry>
+		<title>PowerPoint Justice</title>
+		<link href="http://mikepropst.com/blog/powerpoint-justice/"/>
+		<updated>2015-06-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/powerpoint-justice/</id>
+		<content type="html">&lt;p&gt;I wonder if Edward Tufte &lt;a href=&quot;https://www.themarshallproject.org/2014/12/23/powerpoint-justice&quot;&gt;knows about this&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Material Sublime Theme</title>
 		<link href="http://mikepropst.com/blog/sublime-material-theme/"/>
 		<updated>2015-06-16T00:00:00Z</updated>
@@ -2437,11 +2670,672 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 	</entry>
 	
 	<entry>
+		<title>Heresie</title>
+		<link href="http://mikepropst.com/blog/heresie/"/>
+		<updated>2015-04-29T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/heresie/</id>
+		<content type="html">&lt;p&gt;I stumbled on this a while back when I was big on reading mp3 blogs. In the few years since I regularly trawled those sites for the mysterious and bizarre gems they posted, many of the really sought-after pieces have been reissued.&lt;/p&gt;
+&lt;p&gt;For the “Rock In Opposition (R.I.O.)” bands of the 70s, King Crimson was just too simple and pop-oriented. R.I.O. were progressive rock bands from England and Europe who packed so much complexity into their music that the standard prog fans wouldn’t touch them. Their audience consisted of avant weirdos, industrial heads, and fans of more experimental stuff, and their membership was as varied as Henry Cow and This Heat.&lt;/p&gt;
+&lt;p&gt;Belgian chamber rock band Univers Zero were one of the most intense R.I.O. groups, and Heresie is the best and darkest of their work. It’s sonically dissonant and very, very oppressive sounding in both its density of notes and darkness of mood. Perfect lights-off, scare-yourself music.&lt;/p&gt;
+&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:album:68fWbPDzZMjOoLGabHVHmn&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Bad townies</title>
+		<link href="http://mikepropst.com/blog/bad-townies/"/>
+		<updated>2015-04-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/bad-townies/</id>
+		<content type="html">&lt;p&gt;On the way to work this morning, I heard Op Ivy&#39;s &amp;quot;Bad Town,&amp;quot; and I realized two things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is objectively the worst song on &lt;em&gt;Energy&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Tim Armstrong&#39;s obsession with both rap and violence, which came to a head with his and Travis Barker&#39;s awful group the Transplants, is nothing new.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/j6EVwQJN3oA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;p&gt;Not going anywhere with that. Just thinking.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>ARIA landmark roles</title>
+		<link href="http://mikepropst.com/blog/aria-landmark-roles/"/>
+		<updated>2015-04-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/aria-landmark-roles/</id>
+		<content type="html">&lt;p&gt;Some of the commenters are arguing that there is, in fact, plenty of information out there. But &lt;a href=&quot;http://alistapart.com/column/wai-finding-with-aria-landmark-roles&quot;&gt;this is a good primer&lt;/a&gt; on something that I feel like I &lt;em&gt;should&lt;/em&gt; be doing but never seemed to have a good idea of how to do it.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wub is in the air</title>
+		<link href="http://mikepropst.com/blog/wub-is-in-the-air/"/>
+		<updated>2015-04-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/wub-is-in-the-air/</id>
+		<content type="html">&lt;p&gt;This weekend I was buying cables in Guitar Center and they had just the most terrible sounds going in the pro audio department, maybe even worse than the sounds that are always coming out of the guitar department.&lt;/p&gt;
+&lt;p&gt;It was a fairly generic female singer doing some kind of singer-songwriter, almost-pop ballad stuff, but over the most obnoxious Skrillex-style American dubstep.&lt;/p&gt;
+&lt;p&gt;I like James Blake but I just can’t imagine anything more incongruous than the blaring wub-wub with the mellow vocals, it’s like a DJ randomly mixing two records with no regard to content.&lt;/p&gt;
+&lt;p&gt;Does anyone have any idea what this is so I can avoid it in the future?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Mainstream success is super imminent</title>
+		<link href="http://mikepropst.com/blog/mainstream-success-imminent/"/>
+		<updated>2015-04-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/mainstream-success-imminent/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: About a year after I posted this, we were already done, though we probably played more shows than the other Make-a-Band groups. I did, however, go on to form &lt;strong&gt;An Empty Room&lt;/strong&gt; with David the drummer, which lasted until he moved to Switzerland. I&#39;m also still in touch with the band &amp;quot;producer&amp;quot; Mike. It was, all in all, a great thing to do.&lt;/p&gt;
+&lt;p&gt;Life since the move is mostly an endless series of boxes, but I have managed to get myself embroiled in one of the weirdest artistic situations of my almost 20 years of playing music.&lt;/p&gt;
+&lt;p&gt;I&#39;d seen the Make-A-Band posters around town but hadn&#39;t really given much thought to what it even was. Erika saw an ad in the Eugene Weekly and convinced me that I was sufficiently musical and lacking in dignity to do it. So what &lt;em&gt;is&lt;/em&gt; it? Basically, a bunch of musicians audition for 6 producers, who pick them to form 6 bands. The bands then perform in a competition.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/1429200952940.jpg&quot; alt=&quot;Make-A-Band Poster&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The producers are local studio owners, record engineers, and (in the case of the ones who picked me) people in the business of video game scoring. The auditions are 3 minutes. And the competition is downtown, outdoors, for the whole damn ass world to see.&lt;/p&gt;
+&lt;p&gt;Even with Sharks, I don&#39;t feel like I ever took traditional, above-ground routes to musical performance and networking. It was always the DIY, punk rock thing — which of course in Austin is the only way anybody manages because it&#39;s a &amp;quot;who you know&amp;quot; situation and I&#39;ve rarely known anything or anybody. But regardless of how this thing turns out, I&#39;ve met some like-minded people and many of the folks making the Eugene music scene tick.&lt;/p&gt;
+&lt;p&gt;So here&#39;s the band, Gravity Nocturne. We&#39;re doing a jazzy, updated take on trip-hop. We&#39;re also all like 21, except me.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/gravity.nocturne-v1.jpg&quot; alt=&quot;Gravity Nocturne&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Don&#39;t worry, I&#39;ll be back to playing for nobody soon.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Smashing runs down Style Guide tools</title>
+		<link href="http://mikepropst.com/blog/smashing-style-guide-tools/"/>
+		<updated>2015-04-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/smashing-style-guide-tools/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; It&#39;s amazing, looking back 9 years at what was available then. We moved from Stocco to Storybook shortly after and that&#39;s become a standard since. But in the meantime there are &lt;em&gt;so&lt;/em&gt; many more tools, and Figma&#39;s Dev Mode just came out of beta a couple days ago.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2015/04/13/an-in-depth-overview-of-living-style-guide-tools/&quot;&gt;Pretty good overview here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At D&amp;amp;B we started with the PHP-based Style Guide Boilerplate tool but ended up maintaining the most low-impact (but highly manual) system possible. It was a single web page. Comments in the HTML told developers where to grab pieces of markup. Not high-tech, and it required a lot of manual maintenance. But it was easy to keep it looking just like the PSD version.&lt;/p&gt;
+&lt;p&gt;At PAS I implemented StyleDocco using &lt;a href=&quot;https://www.npmjs.com/package/grunt-styledocco&quot;&gt;Grunt-StyleDocco&lt;/a&gt;. Display leaves a lot to be desired so I ended up diving into the source to modify it. I can now change the template (which is a simple Jade file) and style if necessary.&lt;/p&gt;
+&lt;p&gt;Why StyleDocco? Short answer: it shows the CSS code. This was important to our developers. StyleDocco creates a new page for every Less file, splits it up by the &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; elements in the comments, and shows those pieces alongside the HTML and samples.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP to Stan Freberg</title>
+		<link href="http://mikepropst.com/blog/rip-stan-freberg/"/>
+		<updated>2015-04-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-stan-freberg/</id>
+		<content type="html">&lt;p&gt;I&#39;ll be honest, I wasn&#39;t sure that Stan Freberg was still alive when I heard the news he&#39;d died yesterday (from Weird Al Yankovic&#39;s Instagram). But I spent a great deal of my childhood listening to him, thanks to my parents&#39; taste for vintage comedy.&lt;/p&gt;
+&lt;p&gt;Of all the things that played in our house — like Paul Simon or Dave Brubeck or Louis Armstrong — Spike Jones and Stan Freberg stand out. Simon&#39;s inscrutable lyrics are not something a kid can identify with. But if you&#39;re even remotely aware of &lt;em&gt;Dragnet&lt;/em&gt;, then Freberg&#39;s &amp;quot;St. George and the Dragonet&amp;quot; is a hoot.&lt;/p&gt;
+&lt;p&gt;So maybe I get just a little extra sad thinking about Stan Freberg than the average celebrity death. My mind free-associates his voices and sketches with my mother. But at the end of the day, his work is &lt;em&gt;funny&lt;/em&gt;. It&#39;s clean, but not cheesy. It references pop culture of its time, but feels timeless.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://archive.org/details/stan_freberg_show&quot;&gt;Check out the entirety of his radio show on the Internet Archive.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My favorite recent mixing plugins</title>
+		<link href="http://mikepropst.com/blog/favorite-mixing-plugins-2015/"/>
+		<updated>2015-04-07T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/favorite-mixing-plugins-2015/</id>
+		<content type="html">&lt;p&gt;The plugins I&#39;ve been using lately have changed dramatically from when I started mixing. Sometimes I&#39;m guilty of buying into hype, but I&#39;ve started to discover what I like. And I&#39;m always waiting for it to go on special...&lt;/p&gt;
+&lt;h2 id=&quot;criteria&quot; tabindex=&quot;-1&quot;&gt;Criteria &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#criteria&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So what makes a good plugin? For me, it&#39;s &lt;em&gt;less is more&lt;/em&gt;: less options, less possibilities to twiddle, and less graphical EQ curves. Sight is a strong sense, and it can fool even an experienced ear.&lt;/p&gt;
+&lt;h2 id=&quot;eq&quot; tabindex=&quot;-1&quot;&gt;EQ &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#eq&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;psp-audioware-mcq&quot; tabindex=&quot;-1&quot;&gt;PSP Audioware McQ &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#psp-audioware-mcq&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This 4-band plus high/low filters isn&#39;t a true analog modeler, it&#39;s a hybrid. But it sounds great, is easy to use, and doesn&#39;t hit your processor hard. So really, it&#39;s safe to put on just about everything. Its bands are hard to read (Why is it &amp;quot;.10kHz&amp;quot; instead of &amp;quot;100Hz&amp;quot;?), but they&#39;re highly controllable. So you can do both broad strokes and somewhat detailed surgery.&lt;/p&gt;
+&lt;h3 id=&quot;waves-api-560&quot; tabindex=&quot;-1&quot;&gt;Waves API 560 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#waves-api-560&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Under ideal cirumstances I&#39;d have the whole Waves API 500 series bundle, but this one went on sale. It&#39;s fun to have a graphic EQ sometimes, especially one with only a few bands. It sounds great on a wide variety of sources too.&lt;/p&gt;
+&lt;h3 id=&quot;waves-scheps-76&quot; tabindex=&quot;-1&quot;&gt;Waves Scheps 76 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#waves-scheps-76&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Another modeler, this one after a console. The gimmick is the integrated preamp. The bands aren&#39;t fixed on this EQ but the knobs have huge steps so you can only dial in a few possible frequencies each. The Qs are not variable. It sounds great on drums, especially kicks. Given those few bands, it&#39;s easy to crank the 60Hz and then throw one on the bass and drop the 60Hz there so they don&#39;t fight. The preamp section can add smooth overdrive to the bass as well.&lt;/p&gt;
+&lt;h3 id=&quot;maag-eq4&quot; tabindex=&quot;-1&quot;&gt;Maag EQ4 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#maag-eq4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;An incredible EQ. It&#39;s got four fixed bands, a fixed Q, and some frankly weird frequency choices. But those bands were supposedly picked to cause the least amount of phase effects. It sounds absolutely magical. It&#39;s possible I bought into the hype with this one, but I got a deal and I can&#39;t say I feel any regret. I do feel almost guilty using it though; it requires barely any thought to make vocals, acoustic guitars, and even some drums sound amazing.&lt;/p&gt;
+&lt;h3 id=&quot;nomad-factory-pulsetec&quot; tabindex=&quot;-1&quot;&gt;Nomad Factory PulseTec &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#nomad-factory-pulsetec&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Nomad Factory is the Rodney Dangerfield of plugin companies. I&#39;m not sure if this thing sounds remotely like a real Pultec but it goes on all my master busses. It was completely bonkers to me at first to be able to simultaneously boost and cut the same frequencies, but man it does the trick. Not great on the top end (the Maag can handle that), but it thickens and tightens mids and low-mids.&lt;/p&gt;
+&lt;h3 id=&quot;tokyo-dawn-labs-slickeq&quot; tabindex=&quot;-1&quot;&gt;Tokyo Dawn Labs SlickEQ &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#tokyo-dawn-labs-slickeq&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Another super transparent phase-free EQ, but this one is geared toward the master buss and costs nothing.&lt;/p&gt;
+&lt;h2 id=&quot;dynamics&quot; tabindex=&quot;-1&quot;&gt;Dynamics &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#dynamics&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;waves-cla-76&quot; tabindex=&quot;-1&quot;&gt;Waves CLA-76 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#waves-cla-76&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I waited a great long while for this to go on sale. I&#39;ve always wanted an 1176 that wasn&#39;t the Bomb Factory BF76 that comes with Pro Tools. It&#39;s everything I wanted it to be and I use it everywhere — primarily drums but it&#39;ll tame a problematic source quickly and with character. At its full price, it probably still wouldn&#39;t be bad.&lt;/p&gt;
+&lt;h3 id=&quot;waves-renaissance-axx&quot; tabindex=&quot;-1&quot;&gt;Waves Renaissance Axx &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#waves-renaissance-axx&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I wonder how many people use this thing. I mean, everyone&#39;s got the Native Power Pack, right? But Renaissance Axx is one of those tools that feels like cheating. Just slide the threshold down and watch it magically even out guitars and basses. It uses so little processor I get pretty generous slapping it on guitar tracks. I&#39;ve heard a few pros cop to using this thing and why the hell not?&lt;/p&gt;
+&lt;h3 id=&quot;t-racks-opto-compressor&quot; tabindex=&quot;-1&quot;&gt;T-Racks Opto Compressor &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#t-racks-opto-compressor&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;IK Multimedia is another company that gets a lot of poop from people. But I&#39;ve had their opto compressor for a long time and it&#39;s one of my favorite tools for vocals. It can open up a weak track by an inexperienced vocalist who&#39;s all over the place or who didn&#39;t project. You can get miles of compression out of the thing with much more transparency than an 1176. Sometimes I&#39;ll double a difficult vocalist&#39;s track, overdrive it, crank the mids and highs with a smooth EQ like the Maag, and then flatten it out with this compressor. Mixing in a little bit of that adds presence and is probably a super old trick not worth mentioning. But this is a good comp to do it with.&lt;/p&gt;
+&lt;h3 id=&quot;tokyo-dawn-labs-kotelnikov&quot; tabindex=&quot;-1&quot;&gt;Tokyo Dawn Labs Kotelnikov &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#tokyo-dawn-labs-kotelnikov&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&#39;m still learning this feedback compressor, but it&#39;s smooth and transparent. You almost have to watch the meters to see that it&#39;s compressing, but it can make the master buss sound great. And though you can spring for the &amp;quot;Gentlemen&#39;s Edition&amp;quot; (?), the basic version is super great and costs zero dollars.&lt;/p&gt;
+&lt;h3 id=&quot;ddmf-the-strip&quot; tabindex=&quot;-1&quot;&gt;DDMF The Strip &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#ddmf-the-strip&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is actually a full channel strip so it&#39;s both and EQ and compressor, in switchable order. It has a Neve look and that&#39;s the starting point for the modeling. But this amazing plug goes a little farther into original territory than most models. DDMF is one of the few developers who can get away with charging next to nothing for plugins yet still get respect from GearSlutz. I got it for $30 as a launch special and I&#39;m crazy impressed. Even the knob motion reveals just how much thought went into this. The developer is also a mixer, and it shows.&lt;/p&gt;
+&lt;h3 id=&quot;flux-bittersweet&quot; tabindex=&quot;-1&quot;&gt;Flux Bittersweet &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#flux-bittersweet&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Sometimes you need simple transient shaping that&#39;ll get the job done without interfering with other dynamics processing. How&#39;s one knob? How&#39;s free? It sounds nice too.&lt;/p&gt;
+&lt;h2 id=&quot;other-stuff&quot; tabindex=&quot;-1&quot;&gt;Other Stuff &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#other-stuff&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;blue-cat-patchwork&quot; tabindex=&quot;-1&quot;&gt;Blue Cat Patchwork &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#blue-cat-patchwork&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The Blue Cat folks make some great stuff. This is a simple but flexible plugin chainer that gives me solid performance loading VSTs or AU plugins into Pro Tools. DDMF&#39;s Metaplugin would also do the trick, probably very nicely as well.&lt;/p&gt;
+&lt;h3 id=&quot;blue-cat-freqanalyst-and-ik-t-racks-meters&quot; tabindex=&quot;-1&quot;&gt;Blue Cat FreqAnalyst and IK T-Racks Meters &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-mixing-plugins-2015/#blue-cat-freqanalyst-and-ik-t-racks-meters&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;With these two free metering tools, I can monitor what my sound &amp;quot;looks like&amp;quot; for the low cost of free.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Thanks, Byword</title>
+		<link href="http://mikepropst.com/blog/thanks-byword/"/>
+		<updated>2015-03-31T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/thanks-byword/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;UPDATE in 2024&lt;/strong&gt; Byword costs $11 now, but it&#39;s still here and still works great. Using Eleventy and writing mostly short posts, I tend to use a code editor now, but anything longer and out comes Byword.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://macsparky.com/blog/2014/12/byword-i-still-love-you&quot;&gt;David Sparks still loves Byword&lt;/a&gt; and by golly I do too. I write most everything that&#39;s longer than this post in it, although lately I&#39;ve been running things through &lt;a href=&quot;http://hemingwayapp.com/&quot;&gt;Hemingway&lt;/a&gt; as well.&lt;/p&gt;
+&lt;p&gt;I struggle with the hype that inevitably surrounds each new and shiny Markdown or RTF editor that costs $40. Most do literally nothing that Byword hasn&#39;t been doing for years now for five bucks.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>textures.js</title>
+		<link href="http://mikepropst.com/blog/texture-js/"/>
+		<updated>2015-03-20T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/texture-js/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://riccardoscalco.github.io/textures/&quot;&gt;Super cool library for d3.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Reminds me of Paint on an old monochromatic Mac. I have to say I like the way they made the page color look like a Tufte book. (via CSS-Tricks)&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Solving the seven sins of CSS</title>
+		<link href="http://mikepropst.com/blog/seven-sins-of-css/"/>
+		<updated>2015-03-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/seven-sins-of-css/</id>
+		<content type="html">&lt;p&gt;Recently, the ReactJS community has set its sights on a new method of building styles into React-based front ends. It comes straight from the source, Facebook. Here&#39;s the deck.&lt;/p&gt;
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;2e15908049bb013230960224c1b4b8bd&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;http://speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;I think this presentation makes a lot of sense to a lot of developers who&#39;ve begun to think in the component-based (and honestly very sensible) React methodology. But there are a lot of strange justifications and a path paved with over-engineering that leads to vjeux&#39;s ultimate solution.&lt;/p&gt;
+&lt;p&gt;Warning: This is long.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;the-problems&quot; tabindex=&quot;-1&quot;&gt;The &amp;quot;Problems&amp;quot; &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#the-problems&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First, here are the problems that vjeux outlines. I&#39;m not here to provide better solutions for them, but I will say that in many cases, they&#39;re not really problems at all.&lt;/p&gt;
+&lt;h3 id=&quot;1-global-namespace&quot; tabindex=&quot;-1&quot;&gt;1. Global Namespace &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#1-global-namespace&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Firstly, I think this is key to illustrating why a developer of vjeux&#39;s caliber can have a great thought process but miss the boat to some degree on CSS. He calls a class a &amp;quot;global variable.&amp;quot; This seems at first like a matter of introducing programming semantics into the conversation so we all know what we&#39;re talking about, but I think it&#39;s conflating what a &lt;em&gt;class&lt;/em&gt; and a &lt;em&gt;variable&lt;/em&gt; actually are. The word itself indicates that the value of a variable can change — if anything, a CSS class is a constant. It&#39;s simply a pointer or reference. If you prefer, a class or ID selector is a set of rules more akin to a function (or, in OO, a &lt;em&gt;class&lt;/em&gt;... probably no coincidence there).&lt;/p&gt;
+&lt;p&gt;But getting away from a concept I honestly feel somewhat inadequately equipped to really talk about at length, the &amp;quot;namespace&amp;quot; issue itself is the first of these that isn&#39;t really an issue. A class living on its own, even one attached to an element (e.g., &lt;code&gt;div.myclass&lt;/code&gt;), does inhabit a &amp;quot;global&amp;quot; namespace in the sense that you can use that class anywhere with no limitations. Only good practice will limit you. But writing self-contained rules is not incredibly hard, is it? Take this piece of LESS (roughly identical in SCSS):&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.specific-container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token selector&quot;&gt;input.super-specific-input&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;/* style rules */&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token selector&quot;&gt;label.super-specific-label&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;/* style rules */&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the sense that &lt;code&gt;.specific-container&lt;/code&gt; is available to use and abuse anywhere, it is a &amp;quot;global&amp;quot; element. But that class in itself becomes an effective namespace for anything within it. And a few simple naming conventions can take that further.&lt;/p&gt;
+&lt;p&gt;I can barely think straight to comment on these (literally) backwards extensions that the Facebook team apparently wrote before arriving at the conclusion that they should abandon CSS altogether.&lt;/p&gt;
+&lt;h3 id=&quot;2-dependencies&quot; tabindex=&quot;-1&quot;&gt;2. Dependencies &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#2-dependencies&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&#39;m not entirely sure I understood this section, mostly because the expectations of CSS working like a build process (i.e., errors should cause everything to break) is such a foreign concept to me.&lt;/p&gt;
+&lt;p&gt;Maintainability and monitoring the Cascade used to be a huge issue with CSS. This is something that preprocessors have solved incredibly well, even though they don&#39;t change many fundamental aspects of CSS. That includes the Cascade itself, but one of Less&#39;s early counterarguments was that the ability to write such modular CSS discourage &amp;quot;proper&amp;quot; or &lt;em&gt;cascading&lt;/em&gt; use of styles. I&#39;m not exactly pedantic on that myself, but if one were so inclined to write completely modular Less/Sass with no globally-impacting styles and no large-scale cascading, it&#39;s not very hard to do. Basically the above example, repeated numerous times as separate files and associated with each module or UI component, &lt;em&gt;becomes&lt;/em&gt; a set of dependencies. These are easily managed by Less/Sass imports.&lt;/p&gt;
+&lt;h3 id=&quot;3-dead-code-elimination&quot; tabindex=&quot;-1&quot;&gt;3. Dead Code Elimination &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#3-dead-code-elimination&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Near as I can tell, what they&#39;re referring to as &amp;quot;dead code elimination&amp;quot; is a product of their own solution. I can&#39;t really speak to this.&lt;/p&gt;
+&lt;p&gt;What I can say is that poorly-maintained, long-running, legacy CSS (the old way, without the concatenation made possible from preprocessors) is a problem for a lot of people. This is not a fault of the language itself. Less/Sass certainly make it easier.&lt;/p&gt;
+&lt;h3 id=&quot;4-minification&quot; tabindex=&quot;-1&quot;&gt;4. Minification &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#4-minification&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Maybe someone can help me here, but I&#39;m confused about this one — the old, extended-CSS solution let Facebook&#39;s developers use incredibly weird, non-semantic, but very short class names in order to save a couple bytes. It&#39;s bizarre but has its logic. So how does programmatically replacing a token with a long list of inline styles — which are maintained as a single component but echoed into a page once for every instance — save bytes? Not sure. If semantic class selectors is a problem of byte size, that&#39;s fine, but I don&#39;t think it&#39;s one that huge, redundant inline styles can solve.&lt;/p&gt;
+&lt;h3 id=&quot;5-sharing-constants&quot; tabindex=&quot;-1&quot;&gt;5. Sharing Constants &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#5-sharing-constants&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;What&#39;s the old quote? There are two hard things in computer science: cache invalidation and naming things. Making your stuff sync up between content, presentation, and behavior is a problem old as the hills, but most teams don&#39;t have the specific problem in this deck because they&#39;re not working with this weird system.&lt;/p&gt;
+&lt;p&gt;What vjeux shows here is a worst-of-both-worlds scenario where style has been mixed into behavior, but not all the way. I would argue that yes, in fact, his completely inline solution is a better answer than the hodgepodge here.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; buttonPadding &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Reading that physically hurt me. He says &amp;quot;unfortunately there are many real world use cases where you need to do it.&amp;quot; Not sure I buy that. If you really, &lt;em&gt;really&lt;/em&gt; feel this need, there are tools for your Grunt or Gulp file that will transform a list of Less/Sass variables into Javascript at build time and thus keep the values synced automatically.&lt;/p&gt;
+&lt;p&gt;Upon reading the solution they developed, I got pretty confused at &amp;quot;CSS Variables.&amp;quot;&lt;/p&gt;
+&lt;h3 id=&quot;6-non-deterministic-resolution&quot; tabindex=&quot;-1&quot;&gt;6. Non-deterministic Resolution &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#6-non-deterministic-resolution&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is another case of holding CSS to the same standards of behavior as a logical programming language, which it is not. The &amp;quot;linear&amp;quot; flow of later rules overriding earlier ones is always something that programmers struggle with because they can&#39;t organize things according to how they like; &lt;strong&gt;they must organize according to how the web browser is going to read the document&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Writing with the modular, &amp;quot;namespaced&amp;quot; blocks of Less/Sass eases these problems in two ways: one, confining the rules to their own pocket of markup will keep them from affecting anything else in the application, and two, the ease of auditing the styles will prevent unexpected cascades.&lt;/p&gt;
+&lt;h3 id=&quot;7-breaking-isolation&quot; tabindex=&quot;-1&quot;&gt;7. Breaking Isolation &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#7-breaking-isolation&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I feel sad for the team at Facebook who&#39;ve been burned by a poor understanding and even poorer practices of CSS writing. Overriding in the way shown in the example is unfortunate. But imagining myself as a designer in that organization, forced to think in an upside down way about my CSS, it kinda feels like it&#39;s no wonder the designers reach for non-ideal solutions as long as they &lt;em&gt;work&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;my-problems-with-the-solution&quot; tabindex=&quot;-1&quot;&gt;My Problems with the Solution &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#my-problems-with-the-solution&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I can certainly see the appeal of just styling within the component as Javascript. The author does fall into a pattern that is common among devs (I&#39;ve done it too): a post-hoc justification.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Second, style is actually a much better name than class. You want to &amp;quot;style&amp;quot; the element, not &amp;quot;class&amp;quot; it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Let&#39;s not bring the semantics into it — I get that the actual english &lt;em&gt;words&lt;/em&gt; make more sense, but we&#39;ve all agreed on what that word means in the context of markup. This is a side point though.&lt;/p&gt;
+&lt;h4 id=&quot;1-redundant-bytes-and-information&quot; tabindex=&quot;-1&quot;&gt;1. Redundant bytes and information &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#1-redundant-bytes-and-information&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Whether you&#39;re talking in terms of human readability or the space taken on disk/downloaded over the internet, I have to question whether multiple references to a single CSS class:&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.btnClass&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #333&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 2px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #fff&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;is not preferable to&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value css language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#333&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;2px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#fff&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;One button&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;repeated over and over throughout the application. And here of course I&#39;m using a very simple example; most real-world CSS rules are going to be &lt;em&gt;significantly larger&lt;/em&gt;. This is one of those questions that I assume has been empirically answered, but there isn&#39;t a lot of usage of this method going around yet, so I don&#39;t know.&lt;/p&gt;
+&lt;h3 id=&quot;2-separation-of-concerns&quot; tabindex=&quot;-1&quot;&gt;2. Separation of Concerns &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#2-separation-of-concerns&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I get the very real benefits in React of mixing concerns while separating physical application pieces. Everything associated with this piece (structure, style, behavior) is in one place, so I know exactly what needs to be done in order to make a change to that piece.&lt;/p&gt;
+&lt;p&gt;But part of the benefit of the classic &amp;quot;separation of concerns&amp;quot; philosophy is the ability to take a holistic look at the styles. For all the supposed solutions with regard to maintenance and dead code elimination, I&#39;m afraid this has created many more potential ones. Obviously, this is to some degree going to be dependent on how a React application is structured, but components can&#39;t truly share stylistic elements, even if they have individual styles in common. So the ability to change that stylistic element from a central place is now lost.&lt;/p&gt;
+&lt;p&gt;The best we can really do with this method is reference a central variable, or possibly (I&#39;m not even sure about this) something like a mixin. Like any of the CSS-based solutions that vjeux writes off as non-enforceable, this requires good practice.&lt;/p&gt;
+&lt;h3 id=&quot;3-separation-of-work&quot; tabindex=&quot;-1&quot;&gt;3. Separation of Work &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#3-separation-of-work&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;vjeux himself admits that part of the motivation for Facebook&#39;s crazed bolting on to CSS is due to having a large team of developers working on highly focused portions of code, most with limited expertise in front end. This is, let&#39;s be frank, not an uncommon problem but it is a specific one.&lt;/p&gt;
+&lt;p&gt;Though tools like KSS have been around for a while, style-guide-based development is just now coming into its own. Mailchimp, Starbucks, Lonely Planet and others have made huge and very public strides in building component libraries that developers can then reference and drop into new pages.&lt;/p&gt;
+&lt;p&gt;The benefits are easy to see: a streamlined design process, easy enforcement of standards, and a refocused approach that encourages solving problems with the same design patterns where possible.&lt;/p&gt;
+&lt;p&gt;With all styles inside the React components, control over front end is not only not handled holistically, it is handled entirely by developers who may or may not have much expertise with browser discrepancies, best practices, and all the other myriad of things that CSS writers actually focus their time on.&lt;/p&gt;
+&lt;h3 id=&quot;4-missing-features&quot; tabindex=&quot;-1&quot;&gt;4. Missing Features &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#4-missing-features&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Generated content and other pseudo-class selectors are pretty much not available here. Is it overkill to impose a hover state just for a color? Perhaps not with React, whose bread and butter is state change.&lt;/p&gt;
+&lt;p&gt;And what about media queries? This is beyond unfortunate:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/mediaqueries.png&quot; alt=&quot;Not the best Responsive Design&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;toward-a-better-way&quot; tabindex=&quot;-1&quot;&gt;Toward a better way &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/seven-sins-of-css/#toward-a-better-way&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;These are all fairly new issues. vjeux&#39;s still giving this presentation, and it only went online in November. React developers are still discovering the process and trying it on. The argument on Hacker News is still somewhat active.&lt;/p&gt;
+&lt;p&gt;My problem is not with upending dominant paradigms. It&#39;s not with trying to find new ways of styling. But ditching most of the primary benefits of CSS/Less/Sass and justifying that with arguments based on some inaccurate assumptions is a paradigm shift that doesn&#39;t quite feel necessary.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>So long, and thanks for all the Lone Star tallboys</title>
+		<link href="http://mikepropst.com/blog/so-long/"/>
+		<updated>2015-02-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/so-long/</id>
+		<content type="html">&lt;p&gt;I spent 7 years in Pittsburgh, another in Detroit, and now just shy of 7 years I&#39;m leaving Austin. That&#39;s as lucky a number as any, although it feels like an incredibly short time in a city that grows and changes as rapidly as this one. But ultimately, the exciting stuff in this town suits young people who go out a lot, tech-libertarians, people who aren&#39;t yet sick of Texas&#39;s inability to &amp;quot;do&amp;quot; public transit, and the sort of day drinkers who&#39;ve always occupied the Town of Linklater Films.&lt;/p&gt;
+&lt;p&gt;At least, I&#39;ll probably continue telling myself that indefinitely.&lt;/p&gt;
+&lt;p&gt;But there&#39;s a lot of truth there — it really is tough when you have a young child to even imagine enjoying the fruits of a town known for its nightlife, and eventually you start to wonder if that&#39;s really for you anymore. As a musician, it&#39;s hard to always play for nobody or to keep pace with the younger, better looking indie-poppers filling up the increasingly snobby and hard-to-book venues. As a person who tries to have some perspective, sometimes taking a step back you realize how much &lt;strong&gt;Austin is clinging to its fun slacker persona, even as it gets big enough that it really could stand to clean up its act maybe just a little before it loses everything that people love about it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This isn&#39;t about how &amp;quot;Austin has changed, man&amp;quot;; That was old even when I moved here. Of course places change and that&#39;s part of what makes a town ok to continue living in more than 7 years. But I&#39;m not a lone wolf slacker musician, I&#39;m now some kind of &amp;quot;family man&amp;quot; (imposter syndrome doesn&#39;t just work at your job) and that is a super rewarding part of my life that&#39;s taking me away from the both the eye-rolling mustachioed coolness I&#39;m so over and the merciless, dash-cracking sunshine I love so much. So yeah, there is a flipside.&lt;/p&gt;
+&lt;p&gt;I wasn&#39;t too great at making friends until moving here. I&#39;ve become more social and worked in an office again, so I&#39;m leaving behind maybe the closest, coolest bunch of people ever — people who, I&#39;d like to think, &amp;quot;get&amp;quot; me.&lt;/p&gt;
+&lt;p&gt;I&#39;m not exactly headed to unstable territory now, but if I&#39;m being real it&#39;s difficult to leave behind 75-degree winters, constant restaurant openings, or that slight swell of pride when even a big city slicker&#39;s eyes brighten at the mention of where you live. It&#39;s even harder to leave those friends I&#39;ve worked with, played music with, or lived next to. Having them all gather at a party for us yesterday was beyond cool — it was downright humbling that that many people care enough (A friend called the beautiful weather &amp;quot;one last kick in the nuts&amp;quot;).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/party.jpg&quot; alt=&quot;party&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now... It&#39;s not in the least bit hard to leave constant traffic, lines to sit in literally every one of those restaurants, or the Texas government, none of which are gonna go anywhere anytime soon. And I could do without the hypocritical faux-liberals who nod sagely about how we need affordable housing and mass transit, but then get all predictably NIMBY when it comes time to do something. &lt;strong&gt;UPDATE IN 2024: OH NO EUGENE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But rather than dwell on what great things I&#39;m leaving or bemoan the bad ones, I think it&#39;d be more productive to commit yesterday&#39;s laughs and hugs to memory, give thanks for the all that&#39;s happened to me here, and think of what other positive stuff lies ahead.&lt;/p&gt;
+&lt;p&gt;I know I&#39;m going to a culturally rich, meteorogically mild place with incredibly friendly people, and my new commute is going to add hours to my week (time) and probably years to my life (I-35 stress). But that&#39;s just the beginning. Now that I&#39;m a little better at life than I was seven years ago, my hope is that I can create an even more amazing one there.&lt;/p&gt;
+&lt;p&gt;If this is me in the &amp;quot;Before&amp;quot; picture, look for the &amp;quot;After&amp;quot; soon. And at least check out my Instagrams from the road.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Editing images in CSS</title>
 		<link href="http://mikepropst.com/blog/editing-images-in-css/"/>
 		<updated>2015-02-03T00:00:00Z</updated>
 		<id>http://mikepropst.com/blog/editing-images-in-css/</id>
 		<content type="html">&lt;p&gt;It&#39;s now possible to do some &lt;a href=&quot;http://www.thedotpost.com/2015/12/una-kravets-editing-images-in-css&quot;&gt;really cool image effects&lt;/a&gt; in CSS. They can even be used for optimization purposes. Unfortunately IE is, as usual, holding things back.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My favorite albums of 2014</title>
+		<link href="http://mikepropst.com/blog/favorite-albums-2014/"/>
+		<updated>2015-01-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/favorite-albums-2014/</id>
+		<content type="html">&lt;p&gt;Now that it&#39;s almost February, I assume everyone has already read all the best-of-the-year lists that matter to them. So here&#39;s one that won&#39;t. These are the best records I heard that came out in 2014.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/aurora.jpg&quot; alt=&quot;AURORA&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;ben-frost-a-u-r-o-r-a&quot; tabindex=&quot;-1&quot;&gt;Ben Frost - A U R O R A &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#ben-frost-a-u-r-o-r-a&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I honestly really didn&#39;t know anything about Ben Frost and hadn&#39;t heard his earlier stuff, but this is a magical concoction of computerized and percussion-heavy experimental electronics that takes me back to the days of playing shows with fellow laptop jockeys and industrial car-part-smashers. It&#39;s a varied, rich, and constantly surprising piece of work, and it has Thor Harris on it too!&lt;/p&gt;
+&lt;h2 id=&quot;st-vincent&quot; tabindex=&quot;-1&quot;&gt;St. Vincent &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#st-vincent&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve seen St. Vincent, and I&#39;ve heard pretty much all of her albums, but this was the first one to really catch my ear. This is the kind of art rock that people like Peter Gabriel and Kate Bush used to do — accessible but genuinely attempting to go places. She&#39;s also the kind of guitar player who&#39;s super talented but intriguing, not shreddy.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/soused.jpg&quot; alt=&quot;Soused&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;scott-walker-and-sunno-soused&quot; tabindex=&quot;-1&quot;&gt;Scott Walker and SunnO)))  - Soused &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#scott-walker-and-sunno-soused&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As Scott Walker gets increasingly prolific in his old age, it&#39;s starting to be apparent that he&#39;s actually got a pretty in-tune sense of humor. On paper, Walker with Sunn is the Lou Reed/Metallica album that actually &lt;em&gt;works&lt;/em&gt;. In practice, it&#39;s basically a Scott Walker album with guitars, and that&#39;s just fine.&lt;/p&gt;
+&lt;h2 id=&quot;swans-to-be-kind&quot; tabindex=&quot;-1&quot;&gt;SWANS - To Be Kind &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#swans-to-be-kind&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Seer was maybe the peak of Gira&#39;s output, ever. It was the realization of the promise that &lt;em&gt;Swans are Dead&lt;/em&gt; teased us with just before he originally disbanded the group. The only thing wrong with &lt;em&gt;To Be Kind&lt;/em&gt; is that it&#39;s not &lt;em&gt;The Seer.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;sumerian-fleet-just-pressure&quot; tabindex=&quot;-1&quot;&gt;Sumerian Fleet - Just Pressure &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#sumerian-fleet-just-pressure&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I basically kind of started following Dark Entries records around the time I got super into the Minimal Wave catalog as well. That led me to their flagship release of 2014. This retro slice of Linn-driven heavy old-school EBM meets sparse synth-wave makes me think of the best of early 242, and it&#39;s immaculately produced.&lt;/p&gt;
+&lt;h2 id=&quot;run-the-jewels-2&quot; tabindex=&quot;-1&quot;&gt;Run the Jewels 2 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#run-the-jewels-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It topped a lot of the pros&#39; lists, and it&#39;s probably obvious why. The first RTJ was a cool side project, but the real potential of an El-P/Killer Mike collaboration opened up on the second one.&lt;/p&gt;
+&lt;h2 id=&quot;blxpltn-black-cop-down&quot; tabindex=&quot;-1&quot;&gt;BLXPLTN - Black Cop Down &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#blxpltn-black-cop-down&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is one of Austin&#39;s most exciting local bands, but they&#39;re not going to get the press that the mellower or more rockist indie groups will. They&#39;re a hardcore band with a drum pad. What a weird thing, but they&#39;re so fierce, catchy, and fist-in-the-air angry it&#39;s hard to deny the live show or the record.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/undercolor.jpg&quot; alt=&quot;Under Color of Official Right&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;protomartyr-under-color-of-official-right&quot; tabindex=&quot;-1&quot;&gt;Protomartyr - Under Color of Official Right &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#protomartyr-under-color-of-official-right&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first Protomartyr album was kind of out of nowhere, and doing the jagged Fall-inspired post-punk thing in Detroit is unexpected. But the production is better, the songs are tighter and darker, and Joe Casey&#39;s incredible lyrics are more audible on the second one. It&#39;s a mix of a realistic portrait of alcoholic depression, a lament for Detroit, and what Casey calls &amp;quot;bad dad songs&amp;quot; (one of which, &amp;quot;Bad Advice,&amp;quot; is about Kwame). This, from &amp;quot;I Stare At Floors,&amp;quot; sums up well:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The day comes&lt;br /&gt;
+same as before&lt;br /&gt;
+it goes on again&lt;br /&gt;
+the television a concave window&lt;br /&gt;
+lawyers and murderers&lt;br /&gt;
+the Law&#39;s confusing, the Order makes no sense&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Scratching the skin&lt;br /&gt;
+Staring at walls, staring at floors&lt;br /&gt;
+The plan today is not to die&lt;br /&gt;
+The cure-all&#39;s always over ice&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I listened to it every day for like 3 months and still can&#39;t get enough.&lt;/p&gt;
+&lt;h2 id=&quot;other-stuff&quot; tabindex=&quot;-1&quot;&gt;Other stuff &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#other-stuff&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Fennesz, Aphex Twin, The Bug, FKA Twigs, and of course Shellac all put out solid albums this year that I enjoyed a lot.&lt;/p&gt;
+&lt;h2 id=&quot;honorable-mention-from-2013&quot; tabindex=&quot;-1&quot;&gt;Honorable Mention from 2013 &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/favorite-albums-2014/#honorable-mention-from-2013&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Speaking of Minimal Wave, I also discovered Veronica Vasik&#39;s sub-label Cititrax and the act Kontravoid. He apparently used to be the live drummer for Crystal Castles but in any case his self-titled dark synthpop LP from 2013 got a lot of play from me as well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>UX for enterprise</title>
+		<link href="http://mikepropst.com/blog/UX-for-enerprise/"/>
+		<updated>2015-01-20T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/UX-for-enerprise/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://medium.com/@udanium/why-i-design-enterprise-ux-fa74e9f12671&quot;&gt;A good read&lt;/a&gt;, although a bit long for something that I&#39;ve repeatedly had to answer more concisely as an interview question.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The lobotomized owl</title>
+		<link href="http://mikepropst.com/blog/lobotomized-owl/"/>
+		<updated>2014-12-29T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/lobotomized-owl/</id>
+		<content type="html">&lt;p&gt;An &lt;a href=&quot;http://alistapart.com/article/axiomatic-css-and-lobotomized-owls&quot;&gt;incredibly simple and brilliant CSS selector&lt;/a&gt; that can help establish a vertical rhythm and reduce redundancy.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;* + *&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt; etc&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Change is what the web is about</title>
+		<link href="http://mikepropst.com/blog/change/"/>
+		<updated>2014-12-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/change/</id>
+		<content type="html">&lt;p&gt;I wrote this for our corporate blog. Rather than give everyone I know instructions for connecting to our VPN, I thought I&#39;d reproduce it here. The gist is: as we go through a lot of change both process-wise and philosophically, we need to make sure nobody gets too attached to one way of thinking and gets left behind.&lt;/p&gt;
+&lt;p&gt;Since its inception, the Web has undergone constant evolution. But along the way, it’s also gone through some major revolutions that left it forever changed — and left some people behind.&lt;/p&gt;
+&lt;h2 id=&quot;purty-pitchers&quot; tabindex=&quot;-1&quot;&gt;Purty Pitchers &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/change/#purty-pitchers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first earth-shattering change was the NCSA Mosaic browser. Why? One word: graphics. &lt;em&gt;Color&lt;/em&gt; graphics! You wouldn’t think this would bother anyone: sure, they took a long time to load and were really awful quality purplish GIFs for a long time, but being able to navigate around a web page with your mouse and scrollbar really opened up the web to a lot of people who would never have touched the green-on-black terminal browser Lynx.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/mosaic.jpg&quot; alt=&quot;Mosaic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Still, there were casualties: the early denizens of the internet, the super tech-savvy terminal jockeys and ASCII artists who preferred the music of a ker-chunking &lt;a href=&quot;http://en.wikipedia.org/wiki/Model_M_keyboard&quot;&gt;IBM Model M keyboard&lt;/a&gt; to the click of a mouse saw their little private utopia being taken away. In a way, I can sympathize. They were probably worried it’d be filled with n00bs, dads and ads eventually.&lt;/p&gt;
+&lt;p&gt;But the lesson is there. Adapt or get left behind.&lt;/p&gt;
+&lt;h2 id=&quot;the-blue-beanie&quot; tabindex=&quot;-1&quot;&gt;The Blue Beanie &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/change/#the-blue-beanie&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Most of these revolutions have happened during my career. The rise and fall of Flash, the advent of YouTube, blogging… it’s been a fun ride so far.&lt;/p&gt;
+&lt;p&gt;But from a designer/developer standpoint, something that in hindsight might’ve had the biggest effect was the Web Standards movement. As late as the mid–2000s, we’d been designing pages based on some anonymous genius’s realization that HTML tables and weirdly sliced images could be used to create print-like layouts on web pages. Thus the business of “web design.” But this was a hack, and it helped us grow an appetite for hacks. Meanwhile, Netscape and Microsoft were vying for supremacy in the browser market by adding more and more amazing but completely incompatible features. So we essentially had to build sites twice.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/zeldman.jpg&quot; alt=&quot;zeldman&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But then &lt;a href=&quot;http://www.businessweek.com/stories/2007-08-06/jeffrey-zeldman-king-of-web-standardsbusinessweek-business-news-stock-market-and-financial-advice&quot;&gt;Jeffrey Zeldman came along&lt;/a&gt; and told us all to try something: first off, stop using tables, because we’re hacking a useful feature of the browser to do something awful it wasn’t meant to do, and second, stop using these browsers’ non-standard features. Start using CSS. Thus the &lt;a href=&quot;http://www.webstandards.org/&quot;&gt;Web Standards Project&lt;/a&gt; (and what has come to be called the web standards movement) was born. And this movement effectively ended those dreaded Browser Wars.&lt;/p&gt;
+&lt;p&gt;Trust me, we’re all better for it. But for a while, there were a lot of designers and developers who didn’t want to abandon their fancy browser features, and didn’t want to stop using tables because &lt;em&gt;they worked!&lt;/em&gt; Those people adapted. Or they became irrelevant once the browser makers got on board with the Standards crowd.&lt;/p&gt;
+&lt;h2 id=&quot;responding-to-change&quot; tabindex=&quot;-1&quot;&gt;Responding to Change &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/change/#responding-to-change&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The arrival of web applications was not about just one thing. Faster broadband, AJAX, browsers able to run complex Javascript, web fonts, SVG, and all kinds of other stuff made the web the new platform for software. It’s still getting better. And our desktop computers aren’t the only devices with these front-end capabilities anymore. If I can get my software over the web, and my phone has a really good web browser, I should be able to run the software on my phone, right?&lt;/p&gt;
+&lt;p&gt;Ethan Marcotte first coined the term “Responsive Web Design” &lt;a href=&quot;http://alistapart.com/article/responsive-web-design&quot;&gt;four years ago on &lt;em&gt;A List Apart&lt;/em&gt;&lt;/a&gt;, and the design world has been pretty… responsive to it. Rather than the conversations I used to have ten years ago over whether we’re going to finally support 1024x768 screens, applications can now resize, reflow, and customize for different screens and devices. It’s a huge change in a way of thinking, but it’s also one more way that web applications are now more like “real” applications: do Microsoft Word or Adobe Photoshop force me into a highly controlled layout that only works at a certain window size?&lt;/p&gt;
+&lt;p&gt;But like the ASCII art and table layouts, there are going to be some casualties in the new way. I think the concept of “pixel perfection” is one of those. If my application changes from screen to screen and situation to situation, I can’t ever know &lt;em&gt;exactly&lt;/em&gt; what it’s going to look like to any particular customer.&lt;/p&gt;
+&lt;p&gt;And that’s fine.&lt;/p&gt;
+&lt;p&gt;There’s still room for all the careful and highly thought out work that we’ve always done when crafting web pages and web applications. In fact, our job is more important than ever because there’s no way a print layout designer can ever do what we do: deliver what our customers need, on whatever device they need it. And we don’t have any intention of being left behind.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Everybody scrolls</title>
+		<link href="http://mikepropst.com/blog/everybody-scrolls/"/>
+		<updated>2014-12-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/everybody-scrolls/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.hugeinc.com/ideas/perspective/everybody-scrolls&quot;&gt;Research findings from Rebecca Gordon at HUGE, Inc.:&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We learned that participants almost always scrolled, regardless of how they are cued to do so – and that’s liberating.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Can we get rid of the &amp;quot;fold,&amp;quot; now?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Tables — no longer the devil</title>
+		<link href="http://mikepropst.com/blog/tables-considered-good/"/>
+		<updated>2014-11-19T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/tables-considered-good/</id>
+		<content type="html">&lt;p&gt;A little while back, I linked to &lt;a href=&quot;http://colintoh.com/blog/display-table-anti-hero&quot;&gt;this article&lt;/a&gt; extolling the virtues of &lt;code&gt;display: table-cell.&lt;/code&gt; And I wholeheartedly agree. Using table display moves the Holy Grail Layout from hacky and difficult to done in a couple lines of CSS.&lt;/p&gt;
+&lt;p&gt;One thing the article mentions is source order. The author kind of waves this away as an SEO concern, but I&#39;d argue it&#39;s the single biggest issue holding back even the people who aren&#39;t skeeved out by the word &amp;quot;table.&amp;quot; Source order used to matter little to me; I also thought it was pretty much an SEO issue, or possibly a tweak to page rendering speed at best, but in this day and age? It&#39;s easy to move stuff horizontally with floats, but stacked boxes in a mobile layout really need the source order you want to appear on screen. Which, conveniently, is probably the most sensical source order. And if your table layout doesn&#39;t support that, you might have created some real headaches for yourself in a responsive page or screen.&lt;/p&gt;
+&lt;p&gt;Aside from that, I&#39;ve just started playing with &lt;code&gt;display:table&lt;/code&gt; in earnest on some sites and I&#39;m experiencing some strange behavior with regard to showing and hiding elements. This is further compounded by shifting breakpoints as you resize the browser.&lt;/p&gt;
+&lt;p&gt;There&#39;s a couple schools of thought on that, both of which I&#39;ve belonged to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The diligent front end devs who will make sure that they&#39;ve fixed every little weird issue. This is probably the &amp;quot;right&amp;quot; school to be in.&lt;/li&gt;
+&lt;li&gt;The pragmatic but perhaps somewhat lazy approach says &amp;quot;only designers sit and resize their browsers all day long making sure all the breakpoints work.&amp;quot; We&#39;re designing for multiple devices and screen sizes, not constantly shifting screen sizes. Probably. And the major layout shift where the bug happens is at a small enough size that you probably won&#39;t see it on desktop browser at all, where resizing is possible. Probably.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The thing of responsive layout is that it&#39;s an admission we don&#39;t &lt;em&gt;know&lt;/em&gt; all the cases. So knowingly leaving a weird situation in there without making a pretty significant effort to fix it is a disingenuous move. Hopefully I&#39;ll make progress on it, and if I do, I&#39;ll document it here.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>(A series of grunting noises)</title>
+		<link href="http://mikepropst.com/blog/grunt/"/>
+		<updated>2014-10-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/grunt/</id>
+		<content type="html">&lt;p&gt;I&#39;ve finally taken my first step into the wide world of yesterday&#39;s favorite web technology with a new understanding of Grunt. &lt;strong&gt;UPDATE: It wasn&#39;t long before I moved to Gulp. Welp.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s par for the course that designers and front end devs are trendy, fad-prone folks with their eye to the future and an almost obsessive-compulsive desire to find the &amp;quot;perfect&amp;quot; set of tools or processes. And by now, many (especially the ones prone to blog posts) have moved past Grunt to another Javascript/Node-based system called Gulp.&lt;/p&gt;
+&lt;p&gt;I&#39;m not there.&lt;/p&gt;
+&lt;p&gt;I love being hip and with the times too — I have a Ghost blog. But having just discovered enough information about Grunt from ebooks, coworkers, and Stack Overflow threads to be dangerous, I&#39;m not about to move on just yet. And now that I &amp;quot;get it,&amp;quot; I have to say that maybe it &lt;em&gt;is&lt;/em&gt; kind of the &amp;quot;perfect&amp;quot; tool.&lt;/p&gt;
+&lt;h2 id=&quot;what-will-make-grunt-resilient-in-the-long-run&quot; tabindex=&quot;-1&quot;&gt;What will make Grunt resilient in the long run? &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/grunt/#what-will-make-grunt-resilient-in-the-long-run&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;perfection&amp;quot; of Grunt is not about its extreme levels of functionality, nor its user-friendliness (lol). It&#39;s the flexibility. Grunt serves that obsessive-compulsive tool-design side of front end with a lot of plugins and an easy way to write more. If you&#39;re a FED and you really need something that isn&#39;t in the Node Package Manager (NPM) repository, then maybe you should consider taking your skills to the node-module-writing level.&lt;/p&gt;
+&lt;p&gt;It&#39;s also super portable, which makes creating an environment a snap — just install Node, and you can run Grunt-powered sites and apps. I&#39;ve heard opposing arguments on whether to put your Node modules for an app or site into Git, but right now we&#39;re not. Any new environment just needs to run &lt;code&gt;npm install&lt;/code&gt; and they&#39;re up and running. It&#39;s literally that easy.&lt;/p&gt;
+&lt;h2 id=&quot;what-are-we-doing-with-it&quot; tabindex=&quot;-1&quot;&gt;What are we doing with it? &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/grunt/#what-are-we-doing-with-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Currently I&#39;m working on a static prototype with bootstrap (LESS version), JQuery, and a few charting libraries. Grunt moves static files from a &lt;code&gt;src&lt;/code&gt; to &lt;code&gt;dist&lt;/code&gt; directory, minifies Javascript, compiles LESS files and Jade templates, and runs &lt;a href=&quot;http://www.browsersync.io/&quot;&gt;Browsersync&lt;/a&gt; for live reloading and injection. When we&#39;re all synced up, it also deploys to Amazon S3 for the stakeholders to view live.&lt;/p&gt;
+&lt;p&gt;This is a relatively simple setup for Grunt, which can do all kinds of more Node apps and complex whosamawhatsits. But it&#39;s the right tool for the job when compared to something like Preproc or CodeKit which, don&#39;t get me wrong, are nice apps.&lt;/p&gt;
+&lt;p&gt;For instance, I nailed down the file structure early and defined it in the Jade compiler. Now every new Jade template added automatically compiles to an HTML file in the right structure. CodeKit requires me to define the path of every new template.&lt;/p&gt;
+&lt;p&gt;Grunt also lets you create multiple setups. For instance, in development, the watcher and compiler might not minify the final Javascript and CSS so they&#39;re more easily debugged in the browser. But on deploy, minify it all. And this is all a one-time setup.&lt;/p&gt;
+&lt;h2 id=&quot;downsides&quot; tabindex=&quot;-1&quot;&gt;Downsides &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/grunt/#downsides&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;That one-time setup is pretty much Grunt&#39;s big downside. The syntax is a bit arcane to me, not quite resembling any normal Javascript or JSON files. Installing packages is a breeze with NPM, but actually setting up the tasks and getting them to do what you want can be a many-hour process.&lt;/p&gt;
+&lt;p&gt;Now, is that worth the flexibility and other advantages it offers over simpler GUI compiler applications? Depends on your use case, I&#39;d guess. For us, it&#39;s really fantastic. I still use CodeKit on some other sites, and I&#39;m sure the daunting setup process will keep me away a few times that I might prefer using Grunt.&lt;/p&gt;
+&lt;p&gt;But overall, it&#39;s been fun to learn and satisfying to set up a workflow exactly how I want. That might make me a fad-chasing Kool-Aid drinker but I&#39;m happy to never struggle with my tools not doing what I want.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Curmudgeons, get your facts straight</title>
+		<link href="http://mikepropst.com/blog/curmudgeons/"/>
+		<updated>2014-08-30T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/curmudgeons/</id>
+		<content type="html">&lt;p&gt;These days, there are more &amp;quot;solutions&amp;quot; to the problem of music piracy than you can shake a DMCA takendown at. While I&#39;m somewhat in the Steve Albini camp of &amp;quot;we are passing the brief period of history where musicians were able to make a comfortable living,&amp;quot; what I find interesting is the side discussions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.digitalmusicnews.com/permalink/2014/06/30/teach-guitar-teenagers-tell-new-music?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+digitalmusicnews+%28Digital+Music+News%3A+Top+Stories%29&quot;&gt;I saw this&lt;/a&gt; the other day thanks to a RT from a musician friend. I don&#39;t believe a word of it.&lt;/p&gt;
+&lt;p&gt;The author of the comment is betting that their audience lacks exposure to youth the same way they do. Young people are a scary, alien species who don&#39;t believe in paying for music.&lt;/p&gt;
+&lt;p&gt;But it&#39;s not because they don&#39;t value music of their time.&lt;/p&gt;
+&lt;p&gt;Some claims made in the comment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The girls want to learn &amp;quot;One Direction, Fall Out Boy, and a handful of sound-alikes.&amp;quot;&lt;/strong&gt; I&#39;d put a lot more stock in this if the two groups mentioned actually &lt;em&gt;sounded alike&lt;/em&gt; themselves. This is where the audience&#39;s ignorance really pays off. Fall Out Boy is an American pop-punk band formed in 2001 (that&#39;s working on 15 years ago, kids) who helped bring pop-punk/pop-emo from the 90s style into the 2000s. They are highly influential and though I can&#39;t stand to listen to 5 seconds of them, you don&#39;t need a degree in Telling Death Metal Bands apart to know that they don&#39;t sound anything like One Direction, a boy group from England who don&#39;t write songs and don&#39;t really have guitar parts for these straw-students to learn. Comparing the two, at any rate, is the purview of YouTube comments, not kids who want to learn to play music.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bon Jovi will never be cool.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, people are eating this crap up.&lt;/p&gt;
+&lt;p&gt;Let&#39;s ignore the absolute sexist bent of the comment for a second, if that&#39;s possible, and focus on the wealth of amazing music being made by young folks (I mean really young, the Tumblr generation of bands if you will) who have no regard for any of the &amp;quot;rules&amp;quot; that we have always played by, regardless of how punk we think we are.&lt;/p&gt;
+&lt;p&gt;How To Dress Well, Odd Future, Janelle Monae, Grimes, and countless other young artists (you know, of the age that popular artists tend to be) are making music that seamlessly blends genres that we&#39;d previously have considered verboten — imagine if &lt;em&gt;Paul&#39;s Boutique&lt;/em&gt; was your &lt;em&gt;Abbey Road&lt;/em&gt; — and they really don&#39;t care what some guitar teacher thinks.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Better static sites with Jade</title>
+		<link href="http://mikepropst.com/blog/jade/"/>
+		<updated>2014-08-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/jade/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; I haven&#39;t used it in a while but in theory I really still like &lt;s&gt;Jade&lt;/s&gt; Pug.&lt;/p&gt;
+&lt;p&gt;If, like me, you&#39;ve been riding the current wave of preprocessors and static site generators, you&#39;re probably overwhelmed by the choices out there. As with musical tools, I tried to &lt;a href=&quot;http://mikepropst.com/2014/04/16/the-enemy-of-done/&quot;&gt;take my own advice&lt;/a&gt; and pick one thing to stick to for a while, see how it goes. I happened to pick a less-popular, less-mature tool with less documentation and material out there than any other. But it&#39;s not based in Ruby, and that should make Alex happy.&lt;/p&gt;
+&lt;p&gt;Jade was created by a 22-year-old CS undergraduate in England, and it&#39;s a super cool little pseudo-language for templates, written in Node. Unlike Ghost, which powers this blog, you don&#39;t need to get Node running on a web server to make sites with it, which can restrict your choice of web hosts. On the contrary, you run Node on your local box and generate a static site with the Jade processor, then host that bad boy pretty much anywhere.&lt;/p&gt;
+&lt;p&gt;Here&#39;s a little bit about Jade, and if you&#39;ve used templating engines before you may find it to be pretty familiar. If not, then it&#39;s a really good starter language.&lt;/p&gt;
+&lt;h2 id=&quot;basic-syntax&quot; tabindex=&quot;-1&quot;&gt;Basic Syntax &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#basic-syntax&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If I had to pick a central principle of Jade&#39;s syntax, it&#39;d be the indention-awareness. Yes, it&#39;s written in Javascript, but you won&#39;t see brackets and semicolons everywhere (which is something I think Sass has over LESS). Just indent the next line and you&#39;re nesting html or logic.&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;body&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token attr-class&quot;&gt;.container&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;h1&lt;span class=&quot;token attr-class&quot;&gt;.pagetitle&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token plain-text&quot;&gt;Page Title&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;p&lt;span class=&quot;token attr-id&quot;&gt;#opening-paragraph&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token plain-text&quot;&gt;This is some text.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pretty simple, right? &lt;code&gt;div&lt;/code&gt; is an implied tag, and the &lt;code&gt;#&lt;/code&gt; and &lt;code&gt;.&lt;/code&gt; do what you might expect if you passed CSS 101. Here&#39;s the output:&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;container&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;pagetitle&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Page Title&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;opening-paragraph&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;This is some text.&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A benefit here is that keeping tags properly nested and closed — which can be a bear when you&#39;re dealing with templates — becomes a lot easier.&lt;/p&gt;
+&lt;p&gt;Attributes are written as arguments, so this&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;a&lt;span class=&quot;token attributes&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/blog/&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token attr-name&quot;&gt;data-custom&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;val&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token plain-text&quot;&gt;Blog Link&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;produces&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/blog/&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;data-custom&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;val&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Blog Link&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Aside from a few idiosyncracies and some details, that&#39;s totally it for markup. I can&#39;t speak for all editors, but the always-wonderful Sublime Text does have syntax highlighting schemes for Jade to make life a little easier.&lt;/p&gt;
+&lt;h2 id=&quot;variables&quot; tabindex=&quot;-1&quot;&gt;Variables &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#variables&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Variables are defined pretty easily — no need to set up a special block of Javascript or anything, just define it with a dash and put spaces around the &lt;code&gt;=&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token code&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; dogname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Rufus&quot;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are a couple ways to use variables. THe most basic is to put an &lt;code&gt;=&lt;/code&gt; immediately (no spaces) after an element:&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token code&quot;&gt; dogname&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will produce &lt;code&gt;&amp;lt;h2&amp;gt;Rufus&amp;lt;/h2&amp;gt;&lt;/code&gt;, which is a pretty great dog name you don&#39;t hear nearly often enough. But sometimes things aren&#39;t that simple, and you need to get the variable into a string. If you know you want to produce &lt;code&gt;&amp;lt;a href=&amp;quot;Rufus.html&amp;quot;&amp;gt;Rufus&amp;lt;/a&amp;gt;&lt;/code&gt;, you can use a pound and curly bracket syntax.&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;a&lt;span class=&quot;token attributes&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;#{dogname}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token code&quot;&gt; dogname&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This combination of the two types of variable output gives us what we want.&lt;/p&gt;
+&lt;h2 id=&quot;mixins-and-includes&quot; tabindex=&quot;-1&quot;&gt;Mixins and Includes &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#mixins-and-includes&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Being tired of typing opening and closing carats is a pretty good reason to use Jade to begin with, but there&#39;s a lot more power in it than saved keystrokes and easy tag closing. Like CSS preprocessors, it gives you mixins, and like server-side languages, it provides for includes.&lt;/p&gt;
+&lt;p&gt;Includes are so self-explanatory they&#39;re barely worth mentioning, but I&#39;ll say this: remember your indentation when you call the include. You want to make sure your HTML structure stays intact.&lt;/p&gt;
+&lt;p&gt;Mixins are reusable blocks of markup or code that can take arguments. These can be used to absolutely destroy repetitive tasks. If you&#39;re in any way familiar with programming, think of a mixin as a function. Because that&#39;s what it is.&lt;/p&gt;
+&lt;p&gt;The following&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token mixin&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;mixin&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;gal_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;imgurl&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;caption&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;li&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;img&lt;span class=&quot;token attributes&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;images/#{imgurl}&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token code&quot;&gt; caption&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Looks a little tricky, but let&#39;s break it down.  First you define a mixin using the unsurprising keyword &amp;quot;mixin.&amp;quot; You can add arguments as well — and you will likely need to.&lt;/p&gt;
+&lt;p&gt;You can output the arguments in both of the same ways you&#39;d use explicitly defined variables. To use the mixin, just add a &lt;code&gt;+&lt;/code&gt; and call it, putting the arguments in parentheses much like a javascript function. Here&#39;s an example usage for the above.&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token mixin&quot;&gt;&lt;span class=&quot;token name function&quot;&gt;+gal_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;my_image.png&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;This is an image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which produces&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;images/my_image.png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;This is an image&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Not bad, right? As in this example, mixins can make short work of repetitive elements like photo gallery or portfolio images.&lt;/p&gt;
+&lt;h2 id=&quot;extends&quot; tabindex=&quot;-1&quot;&gt;Extends &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#extends&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As with many template languages like Smarty or Django, Jade utilizes the concept of child templates and &lt;em&gt;Extends&lt;/em&gt; to make files more efficient and manageable. For instance, a website could have a &lt;code&gt;page&lt;/code&gt; template and a &lt;code&gt;company-info&lt;/code&gt; page template that&#39;s based on it. Extends can go as many levels deep as you like, but a typical case for a static site might be 3 levels: &lt;em&gt;base → page type → individual page.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In order to take advantage of them, just add &lt;code&gt;extends&lt;/code&gt; with the URL to the base template at the beginning of your file. If you want them to really work for you, you&#39;ll want to use &lt;em&gt;Blocks&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;blocks&quot; tabindex=&quot;-1&quot;&gt;Blocks &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#blocks&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you&#39;ve never used a templating system that features them, Blocks aren&#39;t immediately intuitive. But they&#39;re hugely powerful, and they&#39;re what makes Extends really work. In any given template, think of it this way: includes are static markup, but a block is something that could be variable from page to page.&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;include includes/header&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;body&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token attr-class&quot;&gt;.content&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;block pagecontent&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;include includes/footer&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, the header and footer are includes because they&#39;re the same throughout the site. But to get a variable piece of markup or content in the &lt;code&gt;.content&lt;/code&gt; div, we use a Block.&lt;/p&gt;
+&lt;p&gt;Now, on each page, tell Jade that we&#39;re extending the &lt;code&gt;base.jade&lt;/code&gt; file, and reference the same &lt;code&gt;pagecontent&lt;/code&gt; block:&lt;/p&gt;
+&lt;pre class=&quot;language-pug&quot;&gt;&lt;code class=&quot;language-pug&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;extends base&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;block pagecontent&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;token plain-text&quot;&gt;My awesome title&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;token plain-text&quot;&gt;Hi I&#39;m writing content! It&#39;s king, I hear.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Not rocket surgery. You can also define a default in the base template, so that in the event a given page doesn&#39;t have that block you can always fall back.&lt;/p&gt;
+&lt;h2 id=&quot;getting-it-to-run&quot; tabindex=&quot;-1&quot;&gt;Getting it to Run &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/jade/#getting-it-to-run&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So how does this stuff work? I mentioned that it&#39;s not a back end language, so you&#39;re not going to run it on the server. It&#39;s pre-compiled into static files. Jade, like other Node-based tools, can be compiled in a number of ways. I&#39;m not planning on getting too into that, but here are a few:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Node on the command line. This is the most basic. You can just compile a directory of Jade files into HTML, or have Node &amp;quot;watch&amp;quot; the directory and compile the files as you save them.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;, which can run lots of other Node-based things at the same time with a single command in the terminal, and then get packaged for a deployment environment that works the same as your development one. Unfortunately, Grunt requires a lot of up-front setup to make that single command work. There are resources out there.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://incident57.com/&quot;&gt;CodeKit for Mac&lt;/a&gt; (this app is really what got me into Jade. It&#39;s a bit costly but fun and also works with plenty of other pre-compiling tools)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next I&#39;ll outline how I put together a portfolio site using Jade and LESS. Hopefully this was helpful.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>If you can&#39;t build it all, build a strong foundation</title>
+		<link href="http://mikepropst.com/blog/strong-foundation/"/>
+		<updated>2014-07-04T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/strong-foundation/</id>
+		<content type="html">&lt;p&gt;You&#39;ve researched, interviewed, put stickies on a wall, flowcharted, wireframed, and designed (mobile first, right?) to a level of total perfection and certainty, and your product or site is going to be great. You nailed it. Then you&#39;re asked to QA the beta. Where do you even begin? This thing is just wrecked. You start to wonder if anyone on the dev team even looked at your designs.&lt;/p&gt;
+&lt;p&gt;Sound familiar?&lt;/p&gt;
+&lt;p&gt;Desginers and design teams, particularly at large companies, often struggle with their own internal process. But when it comes to working with development teams, things start to break down even more.&lt;/p&gt;
+&lt;h2 id=&quot;different-worlds&quot; tabindex=&quot;-1&quot;&gt;Different worlds &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/strong-foundation/#different-worlds&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Agile development is a pretty mature process, but it doesn&#39;t really account for the more holistic way that product and UX teams tend to work. To a degree, &lt;a href=&quot;http://leanuxbook.com/&quot;&gt;Lean UX&lt;/a&gt; is an effective way for design teams to mirror the agile process and create a tandem workflow, but agile dev versus whole-earth design is only part of the problem.&lt;/p&gt;
+&lt;p&gt;Communication tools have improved as well: &lt;a href=&quot;http://invisionapp.com/&quot;&gt;Invision&lt;/a&gt;, Skitch, and other visually-oriented software takes the back-and-forth out of the realm of cumbersome text documents filled with arrows, screenshots, and vague descriptions.&lt;/p&gt;
+&lt;p&gt;But at the end of the day, who cares more about the line-height, the spacing, the animation speed, the placement of elements than you, as the designer? No one, because you know the value of what you did. Because you did it for a reason. And what&#39;s more, when those visual cues, &lt;a href=&quot;http://www.uie.com/brainsparks/topics/micro-interactions/&quot;&gt;microinteractions&lt;/a&gt;, and precise responsive changes don&#39;t come out right, it not only makes for a substandard experience, it reflects poorly on &lt;em&gt;you&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;So... it&#39;s time to own it.&lt;/p&gt;
+&lt;h2 id=&quot;no-mythical-creatures-needed&quot; tabindex=&quot;-1&quot;&gt;No mythical creatures needed &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/strong-foundation/#no-mythical-creatures-needed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is not more unicorn advocacy (fun fact: in the recruiting world, unicorns are called &lt;a href=&quot;http://en.wikipedia.org/wiki/Purple_squirrel&quot;&gt;&amp;quot;purple squirrels&amp;quot;&lt;/a&gt;). The answer to all web software design problems is not &amp;quot;turn all designers into expert coders.&amp;quot; Not everyone wants to or is capable of doing it all. The chances of finding someone who does it all &lt;em&gt;really well&lt;/em&gt; are not great. And when you do, over-taxing them with all the work is not going to scale very well. The solution is to empower the team for front-end development.&lt;/p&gt;
+&lt;p&gt;Whether that means taking advantage of one of the unicorns you &lt;em&gt;do&lt;/em&gt; have, or hiring a dedicated FED for your design team, it&#39;s crucial to build a bridge and stop treating design and FED as two different worlds.&lt;/p&gt;
+&lt;h2 id=&quot;ok-not-different-worlds-then&quot; tabindex=&quot;-1&quot;&gt;OK, &lt;em&gt;not&lt;/em&gt; different worlds then &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/strong-foundation/#ok-not-different-worlds-then&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;UX folks know that UX is tied to every discipline and role: Product, design, back end, IT, and even sales. But design teams are responsible for the UI portion, and nothing affects the UI in a web-based experience more than FED.&lt;/p&gt;
+&lt;p&gt;So what does that actually mean, in a practical sense?&lt;/p&gt;
+&lt;p&gt;A website or web based product is generally going to have a style guide, even if your shop is lost in the Stone Age. If you&#39;re rocking a more modern fashion, you may be using style tiles or a pattern library. But the key here is that your guide can&#39;t be a Photoshop file, a list of fonts, and a sprite sheet. It can&#39;t be a wiki with PNGs and descriptions. It certainly can&#39;t be a piece of paper. It has to live in its ultimate medium: the web. What is a CSS file, after all, but a style guide that actually &lt;em&gt;works&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Now, I recognize that every organization is different. With some exceptions, the dedicated FED teams I&#39;ve worked with tend to be focused on the fun stuff that challenges them in the day to day: data bindings, animations, Gruntfiles (or is it Gulpfiles now?), and other fun scripting. They&#39;re worried not just about bridging the gap with you; in these Ajax-heavy times, they have to bridge the gap with the back end as well. And my guess is you&#39;re not dealing with strictly HTML/CSS folks — otherwise you wouldn&#39;t be having these problems.&lt;/p&gt;
+&lt;p&gt;Still, it&#39;s not good form to run onto the field, jump on the mound, and snatch the glove from the current pitcher. Reach a hand over the wall instead of throwing your designs over it. If your team or theirs is unwilling or unable to put a FED on the design squad, it&#39;s your responsibility to make it work some other way. That way is going to mean finding the person most likely to feel some investment in the style control and working with them to build your pattern library or style guide.&lt;/p&gt;
+&lt;h2 id=&quot;i-don-t-have-that-power&quot; tabindex=&quot;-1&quot;&gt;&amp;quot;I don&#39;t have that power&amp;quot; &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/strong-foundation/#i-don-t-have-that-power&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In all likelihood, you actually do. Every company struggles with inter-team relations and workflows. You&#39;re not unique. The problem is that Process can rarely fix those breakdowns, and companies are bad at doing things that aren&#39;t processes. But &lt;em&gt;people&lt;/em&gt; are good at communicating. Only communication from the trenches that will solve these issues. It&#39;s recognizing that we&#39;re all in this together, as the people who are tasked with making the things. It&#39;s about people working together instead of blaming each other.&lt;/p&gt;
+&lt;p&gt;It&#39;s definitely not about unicorns.&lt;/p&gt;
+&lt;h2 id=&quot;links&quot; tabindex=&quot;-1&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/strong-foundation/#links&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Here are some tools for building interactive, live style guides and pattern libraries.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://bjankord.github.io/Style-Guide-Boilerplate/&quot;&gt;Style Guide Boilerplate&lt;/a&gt; - We&#39;re using a version of this that I modified. It&#39;s simple, maintainable, flexible, and it works. It requires PHP, but if you&#39;re not up on newfangled stuff like Node then maybe your shop is better equipped for this.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mikepropst.com/blog/strong-foundation/patternlab.io&quot;&gt;Pattern Lab&lt;/a&gt; - Currently the new hotness. This tool builds everything for you and ensures that all the &amp;quot;atomic&amp;quot; pieces are in place. Also runs on PHP, with a Node version and plenty of other unofficial ports as well.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/davidhund/styleguide-generators&quot;&gt;An overview of Pattern Library generators&lt;/a&gt; - This is a pretty comprehensive list. If you can&#39;t find something here, stop being picky or roll your own.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/creating-style-guides&quot;&gt;Creating Style Guides&lt;/a&gt; on A List Apart. If you do roll your own, here&#39;s what to include.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Harrison Mixbus first impressions</title>
+		<link href="http://mikepropst.com/blog/harrison-mixbus/"/>
+		<updated>2014-07-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/harrison-mixbus/</id>
+		<content type="html">&lt;p&gt;I&#39;ve never worked on an analog console. Sure, I&#39;ve sat with someone and suggested technical and creative engineering decisions while they operated, but the UI paradigm of a console is only useful to me because I&#39;ve used desktop mixers, and because pretty much all DAWs use some form of this paradigm. I don&#39;t have any allegiance to the old ways or the &amp;quot;sound&amp;quot; factor that usually consists of a bunch of vague assertions that analog summing is better (usually coupled with assertions that tape is better as well).&lt;/p&gt;
+&lt;p&gt;But what I do have is that drive to find the better workflow, the fastest way to creativity mixed with the ability to generate results. I also can&#39;t pass by a deal. For a $20 &amp;quot;no brainer&amp;quot; deal, it was certainly worth trying out Harrison Mixbus, even though Pro Tools is the standard and is a generally satisfying experience once you learn it.&lt;/p&gt;
+&lt;p&gt;The origins of Mixbus are interesting enough on their own: the project was born from an open source Linux DAW called &lt;a href=&quot;https://ardour.org/&quot;&gt;Ardour&lt;/a&gt;. The Harrison console company, known for their super high end consoles used on a huge amount of popular records, used the existing open codebase as a skeleton that they fleshed out with their own EQ, compression/leveling, saturation, and summing algorithms.&lt;/p&gt;
+&lt;h2 id=&quot;out-of-the-box&quot; tabindex=&quot;-1&quot;&gt;Out of the box &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#out-of-the-box&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Installing is a minor pain due to the requirement of a JACK installation, and subsequent restart. JACK is a system-level audio router that&#39;s somewhere between Soundflower and Propellerheads&#39; ReWire. Apparently Ardour needs it to route from an audio interface to its own tracks. This means the JACK server, really a separate piece of software, has to run at the same time as Mixbus, but a side benefit is that audio can pretty easily be routed into it from other applications.&lt;/p&gt;
+&lt;p&gt;Why&#39;s that important? Well, to me it&#39;s important because Ableton handles all of my composition work, and Ableton is not that great at mixing compared with a package like Pro Tools. Unfortunately, ReWire mode in Ableton disables all the VST/AU plugins, rendering a good chunk of my instruments unusable. So I usually end up rendering audio tracks from Ableton and mixing those in PT, which is not necessarily going to get me the best results, aside from being a crappier workflow. I haven&#39;t yet gotten Mixbus controlling the transport in Ableton, but it does seem possible.&lt;/p&gt;
+&lt;h2 id=&quot;ui&quot; tabindex=&quot;-1&quot;&gt;UI &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#ui&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ardour was built originally for Linux. Thankfully, the Mac OS version does not require X11 or a Java VM. It hardly appears &amp;quot;native,&amp;quot; though. The reverse-color scheme, the Gnome-style file pickers and very Linux-y UI components are alien, distracting, and not very impressive. Keyboard shortcuts aren&#39;t intuitive either: some are borrowed from Pro Tools and that helps, but system-wide commands like Command-backtick for window switching, or even Command-W and Command-H, are nowhere to be found. Many of the commands use Option as their modifier key, which is awkward. Still, a lot of the editing functions are single-key, something that absolutely has to be the case before a DAW can even sit in the same room with Pro Tools. I suppose I could probably re-map them to their PT equivalents, too.&lt;/p&gt;
+&lt;p&gt;By far the thing you&#39;ll notice about the UI the most is the mixer. I&#39;ve written about &lt;a href=&quot;https://medium.com/@mikepropst/grabbin-knobs-764a4c79e503&quot;&gt;skeuomorphs in audio software&lt;/a&gt; before, and it&#39;s all the same here. Harrison love to tout that they&#39;re a console maker, not a software maker, but that works both ways, and their application of a heavy, quasi-realistic mixer design has me gazing longingly at the screenshots of Ardour&#39;s relatively clean and straightforward (almost Ableton-esque) mixer. But as they&#39;ll tell you, this is a thing meant to replace an analog mixer, and the affordances (in the &lt;a href=&quot;http://www.jnd.org/dn.mss/affordances_and.html&quot;&gt;Norman sense&lt;/a&gt;) offered by the skeuomorphs help the special features come forward. In a way, it seems like they&#39;re intentionally reaching backward, and you can feel it when you mix.&lt;/p&gt;
+&lt;h2 id=&quot;fast-access&quot; tabindex=&quot;-1&quot;&gt;Fast Access &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#fast-access&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First off, there&#39;s the impressive list of built-in elements on every channel strip, and I admit this is something that I&#39;d probably miss if I were coming from the console world. I&#39;m already enjoying them. In a typical DAW, pretty much everything, with the exception of EQ in some cases, is a plugin.&lt;/p&gt;
+&lt;p&gt;But in Mixbus, we get a lot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input gain independent of the fader or the clip gain.&lt;/li&gt;
+&lt;li&gt;a 3-band parametric EQ plus high-pass filter.&lt;/li&gt;
+&lt;li&gt;A compressor with three ratio types, speed control, and makeup gain. The threshold control and gain reduction meter sit right next to the fader and level meter.&lt;/li&gt;
+&lt;li&gt;A number of parameters from the selected insert plugin on the channel.&lt;/li&gt;
+&lt;li&gt;On the 4 mix busses and one master bus, there are tape saturators and different compressors tuned for the purpose.&lt;/li&gt;
+&lt;li&gt;On the master bus, a phase alignment meter and &amp;quot;K-meter&amp;quot; to measure perceived loudness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What all of this accomplishes is a mix process that involves far less instantiation of plugins, far less opening of separate windows, and a workflow that keeps you looking at the mixer and maintaining a holistic picture of the mix most of the time. This is of course Harrison&#39;s goal, and I think they&#39;ve met it well.&lt;/p&gt;
+&lt;p&gt;The major downside to this mixer is that there are only 4 &amp;quot;mix busses.&amp;quot; You can add any number of busses for reverbs and other effects, but only the mix busses have delay compensation. That means a lot of multiple-bus tricks that analog and PT users employ, such as parallel compression, are out of the picture due to the phasing that&#39;ll happen without delay compensation.&lt;/p&gt;
+&lt;h2 id=&quot;but-how-does-it-sound&quot; tabindex=&quot;-1&quot;&gt;But how does it sound &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#but-how-does-it-sound&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Again, I admit to knowing little about the console world. I&#39;ve never wired one, and my understanding of routing and bussing comes largely from years of Pro Tools. Mixbus mirrors the real thing even more closely than PT, which provides both benefits and limitations (as with the limited mix busses). So what does it do for the sound?&lt;/p&gt;
+&lt;p&gt;I have to say, I&#39;ve been impressed so far. But I&#39;m not quite sure if it&#39;s the much-touted Harrison summing engine or whether the availability of the tools has let me get a good mix faster. Having EQs out front is important because you&#39;re tempted to use them. And most tracks are really going to need at least a little, but that tiny thought that pops up when you add a plugin creates enough of a barrier that you might skip it. And when you do add a plugin, it&#39;s probably going to have quite a few bands, and a distracting graphical display that makes you think you&#39;re doing something right because the curve &amp;quot;looks good&amp;quot; even though you might need more or less on a given band. Mixbus&#39;s basic EQ has two shelves and a bandpass that work in limited ranges, a Q that varies based on the amount of boost/cut, and a high-pass. Simple. No controllable Q, no ability to put all 3 bands in the high frequencies and create an insanely hyper-tweaked situation. Of course you can still do all that with the same plugins you know and love now, but you can get a really good mix just by carving each channel as necessary and then applying little touches of the onboard compression.&lt;/p&gt;
+&lt;h2 id=&quot;performance&quot; tabindex=&quot;-1&quot;&gt;Performance &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#performance&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Unfortunately, there are some problems on the performance front. I was able to do some very quick mixes efficiently that sounded great without a lot of hassle, but with tunes that had about 6 tracks and not a lot of plugins (thankfully, you don&#39;t need as many plugins with Harrison). But when a client delivered me some songs with 27+ tracks to mix, it died pretty quickly. The meters don&#39;t respond, moving knobs and faders ceases to really do anything — the latency all around just gets ridiculous.&lt;/p&gt;
+&lt;h2 id=&quot;side-by-side&quot; tabindex=&quot;-1&quot;&gt;Side by Side? &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/harrison-mixbus/#side-by-side&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At the end of the day, Pro Tools still has a lot going for it. I find myself doing a lot of wild and (IMO) creative stuff in PT when it comes to routing and bussing, stuff you just wouldn&#39;t be able to do with an analog console — or a DAW that mirrors one too closely.&lt;/p&gt;
+&lt;p&gt;And though I don&#39;t do a &lt;em&gt;lot&lt;/em&gt; of MIDI work inside PT, I definitely have done some, and it&#39;s good to know it&#39;s there. I can add a nice synth to a track without going crazy routing multiple programs.&lt;/p&gt;
+&lt;p&gt;Mixbus also has some good editing tools, some of which are minor UI innovations and others of which are cribbed from PT, but PT is a much faster and more powerful editing machine. It&#39;s also one that I know already whereas I&#39;ve played with Mixbus for about 3 days. I&#39;ve no doubt I could get pretty handy with the flexible editing functions in Mixbus as well.&lt;/p&gt;
+&lt;p&gt;At the end of the day, it&#39;s a great mixer, competent editor, and it sounds very good with no supplemental software. If you&#39;re looking to make great sounding tracks for a lot cheaper than Pro Tools and don&#39;t need MIDI functionality beyond sync, it&#39;s a really compelling tool.&lt;/p&gt;
+&lt;p&gt;And it&#39;s &lt;em&gt;fun&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&quot;http://www.youtube.com/channel/UCtL1SAmjANxmLD_mILAx3Zg&quot;&gt;Harrison&#39;s YouTube channel&lt;/a&gt; is an easy way to get started playing with real practical functionality within a few minutes. The videos are short and informative, and even have some helpful general mix tips.)&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Diego Stocco&#39;s Rhythmic Processing</title>
+		<link href="http://mikepropst.com/blog/stocco-rhythmic-processing/"/>
+		<updated>2014-06-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/stocco-rhythmic-processing/</id>
+		<content type="html">&lt;p&gt;Diego Stocco is an Italian sound designer who&#39;s worked with, among others, Hans Zimmer. He&#39;s perfected a fairly interesting technique of processing sound sources with some rhythm into multiple tracks of kick-snares, bass, and clattering beat-repeaters.&lt;/p&gt;
+&lt;p&gt;Recently he started selling his secret sauce in the form of some impulse responses for convolution reverbs as well as a $10 instructional video, &lt;em&gt;Rhythmic Processing&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I thought I&#39;d try it out.&lt;/p&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/siAfTrUsCJ4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;The basic premise of this short (under 10 minutes) video is that Stocco plays a rhythm with a chopstick on an acoustic guitar, then walks you through his Ableton Live effects chains to show how he turns the whole thing into a massive beat with tons of variations and atmospheric textures.&lt;/p&gt;
+&lt;p&gt;The first thing you&#39;ll notice is that he&#39;s efficient — this thing requires a lot of pausing to look at the settings of the plugins. That&#39;s fine, I&#39;m sick of overly long YouTube tutorials.&lt;/p&gt;
+&lt;p&gt;His method is basically to take the sound and split it, using EQs and filters, into multiple bands on multiple return channels in Ableton. This is a technique I&#39;ve used in Pro Tools for complex &amp;quot;fixing&amp;quot; on already-mixed sources (I don&#39;t have any dedicated multiband processors), but as a creative exercise it&#39;s pretty neat.&lt;/p&gt;
+&lt;p&gt;Stocco doesn&#39;t prescribe any particular plugins. However, non-advanced Ableton users may balk at the fact that a couple of the plugs he relies very heavily upon cost money.&lt;/p&gt;
+&lt;p&gt;There are, however, free sequenced gates out there for VST and AU, as well as a few &amp;quot;trance gates&amp;quot; on the &lt;a href=&quot;http://www.native-instruments.com/en/community/reaktor-user-library/&quot;&gt;NI User Library&lt;/a&gt; if you&#39;re into Reaktor. For the ultimate no-cost sequenced gate, just place a standard Ableton gate effect in place of Stocco&#39;s plugin and feed a sequenced percussive sound into the side chain. Not tough.&lt;/p&gt;
+&lt;p&gt;Is it worth $10? Well, it&#39;s nothing that someone else might not be able to show you, but Stocco is known for this stuff and it&#39;s worth a glimpse under the hood. The video is very short, and that may put some people off, but it&#39;s very dense in information. I felt pretty inspired.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hey screen designers on Macs</title>
+		<link href="http://mikepropst.com/blog/mac-scrollbars/"/>
+		<updated>2014-06-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/mac-scrollbars/</id>
+		<content type="html">&lt;p&gt;You should do this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/scroll.png&quot; alt=&quot;Scroll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Obviously different OSes have different scrollbars, but you&#39;ll save yourself a lot of trouble and possibly spot some HTML mistakes before they get bad from just knowing they&#39;re there.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The enemy of done</title>
+		<link href="http://mikepropst.com/blog/enemy-of-done/"/>
+		<updated>2014-04-16T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/enemy-of-done/</id>
+		<content type="html">&lt;p&gt;I&#39;m sure that you&#39;ve heard, at some point, some wizened sage say a thing about how limitations are helpful when it comes to creative endeavors.&lt;/p&gt;
+&lt;p&gt;Probably it was someone like Frank Zappa who didn&#39;t practice what they preached, but this isn&#39;t just &amp;quot;good for you&amp;quot; advice; it can be fun.&lt;/p&gt;
+&lt;p&gt;What simplification means in a creative sense can be up to you: it could mean limited tools, a smaller palette, a shortened time frame, or really impractical and artificial constraints meant to &amp;quot;get the juices flowing&amp;quot; (e.g., I&#39;m only going to use MS Paint or build a song with presets from early 90s synths). But as an exercise, it&#39;s one thing; adopting simplicity as a &lt;em&gt;way of working&lt;/em&gt; is a freeing experience.&lt;/p&gt;
+&lt;p&gt;After a some great frustration playing in a large band with intricate arrangments, I decided to simplify my musical existence by going back to a one-man show for a while. But that tends to be a rabbit hole for me. I love choices and hate limitations. I don&#39;t necessarily feel like I need to use my whole toolkit in every project, but I want to know I can start anywhere. The problem often &lt;em&gt;is&lt;/em&gt; in starting, though. A limited palette can make that easy.&lt;/p&gt;
+&lt;p&gt;So I&#39;ve created a much smaller subset of tools: two sampled analog drum kits, a &lt;a href=&quot;http://www.korg.com/us/products/dj/volca_keys/&quot;&gt;Volca Keys&lt;/a&gt;, a &#39;73 &lt;a href=&quot;http://www.vintagesynth.com/roland/sh1000.php&quot;&gt;Roland SH-1000&lt;/a&gt;, a &lt;a href=&quot;http://www.native-instruments.com/en/community/reaktor-user-library/entry/show/7777/&quot;&gt;Reaktor-based Minimoog emulator&lt;/a&gt;, and a &lt;a href=&quot;http://meeblip.com/&quot;&gt;MeeBlip SE&lt;/a&gt;. It&#39;s a kind of weird hybrid of real and simulated analog, and it&#39;s all &lt;em&gt;really cheap&lt;/em&gt;. It also feels like a pretty wide sonic palette right off the bat, but I do need &lt;em&gt;some&lt;/em&gt; kind of variety because I tend to write synth lines based on the qualities of a particular sound. The Minimoog has enough variety to spark something unique, but picking from two drum kits means I&#39;m laying down a beat in 5 minutes instead of auditioning sounds and building kits for 40.&lt;/p&gt;
+&lt;p&gt;Over the weekend I wrote a complete song during the baby&#39;s nap time. A couple hours and everything was done. Beat, bass, lead line, effects, tricks, vocals. Done.&lt;/p&gt;
+&lt;h2 id=&quot;a-nice-side-effect&quot; tabindex=&quot;-1&quot;&gt;A nice side effect &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/enemy-of-done/#a-nice-side-effect&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Something that I discovered from going limited is that simplicity isn&#39;t the only benefit — the &lt;em&gt;inability to achieve perfection&lt;/em&gt; has opened my mind quite a bit. I&#39;ve kept the SH-1000 out of my sets for anything other than some noisy filter effects because it&#39;s monophonic, hard to play, hard to keep in tune, and doesn&#39;t have MIDI or the ability to save sounds. With Ableton, I don&#39;t need MIDI or patches: as long as I can adequately play a loop one or two times through, I have a bass or lead line recorded as audio. The key here is &lt;em&gt;adequate&lt;/em&gt;. It&#39;s not going to be perfectly synced, and even if I played it perfectly it wouldn&#39;t necessarily register with the 40-year-old raggedy-ass keys and the tuning would still be wonky. The Volca&#39;s similar: it can be synced to MIDI, but it can&#39;t save sounds either and the tuning tends toward unpredictability.&lt;/p&gt;
+&lt;p&gt;So this stuff means my music isn&#39;t perfect. But it&#39;s also got some character as a result. Aside from how you feel about tweaking sounds or cutting loops precisely, whether these things improve your music, there&#39;s one thing you can&#39;t argue with: I finished something. Quite a few somethings.&lt;/p&gt;
+&lt;p&gt;There&#39;s a saying that &amp;quot;good is the enemy of great.&amp;quot; That&#39;s true, and you should always keep your standards high and your goals lofty — but remember also that &lt;strong&gt;perfect&lt;/strong&gt; is the enemy of &lt;strong&gt;done&lt;/strong&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Tweakin&#39;</title>
+		<link href="http://mikepropst.com/blog/tweakin/"/>
+		<updated>2014-04-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/tweakin/</id>
+		<content type="html">&lt;p&gt;I often wonder what the intersection of my two primary interests — UX and music — might be. Unfortunately, it usually seems like the main manifestation of this is in the obsessive tweaking of processes and tools.&lt;/p&gt;
+&lt;p&gt;It&#39;s probably natural for UX designers of a certain experience level to engage in &lt;a href=&quot;http://mikepropst.com/blog/tweakin/uxmatters.com/mt/archives/2011/03/why-ux-professionals-should-care-about-service-design.php&quot;&gt;service design&lt;/a&gt; thinking. You eventually start to think about the holistic world rather than just the point where a customer touches a software interface. But then again, it could very well be that the obsessive desire to have the perfect experience yourself is the driver of that kind of thinking. It&#39;s a chicken and egg situation, but whichever came first with me, my point is this: I&#39;m constantly editing my tool chain.&lt;/p&gt;
+&lt;p&gt;The answer may very well be in simplicity (more on that at another time), and it definitely lies in &lt;em&gt;compromise.&lt;/em&gt; I&#39;m just not sure there&#39;s a really perfect process. Transparent tools that don&#39;t make you think are pretty much the ideal for creatives — for instance, in a live situation, tools that keep you from touching the laptop trackpad. That&#39;s why I bought an Akai APC40 controller for Ableton on Craigslist, but of course I still have to open new files, and that&#39;s a source of inaccuracy and anxiety onstage. So I&#39;ve been trying to crack that nut. The quest continues. And in the meantime, I use the hardware equivalent of a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyfill&quot;&gt;polyfill&lt;/a&gt;, something that a layman might call &amp;quot;a trackball on stage.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Same in the studio.&lt;/strong&gt; My best purchase of the past year was not a plugin or piece of hardware but a set of $10 keyboard shortcut stickers for Pro Tools. It eased my learning and enabled me to work much faster, especially in the editing stage of a mix. The up-front setup (about an hour peeling and sticking these little nightmare labels), analogous to say, setting up a new project management software, made every subsequent day a little easier. Until I ruined the keyboard with a beer spill. Don&#39;t drink and mix, kids.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Same with design.&lt;/strong&gt; I&#39;ve been playing with &lt;a href=&quot;http://mikepropst.com/blog/tweakin/www.bohemiancoding.com/sketch/&quot;&gt;Sketch&lt;/a&gt; and ended up buying it because of the insane speed it offered me in a few key areas after just a short learning curve. The paradigm shift is just different enough that it mirrors Ableton: a program that is indeed a DAW and has mixer sliders but requires a completely different thought process from the old-school Pro Tools/Cubase mentality. Sketch is definitely a design tool, but it&#39;s been honed and trimmed back to incorporate only the elements you need for the particular type of design you&#39;re doing; in this case, it&#39;s screen design. But... there are holes. It doesn&#39;t do bitmaps at all, I mean &lt;em&gt;at all&lt;/em&gt;, even compared to Illustrator. so I lose the valuable hybrid &amp;quot;don&#39;t think about the vector/bitmap divide&amp;quot; approach of the otherwise-clunky Fireworks. Which means that again, my process is incomplete and I have to fill in the gaps with workarounds and additional tools.&lt;/p&gt;
+&lt;p&gt;So what&#39;s the answer? I don&#39;t think there is one. If I rewrote this post next year, I&#39;d be talking about different tools but it&#39;d look remarkably similar. At some point you have to settle for &amp;quot;good enough it&#39;s not in my way,&amp;quot; but it&#39;s still worths striving for the zen happy place of &amp;quot;perfection.&amp;quot;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hats</title>
+		<link href="http://mikepropst.com/blog/hats/"/>
+		<updated>2014-04-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/hats/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/0b34261cbeb711e3a89412b8a436aa74.8.jpg&quot; alt=&quot;Hat, Mk2&quot; /&gt;
+&lt;img src=&quot;http://mikepropst.com/img/7d2d1e24b93d11e39edb0e8698020099.8.jpg&quot; alt=&quot;hat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My mom always said I was a fan of hats. I guess I&#39;ve passed that on?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Photo Shooting</title>
+		<link href="http://mikepropst.com/blog/photo-shooting/"/>
+		<updated>2014-04-07T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/photo-shooting/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been working with the talented Kyle Woods over at Skyking Photography to start promotion of my new musical project.&lt;/p&gt;
+&lt;p&gt;He had some really interesting and creative ideas that I think captured the feel of my music. I can&#39;t show too much at the moment but this is a piece of the set. Check out those shadows!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/ecdf4920bddb11e39aee1214dc1e7c66.8.jpg&quot; alt=&quot;Photo set&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Equals</title>
+		<link href="http://mikepropst.com/blog/equals/"/>
+		<updated>2014-04-07T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/equals/</id>
+		<content type="html">&lt;p&gt;I&#39;ve always liked to trace the origins of musical artists and their tunes. It&#39;s probably one of my nerdiest hobbies -- I can&#39;t really come down on anyone who memorizes worthless sports stats because I know which Current 93 record Steve Ignorant of Crass sings on and the years each of Neil Diamond&#39;s &lt;em&gt;Hot August Night&lt;/em&gt; live albums were released.&lt;/p&gt;
+&lt;p&gt;This was a lot harder before the internet; most information came in the form of serendipity when a recognized name cropped up in liner notes.&lt;/p&gt;
+&lt;p&gt;Since the advent of the web and standardized sources of info, it&#39;s easy to trace origins. But sometimes because there aren&#39;t any liner notes anymore (if you&#39;re buying mp3s or streaming), little tidbits and cover songs can slip through.&lt;/p&gt;
+&lt;p&gt;That&#39;s the case with The Equals: I hadn&#39;t heard of them but when I heard a loud &lt;a href=&quot;http://www.youtube.com/watch?v=bhKd1Vzr-YQ&quot;&gt;glam-rock stomper&lt;/a&gt; by them on KOOP, I looked into it. Not only was the singer Eddy Grant the guy who lodged &amp;quot;Electric Avenue&amp;quot; in our collective brains, they had a pretty solid influence on the Clash. Here&#39;s the original version of another ahead-of-its-time song &lt;a href=&quot;http://www.youtube.com/watch?v=2hHUdW1N3v8&quot;&gt;the Clash did a great job with&lt;/a&gt;, &amp;quot;Police on My Back.&amp;quot;&lt;/p&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/DH0Guwo_ky0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;I guess as long as there&#39;s music out there, it&#39;s possible to be surprised every once in a while still. Thankfully.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Uh Oh</title>
+		<link href="http://mikepropst.com/blog/uh-oh/"/>
+		<updated>2014-04-06T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/uh-oh/</id>
+		<content type="html">&lt;p&gt;A new blog again.&lt;/p&gt;
+&lt;p&gt;I briefly tried Octopress, a variation on Jekyll that generates a static-file blog. It&#39;s the bees knees in principle but I just can&#39;t make all the Ruby dependencies work. I&#39;ve gotten into a lot of compiled web technologies lately; it&#39;s mostly Node-based stuff like LESS, Jade, etc., but this made me feel a little like an idiot. At the end of the day I&#39;m a designer.&lt;/p&gt;
+&lt;p&gt;I&#39;m really into the idea of Tumblr in some ways — namely speed, ease, and price — but the whole concept of being hosted by one of the big guys has started to get a little weird in the wake of Snowden, and I&#39;m actually looking to do something a little more high-touch than just &amp;quot;Reblog this&amp;quot; and &amp;quot;click the bookmarklet here.&amp;quot;&lt;/p&gt;
+&lt;p&gt;And now, the rise of cheap clouds like Digital Ocean have enabled a lot of flexibility for someone with some general tech knowledge (but not enough to use a Ruby-generated static site with Github for &amp;quot;blogging anywhere&amp;quot;).&lt;/p&gt;
+&lt;p&gt;So I&#39;m trying out &lt;em&gt;Ghost&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;WordPress is just not an option anymore, because it&#39;s an awful, heavy, security-hole-ridden mess that is fine for pushing on a client with a shared hosting environment but if you just wanna blog? not so much.&lt;/p&gt;
+&lt;p&gt;I do think my friends who watch my blog are pretty much limited to &amp;quot;the ones using Tumblr also&amp;quot;, so I can&#39;t say whether moving away from it is a plus or not.&lt;/p&gt;
+&lt;p&gt;I&#39;ll probably make my own theme before too long, but I don&#39;t really know Handlebars and such, so right now this one&#39;s pretty nice.&lt;/p&gt;
+&lt;p&gt;At any rate... Off I go.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

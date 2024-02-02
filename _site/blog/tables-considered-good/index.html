@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tables — no longer the devil</title>
+        <meta
+            name="description"
+            content="Mike&#39;s blog."
+        />
+        <!-- here is a comment that I am testing deploy with -->
+
+        <link rel="preconnect" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="/css/index.css" />
+        <link
+            rel="stylesheet"
+            href="/css/prism-base16-monokai.dark.css"
+        />
+        <link rel="stylesheet" href="/css/prism-diff.css" />
+        <link
+            rel="alternate"
+            href="/feed/feed.xml"
+            type="application/atom+xml"
+            title="Mike&#39;s Site"
+        />
+        <link
+            rel="alternate"
+            href="/feed/feed.json"
+            type="application/json"
+            title="Mike&#39;s Site"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__title container">
+                <p><a href="/">✯ Mike's Site</a></p>
+            </div>
+        </header>
+
+        <div  class="container main blog single" >
+            <div class="row">
+                <div class="col-sm-12 text">
+<article class="post  editorial ">
+  <div class="post__front">
+    <h1>Tables — no longer the devil</h1>
+    <div class="post__date">Nov 19, 2014</div>
+    <div class="post__body">
+        <p>A little while back, I linked to <a href="http://colintoh.com/blog/display-table-anti-hero">this article</a> extolling the virtues of <code>display: table-cell.</code> And I wholeheartedly agree. Using table display moves the Holy Grail Layout from hacky and difficult to done in a couple lines of CSS.</p>
+<p>One thing the article mentions is source order. The author kind of waves this away as an SEO concern, but I'd argue it's the single biggest issue holding back even the people who aren't skeeved out by the word &quot;table.&quot; Source order used to matter little to me; I also thought it was pretty much an SEO issue, or possibly a tweak to page rendering speed at best, but in this day and age? It's easy to move stuff horizontally with floats, but stacked boxes in a mobile layout really need the source order you want to appear on screen. Which, conveniently, is probably the most sensical source order. And if your table layout doesn't support that, you might have created some real headaches for yourself in a responsive page or screen.</p>
+<p>Aside from that, I've just started playing with <code>display:table</code> in earnest on some sites and I'm experiencing some strange behavior with regard to showing and hiding elements. This is further compounded by shifting breakpoints as you resize the browser.</p>
+<p>There's a couple schools of thought on that, both of which I've belonged to:</p>
+<ol>
+<li>The diligent front end devs who will make sure that they've fixed every little weird issue. This is probably the &quot;right&quot; school to be in.</li>
+<li>The pragmatic but perhaps somewhat lazy approach says &quot;only designers sit and resize their browsers all day long making sure all the breakpoints work.&quot; We're designing for multiple devices and screen sizes, not constantly shifting screen sizes. Probably. And the major layout shift where the bug happens is at a small enough size that you probably won't see it on desktop browser at all, where resizing is possible. Probably.</li>
+</ol>
+<p>The thing of responsive layout is that it's an admission we don't <em>know</em> all the cases. So knowingly leaving a weird situation in there without making a pretty significant effort to fix it is a disingenuous move. Hopefully I'll make progress on it, and if I do, I'll document it here.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/webdev/" class="post-tag">webdev</a></dd>
+      <dd><a href="/tags/front-end/" class="post-tag">front end</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/everybody-scrolls/">❮ Everybody scrolls</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/grunt/">(A series of grunting... ❯</a></div>
+</nav>
+</div>
+            </div>
+        </div>
+
+        <footer class="footer cf container" role="contentinfo">
+            <div class="copyright">©2024 Mike Propst</div>
+        </footer>
+
+        <!-- Current page: /blog/tables-considered-good/ -->
+    </body>
+</html>

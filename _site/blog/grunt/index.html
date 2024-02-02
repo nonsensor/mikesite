@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>(A series of grunting noises)</title>
+        <meta
+            name="description"
+            content="Mike&#39;s blog."
+        />
+        <!-- here is a comment that I am testing deploy with -->
+
+        <link rel="preconnect" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="/css/index.css" />
+        <link
+            rel="stylesheet"
+            href="/css/prism-base16-monokai.dark.css"
+        />
+        <link rel="stylesheet" href="/css/prism-diff.css" />
+        <link
+            rel="alternate"
+            href="/feed/feed.xml"
+            type="application/atom+xml"
+            title="Mike&#39;s Site"
+        />
+        <link
+            rel="alternate"
+            href="/feed/feed.json"
+            type="application/json"
+            title="Mike&#39;s Site"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__title container">
+                <p><a href="/">✯ Mike's Site</a></p>
+            </div>
+        </header>
+
+        <div  class="container main blog single" >
+            <div class="row">
+                <div class="col-sm-12 text">
+<article class="post  editorial ">
+  <div class="post__front">
+    <h1>(A series of grunting noises)</h1>
+    <div class="post__date">Oct 9, 2014</div>
+    <div class="post__body">
+        <p>I've finally taken my first step into the wide world of yesterday's favorite web technology with a new understanding of Grunt. <strong>UPDATE: It wasn't long before I moved to Gulp. Welp.</strong></p>
+<p>It's par for the course that designers and front end devs are trendy, fad-prone folks with their eye to the future and an almost obsessive-compulsive desire to find the &quot;perfect&quot; set of tools or processes. And by now, many (especially the ones prone to blog posts) have moved past Grunt to another Javascript/Node-based system called Gulp.</p>
+<p>I'm not there.</p>
+<p>I love being hip and with the times too — I have a Ghost blog. But having just discovered enough information about Grunt from ebooks, coworkers, and Stack Overflow threads to be dangerous, I'm not about to move on just yet. And now that I &quot;get it,&quot; I have to say that maybe it <em>is</em> kind of the &quot;perfect&quot; tool.</p>
+<h2 id="what-will-make-grunt-resilient-in-the-long-run" tabindex="-1">What will make Grunt resilient in the long run? <a class="direct-link" href="#what-will-make-grunt-resilient-in-the-long-run" aria-hidden="true">#</a></h2>
+<p>The &quot;perfection&quot; of Grunt is not about its extreme levels of functionality, nor its user-friendliness (lol). It's the flexibility. Grunt serves that obsessive-compulsive tool-design side of front end with a lot of plugins and an easy way to write more. If you're a FED and you really need something that isn't in the Node Package Manager (NPM) repository, then maybe you should consider taking your skills to the node-module-writing level.</p>
+<p>It's also super portable, which makes creating an environment a snap — just install Node, and you can run Grunt-powered sites and apps. I've heard opposing arguments on whether to put your Node modules for an app or site into Git, but right now we're not. Any new environment just needs to run <code>npm install</code> and they're up and running. It's literally that easy.</p>
+<h2 id="what-are-we-doing-with-it" tabindex="-1">What are we doing with it? <a class="direct-link" href="#what-are-we-doing-with-it" aria-hidden="true">#</a></h2>
+<p>Currently I'm working on a static prototype with bootstrap (LESS version), JQuery, and a few charting libraries. Grunt moves static files from a <code>src</code> to <code>dist</code> directory, minifies Javascript, compiles LESS files and Jade templates, and runs <a href="http://www.browsersync.io/">Browsersync</a> for live reloading and injection. When we're all synced up, it also deploys to Amazon S3 for the stakeholders to view live.</p>
+<p>This is a relatively simple setup for Grunt, which can do all kinds of more Node apps and complex whosamawhatsits. But it's the right tool for the job when compared to something like Preproc or CodeKit which, don't get me wrong, are nice apps.</p>
+<p>For instance, I nailed down the file structure early and defined it in the Jade compiler. Now every new Jade template added automatically compiles to an HTML file in the right structure. CodeKit requires me to define the path of every new template.</p>
+<p>Grunt also lets you create multiple setups. For instance, in development, the watcher and compiler might not minify the final Javascript and CSS so they're more easily debugged in the browser. But on deploy, minify it all. And this is all a one-time setup.</p>
+<h2 id="downsides" tabindex="-1">Downsides <a class="direct-link" href="#downsides" aria-hidden="true">#</a></h2>
+<p>That one-time setup is pretty much Grunt's big downside. The syntax is a bit arcane to me, not quite resembling any normal Javascript or JSON files. Installing packages is a breeze with NPM, but actually setting up the tasks and getting them to do what you want can be a many-hour process.</p>
+<p>Now, is that worth the flexibility and other advantages it offers over simpler GUI compiler applications? Depends on your use case, I'd guess. For us, it's really fantastic. I still use CodeKit on some other sites, and I'm sure the daunting setup process will keep me away a few times that I might prefer using Grunt.</p>
+<p>But overall, it's been fun to learn and satisfying to set up a workflow exactly how I want. That might make me a fad-chasing Kool-Aid drinker but I'm happy to never struggle with my tools not doing what I want.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/webdev/" class="post-tag">webdev</a></dd>
+      <dd><a href="/tags/front-end/" class="post-tag">front end</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/tables-considered-good/">❮ Tables — no longer the devil</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/curmudgeons/">Curmudgeons, get your facts... ❯</a></div>
+</nav>
+</div>
+            </div>
+        </div>
+
+        <footer class="footer cf container" role="contentinfo">
+            <div class="copyright">©2024 Mike Propst</div>
+        </footer>
+
+        <!-- Current page: /blog/grunt/ -->
+    </body>
+</html>
