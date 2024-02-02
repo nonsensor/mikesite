@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-02-01T00:00:00Z</updated>
+	<updated>2024-02-02T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Migration and loss</title>
+		<link href="http://mikepropst.com/blog/migration-and=loss/"/>
+		<updated>2024-02-02T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/migration-and=loss/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been moving a lot of posts finally from the old Kirby system. It just involves sucking metadata out of the Kirby format and into the frontmatter that Eleventy uses, which is something more portable for the next inevitable move.&lt;/p&gt;
+&lt;p&gt;But while the process is more manual than I would like, it has given me an opportunity to look at old content. There are some really interesting links I&#39;ve blogged. Unfortunately, a HUGE chunk of them do not work anymore.&lt;/p&gt;
+&lt;p&gt;It&#39;s hard not to see this as something fundamentally messed up. Like, we&#39;ve broken the internet somehow.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Zed&#39;s alive, baby</title>
@@ -365,6 +376,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/migration-and=loss/&quot; class=&quot;postlist-link&quot;&gt;Migration and loss&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-02-02&quot;&gt;Feb 2, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
@@ -734,6 +752,13 @@
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/microsofts-persona-spectrum/&quot; class=&quot;postlist-link&quot;&gt;Microsoft&amp;#39;s persona spectrum&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-11-13&quot;&gt;Nov 13, 2018&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
     &lt;a href=&quot;http://mikepropst.com/blog/ideo-responds/&quot; class=&quot;postlist-link&quot;&gt;IDEO responds&lt;/a&gt;
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2018-10-31&quot;&gt;Oct 31, 2018&lt;/time&gt;
   &lt;/li&gt;
@@ -909,8 +934,22 @@
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/in-praise-of-jeet/&quot; class=&quot;postlist-link&quot;&gt;In praise of Jeet&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-07-08&quot;&gt;Jul 8, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
     &lt;a href=&quot;http://mikepropst.com/blog/to-icon-or-not-to-icon/&quot; class=&quot;postlist-link&quot;&gt;To icon or not to icon&lt;/a&gt;
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-06-10&quot;&gt;Jun 10, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/discovering-weekly/&quot; class=&quot;postlist-link&quot;&gt;Discovering, weekly&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-05-31&quot;&gt;May 31, 2016&lt;/time&gt;
   &lt;/li&gt;
   
 
@@ -930,8 +969,239 @@
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/responsive-tables/&quot; class=&quot;postlist-link&quot;&gt;Responsive tables&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-29&quot;&gt;Mar 29, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
     &lt;a href=&quot;http://mikepropst.com/blog/new-impercept-ep/&quot; class=&quot;postlist-link&quot;&gt;New Impercept EP&lt;/a&gt;
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-28&quot;&gt;Mar 28, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/bbc-radiophonic-workshop-photos/&quot; class=&quot;postlist-link&quot;&gt;Photos from the BBC Radiophonic Workshop&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-22&quot;&gt;Mar 22, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/production-design-in-hi-rise/&quot; class=&quot;postlist-link&quot;&gt;Production design of High-Rise&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-21&quot;&gt;Mar 21, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/30-years-of-horse-rotorvator/&quot; class=&quot;postlist-link&quot;&gt;Thirty Years of Coil&amp;#39;s Horse Rotorvator&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-03-17&quot;&gt;Mar 17, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/neo-ui/&quot; class=&quot;postlist-link&quot;&gt;Desktop Neo&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-01-25&quot;&gt;Jan 25, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/&quot; class=&quot;postlist-link&quot;&gt;Live recording with local band the Nouns&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-01-13&quot;&gt;Jan 13, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-the-man-who-fell-to-earth/&quot; class=&quot;postlist-link&quot;&gt;RIP to the man who fell to earth&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2016-01-12&quot;&gt;Jan 12, 2016&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/the-rebirth-of-swans/&quot; class=&quot;postlist-link&quot;&gt;The Rebirth of Swans&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-12-16&quot;&gt;Dec 16, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/sketch-leaves-the-app-store/&quot; class=&quot;postlist-link&quot;&gt;Sketch leaves app store&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-12-08&quot;&gt;Dec 8, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/new-impercept/&quot; class=&quot;postlist-link&quot;&gt;New Impercept&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-12-08&quot;&gt;Dec 8, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/2-kinds-of-people/&quot; class=&quot;postlist-link&quot;&gt;Two kinds of people&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-10-27&quot;&gt;Oct 27, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/kraftwerk-in-detroit/&quot; class=&quot;postlist-link&quot;&gt;Kraftwerk at the Masonic Temple in Detroit&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-10-07&quot;&gt;Oct 7, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/in-every-city-wires-drill/&quot; class=&quot;postlist-link&quot;&gt;In Every City? Wire&amp;#39;s Drill&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-24&quot;&gt;Sep 24, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/in-praise-of-the-alesis-sr16/&quot; class=&quot;postlist-link&quot;&gt;In Praise of the Alesis SR-16&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-22&quot;&gt;Sep 22, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/designing-for-vestibular-disorders/&quot; class=&quot;postlist-link&quot;&gt;Designing animations for vestibular disorders&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-15&quot;&gt;Sep 15, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/what-are-we-makin-doodles-with/&quot; class=&quot;postlist-link&quot;&gt;What are we makin&amp;#39; doodles with?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-14&quot;&gt;Sep 14, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/should-designers-code-omg/&quot; class=&quot;postlist-link&quot;&gt;Put the &amp;quot;designers should code&amp;quot; debate to rest&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-05&quot;&gt;Sep 5, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/new-typography/&quot; class=&quot;postlist-link&quot;&gt;New typography&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-01&quot;&gt;Sep 1, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/&quot; class=&quot;postlist-link&quot;&gt;Enhancing Kirby with local workflows&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-09-01&quot;&gt;Sep 1, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/timber-and-twig/&quot; class=&quot;postlist-link&quot;&gt;Timber and Twig Reignited my Love for WordPress&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-08-26&quot;&gt;Aug 26, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/black-metal-politics/&quot; class=&quot;postlist-link&quot;&gt;Black metal campaign logos&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-07-17&quot;&gt;Jul 17, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/smokin/&quot; class=&quot;postlist-link&quot;&gt;Smokin&amp;#39;&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-07-10&quot;&gt;Jul 10, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/twa/&quot; class=&quot;postlist-link&quot;&gt;Tour of JFK&amp;#39;s TWA terminal&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-07-07&quot;&gt;Jul 7, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/dropdowns-last-resort/&quot; class=&quot;postlist-link&quot;&gt;LukeW on dropdowns as a last resort&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-29&quot;&gt;Jun 29, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/unifying-the-systems/&quot; class=&quot;postlist-link&quot;&gt;Unifying the systems. Or something&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-24&quot;&gt;Jun 24, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/ps-design-spaces/&quot; class=&quot;postlist-link&quot;&gt;Photoshop Design Spaces&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-24&quot;&gt;Jun 24, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/sublime-material-theme/&quot; class=&quot;postlist-link&quot;&gt;Material Sublime Theme&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-16&quot;&gt;Jun 16, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/nyt-block/&quot; class=&quot;postlist-link&quot;&gt;NYT blocks desktop access for employees&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-12&quot;&gt;Jun 12, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/show-passwords/&quot; class=&quot;postlist-link&quot;&gt;Showing passwords&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-11&quot;&gt;Jun 11, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/writing-interface-copy/&quot; class=&quot;postlist-link&quot;&gt;Writing interface copy&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-06-10&quot;&gt;Jun 10, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/new-tpb-logo/&quot; class=&quot;postlist-link&quot;&gt;New Pirate Bay logo&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-05-28&quot;&gt;May 28, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/hamburgers-fine/&quot; class=&quot;postlist-link&quot;&gt;Hamburger update- totes fine&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-05-27&quot;&gt;May 27, 2015&lt;/time&gt;
+  &lt;/li&gt;
+  
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/editing-images-in-css/&quot; class=&quot;postlist-link&quot;&gt;Editing images in CSS&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2015-02-03&quot;&gt;Feb 3, 2015&lt;/time&gt;
   &lt;/li&gt;
   
 
@@ -1384,6 +1654,16 @@
 	</entry>
 	
 	<entry>
+		<title>Microsoft&#39;s persona spectrum</title>
+		<link href="http://mikepropst.com/blog/microsofts-persona-spectrum/"/>
+		<updated>2018-11-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/microsofts-persona-spectrum/</id>
+		<content type="html">&lt;p&gt;I think the &lt;a href=&quot;https://medium.com/microsoft-design/kill-your-personas-1c332d4908cc&quot;&gt;headline is bait&lt;/a&gt; and the sentiment is a little radical — as someone who&#39;s been working with more behavioral-based personas for a long time, I&#39;d say there&#39;s plenty of use personas still have as a design tool. It&#39;s just that people, especially marketers, have been using them poorly for years.&lt;/p&gt;
+&lt;p&gt;However, Microsoft&#39;s inclusive &amp;quot;persona spectrum&amp;quot; idea is great. It helps to demonstrate that accessibility and inclusion aren&#39;t just about (for instance) serving blind users, they&#39;re about serving everyone in as many cases as we can.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>IDEO responds</title>
 		<link href="http://mikepropst.com/blog/ideo-responds/"/>
 		<updated>2018-10-31T00:00:00Z</updated>
@@ -1706,6 +1986,17 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 	</entry>
 	
 	<entry>
+		<title>In praise of Jeet</title>
+		<link href="http://mikepropst.com/blog/in-praise-of-jeet/"/>
+		<updated>2016-07-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-praise-of-jeet/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;EDIT: I spent a lot of time using Jeet on a lot of sites and apps once I discovered it. Thanks, Jeet.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;ve used a lot of CSS frameworks, minimal grids, etc etc. I&#39;ve even made my own, which frankly would&#39;ve worked for this site. But it didn&#39;t work for the more complex purpose I had hoped to apply it to, so I ended up using &lt;a href=&quot;http://jeet.gs/&quot;&gt;Jeet&lt;/a&gt;, which is a variation on what this site &lt;em&gt;actually&lt;/em&gt; uses.&lt;/p&gt;
+&lt;p&gt;This site uses Lost Grid, a PostCSS based system that&#39;s pretty neat. But its creator&#39;s earlier work, Jeet (for Stylus or Sass), is a pretty beautiful creation on its own. Awesomely, it&#39;s now being maintained again by someone else, so it feels alive and pretty safe to use. That&#39;s nice because I&#39;m just not quite ready to throw PostCSS-based tools into production yet. I need speed, and speed means familiarity. That means Sass. I&#39;d encourage anyone looking for a grid that is &lt;em&gt;only&lt;/em&gt; a grid to look at Jeet.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>To icon or not to icon</title>
 		<link href="http://mikepropst.com/blog/to-icon-or-not-to-icon/"/>
 		<updated>2016-06-10T00:00:00Z</updated>
@@ -1718,6 +2009,23 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 &lt;li&gt;Both is almost always going to feel like a compromise&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So... everything is bad, more or less. They advise getting things right without icons in the IA and wireframing stage, then adding on the emotional component as part of UI design. Sound approach, but ultimately we&#39;re still left with icons as a &lt;em&gt;pretty good&lt;/em&gt; solution that are still mostly unable to convey verbs and abstract concepts.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Discovering, weekly</title>
+		<link href="http://mikepropst.com/blog/discovering-weekly/"/>
+		<updated>2016-05-31T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/discovering-weekly/</id>
+		<content type="html">&lt;p&gt;I love Spotify&#39;s Discover Weekly. It&#39;s incredibly outstanding. It&#39;s just about the best recommendation engine I&#39;ve ever come across, save maybe &lt;a href=&quot;http://last.fm/&quot;&gt;Last.fm&lt;/a&gt;&#39;s. &lt;a href=&quot;http://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/&quot;&gt;The mix of science and crowdsourcing behind it is fascinating&lt;/a&gt;; no wonder it works. It&#39;s even replaced &lt;a href=&quot;http://last.fm/&quot;&gt;Last.fm&lt;/a&gt; as my primary recommendation method, although to some degree that&#39;s because it&#39;s a &lt;em&gt;push&lt;/em&gt; based system where I don&#39;t even have to try. It&#39;s always there for me.&lt;/p&gt;
+&lt;p&gt;Is there a downside to this? I don&#39;t really see one. In theory, people used to rely more on others to get their recommendations. This still uses your friends — and people you don&#39;t even know who share your current taste — to push recommendations to you. I actually liberally spam my friends with albums, too. I&#39;d wager that if you were the type to do that before, you&#39;re still doing it, and if you weren&#39;t, you&#39;re getting more recommendations now.&lt;/p&gt;
+&lt;p&gt;There&#39;s a criticism that anything algorithmic is going to by its nature be &amp;quot;safer&amp;quot; and work within a set of boundaries, whereas randomly listening to college radio can break you out of your existing sonic box. I suppose that&#39;s valid, but I listen to such a wide variety of genres and popularity levels on Spotify that I don&#39;t really get that effect. Here&#39;s some stuff on the rock end of the spectrum I discovered using the playlist.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Drink&lt;/strong&gt; (dark twee folk-prog?)
+(oembed: &lt;a href=&quot;https://www.youtube.com/watch?v=EjMK6hMIFuo&quot;&gt;https://www.youtube.com/watch?v=EjMK6hMIFuo&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milk Music&lt;/strong&gt; (YouTube commenter gets it sorta right for once: &amp;quot;Sounds like the Wipers joined CCR and played Husker Du covers)
+(oembed: &lt;a href=&quot;https://www.youtube.com/watch?v=CPc5tHUn4ww&quot;&gt;https://www.youtube.com/watch?v=CPc5tHUn4ww&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sheer Mag&lt;/strong&gt; (whose record my friend Adam in Cleveland mastered)
+(oembed: &lt;a href=&quot;https://www.youtube.com/watch?v=Pr2um9KXkgQ&quot;&gt;https://www.youtube.com/watch?v=Pr2um9KXkgQ&lt;/a&gt;)&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -1742,6 +2050,15 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 	</entry>
 	
 	<entry>
+		<title>Responsive tables</title>
+		<link href="http://mikepropst.com/blog/responsive-tables/"/>
+		<updated>2016-03-29T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/responsive-tables/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/accessible-simple-responsive-tables/&quot;&gt;This is a potentially really nice solution&lt;/a&gt; to one of the worst things about responsive design. At work, our app is chock-full of tables and it&#39;s been one of the big reasons why we haven&#39;t gone responsive.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>New Impercept EP</title>
 		<link href="http://mikepropst.com/blog/new-impercept-ep/"/>
 		<updated>2016-03-28T00:00:00Z</updated>
@@ -1750,6 +2067,381 @@ the aid of a Hotone Wally looper, transitions between songs for less awkward sil
 &lt;p&gt;&lt;a href=&quot;https://impercept.bandcamp.com/album/the-force-of-marcus-dont-speak-it&quot;&gt;Check it out here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/marcus.jpg&quot; alt=&quot;MARCUS&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Have a listen, and maybe like &lt;a href=&quot;http://facebook.com/impercept&quot;&gt;Impercept on Facebook&lt;/a&gt; for more of my musical experiments that don&#39;t logically fit with one of my bands.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Photos from the BBC Radiophonic Workshop</title>
+		<link href="http://mikepropst.com/blog/bbc-radiophonic-workshop-photos/"/>
+		<updated>2016-03-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/bbc-radiophonic-workshop-photos/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.bbc.co.uk/music/articles/e71ca197-4808-4132-b1cc-0078d8066fee&quot;&gt;Really cool pictures&lt;/a&gt;, mostly from the 60s but some even earlier, of the place where the BBC employed practitioners of hard core experimental electronics to make commercial sound.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/derbyshire.jpg&quot; alt=&quot;Delia Derbyshire&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There&#39;s Delia Darbyshire, Daphne Oram, an EMS Synthi 100, and all kinds of tape loops hanging everywhere. So cool.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Production design of High-Rise</title>
+		<link href="http://mikepropst.com/blog/production-design-in-hi-rise/"/>
+		<updated>2016-03-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/production-design-in-hi-rise/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.creativereview.co.uk/cr-blog/2016/march/inside-high-rise/&quot;&gt;This looks very cool&lt;/a&gt;. I tend to get pretty excited about JG Ballard movies in general — they turn out better than most Philip K Dick adaptations — and &lt;em&gt;High-Rise&lt;/em&gt; looks pretty promising. These designs look authentically of a particular time, but their generic nature reminds me of the products in &lt;em&gt;Repo Man&lt;/em&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Thirty Years of Coil&#39;s Horse Rotorvator</title>
+		<link href="http://mikepropst.com/blog/30-years-of-horse-rotorvator/"/>
+		<updated>2016-03-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/30-years-of-horse-rotorvator/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://heathenharvest.org/2016/03/13/theres-honey-in-the-hollows-coils-horse-rotorvator-30-years-on/&quot;&gt;Nice look at Coil&#39;s first major opus, &lt;em&gt;Horse Rotorvator.&lt;/em&gt;&lt;/a&gt; As always, there are multiple levels of meaning to everything, right down to the bandstand and references to dead horses on the cover. It&#39;s an album that survives and sounds amazingly strange and fresh to this day, despite the horribly dated synth horns.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Desktop Neo</title>
+		<link href="http://mikepropst.com/blog/neo-ui/"/>
+		<updated>2016-01-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/neo-ui/</id>
+		<content type="html">&lt;p&gt;From a 21-year-old design student at Potsdam. It&#39;s not 100% practical. But the idea that revolution (or even &lt;em&gt;evolution&lt;/em&gt;) in &lt;a href=&quot;https://www.desktopneo.com/&quot;&gt;desktop operating system UIs&lt;/a&gt; is going to come not from Apple or Microsoft but from a kid who&#39;s been natively dealing with multi-touch screens since they were old enough to drive a car is plausible. The idea that folders are on the way out is already obvious, too.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Live recording with local band the Nouns</title>
+		<link href="http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/"/>
+		<updated>2016-01-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/</id>
+		<content type="html">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/SDtKS3-N134&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Building up a portfolio of recorded, mixed work is not always done by traditional routes. That&#39;s especially true when your primary selling point as a recordist is mobility. I would probably love to get nothing but mix jobs — the work is fun, solitary, and low-pressure as long as you meet deadlines — but the challenges that take me out of my comfort zone are a big part of what make recording interesting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Nouns&lt;/strong&gt; are a hip-hop and jazz crossover with elements of rock and R&amp;amp;B. They have a level of accessibility that jazz groups don&#39;t often achieve, and their talent level is sky-high. Their lineup consists of drums, keys, bass, sax, jazz singer (with some R&amp;amp;B/soul flavor) and an MC.&lt;/p&gt;
+&lt;p&gt;My strategy would be to mic them up for multi-tracking but not to get too angsty about bleed. They performed in a barely acoustic-treated music classroom at the University for a video shoot.&lt;/p&gt;
+&lt;h2 id=&quot;challenges&quot; tabindex=&quot;-1&quot;&gt;Challenges &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#challenges&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first unique aspect of this session would be running live sound in a small room while simultaneously recording. The drums didn&#39;t need amplification, and the bass and keyboard player both had amps. So I piped everything through my computer in the normal recording chain and produced two separate mixes. I ran a mix of just vocals and saxophone out to three channels of the PA for &amp;quot;house&amp;quot; sound. Then I gave my headphones everything. This worked surprisingly well with Presonus&#39;s Universal Control. It enables up to 4 mixes, but it&#39;s notoriously crash-happy the more you do with it. Thankfully, it held together enough to give me a 3-channel PA routing while recording all 8 channels of audio.&lt;/p&gt;
+&lt;p&gt;The bass and keys were easy to record: their amps had DIs and I recorded them direct. I loathe DI&#39;d bass sound most of the time, but a little love from EQ in the mix usually helps and practicality won the day this time.&lt;/p&gt;
+&lt;h2 id=&quot;mics&quot; tabindex=&quot;-1&quot;&gt;Mics &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#mics&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For the sax, a Beta 57 positioned a few inches off the bell and at the middle of the horn gave me a surprisingly good sound with minimal effort. I got tonality, articulation, and detailed reediness.&lt;/p&gt;
+&lt;p&gt;I stuck a pair of SM81s in an XY pattern over the drummer&#39;s head. I was able to get them fairly close, given that he&#39;s a jazz drummer with little to no arm swing. The XY of course keeps everything in phase, but it turned out to be a great fit for a unique kit. He uses two snares side by side, and no toms. I supplemented the kit with my old Oktava LDC in the front of the kick. The resulting sound has maybe more room sound than I would care for, and the hats are a bit wild on a couple songs, but it serves the musicality and dynamic range of the jazz style playing.&lt;/p&gt;
+&lt;p&gt;The singers each got an SM7B. This is a mic I had no experience with but I was pleased. Though it&#39;s a dynamic, it has a lot of detail and really requires a preamp to pull everything out of it. I put it through my cheapo ART Tube MPA preamp (tube-swapped to minimize noise) and my Symetrix 525 compressor/gate. I only took the biggest peaks off; the SM7B&#39;s sound is so smooth, it almost sounds like it&#39;s been hit with a compressor already. The MC gave a great delivery, and I cranked the tube preamp to give him a touch of grit. I had so much drum bleed in the singer&#39;s mic that even the gate wasn&#39;t helping. It&#39;s possible I should have switched her to a handheld, but even changing her position in the room may have helped. You live and learn. At the end of the day, though, an LDC would never have worked and an SM58 wouldn&#39;t have been very exciting.&lt;/p&gt;
+&lt;h2 id=&quot;mix&quot; tabindex=&quot;-1&quot;&gt;Mix &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#mix&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been into the idea recently of &amp;quot;console-style&amp;quot; mixing. Initially I tried in the obvious choice, the new (v3) version of &lt;a href=&quot;http://harrisonconsoles.com/site/mixbus.html&quot;&gt;Harrison Mixbus&lt;/a&gt;, but despite some huge improvements in performance it&#39;s still not quite ready for primetime. I will continue to experiment with it.&lt;/p&gt;
+&lt;h2 id=&quot;slate&quot; tabindex=&quot;-1&quot;&gt;Slate &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#slate&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;console&amp;quot; mentality proved a great way to justify trying out the new Slate subscription plugin program. While Avid is getting a lot of flak for moving to a subscription based model for all versions of Pro Tools going forward, Steven Slate is proving that execution (and a lot of brand good will going into it) can make all the difference.&lt;/p&gt;
+&lt;p&gt;The Slate VMR and VCC really tied the sound of all the tracks together, and the 3 EQs (SSL and Neve) and two compressors (Opto and 1176) available in VMR are about what I&#39;d normally use. Since this project wouldn&#39;t be mastered, the Slate FG-X would let a non-mastering-engineer like myself put the final touch of volume and polish on the tunes.&lt;/p&gt;
+&lt;h2 id=&quot;other-plugins&quot; tabindex=&quot;-1&quot;&gt;Other Plugins &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#other-plugins&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Despite the closeness of the overheads, I feel like the XY pattern gave me a bit too much room sound and the room really wasn&#39;t a great one. So I hit them with a bit of Tokyo Dawn&#39;s Proxmity plugin, an ingenious combo of reverb, compression, and EQ that can make sources sit closer or farther away in the mix. For the bass, I shamelessly applied Waves Renaissance Axx compression going into the Slate VMR. Surprisingly, I didn&#39;t use the Maag EQ4 on the singer. This had a lot to do with the drum bleed throwing unwanted frequencies into her mic; I needed to do more surgery on specific frequencies. The Maag has smart frequencies but they&#39;re fixed.&lt;/p&gt;
+&lt;h2 id=&quot;roundup&quot; tabindex=&quot;-1&quot;&gt;Roundup &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/live-recording-with-local-band-the-nouns/#roundup&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This was a challenging recording situation. But with the exception of a few specific issues, the mix came together well. So I might have done something right. More than any other session, Shure saved the day. The Beta 57, far from being a &amp;quot;just good enough&amp;quot; versatile mic, was magic on the sax. And I can understand why the SM7B is such a popular microphone. But the stars of the show were really the SM81s. The simple drum mic setup worked great for jazz, and might make me rethink how I deal with a rock kit next time.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP to the man who fell to earth</title>
+		<link href="http://mikepropst.com/blog/rip-the-man-who-fell-to-earth/"/>
+		<updated>2016-01-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-the-man-who-fell-to-earth/</id>
+		<content type="html">&lt;p&gt;Probably doesn&#39;t come as any surprise to anyone that I am, and have been for as long as I can remember, a &lt;strong&gt;David Bowie&lt;/strong&gt; fan. I heard the news early on because I was up late on Sunday night. We all regarded the first tweets skeptically, because people &amp;quot;die&amp;quot; on Twitter all the time and there was a big death hoax with the release of &lt;em&gt;The Next Day&lt;/em&gt;. But it was verified sadly by his son, the director Duncan Jones. Suddenly his new album took on a new significance. The lyrics aren&#39;t cryptic anymore, just like that. And in roll the thinkpieces and tributes.&lt;/p&gt;
+&lt;p&gt;It&#39;s only in hindsight that I realize what songs like &amp;quot;Rock &#39;n&#39; Roll Suicide&amp;quot; and &amp;quot;Life on Mars?&amp;quot; did for me as a nerdy, weird, depressed kid. Bowie probably changed my path — for the better.&lt;/p&gt;
+&lt;p&gt;Somehow the ultimate outsider hero also cut across so many types of people that the response was near-universal. I suppose everyone feels like an outsider, and he managed to tell them &amp;quot;oh no love, you&#39;re not alone.&amp;quot;&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/CD1nzOeS6U0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Rebirth of Swans</title>
+		<link href="http://mikepropst.com/blog/the-rebirth-of-swans/"/>
+		<updated>2015-12-16T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/the-rebirth-of-swans/</id>
+		<content type="html">&lt;p&gt;In 2007, I had seen pretty much every Angels of Light or Michael Gira solo tour that had happened since the breakup of Swans. I was pretty burnt my missing the final Swans Are Dead tour so I took every opportunity. Then Gira released a new Angels album with &lt;a href=&quot;https://en.wikipedia.org/wiki/Akron/Family&quot;&gt;Akron/Family&lt;/a&gt; as the backing band. It&#39;s all fairly repetitive and hypnotic compared to earlier Angels of Light records, but &amp;quot;Black River Song&amp;quot; in particular kind of exploded my mind when I heard it. Combined with the cover art by Deryk Thomas, who also painted &lt;em&gt;Love of Life&lt;/em&gt; and &lt;em&gt;White Light From The Mouth of Infinity&lt;/em&gt; covers, it all added up to Swans. I couldn&#39;t stop listening to the tune, and probably telling everyone I knew that this meant Swans were coming back.&lt;/p&gt;
+&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify%3Atrack%3A4dtWxP8O03qn4yl0P7HXzj&quot; width=&quot;100%&quot; height=&quot;100&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;At the advent of the Swans reboot, Michael Gira repeatedly told a wonderful yarn. Seth of Akron/Family hit a huge chord on stage and it made Gira realize that he wanted more Swans. But when I listen to this tune, I still feel like it was there, dying to get out. And given that he&#39;s done what might be his best stuff since the reboot, I&#39;m pretty glad it was.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Sketch leaves app store</title>
+		<link href="http://mikepropst.com/blog/sketch-leaves-the-app-store/"/>
+		<updated>2015-12-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/sketch-leaves-the-app-store/</id>
+		<content type="html">&lt;p&gt;I haven&#39;t really noticed the downside of Sketch on the Mac App Store — except for the reason that I don&#39;t have the App Store version. Bohemian couldn&#39;t offer a Sketch 3 upgrade to App Store customers, so I got the standard version. Updates come very regularly, and apparently that&#39;s one of the major problems they have. I guess this trend has a chance of making Apple change some things. Sketch has to be a decent amount of lost revenue, and maybe more importantly, it&#39;s a high-profile Apple Design Award winning app.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Impercept</title>
+		<link href="http://mikepropst.com/blog/new-impercept/"/>
+		<updated>2015-12-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/new-impercept/</id>
+		<content type="html">&lt;p&gt;Playing around with the new Reaktor 6. I don&#39;t know why I ended up with a techno beat.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236599261&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Two kinds of people</title>
+		<link href="http://mikepropst.com/blog/2-kinds-of-people/"/>
+		<updated>2015-10-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/2-kinds-of-people/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/2kinds.jpg&quot; alt=&quot;2 kinds&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Accurate. This is my wife and I (she&#39;s military). &lt;a href=&quot;http://2kindsofpeople.tumblr.com/&quot;&gt;Really fun Tumblr&lt;/a&gt; in general.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Kraftwerk at the Masonic Temple in Detroit</title>
+		<link href="http://mikepropst.com/blog/kraftwerk-in-detroit/"/>
+		<updated>2015-10-07T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/kraftwerk-in-detroit/</id>
+		<content type="html">&lt;p&gt;Some musical acts who get long in the tooth sustain themselves through constant reinvention, like David Bowie. Others, like Iron Maiden, keep their old hits from sounding tired by pushing themselves to make great new music. And plenty (Springsteen, the Stones) keep flying by on the strength of their live performance regardless of the weakness of their current output. Kraftwerk manage to grab the best parts of all of these by continually refreshing their classic music.&lt;/p&gt;
+&lt;p&gt;We traveled all the way to Detroit for only a long weekend, and it was basically just to see Kraftwerk. How many more tours do Ralf Hutter and the gang have in them? I don&#39;t want to be on the wrong end of that question, having never seen them. Pete told me their shows were boring. Kris told me whatever, the visuals are good and you know all the songs. This is pretty right-on. The visuals, this time in 3D, were a fantastic future-retro mix of graphics and video all completely synced with the tunes.&lt;/p&gt;
+&lt;p&gt;They started with zero buildup, launching into &amp;quot;Numbers&amp;quot; so fast that much of the theater hadn&#39;t gotten seated. They updated the beat that launched a million electro singles into a super powerful, booming dance assault. Apparently Kraftwerk&#39;s people enter a venue, evaluate it, and supplement the sound system wherever necessary. And it shows. The sound was powerful but pristine.&lt;/p&gt;
+&lt;p&gt;The process of updating the songs began with &lt;em&gt;The Mix&lt;/em&gt;, but they now sound even better — the beats have &lt;em&gt;The Mix&lt;/em&gt;&#39;s dancefloor focus but the sounds and synths feel more like ultra-high-fidelity versions of the originals.&lt;/p&gt;
+&lt;p&gt;Here&#39;s a not-great but not-distorted phone clip of &amp;quot;Radioactivity,&amp;quot; possibly the most dramatic update.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/L9-esZKFVv4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Ironically, the largest response came for the beginning of the second set, &amp;quot;The Robots.&amp;quot; It&#39;s ironic because the applause was for the old-school Kraftwerk &amp;quot;robot&amp;quot; mannequins, who took the stage instead of the members. The rest of the time, the group wore uniforms I can only describe as &lt;em&gt;Tron&lt;/em&gt;-like, which lit up to correspond with each song&#39;s projections.&lt;/p&gt;
+&lt;p&gt;Overall, a great show and a great classic Detroit venue to see it. It makes an all-day trek with a near-3-year-old just about worth it.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>In Every City? Wire&#39;s Drill</title>
+		<link href="http://mikepropst.com/blog/in-every-city-wires-drill/"/>
+		<updated>2015-09-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-every-city-wires-drill/</id>
+		<content type="html">&lt;p&gt;When I was in high school, I had a friend who shrugged off the idea of Wire records after &lt;em&gt;154&lt;/em&gt;, because they &amp;quot;started doing techno or something.&amp;quot; That&#39;s narrow and inaccurate, but that&#39;s how we thought. And anyway, though they used synths the music was more like a left-field pop — and the &amp;quot;p&amp;quot; word is even more damning than &amp;quot;techno.&amp;quot;&lt;/p&gt;
+&lt;p&gt;The inspiration for my friend&#39;s comment, though, may have been a &amp;quot;single&amp;quot; that Wire put out during their second phase. The song is &amp;quot;Drill,&amp;quot; from &lt;em&gt;The Ideal Copy&lt;/em&gt;. It features no less than 9 different reworkings, remixes, and live performances of the song that often bear no resemblance to the original. It&#39;s a fun release that hangs alright on its own because the versions are all different. Here&#39;s one.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/PS28biAEBqo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Some of the versions are very industrial in tone, with processed vocals, textures made of samples, heavy programmed beats, and an almost-danceable pulse.&lt;/p&gt;
+&lt;p&gt;If you knew me at the time I owned the cassette, you were probably subjected to &lt;em&gt;The Drill&lt;/em&gt; repeatedly in my Dodge Spirit. I apologize, but only a little.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>In Praise of the Alesis SR-16</title>
+		<link href="http://mikepropst.com/blog/in-praise-of-the-alesis-sr16/"/>
+		<updated>2015-09-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-praise-of-the-alesis-sr16/</id>
+		<content type="html">&lt;p&gt;I was somewhat surprised recently to see that some people on the group-buying site Massdrop were attempting to get a group together for the Alesis SR-16 drum machine. At its regular street price, the SR-16 is at the same price point as a lot of other newer, more fashionable machines. The Volca Beats is an insanely fun, great-sounding, compact true analog 808 clone for the same coin. Boss continues to make good drum machines for the same or not much more.&lt;/p&gt;
+&lt;p&gt;And recently I&#39;ve been in multiple conversations about how the Alesis brand is mostly garbage. This is a shame, at least for the sake of a few great machines — The Micron/Ion keyboards are among the best synths to come out of the now-passé virtual analog era — but most notably for the SR-16. It&#39;s somewhat hard to love, but it&#39;s also hard to deny.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/hr.16.jpg&quot; alt=&quot;HR-16&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Alesis produced the very first 16-bit sampling drum machine, the HR-16. Previous sample-based machines, like Oberheim&#39;s DMX and the Linn LM-1, were 8 or 12-bit. &amp;quot;HR&amp;quot; stood for high resolution and it really wasn&#39;t a pose. The samples were good, they had multiple velocity levels, and they were tunable. But there was, as with all machines of the time, a single kit worth of sounds to choose from. I use one, and I replaced the internal chips with Linn LM-1 sounds.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/sr.16.jpg&quot; alt=&quot;SR-16&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Fast forward to 1993, and the successor to the HR-16 didn&#39;t do much for innovation, but it added every feature you might want in a drum machine. There were velocity-dependent samples: if you hit a pad harder you&#39;d hear a sample of a drummer hitting the drum harder, rather than just the same sample at higher volume. There were two drum &amp;quot;fills&amp;quot; for each pattern, so that switching between patterns was less robotic and more realistic. For live standalone users, there were two foot pedal inputs for changing patterns hands-free on stage. But if you wanted to use the unit as a sound module, the MIDI implementation was more complete than anything on the market. Godflesh upgraded their HR-16 to an SR-16, and I started playing fairly Godflesh-like music with one, recording my ideas to 4-track. It also powered my first industrial/experimental band for quite a while before finally giving up the ghost after about 10 years of beats (I still have it and I&#39;m sure it could be made operational again). But as long as it lasted and as useful as it was, I&#39;m surprised that it&#39;s still made. More power to it.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Designing animations for vestibular disorders</title>
+		<link href="http://mikepropst.com/blog/designing-for-vestibular-disorders/"/>
+		<updated>2015-09-15T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/designing-for-vestibular-disorders/</id>
+		<content type="html">&lt;p&gt;With any new web technology fun times, the first thing to go is accessibility. Of course, in this case, we&#39;re talking about a &lt;a href=&quot;http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity&quot;&gt;disability that the Web never triggered before&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>What are we makin&#39; doodles with?</title>
+		<link href="http://mikepropst.com/blog/what-are-we-makin-doodles-with/"/>
+		<updated>2015-09-14T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/what-are-we-makin-doodles-with/</id>
+		<content type="html">&lt;p&gt;Khoi Vinh &lt;a href=&quot;http://tools.subtraction.com/index.html&quot;&gt;published the results&lt;/a&gt; of a pretty interesting survey on the tools that designers are using in various disciplines of website and software creation. No surprises here. Sketch is creeping up on the mighty (and mighty expensive/bloated) Photoshop.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Put the &quot;designers should code&quot; debate to rest</title>
+		<link href="http://mikepropst.com/blog/should-designers-code-omg/"/>
+		<updated>2015-09-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/should-designers-code-omg/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.the-haystack.com/2015/09/02/put-the-designers-should-code-debate-to-rest/&quot;&gt;Good read&lt;/a&gt;. The likelihood of that debate ever ending is small. But the point here is awesome. It&#39;s not about your skillset. It&#39;s about the fact that you&#39;re trying to describe a Picasso by farting.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It took me several years to come to that opinion and it hasn’t changed much, but it wasn’t the coding that was important. It was the movement away from symbolic representations of that which we were designing. It was about not using flat images as a poor proxy for something that’s different for different people on different devices in different browsers.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New typography</title>
+		<link href="http://mikepropst.com/blog/new-typography/"/>
+		<updated>2015-09-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/new-typography/</id>
+		<content type="html">&lt;p&gt;I&#39;ve updated the type on the site. Maybe do a hard refresh if you&#39;re so inclined. I won&#39;t be getting to a redesign any time soon, but I wanted to make things a little more reasonable. Things are now set in Merriweather and Merriweather Sans, which I think are great little fonts.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Enhancing Kirby with local workflows</title>
+		<link href="http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/"/>
+		<updated>2015-09-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/</id>
+		<content type="html">&lt;p&gt;I&#39;m enjoying using Kirby to write my blog. It feels more connected to the rest of the site, more in my control, and more &amp;quot;not $5 a month to operate a separate virtual server running Node to have a Ghost blog.&amp;quot; But the Kirby Panel, great for spot changes in your content, is not where you want to live every day for blogging. Fortunately, Kirby is a flat-file system that allows users to add content by simply uploading it. So now I&#39;m blogging locally in my favorite Markdown editor and distraction-free writing tool, &lt;a href=&quot;http://bywordapp.com/&quot;&gt;Byword&lt;/a&gt;. There are two parts to making this work.&lt;/p&gt;
+&lt;h2 id=&quot;automator&quot; tabindex=&quot;-1&quot;&gt;Automator &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/#automator&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first half of the solution uses Automator, Mac OS X&#39;s super powerful and under-utilized workflow creator. I love it, although it&#39;s not always intuitive how to do what you need. Essentially this workflow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Asks for a name that will eventually be the permalink of the Kirby post&lt;/li&gt;
+&lt;li&gt;Creates a folder in my local &amp;quot;blog&amp;quot; folder with that title&lt;/li&gt;
+&lt;li&gt;Copies a text file template into that folder with the name &lt;code&gt;article.txt&lt;/code&gt; (which is what Kirby needs to associate it with the &amp;quot;article&amp;quot; template&lt;/li&gt;
+&lt;li&gt;Opens that file in Byword, where I can fill it out&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once I write the post, the second part comes into play.&lt;/p&gt;
+&lt;h2 id=&quot;dropzone&quot; tabindex=&quot;-1&quot;&gt;Dropzone &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/#dropzone&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://aptonic.com/dropzone3/&quot;&gt;Dropzone 3.5&lt;/a&gt; was recently released, and it&#39;s a nice update to a super useful program. Imagine internet (not just web) bookmarks, file actions, and shortcuts, all rolled into one simple place. You can click actions or drag files and folders onto them, depending on what they are. So in order to publish a post, I just take the newly created folder and drag it onto an FTP shortcut I made in Dropzone. Bam, blogged. And I never have to write anything into another web interface again if I don&#39;t want to. Thanks to Kirby&#39;s self-contained content style, I can put any images for the post into that folder and they&#39;ll work as well.&lt;/p&gt;
+&lt;p&gt;As a bonus, I added the Automator action to Dropzone as well so I can both write and upload the post from Dropzone. It&#39;s a handy little tool that&#39;s a good buy at 5 bucks. Only downside I&#39;ve encountered so far is that it can&#39;t upload folders to an S3 bucket.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Timber and Twig Reignited my Love for WordPress</title>
+		<link href="http://mikepropst.com/blog/timber-and-twig/"/>
+		<updated>2015-08-26T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/timber-and-twig/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/timber-and-twig-reignited-my-love-for-wordpress/&quot;&gt;From CSS-Tricks&lt;/a&gt;. &amp;quot;Love&amp;quot; is a strong word, and &amp;quot;reignited&amp;quot; implies you &lt;em&gt;ever&lt;/em&gt; loved something. But Timber does bring the process of theming for WordPress up to the level of just about anything else.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Black metal campaign logos</title>
+		<link href="http://mikepropst.com/blog/black-metal-politics/"/>
+		<updated>2015-07-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/black-metal-politics/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/jeb.jpg&quot; alt=&quot;Jeb!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This is great. Fast Co gets metal logo designer Christophe Szpajdel to &lt;a href=&quot;http://www.fastcodesign.com/3047747/2016s-presidential-hopefuls-rebranded-as-black-metal-bands#1&quot;&gt;redesign the logos&lt;/a&gt; of all the bazillion players in the 2016 campaign.&lt;/p&gt;
+&lt;p&gt;The other interesting thing about this is that one guy designed all those unreadable black metal logos, from Gorgoroth and Emperor to Wolves in the Throne Room.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Smokin&#39;</title>
+		<link href="http://mikepropst.com/blog/smokin/"/>
+		<updated>2015-07-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/smokin/</id>
+		<content type="html">&lt;p&gt;Shortly after moving, I realized that despite the often-rainy Oregon weather, I was going to need another grill. We&#39;d given the old gas chugger away back in Texas. It was too small, a little persnickity, and basically had one temperature (&amp;quot;hot as it&#39;ll go,&amp;quot; which was increasingly &amp;quot;not that hot&amp;quot;).&lt;/p&gt;
+&lt;p&gt;After doing some online reading and talking to a couple people, I came to the Kamado style grill and ended up with the Char-Griller Akorn. Last year&#39;s model was dirt cheap on Amazon and Prime-ready, so in a day I was up and running. The chief appeal of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Kamado&quot;&gt;kamado&lt;/a&gt;, popularized in the West by the Big Green Egg, is that you can get crazy hot with it but also control super low temperatures for long periods. So it lends itself not only to making a pizza with a &lt;a href=&quot;https://www.youtube.com/watch?v=x35P2wTX0zg&quot;&gt;super hot fire&lt;/a&gt; but smoking a brisket.&lt;/p&gt;
+&lt;p&gt;For the Fourth, I brought some smoked stuff to the neighbors&#39; party — he&#39;s a carne asada connoisseur, but she&#39;s a vegetarian. So I took it upon myself to see if Real Texas Flavor could be transferred to a mouth without riding on a dead animal.&lt;/p&gt;
+&lt;p&gt;I read a bit online but not many people were doing it. &lt;a href=&quot;http://jasonhardin.com/smoking-tofu/&quot;&gt;This person&lt;/a&gt; gave me the marinade idea: basically one part rice wine vinegar to two parts soy sauce. As meat eaters who&#39;ve tried it will attest, tofu doesn&#39;t really have a lot of flavor. So slicing the bricks lengthwise in half then marinating them for about a day in this salty/tangy, vaguely Japanese solution gave it a great savory start before it even hit the wood. After that, I got the hickory going as low as it would go, waited for the good thin blue smoke (you do that, don&#39;t you? Don&#39;t tell me you cook over that white shit), and sat the half-bricks down for about 2 hours.&lt;/p&gt;
+&lt;p&gt;True to what I expected, they gained a little more chew. I&#39;m not sure where that comes from, but if you&#39;ve ever had smoked cheese you know what I&#39;m talking about. A little rind, a little denser texture. In the case of spongey-ass tofu, it worked well. It had the texture of tofu that&#39;d been pressed for weeks, not the couple hours I did it.&lt;/p&gt;
+&lt;p&gt;Results? I loved it, both neighbors loved it, a few people declared it the best tofu they&#39;d ever had. And it really did have a taste reminiscent of Texas BBQ.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Tour of JFK&#39;s TWA terminal</title>
+		<link href="http://mikepropst.com/blog/twa/"/>
+		<updated>2015-07-07T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/twa/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://ny.curbed.com/archives/2015/06/30/explore_the_twa_terminal_a_pristine_time_capsule_from_1962.php&quot;&gt;Super cool piece from Curbed&lt;/a&gt; on the quintessential modernist space.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/twa.jpg&quot; alt=&quot;TWA&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>LukeW on dropdowns as a last resort</title>
+		<link href="http://mikepropst.com/blog/dropdowns-last-resort/"/>
+		<updated>2015-06-29T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/dropdowns-last-resort/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://storify.com/lukew/drop-downs-are-the-ui-of-last-resort&quot;&gt;I feel like this applies to desktop as well&lt;/a&gt;. The idea of not hiding options is appealing. I wonder where along the way we (collectively) stopped putting radios out there — it&#39;s probably in the interest of keeping UIs &amp;quot;clean&amp;quot; and concise. But concise is a function of the actual design of fields and we need to fight for easier controls and fewer options, not a visually appealing mess.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Unifying the systems. Or something</title>
+		<link href="http://mikepropst.com/blog/unifying-the-systems/"/>
+		<updated>2015-06-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/unifying-the-systems/</id>
+		<content type="html">&lt;p&gt;If you&#39;ve ever worked with me, you know that playing with small to medium content management systems is a hobby of mine. Last year I settled on Kirby as my system of choice for running my own website. However, I was keeping my blog on a Digital Ocean droplet running Node and Ghost.&lt;/p&gt;
+&lt;p&gt;Ghost is definitely a more modern, slick system that I&#39;ve been really pleased with. But I did want to consolidate things into a single site. So my new blog and RSS feed are operated on the same Kirby system as the rest of my site. If nothing else, I didn&#39;t have to learn anything about the server, the templating tools, or anything else in order to get it redesigned and fit in. Flexibility was important — now I can have my own fields and post types pretty easily.&lt;/p&gt;
+&lt;p&gt;And since both systems are reliant on Markdown for content and Ghost has a handy simple JSON export, porting was not a big deal. Let me know if you see any issues.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Photoshop Design Spaces</title>
+		<link href="http://mikepropst.com/blog/ps-design-spaces/"/>
+		<updated>2015-06-24T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/ps-design-spaces/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.subtraction.com/2015/06/16/photoshop-design-space/&quot;&gt;This feels like a step in the right direction&lt;/a&gt;. One of the arguments that persists despite Photoshop adding tons of new and relevant screen design features in recent months is that the old granddaddy does too many things. It had great features for photographers and retouchers, great features for graphic designers, great features for UI designers, and all that adds up to &amp;quot;too many features.&amp;quot; No one person is likely to use everything that Photoshop offers anymore. So we&#39;re left with feature weight, function weight, and interface weight, while upstarts like Sketch barrel in with a limited toolset and huge efficiency of performance and UI. Design Spaces appear to directly acknowledge and address this problem.&lt;/p&gt;
+&lt;p&gt;Vinh is wrong about one thing though:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What strikes me about this situation is how remarkable it is that it exists at all; the Adobe of a decade ago seemed to have little or no interest in what was important to web and interface designers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Adobe of a decade ago was still putting resources into Fireworks, the wellspring of all these screen design tools. So if the streamlined interface of the screen Design Space owes a lot to Sketch, it&#39;s good to remember that Sketch didn&#39;t completely come out of nowhere either.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Material Sublime Theme</title>
+		<link href="http://mikepropst.com/blog/sublime-material-theme/"/>
+		<updated>2015-06-16T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/sublime-material-theme/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://equinusocio.github.io/material-theme/&quot;&gt;Here&#39;s a theme&lt;/a&gt; that makes your Sublime Text look all Google-Material-ish. It&#39;s actually pretty nice. I like to change my editor often — it&#39;s one of those minimal-effort ways to stave off everyday boredom.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>NYT blocks desktop access for employees</title>
+		<link href="http://mikepropst.com/blog/nyt-block/"/>
+		<updated>2015-06-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/nyt-block/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://thenextweb.com/opinion/2015/06/12/the-new-york-times-wisely-blocks-staff-from-viewing-its-desktop-homepage/&quot;&gt;This&lt;/a&gt; is how you show you mean business on mobile-first.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Showing passwords</title>
+		<link href="http://mikepropst.com/blog/show-passwords/"/>
+		<updated>2015-06-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/show-passwords/</id>
+		<content type="html">&lt;p&gt;Luke Wroblewski &lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1941&quot;&gt;on login screens&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Quite quickly I came to see password-masking as a rut. A design pattern that has been around so long that no one thinks about it much. We all just go through the motions when assembling a log-in screen and add password-masking by default. Lost business and usability issues just come along for the ride.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Really makes u think.&lt;/p&gt;
+&lt;p&gt;(Not long before this, my team and I got in a fight about this topic, and we won. Pretty cool!)&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Writing interface copy</title>
+		<link href="http://mikepropst.com/blog/writing-interface-copy/"/>
+		<updated>2015-06-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/writing-interface-copy/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://nicolefenton.com/interface-writing/&quot;&gt;Great stuff from Nicole Fenton&lt;/a&gt;. This is a talk but translates well to a writeup.&lt;/p&gt;
+&lt;p&gt;UI copy gets the shaft so often, not just in terms of the attention it receives but also the way it&#39;s written.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You write code iteratively, so why not the rest of it? It’s okay if your interface writing isn’t perfect. But you better believe that you need to go back and clean up those strings before you go live.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is really important. Every project I&#39;ve ever been a part of forgot the &amp;quot;we can improve later&amp;quot; mindset of Agile to some degree when faced with the prospect of launching with imperfect interface copy.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New Pirate Bay logo</title>
+		<link href="http://mikepropst.com/blog/new-tpb-logo/"/>
+		<updated>2015-05-28T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/new-tpb-logo/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.underconsideration.com/brandnew/archives/the_pirate_bay_to_authorities_f-u.php&quot;&gt;This is pretty awesome&lt;/a&gt;, regardless of your opinion of TPB. If you see them as sort of punk rock establishment fighters, you&#39;re bound to love the visual middle finger. If you think they&#39;re villains, well at least they&#39;re suitably entertaining ones.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/tpb.png&quot; alt=&quot;TPB&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hamburger update- totes fine</title>
+		<link href="http://mikepropst.com/blog/hamburgers-fine/"/>
+		<updated>2015-05-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/hamburgers-fine/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.uxmatters.com/mt/archives/2015/05/why-its-totally-okay-to-use-a-hamburger-icon.php&quot;&gt;From UXmatters, &amp;quot;Why It’s Totally Okay to Use a Hamburger Icon.&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The pendulum swings to a reasonable center. Which, apparently, is the part of a mobile screen where users focus. This makes sense, too.&lt;/p&gt;
+&lt;p&gt;Don&#39;t &lt;em&gt;call&lt;/em&gt; it the hamburger to users, though.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Editing images in CSS</title>
+		<link href="http://mikepropst.com/blog/editing-images-in-css/"/>
+		<updated>2015-02-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/editing-images-in-css/</id>
+		<content type="html">&lt;p&gt;It&#39;s now possible to do some &lt;a href=&quot;http://www.thedotpost.com/2015/12/una-kravets-editing-images-in-css&quot;&gt;really cool image effects&lt;/a&gt; in CSS. They can even be used for optimization purposes. Unfortunately IE is, as usual, holding things back.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

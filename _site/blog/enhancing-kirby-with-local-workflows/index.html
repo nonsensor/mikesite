@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Enhancing Kirby with local workflows</title>
+        <meta
+            name="description"
+            content="Mike&#39;s blog."
+        />
+        <!-- here is a comment that I am testing deploy with -->
+
+        <link rel="preconnect" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="/css/index.css" />
+        <link
+            rel="stylesheet"
+            href="/css/prism-base16-monokai.dark.css"
+        />
+        <link rel="stylesheet" href="/css/prism-diff.css" />
+        <link
+            rel="alternate"
+            href="/feed/feed.xml"
+            type="application/atom+xml"
+            title="Mike&#39;s Site"
+        />
+        <link
+            rel="alternate"
+            href="/feed/feed.json"
+            type="application/json"
+            title="Mike&#39;s Site"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__title container">
+                <p><a href="/">✯ Mike's Site</a></p>
+            </div>
+        </header>
+
+        <div  class="container main blog single" >
+            <div class="row">
+                <div class="col-sm-12 text">
+<article class="post ">
+  <div class="post__front">
+    <h1>Enhancing Kirby with local workflows</h1>
+    <div class="post__date">Sep 1, 2015</div>
+    <div class="post__body">
+        <p>I'm enjoying using Kirby to write my blog. It feels more connected to the rest of the site, more in my control, and more &quot;not $5 a month to operate a separate virtual server running Node to have a Ghost blog.&quot; But the Kirby Panel, great for spot changes in your content, is not where you want to live every day for blogging. Fortunately, Kirby is a flat-file system that allows users to add content by simply uploading it. So now I'm blogging locally in my favorite Markdown editor and distraction-free writing tool, <a href="http://bywordapp.com/">Byword</a>. There are two parts to making this work.</p>
+<h2 id="automator" tabindex="-1">Automator <a class="direct-link" href="#automator" aria-hidden="true">#</a></h2>
+<p>The first half of the solution uses Automator, Mac OS X's super powerful and under-utilized workflow creator. I love it, although it's not always intuitive how to do what you need. Essentially this workflow:</p>
+<ol>
+<li>Asks for a name that will eventually be the permalink of the Kirby post</li>
+<li>Creates a folder in my local &quot;blog&quot; folder with that title</li>
+<li>Copies a text file template into that folder with the name <code>article.txt</code> (which is what Kirby needs to associate it with the &quot;article&quot; template</li>
+<li>Opens that file in Byword, where I can fill it out</li>
+</ol>
+<p>Once I write the post, the second part comes into play.</p>
+<h2 id="dropzone" tabindex="-1">Dropzone <a class="direct-link" href="#dropzone" aria-hidden="true">#</a></h2>
+<p><a href="https://aptonic.com/dropzone3/">Dropzone 3.5</a> was recently released, and it's a nice update to a super useful program. Imagine internet (not just web) bookmarks, file actions, and shortcuts, all rolled into one simple place. You can click actions or drag files and folders onto them, depending on what they are. So in order to publish a post, I just take the newly created folder and drag it onto an FTP shortcut I made in Dropzone. Bam, blogged. And I never have to write anything into another web interface again if I don't want to. Thanks to Kirby's self-contained content style, I can put any images for the post into that folder and they'll work as well.</p>
+<p>As a bonus, I added the Automator action to Dropzone as well so I can both write and upload the post from Dropzone. It's a handy little tool that's a good buy at 5 bucks. Only downside I've encountered so far is that it can't upload folders to an S3 bucket.</p>
+
+    </div>
+    
+    <div class="post__tags">
+      <dl><dt>Tags</dt>
+      <dd><a href="/tags/blog/" class="post-tag">blog</a></dd>
+      <dd><a href="/tags/kirby/" class="post-tag">kirby</a></dd>
+      <dd><a href="/tags/cms/" class="post-tag">CMS</a></dd>
+      </dl>
+    </div>
+    
+  </div>
+</article>
+
+<nav class="pager pager--listing">
+  <div><a class="pager__prev" href="/blog/new-typography/">❮ New typography</a></div>
+  <div><a class="pager__home" href="/blog/">Blog Home</a></div>
+  <div><a class="pager__next" href="/blog/timber-and-twig/">Timber and Twig Reignited my... ❯</a></div>
+</nav>
+</div>
+            </div>
+        </div>
+
+        <footer class="footer cf container" role="contentinfo">
+            <div class="copyright">©2024 Mike Propst</div>
+        </footer>
+
+        <!-- Current page: /blog/enhancing-kirby-with-local-workflows/ -->
+    </body>
+</html>
