@@ -5,12 +5,32 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-02-02T00:00:00Z</updated>
+	<updated>2024-02-12T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>RIP Damo Suzuki</title>
+		<link href="http://mikepropst.com/blog/rip-damo-suzuki/"/>
+		<updated>2024-02-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-damo-suzuki/</id>
+		<content type="html">&lt;p&gt;As you get older, more and more entire bands will be gone. &lt;strong&gt;The Band&lt;/strong&gt; entered that realm last year with the death of leader Robbie Robertson, and it&#39;s been 10 years without any original &lt;strong&gt;Ramones&lt;/strong&gt; on this earthly plane. Now only the original keyboardist Irmin Schmidt remains from the classic lineup of &lt;strong&gt;Can&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Damo Suzuki, as the legend goes, was discovered by a recently-singerless Can as a busker and joined the same day.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When they asked me to sing, I never thought that I’d stay with this band or be invited to make recordings of LPs, I never had such a dream.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A guy who left Japan on a whim the day after his 18th birthday, he barely spoke German at the time and wasn&#39;t particularly great at English either. He had a dream of being a cartoonist, and felt that the hippies around him in &#39;68 were trend-following egoists rather than true free spirits. Can, however, were a different story:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Everybody in the band is quite special. And they had different interests in music. Jaki was free jazz, Irmin [Schmidt] was a conductor of an orchestra, Holger [worked with] Stockhausen and Michael [Karoli] was a young rock guitarist. And I was a hippie! So five totally different people with five different directions. With the chemistry, naturally it came together. That’s why it’s quite timeless music.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;He left after three stone-cold, monumentally influential and still-relevant albums at 23 to become a Jehovah&#39;s Witness. But it seems like it was a pattern for him to not be a joiner, and though he considered himself a Christian until he died, he left that organization after a couple years as well.&lt;/p&gt;
+&lt;p&gt;He spent a lot of time touring with random musicians and not rehearsing, preferring spontaneity — and getting away with such insanity because he was Damo Suzuki. I was lucky enough to see him around 20 years ago with a Boston band called Cul de Sac and he was still a magical performer.&lt;/p&gt;
+&lt;p&gt;Safe journeys to wherever you&#39;re going now, Damo.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Migration and loss</title>
@@ -377,6 +397,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/rip-damo-suzuki/&quot; class=&quot;postlist-link&quot;&gt;RIP Damo Suzuki&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-02-12&quot;&gt;Feb 12, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
