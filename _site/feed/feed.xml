@@ -5,7 +5,7 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-02-12T00:00:00Z</updated>
+	<updated>2024-03-01T20:43:42Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
@@ -13,382 +13,9 @@
 	</author>
 	
 	<entry>
-		<title>RIP Damo Suzuki</title>
-		<link href="http://mikepropst.com/blog/rip-damo-suzuki/"/>
-		<updated>2024-02-12T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/rip-damo-suzuki/</id>
-		<content type="html">&lt;p&gt;As you get older, more and more entire bands will be gone. &lt;strong&gt;The Band&lt;/strong&gt; entered that realm last year with the death of leader Robbie Robertson, and it&#39;s been 10 years without any original &lt;strong&gt;Ramones&lt;/strong&gt; on this earthly plane. Now only the original keyboardist Irmin Schmidt remains from the classic lineup of &lt;strong&gt;Can&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Damo Suzuki, as the legend goes, was discovered by a recently-singerless Can as a busker and joined the same day.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;When they asked me to sing, I never thought that I’d stay with this band or be invited to make recordings of LPs, I never had such a dream.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A guy who left Japan on a whim the day after his 18th birthday, he barely spoke German at the time and wasn&#39;t particularly great at English either. He had a dream of being a cartoonist, and felt that the hippies around him in &#39;68 were trend-following egoists rather than true free spirits. Can, however, were a different story:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Everybody in the band is quite special. And they had different interests in music. Jaki was free jazz, Irmin [Schmidt] was a conductor of an orchestra, Holger [worked with] Stockhausen and Michael [Karoli] was a young rock guitarist. And I was a hippie! So five totally different people with five different directions. With the chemistry, naturally it came together. That’s why it’s quite timeless music.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;He left after three stone-cold, monumentally influential and still-relevant albums at 23 to become a Jehovah&#39;s Witness. But it seems like it was a pattern for him to not be a joiner, and though he considered himself a Christian until he died, he left that organization after a couple years as well.&lt;/p&gt;
-&lt;p&gt;He spent a lot of time touring with random musicians and not rehearsing, preferring spontaneity — and getting away with such insanity because he was Damo Suzuki. I was lucky enough to see him around 20 years ago with a Boston band called Cul de Sac and he was still a magical performer.&lt;/p&gt;
-&lt;p&gt;Safe journeys to wherever you&#39;re going now, Damo.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Migration and loss</title>
-		<link href="http://mikepropst.com/blog/migration-and=loss/"/>
-		<updated>2024-02-02T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/migration-and=loss/</id>
-		<content type="html">&lt;p&gt;As this iteration of the blog enters its tenth year (and I believe it&#39;s on its third CMS? Fourth?) I&#39;ve been moving a lot of posts finally from the old Kirby system. It just involves sucking metadata out of the Kirby format and into the frontmatter that Eleventy uses, which is something more portable for the next inevitable move.&lt;/p&gt;
-&lt;p&gt;But while the process is more manual than I would like, it has given me an opportunity to look at old content. There are some really interesting links I&#39;ve blogged. Unfortunately, a HUGE chunk of them do not work anymore.&lt;/p&gt;
-&lt;p&gt;It&#39;s hard not to see this as something fundamentally messed up. Like, we&#39;ve broken the internet somehow.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Zed&#39;s alive, baby</title>
-		<link href="http://mikepropst.com/blog/zeds-alive-baby/"/>
-		<updated>2024-02-01T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/zeds-alive-baby/</id>
-		<content type="html">&lt;p&gt;Promised for a while, finally &lt;a href=&quot;https://zed.dev/&quot;&gt;Zed&lt;/a&gt; arrives. It&#39;s written by some of the creators of Atom, but instead of another Electron thing it&#39;s a very fast-performing app written in Rust.&lt;/p&gt;
-&lt;p&gt;It&#39;s multiplayer, apparently, which as someone who was once subjected to pair programming I&#39;ve always found that a little weird. But it works for Figma, right?&lt;/p&gt;
-&lt;p&gt;Anyway, I wrote this post in it. Will be nice to see it appear on Linux, a platform that is surprisingly lacking in lightweight code editors. Between the anemic GEdit and a full blown IDE you have &lt;a href=&quot;http://mikepropst.com/blog/lite-xl/&quot;&gt;Lite XL&lt;/a&gt;, Microsoft&#39;s Electron-based VSCode, and of course the influential but non-free Sublime, which has persisted. I don&#39;t love any of them, but I&#39;m liking this so far.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>I knew I hated this game</title>
-		<link href="http://mikepropst.com/blog/i-knew-i-hated-this-game/"/>
-		<updated>2024-01-11T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/i-knew-i-hated-this-game/</id>
-		<content type="html">&lt;p&gt;From the Public Domain Review&#39;s top articles of 2023, here&#39;s &lt;a href=&quot;https://publicdomainreview.org/collection/the-landlords-game/&quot;&gt;the story of &lt;em&gt;The Landlord&#39;s Game&lt;/em&gt;&lt;/a&gt;, which you may know as the family-destroying force of simultaneous acrimony and boredom called &lt;em&gt;Monopoly.&lt;/em&gt; Turns out, as you might guess from how brutal the game actually is, that it was not initially pro-monopoly. In fact, it was anti-land-ownership, the product of an economic philosophy called Georgism that posited one can&#39;t actually own land. There were even two sets of rules originally: one based on equity and wealth redistribution, the other on... you know. It was also invented by a woman, and though she patented it, somehow it was yoinked by a guy who sold a version (with only the second ruleset) to Parker Brothers.&lt;/p&gt;
-&lt;p&gt;Truth will out, I suppose, but it&#39;s pretty sad that Lizzie Magie never got her due. I guess &amp;quot;Go&amp;quot; was catchier than the Marxy &amp;quot;Labor Upon Mother Earth Produces Wages.&amp;quot;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Horizon Zero Dawn</title>
-		<link href="http://mikepropst.com/blog/horizon/"/>
-		<updated>2023-12-19T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/horizon/</id>
-		<content type="html">&lt;p&gt;After undertaking a ridiculous repair job on our &amp;quot;new&amp;quot; Playstation 4, the logical choice was to start playing a game. Not sure what actually got me looking at &lt;em&gt;Horizon Zero Dawn,&lt;/em&gt; but it&#39;s one of the more fun titles I&#39;ve played in a while. I decided after almost 300 hours that I was done with &lt;em&gt;Tears of the Kingdom&lt;/em&gt; so I did the final boss and didn&#39;t look back. So you&#39;d think I might be done with swords-and-bows open world post-apocalyptic fantasy stuff. Yet I picked it up for $10 and it is a blast. Great stealth, fun combat, solid voice acting, and a mystery to unravel. There&#39;s a post-apocalyptic melancholy to the whole thing but it&#39;s shot through with humor too.&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/KodUL1r_LFs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;Looking forward to getting the sequel on sale, though for some reason the DLC is only on PS5. Get a PS5? No thanks! I will be giving that $500 to my daughter&#39;s preschool for approximately 17 minutes of child care.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>What a gas</title>
-		<link href="http://mikepropst.com/blog/what-a-gas/"/>
-		<updated>2023-12-12T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/what-a-gas/</id>
-		<content type="html">&lt;p&gt;There are zillions of one-horse towns across the US, and most of them have a minor story worth going &amp;quot;huh, that&#39;s interesting&amp;quot; over. Mattoon, IL, (pronounced MATT-TOON with no obvious stress on either syllable, but certainly not muh-TOON) the hub of my maternal family side — a town that barely tops 15,000 people even today — has a couple that are way stranger than that.&lt;/p&gt;
-&lt;p&gt;The first of these is the country&#39;s original &lt;a href=&quot;https://en.wikipedia.org/wiki/Burger_King_(Mattoon,_Illinois)&quot;&gt;Burger King&lt;/a&gt;. The origin story was just that an ice cream stand called Frigid Queen (lovely...) needed a king when the owners expanded to fast food, and the logical choice was Burger King. In 1968 a court ruled that the more famous Burger King can&#39;t have a location within 20 miles of Mattoon, nor can the Original Burger King operate another restaurant outside the area. It&#39;s still there, and thriving as far as I know, at least to whatever extent a little burger shop can thrive in a tiny midwest town.&lt;/p&gt;
-&lt;p&gt;Perhaps more famous is the story of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Mad_Gasser_of_Mattoon&quot;&gt;Mad Gasser of Mattoon&lt;/a&gt; aka the Phantom Anesthetist, a 1940s incident that has over time become known as a textbook example of mass psychosis. Atlas Obscura has &lt;a href=&quot;https://www.atlasobscura.com/articles/column-mad-gasser-of-mattoon&quot;&gt;an interesting article on it&lt;/a&gt;. They posit that wartime situations and fears may have contributed to the weird hysteria that hung over the town like a fog. A chemical fog which of course did not actually exist. They make a good case.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/mattoon_headlines.jpg&quot; alt=&quot;Mattoon newspaper front page&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Look at this newspaper from the time to get an idea of the national mood. Hopeful but war-weary and still afraid of phantom Nazi or Japanese enemies attacking while most of America&#39;s men are away. So what actually happened? We might never know if there was really an &amp;quot;Anesthetic Prowler&amp;quot; or if any of the attacks actually happened. But it&#39;s a creepy story and a fun one to have in the family.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Entering the last console generation the hard way</title>
-		<link href="http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/"/>
-		<updated>2023-12-09T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/</id>
-		<content type="html">&lt;p&gt;My son&#39;s friend just straight up gave him a Playstation 4 a few weeks back. I have no idea what the circumstances are in which you have too many PS4s, but there we are.&lt;/p&gt;
-&lt;p&gt;Unfortunately, it had been in storage for a while and someone had attempted a repair on it (for what? I don&#39;t know). So after buying a couple $5 games we found the CD drive just didn&#39;t want to work. I&#39;m not the biggest fan of digital games because of course you don&#39;t actually &lt;em&gt;own&lt;/em&gt; them, not to mention the drive sounds like it&#39;s gonna take off even if there&#39;s no disc in it.&lt;/p&gt;
-&lt;p&gt;So I did what any insane person would do: I ordered a drive from iFixit, a site with a 40%-complete tutorial on how to replace it. Turns out, the actual method for replacing the optical drive in a PS4 Slim is &amp;quot;just take the whole god damn console apart.&amp;quot; That quarter inch of thickness saved over the standard model comes at the expense of modularity.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/ps4.jpg&quot; alt=&quot;Taking the thing apart&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there&#39;s a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in.&lt;/p&gt;
-&lt;p&gt;Overall... significantly harder than upgrading a PC. But now we have a working PS4 and have been diving into &lt;em&gt;Spider-Man&lt;/em&gt; (him) and &lt;em&gt;Horizon: Zero Dawn&lt;/em&gt; (me), all for about $50 and some stressful tiny screw replacement.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Has it really been that long?</title>
-		<link href="http://mikepropst.com/blog/has-it-been-that-long/"/>
-		<updated>2023-12-06T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/has-it-been-that-long/</id>
-		<content type="html">&lt;p&gt;Not joking, I forgot how Eleventy worked.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RIP Ryuchi Sakamoto</title>
-		<link href="http://mikepropst.com/blog/rip-ryuichi-sakamoto/"/>
-		<updated>2023-04-05T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/rip-ryuichi-sakamoto/</id>
-		<content type="html">&lt;p&gt;It seems so recently that YMO’s Yukihiro Takahashi passed, and now we lose another of the great trio, and probably the one who is most well-known internationally outside of the group. Ryuichi Sakamoto was not only the heartthrob of the band, he had an extremely prolific solo output (his most recent release came out in January), collaborated with rad people like David Sylvian, Fennesz, Alva Noto, and Iggy Pop, and has even won an Oscar for scoring &lt;em&gt;The Last Emperor&lt;/em&gt; (and probably deserved another for &lt;em&gt;The Revenant&lt;/em&gt; but was ruled ineligible for dumb reasons).&lt;/p&gt;
-&lt;p&gt;This article, titled &lt;a href=&quot;https://www.msn.com/en-us/music/news/music-sounds-the-way-it-does-because-of-ryuichi-sakamoto/ar-AA19qzyJ&quot;&gt;“Music Sounds the Way it Does Because of Ryuichi Sakamoto”&lt;/a&gt;, is a great read but if you don&#39;t feel like taking the time, just trust the title. The man lived in the future but was grounded in organic and acoustic sounds, especially the piano. He will be monumentally missed.&lt;/p&gt;
-&lt;p&gt;Here is his beautiful collab with David Sylvian, “World Citizen (I Won’t Be Disappointed).”&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/LlpSj6TlXJ4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
-	</entry>
-	
-	<entry>
-		<title>Get things done or die trying</title>
-		<link href="http://mikepropst.com/blog/still-getting-things-done/"/>
-		<updated>2023-02-28T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/still-getting-things-done/</id>
-		<content type="html">&lt;p&gt;Nerds, creatives, and knowledge workers in general seem to gravitate toward productivity schemes and methodologies. If you&#39;re anything like me, and I know some of you are because that&#39;s part of why we get along, you might jump from thing to thing over time.&lt;/p&gt;
-&lt;p&gt;One of the first &amp;quot;named&amp;quot; systems I can remember getting into is Getting Things Done, probably through early tech blogger Merlin Mann (now perhaps more well-known as co-host of a podcast with a guy who later became &lt;a href=&quot;https://knowyourmeme.com/memes/events/bean-dad&quot;&gt;&amp;quot;Bean Dad&amp;quot;&lt;/a&gt;). The system worked well for me for a while when I worked from home, freelanced, and had no kids. What Mann and others who jumped on the train might not have really grasped is that David Allen (not &lt;a href=&quot;https://ultimateclassicrock.com/sherman-hemsley-prog-rock/&quot;&gt;the guy from Gong&lt;/a&gt;) designed it for executives with assistants and both the time and power to lock themselves away for effectively days at a time while they did weekly reviews. The book came with a door hanger. Imagine your kid respecting a door hanger that says &amp;quot;Weekly review in progress.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Lately, I&#39;ve been working with two systems that are more geared toward creative minds: the bullet journal and the second brain.&lt;/p&gt;
-&lt;p&gt;A friend turned me on to the &lt;a href=&quot;https://bulletjournal.com/pages/book&quot;&gt;&amp;quot;bujo&amp;quot;&lt;/a&gt; after I asked about the notebook she carried everywhere. The thing that its creator, Ryder Carroll, says about it is that it&#39;s a &amp;quot;mindfulness practice masquerading as a productivity method,&amp;quot; and that&#39;s very true. Sitting down with a paper notebook and doing both your todos and your actual journaling is a great way to focus, be present, and stop farting around with the external for a minute. It&#39;s also great for people with focus issues or who have trouble sticking to systems, because you can just pick it back up if you flop for a while. Start journaling again where you left off. No biggie.&lt;/p&gt;
-&lt;p&gt;However, I have years of notebooks stacked up and one thing they&#39;re not good at is indexing and re-accessing information and insights that you&#39;ve achieved. This is where Tiago Forte&#39;s &lt;em&gt;Building a Second Brain&lt;/em&gt; comes into play. The core thinking behind his system is almost the opposite of the bullet journal: It&#39;s only digital tools that can store and search in a way that enables us to truly offload a lot of data from our &lt;em&gt;first&lt;/em&gt; brain.&lt;/p&gt;
-&lt;p&gt;That makes a lot of sense, of course, and it&#39;s what tools like Evernote, Joplin, Roam, whatever were originally designed for — but it also brings me back home to a reason that GTD worked for me: David Allen&#39;s core slogan was &amp;quot;If it&#39;s on your mind, it&#39;s not getting done.&amp;quot; The second brain philosophy extends that to statements like &amp;quot;it&#39;s not able to be accessed,&amp;quot; &amp;quot;it&#39;s not creative fodder,&amp;quot; or more generally, &amp;quot;if it&#39;s on your mind, it&#39;s not doing you any good.&amp;quot;&lt;/p&gt;
-&lt;p&gt;There&#39;s a lot more I love about the method but that&#39;s another post. But I still feel like I owe a lot to David Allen and his insane flowcharts designed to take things &amp;quot;off your mind&amp;quot; and turn you into a robot that always knows what to do. in this stupid-ass world where we have strayed pretty far from whatever-you-believe-in&#39;s light, it&#39;s a gift to be able to stop worrying about stuff for a few minutes.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Blog enters the 21st century</title>
-		<link href="http://mikepropst.com/blog/blog-enters-the-21st-century/"/>
-		<updated>2023-02-25T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/blog-enters-the-21st-century/</id>
-		<content type="html">&lt;p&gt;I don&#39;t even know what that means. I think things have gotten over-complicated, but the idea that I can write on my computer and publish using a git commit is pretty cool. So that&#39;s what I&#39;m doing now thanks to Netlify. The barrier to posting was &amp;quot;Do I want to do a merge with SFTP&amp;quot; and the answer is very often &amp;quot;nah.&amp;quot; This is cooler, plus I can do it from multiple computers if I wanted to.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Building a useful homelab</title>
-		<link href="http://mikepropst.com/blog/building-a-useful-homelab/"/>
-		<updated>2023-02-12T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/building-a-useful-homelab/</id>
-		<content type="html">&lt;p&gt;A while back I started getting nervous about hosted services. Google starting to limit storage, Amazon killing off their music hosting, all of these were catalysts but a desire for privacy and a kind of old-school internet experience also drove my plans.&lt;/p&gt;
-&lt;p&gt;After some semi-successful experimentation with Plex on a Raspberry Pi, I started thinking about how the same priciple could be applied to other services, like photo galleries. Turns out that not only are there a ton of self-hosted, open-source options for doing a lot of things you might want to do, most of them have been containerized to run in Docker.&lt;/p&gt;
-&lt;h2 id=&quot;the-components&quot; tabindex=&quot;-1&quot;&gt;The components &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#the-components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;a-computer&quot; tabindex=&quot;-1&quot;&gt;A computer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#a-computer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;My machine is not that powerful. It&#39;s a 4-core Pentium Lenovo Thinkstation with its main drive replaced with an SSD. It previously ran Mint desktop as a basic home computer. But after I got an old Macbook I didn&#39;t really need it, so it seemed like a perfect box to repurpose.&lt;/p&gt;
-&lt;h3 id=&quot;openmediavault&quot; tabindex=&quot;-1&quot;&gt;openmediavault &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#openmediavault&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Far and away the most popular operating system for these kinds of boxes is &lt;a href=&quot;https://www.openmediavault.org/&quot;&gt;openmediavault&lt;/a&gt;, a Debian distro with no desktop but a convenient web interface that allows even a relative dumbo like myself to mount drives and share them with services like SMB or FTP.&lt;/p&gt;
-&lt;h3 id=&quot;portainer&quot; tabindex=&quot;-1&quot;&gt;Portainer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#portainer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As you might imagine, the web UI of OMV makes one want to do everything via your browser. SSH is not super hard, but it&#39;s mighty convenient to use Portainer, a great web UI for Docker.&lt;/p&gt;
-&lt;h3 id=&quot;jellyfin&quot; tabindex=&quot;-1&quot;&gt;Jellyfin &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#jellyfin&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;After spending what I consider to be too much money to watch my own stuff (PlexPass at $5/month), I went with &lt;a href=&quot;https://jellyfin.org/&quot;&gt;Jellyfin&lt;/a&gt;, an open-source fork of Emby. I tell you what, we&#39;ve come a long way since the old XBMC running on an overheating computer attached directly to the TV. It has clients for our computers, iOS and Android devices, and Roku, and perhaps because it doesn&#39;t need to do transcoding for those devices, the old computer barely even has to work when streaming to two different devices.&lt;/p&gt;
-&lt;h3 id=&quot;navidrome&quot; tabindex=&quot;-1&quot;&gt;Navidrome &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#navidrome&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Music was never a strong point of Plex, though it was capable. &lt;a href=&quot;https://navidrome.org/&quot;&gt;Navidrome&lt;/a&gt; implements the Subsonic API, which is pretty well supported in a range of (admittedly varying-quality) third party apps, though it&#39;s better than Subsonic itself, which is Java. Is it your personal Spotify? Not quite, but close enough.&lt;/p&gt;
-&lt;h3 id=&quot;cups&quot; tabindex=&quot;-1&quot;&gt;CUPS &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#cups&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Of course, right? We have a laser printer with no built-in network capabilities, and frankly we&#39;ve had better luck using this old box than a dedicated print server from Monoprice.&lt;/p&gt;
-&lt;h3 id=&quot;paperless-ngx&quot; tabindex=&quot;-1&quot;&gt;Paperless-ngx &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#paperless-ngx&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;This is a really great &lt;a href=&quot;https://paperless-ngx.com/&quot;&gt;document archive system&lt;/a&gt; that lets you specify all kinds of great metadata for finding your stuff when you need it (say, tax time or when the insurance company asks for documentation). An iOS app scans directly into it, where the server then OCRs all documents. From there, machine learning tools start trying to automatically apply metadata based on your defined patterns of text.&lt;/p&gt;
-&lt;h3 id=&quot;duplicati&quot; tabindex=&quot;-1&quot;&gt;Duplicati &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#duplicati&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;It&#39;s a GUI backup tool. Easy cheesy, and now all my stuff is backed up in Backblaze B2.&lt;/p&gt;
-&lt;h3 id=&quot;photos&quot; tabindex=&quot;-1&quot;&gt;Photos &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#photos&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;This is a whole other post. What a fun and frustrating journey.&lt;/p&gt;
-&lt;h2 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#resources&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;It&#39;s hard to overstate the usefulness of &lt;strong&gt;/r/selfhosted&lt;/strong&gt; as well as the subreddits for all the individual tools. Lots of people of varying levels of expertise willing to help.&lt;/p&gt;
-&lt;p&gt;If you have any questions on how I did some of this stuff, hit me on twitter/cohost/FB/whatever and I can try to explain it in my just-enough-to-be-dangerous way.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RIP Burt Bacharach</title>
-		<link href="http://mikepropst.com/blog/rip-burt-bacharach/"/>
-		<updated>2023-02-11T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/rip-burt-bacharach/</id>
-		<content type="html">&lt;p&gt;Are these the only posts I write anymore? Talk about a legend right here, Burt Bacharach shuffled off at 94. I have to say that&#39;s a good run.&lt;/p&gt;
-&lt;p&gt;The man, along with Hal David turned complex, jazz-derived chords and combinations into sublime, accessible pop. He collaborated with Elvis Costello and of course Dionne Warwick, among others, and inspired not just easy-listening mellow cats, but a huge range of artists that included Arthur Lee and his proto-punk band Love.&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ftO9ClIhFAo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;A true titan of music. Rest well and thanks for the music.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RIP Yukihiro Takahashi</title>
-		<link href="http://mikepropst.com/blog/rip-yukihiro-takahashi/"/>
-		<updated>2023-02-03T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/rip-yukihiro-takahashi/</id>
-		<content type="html">&lt;p&gt;This one is a little late. But here&#39;s a guy who was the vocalist and drummer of the legendary Yellow Magic Orchestra, and then — like his other two bandmates — went on to an almost equally-legendary solo discography. Like Bowie, Peter Gabriel, and Robert Fripp, Takahashi is a big inspiration on everything I do that involves &amp;quot;songs&amp;quot; or &amp;quot;musicality.&amp;quot; He never strayed away from pop or accessibility, but always kept it a little left-of-center.&lt;/p&gt;
-&lt;p&gt;Here&#39;s an insanely 80s video for the title track of my favorite of his, &lt;em&gt;Murdered By The Music.&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/qRs_o_9S3WU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
-	</entry>
-	
-	<entry>
-		<title>In praise of Jellyfin (so far)</title>
-		<link href="http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/"/>
-		<updated>2023-01-10T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/</id>
-		<content type="html">&lt;p&gt;Lately I&#39;ve been doing more fighting with Plex (slogan: &amp;quot;Pay $5 a month to use your own server&amp;quot;) and my Raspberry Pi-based media server than actually watching or listening anything, so I tried a few new things.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I repurposed a desktop that I hadn&#39;t been using since getting a 2015 Macbook that was just a place to randomly try new distros and desktop environments for no reason.&lt;/li&gt;
-&lt;li&gt;I put Openmediavault (the OS) on it, and slapped a Dockerized Jellyfin in there.&lt;/li&gt;
-&lt;li&gt;I added Tailscale to the equation so I could get there from the other end of the house (don&#39;t ask, our house is bad at internet) or from outside the house.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Unfortunately, Tailscale doesn&#39;t let Roku type devices get on my tunnel, so maybe I&#39;ll use the old Pi for some kind of perma-VPN or reverse proxy or some shit I clearly do not understand.&lt;/p&gt;
-&lt;p&gt;But I&#39;ve found Jellyfin to be more bare-bones yet also much more performant, more likely to direct stream than attempt to transcode, and really a breeze to work with. If you&#39;ve ever wondered about switching from Plex, it might be for you. If you are wondering about Emby, don&#39;t — Jellyfin is an open-sourced fork that is more up to date.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Music I liked in 2022</title>
-		<link href="http://mikepropst.com/blog/music-i-liked-in-2022/"/>
-		<updated>2023-01-05T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/music-i-liked-in-2022/</id>
-		<content type="html">&lt;p&gt;I always do this, but honestly it was not a huge year for me in terms of listening to new music. I&#39;m still jamming Necrot&#39;s &lt;em&gt;Mortal&lt;/em&gt; (2020) on the regular and couldn&#39;t tell you much about what new death metal is out there. And two of my favorite bands were cut down by tragedy: Low due to Mimi Parker&#39;s untimely death from cancer, and Neurosis from the revelation that Scott Kelly was an abusive sociopath.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sky Pig - &lt;em&gt;It Thrives In Darkness&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Petbrick - &lt;em&gt;Liminal&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Blut Aus Nord - &lt;em&gt;Disharmonium - Undreamable Abysses&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Lykotonon - &lt;em&gt;Promethean Pathology&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hissing - &lt;em&gt;Hypervirulence Architecture&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;ADULT. - &lt;em&gt;Becoming Undone&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Nik Colk Void - &lt;em&gt;Bucked up Space&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Wet Leg - &lt;em&gt;Wet Leg&lt;/em&gt; (I&#39;m still hip!)&lt;/li&gt;
-&lt;li&gt;Jóhann Jóhannsson - &lt;em&gt;Drone Mass&lt;/em&gt; (this is mostly here because it exists. It&#39;s a gift to have more Jóhann after his death)&lt;/li&gt;
-&lt;li&gt;Locrian - &lt;em&gt;New Catastrophism&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Vermin Womb - &lt;em&gt;Retaliation&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Primitive Man - &lt;em&gt;Insurmountable&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Undeath - &lt;em&gt;It&#39;s Time... To Rise From The Grave&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Hällas - &lt;em&gt;Isle of WIsdom&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;KEN Mode - &lt;em&gt;NULL&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Conjurer - &lt;em&gt;Pathos&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Crowbar - &lt;em&gt;Zero and Below&lt;/em&gt; (It&#39;s Crowbar... come on)&lt;/li&gt;
-&lt;li&gt;Orthodox - &lt;em&gt;Proceed&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Vanum - &lt;em&gt;Legend&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That was in no particular order, but I think the top spot is occupied by Haunted Horses&#39; &lt;em&gt;The Worst Has Finally Happened&lt;/em&gt;. Monstrous and unique. It does the things I like. Check it out.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Real ones we lost in 2022</title>
-		<link href="http://mikepropst.com/blog/deaths-in-2022/"/>
-		<updated>2023-01-04T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/deaths-in-2022/</id>
-		<content type="html">&lt;p&gt;If the memes and jokes are to be believed, 2022 wasn&#39;t any more of a picnic than any year since the pandemic started. Or since 2015 maybe. Or the century. Or eternity maybe. But truly, we did lose some real ones in the music world.&lt;/p&gt;
-&lt;p&gt;If you haven&#39;t heard of any of these folks, I suggest you check them out. There&#39;s a lot of great art here.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Terry Hall.&lt;/strong&gt; The last one of the year to go that I noticed, the &lt;a href=&quot;http://mikepropst.com/blog/rip-terry-hall/&quot;&gt;Specials singer&lt;/a&gt; was a big loss to my musical history.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Keith Levine.&lt;/strong&gt; I was a little late to PiL, but so many of the guitarists I admire, like Daniel Ash, owe a ton to him. His work on &lt;em&gt;Metal Box&lt;/em&gt; still blows me away.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;D.H. Peligro.&lt;/strong&gt; An incredible drummer for one of the greats in hardcore, and one of the few and the proud who proved that punk wasn&#39;t just white guys and Bad Brains.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jerry Lee Lewis.&lt;/strong&gt; What can you say about the Killer that hasn&#39;t been said? Not the original wild man of rock and roll, but an early trash fire who paved the way for many more. Still energizing to listen to.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pharaoh Sanders.&lt;/strong&gt; One of the few jazz guys I really get into. Truly expanding stuff.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Andy Fletcher.&lt;/strong&gt; Depeche Mode was an early expansion into electronic music for me, and probably half the known universe too.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mark Lanegan.&lt;/strong&gt; One of those guys who seemed to court death for a long time before they finally hooked up. A great lyricist and so unsung in the world of Seattle music.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Rachel Nagy.&lt;/strong&gt; I think I only saw the Detroit Cobras once when I lived there, but they were legendary. Too young, and I still haven&#39;t heard what happened.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vangelis.&lt;/strong&gt; I was never a huge fan, but it&#39;s safe to say in hindsight he&#39;s one of the people who introduced me to electronic music. Maybe Jarre had more influence on me, but only because he came later — and because Vangelis&#39;s &amp;quot;Chariots of Fire&amp;quot; was so omnipresent.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lamont Dozier, Dennis Waterman, Ken WIlliams.&lt;/strong&gt; You might not know these names. Look them up. That&#39;s a lot of firepower lost. These are guys with both art and craft, guys whose results are very difficult to argue with.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Klaus Schulze.&lt;/strong&gt; Up until relatively recently, I knew him mostly from the first Tangerine Dream album and Ash Ra Tempel, but even that&#39;d be enough to cement him in my mind as one of the greats. But then there&#39;s &lt;em&gt;Timewind,&lt;/em&gt; &lt;em&gt;Angst,&lt;/em&gt; and a billion other releases. A master.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The big hoedown in the sky.&lt;/strong&gt; Country was hit hard in &#39;22. C.W. McCall might&#39;ve been a one-hit wonder (&amp;quot;Convoy&amp;quot;) but it was a monster and it always makes me think of my uncle who knew every word and maybe still does. Then Mickey Gilly, Naomi Judd, and Loretta Lynn? All pioneers and legends.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Classic rock radio.&lt;/strong&gt; Dan McCafferty of Nazareth, Wilko Johnson of Dr. Feelgood, Christine McVee, Meat Loaf. Can&#39;t say I&#39;m necessarily a fan of any of them, but their stature was undeniable. And of course, there&#39;s Meat&#39;s masterful performance in &lt;em&gt;Fight Club.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Coolio.&lt;/strong&gt; It&#39;s fucking Coolio. How is Coolio gone?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Taylor Hawkins.&lt;/strong&gt; The Foos are not one of my favorites either, but it sure seems to me that he was loved by pretty much everyone who came across him.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The lords of the synth.&lt;/strong&gt; This year we lost both John Appleton, the inventor of the Synclavier, and &lt;a href=&quot;http://mikepropst.com/blog/rip-dave-smith/&quot;&gt;Dave Smith&lt;/a&gt;, the man behind Sequential Circuits and one half of the pair responsible for MIDI.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ronnie Spector.&lt;/strong&gt; Between her and Lamont Dozier both leaving the building, a massive chunk of Motown is gone. No disrespect to Diana Ross but Ronnie was always my favorite.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Angelo Badalamenti and Julee Cruise.&lt;/strong&gt; This is some serious garmonbozia. &lt;a href=&quot;http://mikepropst.com/blog/angelo/&quot;&gt;Angelo&lt;/a&gt; had a good run at least, but I was hoping to hear more from him.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mimi Parker.&lt;/strong&gt; Saved the hardest for last. I truly don&#39;t know what to say about this one. So here&#39;s a video.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/gBtJpVY7NkE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RIP Terry Hall</title>
-		<link href="http://mikepropst.com/blog/rip-terry-hall/"/>
-		<updated>2022-12-21T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/rip-terry-hall/</id>
-		<content type="html">&lt;p&gt;I feel like I&#39;ve been posting a lot of these RIP things lately. The Specials were, in hindsight a big deal for me. Ska was a sound that was punk-approved. And other than hip-hop, it was the first music I got into on my own that wasn&#39;t &amp;quot;loud guitar music.&amp;quot; That certainly opened up the way for so many of the things I love, from James Brown to Autechre. Arguably the only band &lt;em&gt;more&lt;/em&gt; important for my branching-out was Joy Division.&lt;/p&gt;
-&lt;p&gt;And I can&#39;t get enough of watching them play in their heyday. They looked impossibly cool, a wild mass of energy and high pants cuffs. And there was Terry Hall at the center, totally serious and almost menacing while chaos erupted.&lt;/p&gt;
-&lt;p&gt;The guy had a terrible life story with great pain in his childhood, but he translated that into a great thoughtfulness and empathy for the less fortunate in the Thatcher era. It was through him that the great contrast of the Specials — fun Jamaican-inspired music with black-humor or straight-up dark punk lyrics — manifested, and without him they&#39;ve been only half of their glory.&lt;/p&gt;
-&lt;p&gt;Instead of a classic Special song, here&#39;s the video for &amp;quot;Our Lips Are Sealed,&amp;quot; which Hall cowrote, and in which he looks like Robert Smith.&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/QhVhK-VVeXo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
-	</entry>
-	
-	<entry>
-		<title>I can&#39;t have nice things</title>
-		<link href="http://mikepropst.com/blog/i-cant-have-nice-things.md/"/>
-		<updated>2022-12-14T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/i-cant-have-nice-things.md/</id>
-		<content type="html">&lt;p&gt;Yes, Lite XL happened this year and it&#39;s been great on Linux but is a little janky on Mac. So I&#39;ve stuck with what I know, which is the electron-based Atom by Github. Imagine my surprise when I went to make a couple CSS tweaks to this site today and found that Atom will be sunset... tomorrow.&lt;/p&gt;
-&lt;p&gt;So here I am with VSCodium, the MS-telemetry-free version of their VS Code. I&#39;d like to take the opportunity to try something that isn&#39;t electron (even though a text editor for web projects might be the most logical use of the technology), but I need to get some requisite Python tools to make CudaText work and the list is actually pretty short these days. Seems that if you have the money for Sublime you&#39;re using it, and if you don&#39;t you&#39;re on VS Code. Oh well.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RIP Angelo Badalamenti</title>
-		<link href="http://mikepropst.com/blog/angelo/"/>
-		<updated>2022-12-13T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/angelo/</id>
-		<content type="html">&lt;p&gt;First Julee Cruise, now Angelo Badalamenti. One was estranged, one was presumably still a close friend. But either way, the David Lynch musical universe is a silent place now.&lt;/p&gt;
-&lt;p&gt;Here&#39;s the maestro talking about building perhaps his most iconic piece, &lt;em&gt;Laura Palmer&#39;s Theme.&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/e-eqgr_gn4k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;Rest well and thanks for the music.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>In Praise and Defense of the Novation Circuits</title>
-		<link href="http://mikepropst.com/blog/in-defense-of-the-novation-circuits/"/>
-		<updated>2022-12-12T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/in-defense-of-the-novation-circuits/</id>
-		<content type="html">&lt;p&gt;Pretty regularly on the Novation Circuit subreddit, a &lt;a href=&quot;https://www.reddit.com/r/novationcircuit/comments/zhzbmc/next_hardware_steps_from_tracks_rhythm/&quot;&gt;question like this&lt;/a&gt; or a comment expressing the same general idea appears. I&#39;m not familiar with any other music gear subs where the users are so often actively trying to get away from their chosen devices.&lt;/p&gt;
-&lt;p&gt;The Circuit OG/Tracks/Rhythm are very interesting devices. Novation took the success of the Launchpad, an Ableton clip launch controller, and expanded it into a standalone device that really isn&#39;t like anything else. There&#39;s no screen. The pad grid serves as the user feedback for every function: step sequencing, keyboard, pattern launching, mixing, even the tempo display. That makes it a device that sometimes needs a great deal of memorizing (or RTFM, initially). But it also makes it a device that absolutely nails what it means to be &lt;em&gt;immediate&lt;/em&gt; and &lt;em&gt;tactile&lt;/em&gt; — attributes that screen-poisoned musicians supposedly crave these days when they step away from the DAW. There&#39;s no clicking, no menu diving, no using a scroll wheel to name a pattern. There&#39;s you, there&#39;s the buttons and knobs, and there&#39;s the music. And trust me, it&#39;s extremely quick to get to the &amp;quot;music&amp;quot; step. Features of both current-gen Circuits include one-button &amp;quot;scene&amp;quot; launching, sequencer probability and random mutation, pattern chaining for very long variations, and really usable reverb and delay.&lt;/p&gt;
-&lt;p&gt;So why does everyone think they need to &amp;quot;upgrade&amp;quot; to an Elektron machine, an MPC, or god forbid a Roland MC-707?&lt;/p&gt;
-&lt;h2 id=&quot;cheap&quot; tabindex=&quot;-1&quot;&gt;Cheap... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#cheap&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Firstly, these things are not expensive. About $350 gets you a new one, and for better or worse this &amp;quot;gotta upgrade&amp;quot; attitude leaves Reverb stocked with them for much less. I think there&#39;s an attitude with all kinds of musicians that the more you spend, the better your stuff is. Surprise! That&#39;s bullshit. It&#39;s not that I&#39;m that old blues lawyer guitarist insisting that &amp;quot;tone is in the fingers&amp;quot; — after all, these same people are connecting 1958 Les Pauls to Dumble amps via Monster cables.&lt;/p&gt;
-&lt;p&gt;What I mean is electronic musical instruments are very rarely apples-to-apples comparisons. They all have their strengths and their frustrations. And good stuff has never been cheaper than it is right now.&lt;/p&gt;
-&lt;h2 id=&quot;and-unspecialized&quot; tabindex=&quot;-1&quot;&gt;And unspecialized... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#and-unspecialized&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The second thing is that, possibly because of said price, no pros have decided that these things have a certain space. If you want to make hard techno or dancey industrial, people like NIN and Richard Devine have sold you on Elektron machines and their hyped, exciter-pumped sounds. If you make lo-fi or boom bap, you want an SP-404 because Madlib, J Dilla, Flying Lotus, and who knows who else used one to make their iconic material. Even doofy gear gets this treatment at times, like the really uninspiring Microkorg being anointed the &amp;quot;synth for an indie rock band that has a synth.&amp;quot;&lt;/p&gt;
-&lt;p&gt;What is the Circuit&#39;s space? It doesn&#39;t have one. I wouldn&#39;t say it&#39;s a &amp;quot;master of none&amp;quot; because it&#39;s quite good at plenty of things, but looking at it you don&#39;t say &amp;quot;ah yes, this thing is for X.&amp;quot;&lt;/p&gt;
-&lt;iframe id=&quot;reddit-embed&quot; src=&quot;https://www.redditmedia.com/r/novationcircuit/comments/vgvqt2/first_composition_with_both_tracks_and_rhythm/?ref_source=embed&amp;amp;ref=share&amp;amp;embed=true&amp;amp;theme=dark&quot; sandbox=&quot;allow-scripts allow-same-origin allow-popups&quot; style=&quot;border: none;&quot; scrolling=&quot;no&quot; width=&quot;100%&quot; height=&quot;auto&quot;&gt;&lt;/iframe&gt;
-&lt;h2 id=&quot;just-like-me&quot; tabindex=&quot;-1&quot;&gt;Just like me. &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#just-like-me&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;What I can say about the Circuits, especially the Circuit Tracks, is that they are now my centerpiece for both performing and composing, and in 20+ years of making live electronic music I have not owned another machine that enabled my way of working so thoroughly.&lt;/p&gt;
-&lt;p&gt;Would I like more precise sample cutting onboard? Yeah probably. What about separate outputs? Always want those. But &amp;quot;missing&amp;quot; features like these imply that the very purposeful design of these devices somehow includes more mistakes than it actually does. And the sum of the features versus tradeoffs is unlike anything else out there for both utility and (&lt;em&gt;gasp&lt;/em&gt;) fun. So I&#39;m not sure that an upgrade would actually be one at all.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Witchin&#39;</title>
-		<link href="http://mikepropst.com/blog/witchin/"/>
-		<updated>2022-12-08T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/witchin/</id>
-		<content type="html">&lt;p&gt;Partially because there have been vast swathes of my life that went un-gamed, and partially because I have only kept a nintendo console around for quite a few years now, I tend to get into games late. My latest to finally add to the pile was &lt;em&gt;The Witcher III: Wild Hunt&lt;/em&gt;, the main storyline of which I finished today, probably prematurely due to a week of being sick.&lt;/p&gt;
-&lt;h2 id=&quot;openness&quot; tabindex=&quot;-1&quot;&gt;Openness &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#openness&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Holy shit it&#39;s a lot of game. And unlike Skyrim, you can go just about anywhere. Nobody climbs like Link, but Geralt does a good job of getting around territory. At least until he dies of falling from any height greater than 6 feet.&lt;/p&gt;
-&lt;h2 id=&quot;combat&quot; tabindex=&quot;-1&quot;&gt;Combat &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#combat&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Like most 3d action RPGs, you can either parry or dodge-and-roll your way through combat. And as with all the rest, I take the latter path (arguably blocking is better since a perfect parry almost always gets you a nice opening — probably just one of the many reasons I&#39;m shit at &lt;em&gt;Souls&lt;/em&gt;). But either way the combat is a lot of fun. Much like Link&#39;s runes or a weapon/destruction hybrid build in Skyrim, the weapon and magic combo is really satisfying and gives combat a lot of variety. Geralt is a little slower to act than say, Link, but you get his timing down and you feel unstoppable.&lt;/p&gt;
-&lt;h2 id=&quot;using-mechanics-to-tell-the-story&quot; tabindex=&quot;-1&quot;&gt;Using mechanics to tell the story &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#using-mechanics-to-tell-the-story&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I really think one the bar to hit here is &lt;em&gt;Nier: Automata&lt;/em&gt;, but W3 does a great job sporadically. Playing as Ciri in flashback (or her supremely overpowered moment near the end, one-hitting wild hunt warriors) is a fun mix-up that lets you &amp;quot;live&amp;quot; the story a bit more. With a few exceptions, I have very little idea what the dialog options did to my playthrough and that&#39;s kinda cool. I guess it&#39;s a choice-mechanic equivalent of the open world.&lt;/p&gt;
-&lt;h2 id=&quot;bummers&quot; tabindex=&quot;-1&quot;&gt;Bummers &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#bummers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Like I said, something about the linear story that&#39;s very cleverly woven into an open-world game left me feeling &amp;quot;done&amp;quot; when it resolved. And I know there&#39;s a lot more there I haven&#39;t done.&lt;/p&gt;
-&lt;p&gt;Load times are really unfortunate, at least on the Switch. In story-heavy sections, there&#39;s a lot of it. Fast travel feels not all that fast when you can sometimes ride your horse there faster.&lt;/p&gt;
-&lt;p&gt;Frame rate is not great. &lt;em&gt;Automata&lt;/em&gt; is a newer game that feels really intensive, but it rarely got herky-jerky. When it rains in a busy place like Novigrad (which is often), Geralt starts doing the robot. Weirder and more distracting is the crappy framerate in some cut scenes. In a game with so many of them, it&#39;s unfortunate.&lt;/p&gt;
-&lt;p&gt;None of this impeding me enjoying the shit out of it. Even the fall damage thing, because I laughed my ass off every time Geralt died by tripping over a rock.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Is this really it?</title>
-		<link href="http://mikepropst.com/blog/is-this-really-it/"/>
-		<updated>2022-10-27T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/is-this-really-it/</id>
-		<content type="html">&lt;p&gt;The number of occasions I&#39;ve heard masses of people say they&#39;re going to walk away from Twitter now numbers in the dozens over the years. The company has demonstrated contempt for the users that can be rivaled only by Meta, having pivoted many years ago from adding features based on usage (&lt;em&gt;Retweets&lt;/em&gt;) to generally delivering weird non-features that even the advertisers don&#39;t really want (&lt;em&gt;Blue&lt;/em&gt;).&lt;/p&gt;
-&lt;p&gt;But now it&#39;s being bought by a guy who has latched onto the &amp;quot;free speech brigade&amp;quot; not because he&#39;s particularly pro-free-speech (he&#39;s not), or because his politics align with those kinds of people (they do), but because he seems dumb enough to believe their spiel (he might be). A union-buster, an apartheid-profiter, and a guy who has used the platform that will soon be his to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Get yelled at by a Wachowski&lt;/li&gt;
-&lt;li&gt;Libel the guy who saved that Thai sports team after nobody liked his coffin submarine idea&lt;/li&gt;
-&lt;li&gt;Predict the end of COVID-19 with the accuracy of Nate Silver picking numbers out of a hat&lt;/li&gt;
-&lt;li&gt;Generally sound like a dumbass who&#39;d be cringey and goofy if he wasn&#39;t so simultaneously powerful&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Anyway. Doesn&#39;t bode all that well. Maybe it&#39;s time.&lt;/p&gt;
-&lt;p&gt;What is Cohost? I dunno. Probably another thing that&#39;ll come and go quickly. I still get spam emails from Ello, the supposed Facebook-killer that was all in black-and-white Courier font and whose name I had to look up.&lt;/p&gt;
-&lt;p&gt;I don&#39;t know how to Mastodon despite being acquainted with its founder and signing up for many servers over the years. Somehow the email model of &amp;quot;different servers but everyone can talk&amp;quot; fails to make sense to me in a social media context.&lt;/p&gt;
-&lt;p&gt;But I use Twitter less and less every year, and these days even the months show decline. And maybe it&#39;s time for us all to stop trying to post through it anyway.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>One year with Obsidian</title>
-		<link href="http://mikepropst.com/blog/one-year-with-obsidian/"/>
-		<updated>2022-08-10T00:00:00Z</updated>
-		<id>http://mikepropst.com/blog/one-year-with-obsidian/</id>
-		<content type="html">&lt;p&gt;It occurs to me that I wrote this &lt;a href=&quot;http://mikepropst.com/blog/a-better-way-to-keep-notes/&quot;&gt;post about trying Obsidian&lt;/a&gt; about a year ago. In that time, I have not really strayed from it, which is pretty unusual for me. I get really restless with tools. Thanks to a very active plugin community, theme ecosystem, and subreddit, it&#39;s become a great tool that is super customizable. I adapted a few times and that was no biggie at all thanks to the fact that Obsidian is based entirely around discrete files, stored in your file system, with their own regular ol&#39; file names.&lt;/p&gt;
-&lt;p&gt;My current way of operating is shamefully trendy; I&#39;m using Tiago Forte&#39;s &lt;em&gt;Building a Second Brain&lt;/em&gt; as the methodology. One reason is that it works reasonably well with other tools including paper journaling and &lt;a href=&quot;https://raindrop.io/&quot;&gt;Raindrop&lt;/a&gt; bookmarks. Though he apparently uses Evernote and swears by its search (which is still quite good despite Evernote&#39;s many problems), I think the linking features in Obsidian are really what makes it good for this system. Knowledge doesn&#39;t just go in a filing cabinet and get dusty. You can always see it thanks to links and unlinked mentions.&lt;/p&gt;
-&lt;p&gt;I&#39;m still not interested in changing, and as long as I am still locked into the old $5 rate for syncing, I will keep that as well.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
 		<title></title>
 		<link href="http://mikepropst.com/blog/"/>
-		<updated>2022-08-08T20:44:29Z</updated>
+		<updated>2024-03-01T20:43:42Z</updated>
 		<id>http://mikepropst.com/blog/</id>
 		<content type="html">
 
@@ -397,6 +24,15 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/how-this-all-works/&quot; class=&quot;postlist-link&quot;&gt;How all of this works&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-03-01&quot;&gt;Mar 1, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
@@ -565,8 +201,6 @@
     &lt;time class=&quot;postlist-date&quot; datetime=&quot;2022-08-10&quot;&gt;Aug 10, 2022&lt;/time&gt;
   &lt;/li&gt;
   
-
-
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
@@ -1460,6 +1094,423 @@
 &lt;/ul&gt;
 
 &lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How all of this works</title>
+		<link href="http://mikepropst.com/blog/how-this-all-works/"/>
+		<updated>2024-03-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/how-this-all-works/</id>
+		<content type="html">&lt;p&gt;A former coworker from the blog era was complaining about WordPress recently and it made me think of the bad old days, as WP was getting further and further from god&#39;s light, when I struggled more and more with it.&lt;/p&gt;
+&lt;h2 id=&quot;the-wordpress-problem&quot; tabindex=&quot;-1&quot;&gt;The WordPress problem &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#the-wordpress-problem&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&#39;t like that, as a front-end developer (mostly in the &amp;quot;HTML and CSS&amp;quot; sense, too, not the front end we have today with JavaScript pulling all the weight of applications), I can&#39;t really make a WordPress theme. There are ways, such as &lt;a href=&quot;https://upstatement.com/timber/&quot;&gt;Timber&lt;/a&gt;, to make that happen more easily, but that&#39;s yet another dependency and more weight added to an already heavy platform.&lt;/p&gt;
+&lt;p&gt;That&#39;s why I initially moved to &lt;a href=&quot;https://getkirby.com/&quot;&gt;Kirby&lt;/a&gt;. I think it&#39;s tempting when you&#39;ve used something like Twig to want to have a templating language layer on top of things, but the truth is that Kirby (and &lt;a href=&quot;https://processwire.com/&quot;&gt;Processwire&lt;/a&gt;, another CMS I&#39;ve replaced WP sites with) is incredibly simple and doesn&#39;t require actual &amp;quot;PHP Coding.&amp;quot; We&#39;re talking maybe a bit of logic now and again, but in general the functions are handled by an API that is pretty easy to use. Not to mention that both support the idea of defining your types of content, as opposed to having to bolt on yet more plugins to get custom content types and attributes to go with them.&lt;/p&gt;
+&lt;p&gt;The reason for all this adding on of functionality that resembles Legos a lot less than it looks like a technological shanty town is that &lt;em&gt;WordPress was built for blogs&lt;/em&gt;. And yet, even running a simple blog is now handled more easily by other tools like &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;going-static&quot; tabindex=&quot;-1&quot;&gt;Going static &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#going-static&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So here I am, and it&#39;s been about a year and a half since I changed engines again, this time to the static generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;. One thing you really don&#39;t get out of the box with a static site generator is the CMS. But what you &lt;em&gt;do&lt;/em&gt; get is your Markdown editor of choice. On Mac, that is of course still &lt;a href=&quot;http://mikepropst.com/blog/thanks-byword/&quot;&gt;Byword&lt;/a&gt;, and on Linux it is currently the lovely &lt;a href=&quot;https://github.com/brrd/abricotine&quot;&gt;Abricotine&lt;/a&gt;, but the repo was archived sometime in the fall so we&#39;ll see.&lt;/p&gt;
+&lt;p&gt;So how does it actually work?&lt;/p&gt;
+&lt;h2 id=&quot;the-tools&quot; tabindex=&quot;-1&quot;&gt;The tools &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#the-tools&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Here are the requirements in terms of tools and platforms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Eleventy (the Node script that builds a static site from Markdown files)&lt;/li&gt;
+&lt;li&gt;Github (for storing the site files, accessing them from anywhere, and controlling deployment)&lt;/li&gt;
+&lt;li&gt;Netlify with a free plan (for hosting and publishing)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are a few requirements on the computer side:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node (easily installed via &lt;code&gt;apt&lt;/code&gt; on Debian or &lt;code&gt;homebrew&lt;/code&gt; on Mac)&lt;/li&gt;
+&lt;li&gt;Git (or a GUI Git client, which is what I prefer)&lt;/li&gt;
+&lt;li&gt;An editor (even Textedit will do, but why not use a nice one?)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But once you install Node, all the other stuff that&#39;s needed is stored in the repository itself. Using the simplest boilerplate and reading the docs for a few minutes was all it took for me to make the simple Nunjucks templates required to make a site run efficiently. It could certainly do even more than a blog, but without a CMS interface I wouldn&#39;t give it to a freelance client or anything like that (which is where headless CMSes come in).&lt;/p&gt;
+&lt;p&gt;But for the marginally tech-inclined, it&#39;s pretty easy.&lt;/p&gt;
+&lt;h2 id=&quot;how-i-do-it&quot; tabindex=&quot;-1&quot;&gt;How I do it &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#how-i-do-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So what about actually writing?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the repo is up to date on the local machine using Git.&lt;/li&gt;
+&lt;li&gt;Create a new text file in your editor of choice.&lt;/li&gt;
+&lt;li&gt;Add the YAML. Posts in Eleventy are configured using YAML at the top of the document, something that is more and more common these days. All the popular static site makers like Gatsby, Jekyll, and Hugo use it, as do flat-file CMSes like Kirby or Grav. It&#39;s not too hard to remember the format, but I use Espanso to store it as a shortcut. You could use TextExpander, aText, or whatever you like here, but Espanso works on both Mac and Linux for zero dollars so I&#39;m into it.&lt;/li&gt;
+&lt;li&gt;Run the Eleventy local server to see your work. It&#39;s a quick Node command and you get a really nice lightweight web server that runs your site locally. Every time you save a file, it automatically rebuilds the site and refreshes the browser.&lt;/li&gt;
+&lt;li&gt;Check in and push to Git. That&#39;s it. Netlify handles the rest, and in a few seconds your site is ready. It&#39;s faster and easier than using FTP to update a static site. Images are the only potential problem as binaries can be slow to upload in Git, but I haven&#39;t encountered issues yet. We&#39;re talking about images on a website, not extremely large files.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;however&quot; tabindex=&quot;-1&quot;&gt;However &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#however&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Is any of this really easier than WordPress or Ghost or whatever? I dunno. It&#39;s free, I know that. It lets me write in a nice text or Markdown editor, which I honestly feel more than a web interface or tool like MarsEdit. &lt;a href=&quot;http://mikepropst.com/blog/enhancing-kirby-with-local-workflows/&quot;&gt;I&#39;ve been doing this kind of thing a long time.&lt;/a&gt; It makes me feel a bit like a wizard. Plus, it hearkens back to an older, more interesting version of the internet that I used to spend time on before it became the engine that powers the most destructive form of capitalism we&#39;ve probably ever seen. I guess that counts for something.&lt;/p&gt;
+&lt;p&gt;Time to go write my next post in Vim.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Damo Suzuki</title>
+		<link href="http://mikepropst.com/blog/rip-damo-suzuki/"/>
+		<updated>2024-02-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-damo-suzuki/</id>
+		<content type="html">&lt;p&gt;As you get older, more and more entire bands will be gone. &lt;strong&gt;The Band&lt;/strong&gt; entered that realm last year with the death of leader Robbie Robertson, and it&#39;s been 10 years without any original &lt;strong&gt;Ramones&lt;/strong&gt; on this earthly plane. Now only the original keyboardist Irmin Schmidt remains from the classic lineup of &lt;strong&gt;Can&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Damo Suzuki, as the legend goes, was discovered by a recently-singerless Can as a busker and joined the same day.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When they asked me to sing, I never thought that I’d stay with this band or be invited to make recordings of LPs, I never had such a dream.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A guy who left Japan on a whim the day after his 18th birthday, he barely spoke German at the time and wasn&#39;t particularly great at English either. He had a dream of being a cartoonist, and felt that the hippies around him in &#39;68 were trend-following egoists rather than true free spirits. Can, however, were a different story:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Everybody in the band is quite special. And they had different interests in music. Jaki was free jazz, Irmin [Schmidt] was a conductor of an orchestra, Holger [worked with] Stockhausen and Michael [Karoli] was a young rock guitarist. And I was a hippie! So five totally different people with five different directions. With the chemistry, naturally it came together. That’s why it’s quite timeless music.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;He left after three stone-cold, monumentally influential and still-relevant albums at 23 to become a Jehovah&#39;s Witness. But it seems like it was a pattern for him to not be a joiner, and though he considered himself a Christian until he died, he left that organization after a couple years as well.&lt;/p&gt;
+&lt;p&gt;He spent a lot of time touring with random musicians and not rehearsing, preferring spontaneity — and getting away with such insanity because he was Damo Suzuki. I was lucky enough to see him around 20 years ago with a Boston band called Cul de Sac and he was still a magical performer.&lt;/p&gt;
+&lt;p&gt;Safe journeys to wherever you&#39;re going now, Damo.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Migration and loss</title>
+		<link href="http://mikepropst.com/blog/migration-and=loss/"/>
+		<updated>2024-02-02T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/migration-and=loss/</id>
+		<content type="html">&lt;p&gt;As this iteration of the blog enters its tenth year (and I believe it&#39;s on its third CMS? Fourth?) I&#39;ve been moving a lot of posts finally from the old Kirby system. It just involves sucking metadata out of the Kirby format and into the frontmatter that Eleventy uses, which is something more portable for the next inevitable move.&lt;/p&gt;
+&lt;p&gt;But while the process is more manual than I would like, it has given me an opportunity to look at old content. There are some really interesting links I&#39;ve blogged. Unfortunately, a HUGE chunk of them do not work anymore.&lt;/p&gt;
+&lt;p&gt;It&#39;s hard not to see this as something fundamentally messed up. Like, we&#39;ve broken the internet somehow.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Zed&#39;s alive, baby</title>
+		<link href="http://mikepropst.com/blog/zeds-alive-baby/"/>
+		<updated>2024-02-01T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/zeds-alive-baby/</id>
+		<content type="html">&lt;p&gt;Promised for a while, finally &lt;a href=&quot;https://zed.dev/&quot;&gt;Zed&lt;/a&gt; arrives. It&#39;s written by some of the creators of Atom, but instead of another Electron thing it&#39;s a very fast-performing app written in Rust.&lt;/p&gt;
+&lt;p&gt;It&#39;s multiplayer, apparently, which as someone who was once subjected to pair programming I&#39;ve always found that a little weird. But it works for Figma, right?&lt;/p&gt;
+&lt;p&gt;Anyway, I wrote this post in it. Will be nice to see it appear on Linux, a platform that is surprisingly lacking in lightweight code editors. Between the anemic GEdit and a full blown IDE you have &lt;a href=&quot;http://mikepropst.com/blog/lite-xl/&quot;&gt;Lite XL&lt;/a&gt;, Microsoft&#39;s Electron-based VSCode, and of course the influential but non-free Sublime, which has persisted. I don&#39;t love any of them, but I&#39;m liking this so far.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I knew I hated this game</title>
+		<link href="http://mikepropst.com/blog/i-knew-i-hated-this-game/"/>
+		<updated>2024-01-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/i-knew-i-hated-this-game/</id>
+		<content type="html">&lt;p&gt;From the Public Domain Review&#39;s top articles of 2023, here&#39;s &lt;a href=&quot;https://publicdomainreview.org/collection/the-landlords-game/&quot;&gt;the story of &lt;em&gt;The Landlord&#39;s Game&lt;/em&gt;&lt;/a&gt;, which you may know as the family-destroying force of simultaneous acrimony and boredom called &lt;em&gt;Monopoly.&lt;/em&gt; Turns out, as you might guess from how brutal the game actually is, that it was not initially pro-monopoly. In fact, it was anti-land-ownership, the product of an economic philosophy called Georgism that posited one can&#39;t actually own land. There were even two sets of rules originally: one based on equity and wealth redistribution, the other on... you know. It was also invented by a woman, and though she patented it, somehow it was yoinked by a guy who sold a version (with only the second ruleset) to Parker Brothers.&lt;/p&gt;
+&lt;p&gt;Truth will out, I suppose, but it&#39;s pretty sad that Lizzie Magie never got her due. I guess &amp;quot;Go&amp;quot; was catchier than the Marxy &amp;quot;Labor Upon Mother Earth Produces Wages.&amp;quot;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Horizon Zero Dawn</title>
+		<link href="http://mikepropst.com/blog/horizon/"/>
+		<updated>2023-12-19T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/horizon/</id>
+		<content type="html">&lt;p&gt;After undertaking a ridiculous repair job on our &amp;quot;new&amp;quot; Playstation 4, the logical choice was to start playing a game. Not sure what actually got me looking at &lt;em&gt;Horizon Zero Dawn,&lt;/em&gt; but it&#39;s one of the more fun titles I&#39;ve played in a while. I decided after almost 300 hours that I was done with &lt;em&gt;Tears of the Kingdom&lt;/em&gt; so I did the final boss and didn&#39;t look back. So you&#39;d think I might be done with swords-and-bows open world post-apocalyptic fantasy stuff. Yet I picked it up for $10 and it is a blast. Great stealth, fun combat, solid voice acting, and a mystery to unravel. There&#39;s a post-apocalyptic melancholy to the whole thing but it&#39;s shot through with humor too.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/KodUL1r_LFs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Looking forward to getting the sequel on sale, though for some reason the DLC is only on PS5. Get a PS5? No thanks! I will be giving that $500 to my daughter&#39;s preschool for approximately 17 minutes of child care.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>What a gas</title>
+		<link href="http://mikepropst.com/blog/what-a-gas/"/>
+		<updated>2023-12-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/what-a-gas/</id>
+		<content type="html">&lt;p&gt;There are zillions of one-horse towns across the US, and most of them have a minor story worth going &amp;quot;huh, that&#39;s interesting&amp;quot; over. Mattoon, IL, (pronounced MATT-TOON with no obvious stress on either syllable, but certainly not muh-TOON) the hub of my maternal family side — a town that barely tops 15,000 people even today — has a couple that are way stranger than that.&lt;/p&gt;
+&lt;p&gt;The first of these is the country&#39;s original &lt;a href=&quot;https://en.wikipedia.org/wiki/Burger_King_(Mattoon,_Illinois)&quot;&gt;Burger King&lt;/a&gt;. The origin story was just that an ice cream stand called Frigid Queen (lovely...) needed a king when the owners expanded to fast food, and the logical choice was Burger King. In 1968 a court ruled that the more famous Burger King can&#39;t have a location within 20 miles of Mattoon, nor can the Original Burger King operate another restaurant outside the area. It&#39;s still there, and thriving as far as I know, at least to whatever extent a little burger shop can thrive in a tiny midwest town.&lt;/p&gt;
+&lt;p&gt;Perhaps more famous is the story of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Mad_Gasser_of_Mattoon&quot;&gt;Mad Gasser of Mattoon&lt;/a&gt; aka the Phantom Anesthetist, a 1940s incident that has over time become known as a textbook example of mass psychosis. Atlas Obscura has &lt;a href=&quot;https://www.atlasobscura.com/articles/column-mad-gasser-of-mattoon&quot;&gt;an interesting article on it&lt;/a&gt;. They posit that wartime situations and fears may have contributed to the weird hysteria that hung over the town like a fog. A chemical fog which of course did not actually exist. They make a good case.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/mattoon_headlines.jpg&quot; alt=&quot;Mattoon newspaper front page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Look at this newspaper from the time to get an idea of the national mood. Hopeful but war-weary and still afraid of phantom Nazi or Japanese enemies attacking while most of America&#39;s men are away. So what actually happened? We might never know if there was really an &amp;quot;Anesthetic Prowler&amp;quot; or if any of the attacks actually happened. But it&#39;s a creepy story and a fun one to have in the family.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Entering the last console generation the hard way</title>
+		<link href="http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/"/>
+		<updated>2023-12-09T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/entering-the-last-console-generation-the-hard-way/</id>
+		<content type="html">&lt;p&gt;My son&#39;s friend just straight up gave him a Playstation 4 a few weeks back. I have no idea what the circumstances are in which you have too many PS4s, but there we are.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it had been in storage for a while and someone had attempted a repair on it (for what? I don&#39;t know). So after buying a couple $5 games we found the CD drive just didn&#39;t want to work. I&#39;m not the biggest fan of digital games because of course you don&#39;t actually &lt;em&gt;own&lt;/em&gt; them, not to mention the drive sounds like it&#39;s gonna take off even if there&#39;s no disc in it.&lt;/p&gt;
+&lt;p&gt;So I did what any insane person would do: I ordered a drive from iFixit, a site with a 40%-complete tutorial on how to replace it. Turns out, the actual method for replacing the optical drive in a PS4 Slim is &amp;quot;just take the whole god damn console apart.&amp;quot; That quarter inch of thickness saved over the standard model comes at the expense of modularity.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/ps4.jpg&quot; alt=&quot;Taking the thing apart&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I also replaced the spinning 500GB hard drive with a 1TB SSD, which was no big deal — there&#39;s a sled that can be loosened with a single screw and any SATA laptop drive can be plugged right in.&lt;/p&gt;
+&lt;p&gt;Overall... significantly harder than upgrading a PC. But now we have a working PS4 and have been diving into &lt;em&gt;Spider-Man&lt;/em&gt; (him) and &lt;em&gt;Horizon: Zero Dawn&lt;/em&gt; (me), all for about $50 and some stressful tiny screw replacement.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Has it really been that long?</title>
+		<link href="http://mikepropst.com/blog/has-it-been-that-long/"/>
+		<updated>2023-12-06T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/has-it-been-that-long/</id>
+		<content type="html">&lt;p&gt;Not joking, I forgot how Eleventy worked.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Ryuchi Sakamoto</title>
+		<link href="http://mikepropst.com/blog/rip-ryuichi-sakamoto/"/>
+		<updated>2023-04-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-ryuichi-sakamoto/</id>
+		<content type="html">&lt;p&gt;It seems so recently that YMO’s Yukihiro Takahashi passed, and now we lose another of the great trio, and probably the one who is most well-known internationally outside of the group. Ryuichi Sakamoto was not only the heartthrob of the band, he had an extremely prolific solo output (his most recent release came out in January), collaborated with rad people like David Sylvian, Fennesz, Alva Noto, and Iggy Pop, and has even won an Oscar for scoring &lt;em&gt;The Last Emperor&lt;/em&gt; (and probably deserved another for &lt;em&gt;The Revenant&lt;/em&gt; but was ruled ineligible for dumb reasons).&lt;/p&gt;
+&lt;p&gt;This article, titled &lt;a href=&quot;https://www.gq.com/story/ryuichi-sakamoto-shape-of-music-remembrance&quot;&gt;“Music Sounds the Way it Does Because of Ryuichi Sakamoto”&lt;/a&gt;, is a great read but if you don&#39;t feel like taking the time, just trust the title. The man lived in the future but was grounded in organic and acoustic sounds, especially the piano. He will be monumentally missed.&lt;/p&gt;
+&lt;p&gt;Here is his beautiful collab with David Sylvian, “World Citizen (I Won’t Be Disappointed).”&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/LlpSj6TlXJ4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Get things done or die trying</title>
+		<link href="http://mikepropst.com/blog/still-getting-things-done/"/>
+		<updated>2023-02-28T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/still-getting-things-done/</id>
+		<content type="html">&lt;p&gt;Nerds, creatives, and knowledge workers in general seem to gravitate toward productivity schemes and methodologies. If you&#39;re anything like me, and I know some of you are because that&#39;s part of why we get along, you might jump from thing to thing over time.&lt;/p&gt;
+&lt;p&gt;One of the first &amp;quot;named&amp;quot; systems I can remember getting into is Getting Things Done, probably through early tech blogger Merlin Mann (now perhaps more well-known as co-host of a podcast with a guy who later became &lt;a href=&quot;https://knowyourmeme.com/memes/events/bean-dad&quot;&gt;&amp;quot;Bean Dad&amp;quot;&lt;/a&gt;). The system worked well for me for a while when I worked from home, freelanced, and had no kids. What Mann and others who jumped on the train might not have really grasped is that David Allen (not &lt;a href=&quot;https://ultimateclassicrock.com/sherman-hemsley-prog-rock/&quot;&gt;the guy from Gong&lt;/a&gt;) designed it for executives with assistants and both the time and power to lock themselves away for effectively days at a time while they did weekly reviews. The book came with a door hanger. Imagine your kid respecting a door hanger that says &amp;quot;Weekly review in progress.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Lately, I&#39;ve been working with two systems that are more geared toward creative minds: the bullet journal and the second brain.&lt;/p&gt;
+&lt;p&gt;A friend turned me on to the &lt;a href=&quot;https://bulletjournal.com/pages/book&quot;&gt;&amp;quot;bujo&amp;quot;&lt;/a&gt; after I asked about the notebook she carried everywhere. The thing that its creator, Ryder Carroll, says about it is that it&#39;s a &amp;quot;mindfulness practice masquerading as a productivity method,&amp;quot; and that&#39;s very true. Sitting down with a paper notebook and doing both your todos and your actual journaling is a great way to focus, be present, and stop farting around with the external for a minute. It&#39;s also great for people with focus issues or who have trouble sticking to systems, because you can just pick it back up if you flop for a while. Start journaling again where you left off. No biggie.&lt;/p&gt;
+&lt;p&gt;However, I have years of notebooks stacked up and one thing they&#39;re not good at is indexing and re-accessing information and insights that you&#39;ve achieved. This is where Tiago Forte&#39;s &lt;em&gt;Building a Second Brain&lt;/em&gt; comes into play. The core thinking behind his system is almost the opposite of the bullet journal: It&#39;s only digital tools that can store and search in a way that enables us to truly offload a lot of data from our &lt;em&gt;first&lt;/em&gt; brain.&lt;/p&gt;
+&lt;p&gt;That makes a lot of sense, of course, and it&#39;s what tools like Evernote, Joplin, Roam, whatever were originally designed for — but it also brings me back home to a reason that GTD worked for me: David Allen&#39;s core slogan was &amp;quot;If it&#39;s on your mind, it&#39;s not getting done.&amp;quot; The second brain philosophy extends that to statements like &amp;quot;it&#39;s not able to be accessed,&amp;quot; &amp;quot;it&#39;s not creative fodder,&amp;quot; or more generally, &amp;quot;if it&#39;s on your mind, it&#39;s not doing you any good.&amp;quot;&lt;/p&gt;
+&lt;p&gt;There&#39;s a lot more I love about the method but that&#39;s another post. But I still feel like I owe a lot to David Allen and his insane flowcharts designed to take things &amp;quot;off your mind&amp;quot; and turn you into a robot that always knows what to do. in this stupid-ass world where we have strayed pretty far from whatever-you-believe-in&#39;s light, it&#39;s a gift to be able to stop worrying about stuff for a few minutes.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Blog enters the 21st century</title>
+		<link href="http://mikepropst.com/blog/blog-enters-the-21st-century/"/>
+		<updated>2023-02-25T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/blog-enters-the-21st-century/</id>
+		<content type="html">&lt;p&gt;I don&#39;t even know what that means. I think things have gotten over-complicated, but the idea that I can write on my computer and publish using a git commit is pretty cool. So that&#39;s what I&#39;m doing now thanks to Netlify. The barrier to posting was &amp;quot;Do I want to do a merge with SFTP&amp;quot; and the answer is very often &amp;quot;nah.&amp;quot; This is cooler, plus I can do it from multiple computers if I wanted to.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Building a useful homelab</title>
+		<link href="http://mikepropst.com/blog/building-a-useful-homelab/"/>
+		<updated>2023-02-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/building-a-useful-homelab/</id>
+		<content type="html">&lt;p&gt;A while back I started getting nervous about hosted services. Google starting to limit storage, Amazon killing off their music hosting, all of these were catalysts but a desire for privacy and a kind of old-school internet experience also drove my plans.&lt;/p&gt;
+&lt;p&gt;After some semi-successful experimentation with Plex on a Raspberry Pi, I started thinking about how the same priciple could be applied to other services, like photo galleries. Turns out that not only are there a ton of self-hosted, open-source options for doing a lot of things you might want to do, most of them have been containerized to run in Docker.&lt;/p&gt;
+&lt;h2 id=&quot;the-components&quot; tabindex=&quot;-1&quot;&gt;The components &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#the-components&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;a-computer&quot; tabindex=&quot;-1&quot;&gt;A computer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#a-computer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;My machine is not that powerful. It&#39;s a 4-core Pentium Lenovo Thinkstation with its main drive replaced with an SSD. It previously ran Mint desktop as a basic home computer. But after I got an old Macbook I didn&#39;t really need it, so it seemed like a perfect box to repurpose.&lt;/p&gt;
+&lt;h3 id=&quot;openmediavault&quot; tabindex=&quot;-1&quot;&gt;openmediavault &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#openmediavault&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Far and away the most popular operating system for these kinds of boxes is &lt;a href=&quot;https://www.openmediavault.org/&quot;&gt;openmediavault&lt;/a&gt;, a Debian distro with no desktop but a convenient web interface that allows even a relative dumbo like myself to mount drives and share them with services like SMB or FTP.&lt;/p&gt;
+&lt;h3 id=&quot;portainer&quot; tabindex=&quot;-1&quot;&gt;Portainer &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#portainer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As you might imagine, the web UI of OMV makes one want to do everything via your browser. SSH is not super hard, but it&#39;s mighty convenient to use Portainer, a great web UI for Docker.&lt;/p&gt;
+&lt;h3 id=&quot;jellyfin&quot; tabindex=&quot;-1&quot;&gt;Jellyfin &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#jellyfin&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;After spending what I consider to be too much money to watch my own stuff (PlexPass at $5/month), I went with &lt;a href=&quot;https://jellyfin.org/&quot;&gt;Jellyfin&lt;/a&gt;, an open-source fork of Emby. I tell you what, we&#39;ve come a long way since the old XBMC running on an overheating computer attached directly to the TV. It has clients for our computers, iOS and Android devices, and Roku, and perhaps because it doesn&#39;t need to do transcoding for those devices, the old computer barely even has to work when streaming to two different devices.&lt;/p&gt;
+&lt;h3 id=&quot;navidrome&quot; tabindex=&quot;-1&quot;&gt;Navidrome &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#navidrome&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Music was never a strong point of Plex, though it was capable. &lt;a href=&quot;https://navidrome.org/&quot;&gt;Navidrome&lt;/a&gt; implements the Subsonic API, which is pretty well supported in a range of (admittedly varying-quality) third party apps, though it&#39;s better than Subsonic itself, which is Java. Is it your personal Spotify? Not quite, but close enough.&lt;/p&gt;
+&lt;h3 id=&quot;cups&quot; tabindex=&quot;-1&quot;&gt;CUPS &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#cups&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Of course, right? We have a laser printer with no built-in network capabilities, and frankly we&#39;ve had better luck using this old box than a dedicated print server from Monoprice.&lt;/p&gt;
+&lt;h3 id=&quot;paperless-ngx&quot; tabindex=&quot;-1&quot;&gt;Paperless-ngx &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#paperless-ngx&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a really great &lt;a href=&quot;https://paperless-ngx.com/&quot;&gt;document archive system&lt;/a&gt; that lets you specify all kinds of great metadata for finding your stuff when you need it (say, tax time or when the insurance company asks for documentation). An iOS app scans directly into it, where the server then OCRs all documents. From there, machine learning tools start trying to automatically apply metadata based on your defined patterns of text.&lt;/p&gt;
+&lt;h3 id=&quot;duplicati&quot; tabindex=&quot;-1&quot;&gt;Duplicati &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#duplicati&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It&#39;s a GUI backup tool. Easy cheesy, and now all my stuff is backed up in Backblaze B2.&lt;/p&gt;
+&lt;h3 id=&quot;photos&quot; tabindex=&quot;-1&quot;&gt;Photos &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#photos&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a whole other post. What a fun and frustrating journey.&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/#resources&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&#39;s hard to overstate the usefulness of &lt;strong&gt;/r/selfhosted&lt;/strong&gt; as well as the subreddits for all the individual tools. Lots of people of varying levels of expertise willing to help.&lt;/p&gt;
+&lt;p&gt;If you have any questions on how I did some of this stuff, hit me on twitter/cohost/FB/whatever and I can try to explain it in my just-enough-to-be-dangerous way.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Burt Bacharach</title>
+		<link href="http://mikepropst.com/blog/rip-burt-bacharach/"/>
+		<updated>2023-02-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-burt-bacharach/</id>
+		<content type="html">&lt;p&gt;Are these the only posts I write anymore? Talk about a legend right here, Burt Bacharach shuffled off at 94. I have to say that&#39;s a good run.&lt;/p&gt;
+&lt;p&gt;The man, along with Hal David turned complex, jazz-derived chords and combinations into sublime, accessible pop. He collaborated with Elvis Costello and of course Dionne Warwick, among others, and inspired not just easy-listening mellow cats, but a huge range of artists that included Arthur Lee and his proto-punk band Love.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ftO9ClIhFAo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;A true titan of music. Rest well and thanks for the music.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Yukihiro Takahashi</title>
+		<link href="http://mikepropst.com/blog/rip-yukihiro-takahashi/"/>
+		<updated>2023-02-03T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-yukihiro-takahashi/</id>
+		<content type="html">&lt;p&gt;This one is a little late. But here&#39;s a guy who was the vocalist and drummer of the legendary Yellow Magic Orchestra, and then — like his other two bandmates — went on to an almost equally-legendary solo discography. Like Bowie, Peter Gabriel, and Robert Fripp, Takahashi is a big inspiration on everything I do that involves &amp;quot;songs&amp;quot; or &amp;quot;musicality.&amp;quot; He never strayed away from pop or accessibility, but always kept it a little left-of-center.&lt;/p&gt;
+&lt;p&gt;Here&#39;s an insanely 80s video for the title track of my favorite of his, &lt;em&gt;Murdered By The Music.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/qRs_o_9S3WU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>In praise of Jellyfin (so far)</title>
+		<link href="http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/"/>
+		<updated>2023-01-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-praise-of-jellyfin-so-far/</id>
+		<content type="html">&lt;p&gt;Lately I&#39;ve been doing more fighting with Plex (slogan: &amp;quot;Pay $5 a month to use your own server&amp;quot;) and my Raspberry Pi-based media server than actually watching or listening anything, so I tried a few new things.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I repurposed a desktop that I hadn&#39;t been using since getting a 2015 Macbook that was just a place to randomly try new distros and desktop environments for no reason.&lt;/li&gt;
+&lt;li&gt;I put Openmediavault (the OS) on it, and slapped a Dockerized Jellyfin in there.&lt;/li&gt;
+&lt;li&gt;I added Tailscale to the equation so I could get there from the other end of the house (don&#39;t ask, our house is bad at internet) or from outside the house.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately, Tailscale doesn&#39;t let Roku type devices get on my tunnel, so maybe I&#39;ll use the old Pi for some kind of perma-VPN or reverse proxy or some shit I clearly do not understand.&lt;/p&gt;
+&lt;p&gt;But I&#39;ve found Jellyfin to be more bare-bones yet also much more performant, more likely to direct stream than attempt to transcode, and really a breeze to work with. If you&#39;ve ever wondered about switching from Plex, it might be for you. If you are wondering about Emby, don&#39;t — Jellyfin is an open-sourced fork that is more up to date.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Music I liked in 2022</title>
+		<link href="http://mikepropst.com/blog/music-i-liked-in-2022/"/>
+		<updated>2023-01-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/music-i-liked-in-2022/</id>
+		<content type="html">&lt;p&gt;I always do this, but honestly it was not a huge year for me in terms of listening to new music. I&#39;m still jamming Necrot&#39;s &lt;em&gt;Mortal&lt;/em&gt; (2020) on the regular and couldn&#39;t tell you much about what new death metal is out there. And two of my favorite bands were cut down by tragedy: Low due to Mimi Parker&#39;s untimely death from cancer, and Neurosis from the revelation that Scott Kelly was an abusive sociopath.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sky Pig - &lt;em&gt;It Thrives In Darkness&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Petbrick - &lt;em&gt;Liminal&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Blut Aus Nord - &lt;em&gt;Disharmonium - Undreamable Abysses&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Lykotonon - &lt;em&gt;Promethean Pathology&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hissing - &lt;em&gt;Hypervirulence Architecture&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ADULT. - &lt;em&gt;Becoming Undone&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Nik Colk Void - &lt;em&gt;Bucked up Space&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Wet Leg - &lt;em&gt;Wet Leg&lt;/em&gt; (I&#39;m still hip!)&lt;/li&gt;
+&lt;li&gt;Jóhann Jóhannsson - &lt;em&gt;Drone Mass&lt;/em&gt; (this is mostly here because it exists. It&#39;s a gift to have more Jóhann after his death)&lt;/li&gt;
+&lt;li&gt;Locrian - &lt;em&gt;New Catastrophism&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vermin Womb - &lt;em&gt;Retaliation&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Primitive Man - &lt;em&gt;Insurmountable&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Undeath - &lt;em&gt;It&#39;s Time... To Rise From The Grave&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Hällas - &lt;em&gt;Isle of WIsdom&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;KEN Mode - &lt;em&gt;NULL&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Conjurer - &lt;em&gt;Pathos&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Crowbar - &lt;em&gt;Zero and Below&lt;/em&gt; (It&#39;s Crowbar... come on)&lt;/li&gt;
+&lt;li&gt;Orthodox - &lt;em&gt;Proceed&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Vanum - &lt;em&gt;Legend&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That was in no particular order, but I think the top spot is occupied by Haunted Horses&#39; &lt;em&gt;The Worst Has Finally Happened&lt;/em&gt;. Monstrous and unique. It does the things I like. Check it out.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Real ones we lost in 2022</title>
+		<link href="http://mikepropst.com/blog/deaths-in-2022/"/>
+		<updated>2023-01-04T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/deaths-in-2022/</id>
+		<content type="html">&lt;p&gt;If the memes and jokes are to be believed, 2022 wasn&#39;t any more of a picnic than any year since the pandemic started. Or since 2015 maybe. Or the century. Or eternity maybe. But truly, we did lose some real ones in the music world.&lt;/p&gt;
+&lt;p&gt;If you haven&#39;t heard of any of these folks, I suggest you check them out. There&#39;s a lot of great art here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Terry Hall.&lt;/strong&gt; The last one of the year to go that I noticed, the &lt;a href=&quot;http://mikepropst.com/blog/rip-terry-hall/&quot;&gt;Specials singer&lt;/a&gt; was a big loss to my musical history.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keith Levine.&lt;/strong&gt; I was a little late to PiL, but so many of the guitarists I admire, like Daniel Ash, owe a ton to him. His work on &lt;em&gt;Metal Box&lt;/em&gt; still blows me away.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D.H. Peligro.&lt;/strong&gt; An incredible drummer for one of the greats in hardcore, and one of the few and the proud who proved that punk wasn&#39;t just white guys and Bad Brains.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jerry Lee Lewis.&lt;/strong&gt; What can you say about the Killer that hasn&#39;t been said? Not the original wild man of rock and roll, but an early trash fire who paved the way for many more. Still energizing to listen to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pharaoh Sanders.&lt;/strong&gt; One of the few jazz guys I really get into. Truly expanding stuff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Andy Fletcher.&lt;/strong&gt; Depeche Mode was an early expansion into electronic music for me, and probably half the known universe too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mark Lanegan.&lt;/strong&gt; One of those guys who seemed to court death for a long time before they finally hooked up. A great lyricist and so unsung in the world of Seattle music.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rachel Nagy.&lt;/strong&gt; I think I only saw the Detroit Cobras once when I lived there, but they were legendary. Too young, and I still haven&#39;t heard what happened.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vangelis.&lt;/strong&gt; I was never a huge fan, but it&#39;s safe to say in hindsight he&#39;s one of the people who introduced me to electronic music. Maybe Jarre had more influence on me, but only because he came later — and because Vangelis&#39;s &amp;quot;Chariots of Fire&amp;quot; was so omnipresent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lamont Dozier, Dennis Waterman, Ken WIlliams.&lt;/strong&gt; You might not know these names. Look them up. That&#39;s a lot of firepower lost. These are guys with both art and craft, guys whose results are very difficult to argue with.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Klaus Schulze.&lt;/strong&gt; Up until relatively recently, I knew him mostly from the first Tangerine Dream album and Ash Ra Tempel, but even that&#39;d be enough to cement him in my mind as one of the greats. But then there&#39;s &lt;em&gt;Timewind,&lt;/em&gt; &lt;em&gt;Angst,&lt;/em&gt; and a billion other releases. A master.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The big hoedown in the sky.&lt;/strong&gt; Country was hit hard in &#39;22. C.W. McCall might&#39;ve been a one-hit wonder (&amp;quot;Convoy&amp;quot;) but it was a monster and it always makes me think of my uncle who knew every word and maybe still does. Then Mickey Gilly, Naomi Judd, and Loretta Lynn? All pioneers and legends.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classic rock radio.&lt;/strong&gt; Dan McCafferty of Nazareth, Wilko Johnson of Dr. Feelgood, Christine McVee, Meat Loaf. Can&#39;t say I&#39;m necessarily a fan of any of them, but their stature was undeniable. And of course, there&#39;s Meat&#39;s masterful performance in &lt;em&gt;Fight Club.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coolio.&lt;/strong&gt; It&#39;s fucking Coolio. How is Coolio gone?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taylor Hawkins.&lt;/strong&gt; The Foos are not one of my favorites either, but it sure seems to me that he was loved by pretty much everyone who came across him.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The lords of the synth.&lt;/strong&gt; This year we lost both John Appleton, the inventor of the Synclavier, and &lt;a href=&quot;http://mikepropst.com/blog/rip-dave-smith/&quot;&gt;Dave Smith&lt;/a&gt;, the man behind Sequential Circuits and one half of the pair responsible for MIDI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ronnie Spector.&lt;/strong&gt; Between her and Lamont Dozier both leaving the building, a massive chunk of Motown is gone. No disrespect to Diana Ross but Ronnie was always my favorite.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Angelo Badalamenti and Julee Cruise.&lt;/strong&gt; This is some serious garmonbozia. &lt;a href=&quot;http://mikepropst.com/blog/angelo/&quot;&gt;Angelo&lt;/a&gt; had a good run at least, but I was hoping to hear more from him.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mimi Parker.&lt;/strong&gt; Saved the hardest for last. I truly don&#39;t know what to say about this one. So here&#39;s a video.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/gBtJpVY7NkE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Terry Hall</title>
+		<link href="http://mikepropst.com/blog/rip-terry-hall/"/>
+		<updated>2022-12-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/rip-terry-hall/</id>
+		<content type="html">&lt;p&gt;I feel like I&#39;ve been posting a lot of these RIP things lately. The Specials were, in hindsight a big deal for me. Ska was a sound that was punk-approved. And other than hip-hop, it was the first music I got into on my own that wasn&#39;t &amp;quot;loud guitar music.&amp;quot; That certainly opened up the way for so many of the things I love, from James Brown to Autechre. Arguably the only band &lt;em&gt;more&lt;/em&gt; important for my branching-out was Joy Division.&lt;/p&gt;
+&lt;p&gt;And I can&#39;t get enough of watching them play in their heyday. They looked impossibly cool, a wild mass of energy and high pants cuffs. And there was Terry Hall at the center, totally serious and almost menacing while chaos erupted.&lt;/p&gt;
+&lt;p&gt;The guy had a terrible life story with great pain in his childhood, but he translated that into a great thoughtfulness and empathy for the less fortunate in the Thatcher era. It was through him that the great contrast of the Specials — fun Jamaican-inspired music with black-humor or straight-up dark punk lyrics — manifested, and without him they&#39;ve been only half of their glory.&lt;/p&gt;
+&lt;p&gt;Instead of a classic Special song, here&#39;s the video for &amp;quot;Our Lips Are Sealed,&amp;quot; which Hall cowrote, and in which he looks like Robert Smith.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/QhVhK-VVeXo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>I can&#39;t have nice things</title>
+		<link href="http://mikepropst.com/blog/i-cant-have-nice-things.md/"/>
+		<updated>2022-12-14T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/i-cant-have-nice-things.md/</id>
+		<content type="html">&lt;p&gt;Yes, Lite XL happened this year and it&#39;s been great on Linux but is a little janky on Mac. So I&#39;ve stuck with what I know, which is the electron-based Atom by Github. Imagine my surprise when I went to make a couple CSS tweaks to this site today and found that Atom will be sunset... tomorrow.&lt;/p&gt;
+&lt;p&gt;So here I am with VSCodium, the MS-telemetry-free version of their VS Code. I&#39;d like to take the opportunity to try something that isn&#39;t electron (even though a text editor for web projects might be the most logical use of the technology), but I need to get some requisite Python tools to make CudaText work and the list is actually pretty short these days. Seems that if you have the money for Sublime you&#39;re using it, and if you don&#39;t you&#39;re on VS Code. Oh well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>RIP Angelo Badalamenti</title>
+		<link href="http://mikepropst.com/blog/angelo/"/>
+		<updated>2022-12-13T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/angelo/</id>
+		<content type="html">&lt;p&gt;First Julee Cruise, now Angelo Badalamenti. One was estranged, one was presumably still a close friend. But either way, the David Lynch musical universe is a silent place now.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the maestro talking about building perhaps his most iconic piece, &lt;em&gt;Laura Palmer&#39;s Theme.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/e-eqgr_gn4k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Rest well and thanks for the music.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>In Praise and Defense of the Novation Circuits</title>
+		<link href="http://mikepropst.com/blog/in-defense-of-the-novation-circuits/"/>
+		<updated>2022-12-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/in-defense-of-the-novation-circuits/</id>
+		<content type="html">&lt;p&gt;Pretty regularly on the Novation Circuit subreddit, a &lt;a href=&quot;https://www.reddit.com/r/novationcircuit/comments/zhzbmc/next_hardware_steps_from_tracks_rhythm/&quot;&gt;question like this&lt;/a&gt; or a comment expressing the same general idea appears. I&#39;m not familiar with any other music gear subs where the users are so often actively trying to get away from their chosen devices.&lt;/p&gt;
+&lt;p&gt;The Circuit OG/Tracks/Rhythm are very interesting devices. Novation took the success of the Launchpad, an Ableton clip launch controller, and expanded it into a standalone device that really isn&#39;t like anything else. There&#39;s no screen. The pad grid serves as the user feedback for every function: step sequencing, keyboard, pattern launching, mixing, even the tempo display. That makes it a device that sometimes needs a great deal of memorizing (or RTFM, initially). But it also makes it a device that absolutely nails what it means to be &lt;em&gt;immediate&lt;/em&gt; and &lt;em&gt;tactile&lt;/em&gt; — attributes that screen-poisoned musicians supposedly crave these days when they step away from the DAW. There&#39;s no clicking, no menu diving, no using a scroll wheel to name a pattern. There&#39;s you, there&#39;s the buttons and knobs, and there&#39;s the music. And trust me, it&#39;s extremely quick to get to the &amp;quot;music&amp;quot; step. Features of both current-gen Circuits include one-button &amp;quot;scene&amp;quot; launching, sequencer probability and random mutation, pattern chaining for very long variations, and really usable reverb and delay.&lt;/p&gt;
+&lt;p&gt;So why does everyone think they need to &amp;quot;upgrade&amp;quot; to an Elektron machine, an MPC, or god forbid a Roland MC-707?&lt;/p&gt;
+&lt;h2 id=&quot;cheap&quot; tabindex=&quot;-1&quot;&gt;Cheap... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#cheap&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Firstly, these things are not expensive. About $350 gets you a new one, and for better or worse this &amp;quot;gotta upgrade&amp;quot; attitude leaves Reverb stocked with them for much less. I think there&#39;s an attitude with all kinds of musicians that the more you spend, the better your stuff is. Surprise! That&#39;s bullshit. It&#39;s not that I&#39;m that old blues lawyer guitarist insisting that &amp;quot;tone is in the fingers&amp;quot; — after all, these same people are connecting 1958 Les Pauls to Dumble amps via Monster cables.&lt;/p&gt;
+&lt;p&gt;What I mean is electronic musical instruments are very rarely apples-to-apples comparisons. They all have their strengths and their frustrations. And good stuff has never been cheaper than it is right now.&lt;/p&gt;
+&lt;h2 id=&quot;and-unspecialized&quot; tabindex=&quot;-1&quot;&gt;And unspecialized... &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#and-unspecialized&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The second thing is that, possibly because of said price, no pros have decided that these things have a certain space. If you want to make hard techno or dancey industrial, people like NIN and Richard Devine have sold you on Elektron machines and their hyped, exciter-pumped sounds. If you make lo-fi or boom bap, you want an SP-404 because Madlib, J Dilla, Flying Lotus, and who knows who else used one to make their iconic material. Even doofy gear gets this treatment at times, like the really uninspiring Microkorg being anointed the &amp;quot;synth for an indie rock band that has a synth.&amp;quot;&lt;/p&gt;
+&lt;p&gt;What is the Circuit&#39;s space? It doesn&#39;t have one. I wouldn&#39;t say it&#39;s a &amp;quot;master of none&amp;quot; because it&#39;s quite good at plenty of things, but looking at it you don&#39;t say &amp;quot;ah yes, this thing is for X.&amp;quot;&lt;/p&gt;
+&lt;iframe id=&quot;reddit-embed&quot; src=&quot;https://www.redditmedia.com/r/novationcircuit/comments/vgvqt2/first_composition_with_both_tracks_and_rhythm/?ref_source=embed&amp;amp;ref=share&amp;amp;embed=true&amp;amp;theme=dark&quot; sandbox=&quot;allow-scripts allow-same-origin allow-popups&quot; style=&quot;border: none;&quot; scrolling=&quot;no&quot; width=&quot;100%&quot; height=&quot;auto&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;just-like-me&quot; tabindex=&quot;-1&quot;&gt;Just like me. &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/#just-like-me&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;What I can say about the Circuits, especially the Circuit Tracks, is that they are now my centerpiece for both performing and composing, and in 20+ years of making live electronic music I have not owned another machine that enabled my way of working so thoroughly.&lt;/p&gt;
+&lt;p&gt;Would I like more precise sample cutting onboard? Yeah probably. What about separate outputs? Always want those. But &amp;quot;missing&amp;quot; features like these imply that the very purposeful design of these devices somehow includes more mistakes than it actually does. And the sum of the features versus tradeoffs is unlike anything else out there for both utility and (&lt;em&gt;gasp&lt;/em&gt;) fun. So I&#39;m not sure that an upgrade would actually be one at all.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Witchin&#39;</title>
+		<link href="http://mikepropst.com/blog/witchin/"/>
+		<updated>2022-12-08T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/witchin/</id>
+		<content type="html">&lt;p&gt;Partially because there have been vast swathes of my life that went un-gamed, and partially because I have only kept a nintendo console around for quite a few years now, I tend to get into games late. My latest to finally add to the pile was &lt;em&gt;The Witcher III: Wild Hunt&lt;/em&gt;, the main storyline of which I finished today, probably prematurely due to a week of being sick.&lt;/p&gt;
+&lt;h2 id=&quot;openness&quot; tabindex=&quot;-1&quot;&gt;Openness &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#openness&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Holy shit it&#39;s a lot of game. And unlike Skyrim, you can go just about anywhere. Nobody climbs like Link, but Geralt does a good job of getting around territory. At least until he dies of falling from any height greater than 6 feet.&lt;/p&gt;
+&lt;h2 id=&quot;combat&quot; tabindex=&quot;-1&quot;&gt;Combat &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#combat&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Like most 3d action RPGs, you can either parry or dodge-and-roll your way through combat. And as with all the rest, I take the latter path (arguably blocking is better since a perfect parry almost always gets you a nice opening — probably just one of the many reasons I&#39;m shit at &lt;em&gt;Souls&lt;/em&gt;). But either way the combat is a lot of fun. Much like Link&#39;s runes or a weapon/destruction hybrid build in Skyrim, the weapon and magic combo is really satisfying and gives combat a lot of variety. Geralt is a little slower to act than say, Link, but you get his timing down and you feel unstoppable.&lt;/p&gt;
+&lt;h2 id=&quot;using-mechanics-to-tell-the-story&quot; tabindex=&quot;-1&quot;&gt;Using mechanics to tell the story &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#using-mechanics-to-tell-the-story&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I really think one the bar to hit here is &lt;em&gt;Nier: Automata&lt;/em&gt;, but W3 does a great job sporadically. Playing as Ciri in flashback (or her supremely overpowered moment near the end, one-hitting wild hunt warriors) is a fun mix-up that lets you &amp;quot;live&amp;quot; the story a bit more. With a few exceptions, I have very little idea what the dialog options did to my playthrough and that&#39;s kinda cool. I guess it&#39;s a choice-mechanic equivalent of the open world.&lt;/p&gt;
+&lt;h2 id=&quot;bummers&quot; tabindex=&quot;-1&quot;&gt;Bummers &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/witchin/#bummers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Like I said, something about the linear story that&#39;s very cleverly woven into an open-world game left me feeling &amp;quot;done&amp;quot; when it resolved. And I know there&#39;s a lot more there I haven&#39;t done.&lt;/p&gt;
+&lt;p&gt;Load times are really unfortunate, at least on the Switch. In story-heavy sections, there&#39;s a lot of it. Fast travel feels not all that fast when you can sometimes ride your horse there faster.&lt;/p&gt;
+&lt;p&gt;Frame rate is not great. &lt;em&gt;Automata&lt;/em&gt; is a newer game that feels really intensive, but it rarely got herky-jerky. When it rains in a busy place like Novigrad (which is often), Geralt starts doing the robot. Weirder and more distracting is the crappy framerate in some cut scenes. In a game with so many of them, it&#39;s unfortunate.&lt;/p&gt;
+&lt;p&gt;None of this impeding me enjoying the shit out of it. Even the fall damage thing, because I laughed my ass off every time Geralt died by tripping over a rock.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Is this really it?</title>
+		<link href="http://mikepropst.com/blog/is-this-really-it/"/>
+		<updated>2022-10-27T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/is-this-really-it/</id>
+		<content type="html">&lt;p&gt;The number of occasions I&#39;ve heard masses of people say they&#39;re going to walk away from Twitter now numbers in the dozens over the years. The company has demonstrated contempt for the users that can be rivaled only by Meta, having pivoted many years ago from adding features based on usage (&lt;em&gt;Retweets&lt;/em&gt;) to generally delivering weird non-features that even the advertisers don&#39;t really want (&lt;em&gt;Blue&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;But now it&#39;s being bought by a guy who has latched onto the &amp;quot;free speech brigade&amp;quot; not because he&#39;s particularly pro-free-speech (he&#39;s not), or because his politics align with those kinds of people (they do), but because he seems dumb enough to believe their spiel (he might be). A union-buster, an apartheid-profiter, and a guy who has used the platform that will soon be his to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get yelled at by a Wachowski&lt;/li&gt;
+&lt;li&gt;Libel the guy who saved that Thai sports team after nobody liked his coffin submarine idea&lt;/li&gt;
+&lt;li&gt;Predict the end of COVID-19 with the accuracy of Nate Silver picking numbers out of a hat&lt;/li&gt;
+&lt;li&gt;Generally sound like a dumbass who&#39;d be cringey and goofy if he wasn&#39;t so simultaneously powerful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anyway. Doesn&#39;t bode all that well. Maybe it&#39;s time.&lt;/p&gt;
+&lt;p&gt;What is Cohost? I dunno. Probably another thing that&#39;ll come and go quickly. I still get spam emails from Ello, the supposed Facebook-killer that was all in black-and-white Courier font and whose name I had to look up.&lt;/p&gt;
+&lt;p&gt;I don&#39;t know how to Mastodon despite being acquainted with its founder and signing up for many servers over the years. Somehow the email model of &amp;quot;different servers but everyone can talk&amp;quot; fails to make sense to me in a social media context.&lt;/p&gt;
+&lt;p&gt;But I use Twitter less and less every year, and these days even the months show decline. And maybe it&#39;s time for us all to stop trying to post through it anyway.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>One year with Obsidian</title>
+		<link href="http://mikepropst.com/blog/one-year-with-obsidian/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/one-year-with-obsidian/</id>
+		<content type="html">&lt;p&gt;It occurs to me that I wrote this &lt;a href=&quot;http://mikepropst.com/blog/a-better-way-to-keep-notes/&quot;&gt;post about trying Obsidian&lt;/a&gt; about a year ago. In that time, I have not really strayed from it, which is pretty unusual for me. I get really restless with tools. Thanks to a very active plugin community, theme ecosystem, and subreddit, it&#39;s become a great tool that is super customizable. I adapted a few times and that was no biggie at all thanks to the fact that Obsidian is based entirely around discrete files, stored in your file system, with their own regular ol&#39; file names.&lt;/p&gt;
+&lt;p&gt;My current way of operating is shamefully trendy; I&#39;m using Tiago Forte&#39;s &lt;em&gt;Building a Second Brain&lt;/em&gt; as the methodology. One reason is that it works reasonably well with other tools including paper journaling and &lt;a href=&quot;https://raindrop.io/&quot;&gt;Raindrop&lt;/a&gt; bookmarks. Though he apparently uses Evernote and swears by its search (which is still quite good despite Evernote&#39;s many problems), I think the linking features in Obsidian are really what makes it good for this system. Knowledge doesn&#39;t just go in a filing cabinet and get dusty. You can always see it thanks to links and unlinked mentions.&lt;/p&gt;
+&lt;p&gt;I&#39;m still not interested in changing, and as long as I am still locked into the old $5 rate for syncing, I will keep that as well.&lt;/p&gt;
 </content>
 	</entry>
 	
