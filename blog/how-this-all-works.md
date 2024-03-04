@@ -20,7 +20,7 @@ I don't like that, as a front-end developer (mostly in the "HTML and CSS" sense,
 
 That's why I initially moved to [Kirby](https://getkirby.com/). I think it's tempting when you've used something like Twig to want to have a templating language layer on top of things, but the truth is that Kirby (and [Processwire](https://processwire.com/), another CMS I've replaced WP sites with) is incredibly simple and doesn't require actual "PHP Coding." We're talking maybe a bit of logic now and again, but in general the functions are handled by an API that is pretty easy to use. Not to mention that both support the idea of defining your types of content, as opposed to having to bolt on yet more plugins to get custom content types and attributes to go with them.
 
-The reason for all this adding on of functionality that resembles Legos a lot less than it looks like a technological shanty town is that *WordPress was built for blogs*. And yet, even running a simple blog is now handled more easily by other tools like [Ghost](https://ghost.org/).
+The reason for all this adding on of functionality that resembles Legos a lot less than it looks like a technological shanty town is that *WordPress was built for blogs*. And yet!! Even running a simple blog is now handled more easily by other tools like [Ghost](https://ghost.org/).
 
 ## Going static
 
