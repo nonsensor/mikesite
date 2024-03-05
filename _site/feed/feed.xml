@@ -5,7 +5,7 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-03-01T20:43:42Z</updated>
+	<updated>2024-03-05T20:11:27Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title></title>
 		<link href="http://mikepropst.com/blog/"/>
-		<updated>2024-03-01T20:43:42Z</updated>
+		<updated>2024-03-05T20:11:27Z</updated>
 		<id>http://mikepropst.com/blog/</id>
 		<content type="html">
 
@@ -26,6 +26,13 @@
   &lt;ul class=&quot;postlist&quot;&gt;
 
 
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/apples-and-mpcs/&quot; class=&quot;postlist-link&quot;&gt;Apples to MPCs&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-03-05&quot;&gt;Mar 5, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
@@ -1098,6 +1105,20 @@
 	</entry>
 	
 	<entry>
+		<title>Apples to MPCs</title>
+		<link href="http://mikepropst.com/blog/apples-and-mpcs/"/>
+		<updated>2024-03-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/apples-and-mpcs/</id>
+		<content type="html">&lt;p&gt;If you&#39;ve ever spoken to an electronic musician or a guitarist, you know that GAS (Gear Acquisition Syndrome) is a chronic disease. And though it can be treated, the results tend to be temporary.&lt;/p&gt;
+&lt;p&gt;The issue, aside from the obvious financial ones, is that gear can never actually solve your problems. That&#39;s what all the pros say, anyway, but who can trust them? They have really nice gear.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;real&lt;/em&gt; issue, at least as I see it, is that so few pieces of electronic music equipment can be compared in an apples-to-apples sort of way. Guitars? Sure. Tone-chasing is a thing, and a neurosis that&#39;s even worse than GAS, because it can cause you to hoard dozens of distortion pedals, claiming they all do different things. But are they all objectively distortion pedals? Yes.&lt;/p&gt;
+&lt;p&gt;Are a Roland SP-404MKII, an Akai MPC, a Novation Circuit Rhythm, a Korg Electribe Sampler, a Polyend Tracker, and an Elektron Octatrack objectively the same thing? &lt;em&gt;Sort of&lt;/em&gt;. They are samplers with sequencing. Most are capable of sequencing external machines via MIDI. Most store samples on an SD card. But it stops there. They range from around $350 to about $1500, and that&#39;s not just the honorable Swedish pedigree that&#39;s giving Octatrack that kind of price tag. They have varying amounts and quality levels of built-in sounds. There are wide ranges in connectivity and numbers of tracks. Some are more sequencers with sampling capability, others are samplers with just enough sequencing to make you think it&#39;s an all-in-one device. Some are very good at both. Some have no screens, some are basically computers in a box. You get the idea.&lt;/p&gt;
+&lt;p&gt;So, in a live set, to replace Circuit Rhythm and Circuit Tracks with an &lt;strong&gt;MPC One&lt;/strong&gt; is more or less an even trade in terms of whether the same stuff I&#39;ve been doing is possible. But what &lt;em&gt;else&lt;/em&gt; is possible? Turns out, a great deal. More on that another time.&lt;/p&gt;
+&lt;p&gt;So, am I going back on &lt;a href=&quot;http://mikepropst.com/blog/in-defense-of-the-novation-circuits/&quot;&gt;what I say in this post&lt;/a&gt; by replacing the Circuits as the centerpiece of live work? Not really, because I&#39;m not thinking of it as an &amp;quot;upgrade.&amp;quot; I still think that they are the most beautiful, elegant, and &lt;em&gt;fun&lt;/em&gt; quick-composition machines out there, especially the Tracks. But that&#39;s not to say that another device doesn&#39;t have a place in my show or in my life.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>How all of this works</title>
 		<link href="http://mikepropst.com/blog/how-this-all-works/"/>
 		<updated>2024-03-01T00:00:00Z</updated>
@@ -1106,7 +1127,7 @@
 &lt;h2 id=&quot;the-wordpress-problem&quot; tabindex=&quot;-1&quot;&gt;The WordPress problem &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#the-wordpress-problem&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I don&#39;t like that, as a front-end developer (mostly in the &amp;quot;HTML and CSS&amp;quot; sense, too, not the front end we have today with JavaScript pulling all the weight of applications), I can&#39;t really make a WordPress theme. There are ways, such as &lt;a href=&quot;https://upstatement.com/timber/&quot;&gt;Timber&lt;/a&gt;, to make that happen more easily, but that&#39;s yet another dependency and more weight added to an already heavy platform.&lt;/p&gt;
 &lt;p&gt;That&#39;s why I initially moved to &lt;a href=&quot;https://getkirby.com/&quot;&gt;Kirby&lt;/a&gt;. I think it&#39;s tempting when you&#39;ve used something like Twig to want to have a templating language layer on top of things, but the truth is that Kirby (and &lt;a href=&quot;https://processwire.com/&quot;&gt;Processwire&lt;/a&gt;, another CMS I&#39;ve replaced WP sites with) is incredibly simple and doesn&#39;t require actual &amp;quot;PHP Coding.&amp;quot; We&#39;re talking maybe a bit of logic now and again, but in general the functions are handled by an API that is pretty easy to use. Not to mention that both support the idea of defining your types of content, as opposed to having to bolt on yet more plugins to get custom content types and attributes to go with them.&lt;/p&gt;
-&lt;p&gt;The reason for all this adding on of functionality that resembles Legos a lot less than it looks like a technological shanty town is that &lt;em&gt;WordPress was built for blogs&lt;/em&gt;. And yet, even running a simple blog is now handled more easily by other tools like &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The reason for all this adding on of functionality that resembles Legos a lot less than it looks like a technological shanty town is that &lt;em&gt;WordPress was built for blogs&lt;/em&gt;. And yet!! Even running a simple blog is now handled more easily by other tools like &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;going-static&quot; tabindex=&quot;-1&quot;&gt;Going static &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/how-this-all-works/#going-static&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;So here I am, and it&#39;s been about a year and a half since I changed engines again, this time to the static generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;. One thing you really don&#39;t get out of the box with a static site generator is the CMS. But what you &lt;em&gt;do&lt;/em&gt; get is your Markdown editor of choice. On Mac, that is of course still &lt;a href=&quot;http://mikepropst.com/blog/thanks-byword/&quot;&gt;Byword&lt;/a&gt;, and on Linux it is currently the lovely &lt;a href=&quot;https://github.com/brrd/abricotine&quot;&gt;Abricotine&lt;/a&gt;, but the repo was archived sometime in the fall so we&#39;ll see.&lt;/p&gt;
 &lt;p&gt;So how does it actually work?&lt;/p&gt;
