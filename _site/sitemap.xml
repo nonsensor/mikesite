@@ -797,12 +797,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/design/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ux/</loc>
+    <loc>http://mikepropst.com/tags/css/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -812,52 +807,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/javascript/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/webdev/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/software/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/internet/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/css/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/startup-nonsense/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/tech/</loc>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/music/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -872,6 +832,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/react/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/mixing/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
@@ -882,7 +847,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/react/</loc>
+    <loc>http://mikepropst.com/tags/ux/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -897,7 +862,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/design/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/computers/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/internet/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -932,6 +907,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/webdev/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
@@ -942,22 +922,22 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/movies/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/jg-ballard/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/audio/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/daw/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/movies/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/jg-ballard/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -977,17 +957,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/life/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/productivity/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/nerd-shit/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/life/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1052,22 +1032,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/cms/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/games/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/work/</loc>
+    <loc>http://mikepropst.com/tags/cms/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/random/</loc>
+    <loc>http://mikepropst.com/tags/work/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1088,6 +1063,21 @@
   
   <url>
     <loc>http://mikepropst.com/tags/a11y/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/random/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/akai-mpc/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1127,7 +1117,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/kirby/</loc>
+    <loc>http://mikepropst.com/tags/tech/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1137,7 +1127,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/kirby/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/dad-stuff/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/drums/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1162,17 +1162,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/customer-experience/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/home-studio/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
+    <loc>http://mikepropst.com/tags/customer-experience/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1182,7 +1177,22 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/akai-mpc/</loc>
+    <loc>http://mikepropst.com/tags/javascript/</loc>
     <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/startup-nonsense/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/groove/</loc>
+    <lastmod>2024-03-06</lastmod>
   </url>
 </urlset>
