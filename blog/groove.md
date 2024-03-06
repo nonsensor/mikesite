@@ -9,7 +9,7 @@ tags:
 
 Musically, I am many things, though my skills range from "not bad" to "technically, yes, you are playing that instrument." But I love drums, and I generally appreciate a great drummer more than a shredding guitarist.
 
-I find a lot of people who get really into drums go in one of a couple particular directions. One is of course jazz, which means that you will probably admire Buddy Rich ,and Art Blakey above all and if you're a rocker you'll try to emulate fusion greats like Tony Williams. Or, you become one of those insufferable prog guys who have never voluntarily touched black music and just want to be like Tool or Rush. Now, don't get me wrong: Neil Peart was as impressive behind the kit as he was terrible at lyrics. But to me, there are more important things than the number of hits you can slip into a measure.
+I find a lot of people who get really into drums go in one of a couple particular directions. One is of course jazz, which means that you will probably admire Buddy Rich and Art Blakey above all and if you're a rocker you'll try to emulate fusion greats like Tony Williams. Or, you become one of those insufferable prog guys who have never voluntarily touched Black music and just want to be like Tool or Rush. Now, don't get me wrong: Neil Peart was as impressive behind the kit as he was terrible at lyrics. But to me, there are more important things than the number of hits you can slip into a measure.
 
 My all-time greatest drummer list includes primarily people who:
 
