@@ -797,12 +797,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/webdev/</loc>
+    <loc>http://mikepropst.com/tags/css/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/design/</loc>
+    <loc>http://mikepropst.com/tags/front-end/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -812,22 +812,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/internet/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/css/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/front-end/</loc>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -852,11 +837,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/ui/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/mixing/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
@@ -872,11 +852,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/ux/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
@@ -888,6 +863,26 @@
   
   <url>
     <loc>http://mikepropst.com/tags/inclusive-design/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/figma/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/internet/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ui/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -927,6 +922,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/webdev/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
@@ -952,17 +952,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/movies/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/jg-ballard/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/style-guides/</loc>
+    <loc>http://mikepropst.com/tags/democracy/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -973,6 +963,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/life/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/style-guides/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -997,17 +992,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/wordpress/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/information-architecture/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1062,12 +1057,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/industrial/</loc>
+    <loc>http://mikepropst.com/tags/movies/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/coil/</loc>
+    <loc>http://mikepropst.com/tags/jg-ballard/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1077,7 +1072,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/figma/</loc>
+    <loc>http://mikepropst.com/tags/industrial/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/coil/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1102,12 +1102,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/guitar/</loc>
+    <loc>http://mikepropst.com/tags/homelab/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/homelab/</loc>
+    <loc>http://mikepropst.com/tags/guitar/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1127,17 +1127,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/democracy/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/kirby/</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1153,6 +1143,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/design-systems/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
     <lastmod>2024-03-05</lastmod>
   </url>
   
@@ -1192,7 +1187,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <lastmod>2024-03-05</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/blog/groove/</loc>
     <lastmod>2024-03-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/multi-edit/</loc>
+    <lastmod>2024-03-08</lastmod>
   </url>
 </urlset>
