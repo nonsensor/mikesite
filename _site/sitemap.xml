@@ -947,12 +947,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/usability/</loc>
+    <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/obsidian/</loc>
+    <loc>http://mikepropst.com/tags/usability/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
@@ -1047,12 +1047,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/history/</loc>
+    <loc>http://mikepropst.com/tags/html/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/html/</loc>
+    <loc>http://mikepropst.com/tags/history/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
@@ -1067,12 +1067,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/games/</loc>
+    <loc>http://mikepropst.com/tags/cms/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/cms/</loc>
+    <loc>http://mikepropst.com/tags/games/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
@@ -1182,6 +1182,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/eleventy/</loc>
+    <lastmod>2024-03-19</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/capitalism/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
@@ -1202,12 +1207,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/eleventy/</loc>
+    <loc>http://mikepropst.com/tags/art/</loc>
     <lastmod>2024-03-19</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/blog/4000-of-my-closest-friends/</loc>
     <lastmod>2024-03-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/the-point/</loc>
+    <lastmod>2024-03-25</lastmod>
   </url>
 </urlset>
