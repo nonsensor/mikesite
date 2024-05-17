@@ -837,6 +837,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/punk/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/style-guides/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1219,5 +1224,15 @@
   <url>
     <loc>http://mikepropst.com/blog/the-point/</loc>
     <lastmod>2024-03-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/rip-gary-floyd/</loc>
+    <lastmod>2024-05-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/a-world-without-steve-albini/</loc>
+    <lastmod>2024-05-17</lastmod>
   </url>
 </urlset>
