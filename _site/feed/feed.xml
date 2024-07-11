@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-05-17T00:00:00Z</updated>
+	<updated>2024-07-11T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>I saw a wiener dog today</title>
+		<link href="http://mikepropst.com/blog/i-saw-a-wiener-dog-today/"/>
+		<updated>2024-07-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/i-saw-a-wiener-dog-today/</id>
+		<content type="html">&lt;p&gt;He was very grand, and super long. Just the kind you want to see when you want to see a dachshund. Pretty much just like Lazlo was in his heyday.&lt;/p&gt;
+&lt;p&gt;He is gone, though, and that was pretty tough. He had a good run — by the time we had him euthanized in March due to his being senile, in pain, and generally not happy with life anymore, he was at least 16 and probably older. He&#39;d been an exemplary family dog through two small children despite his breed&#39;s reputation, and the most excellent snuggler that you could ever hope for. It was the first time a dog had died on my watch since having kids, and you can imagine what that adds to it.&lt;/p&gt;
+&lt;p&gt;RIP my friend.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>A world without Steve Albini</title>
@@ -547,6 +558,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/i-saw-a-wiener-dog-today/&quot; class=&quot;postlist-link&quot;&gt;I saw a wiener dog today&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-07-11&quot;&gt;Jul 11, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
