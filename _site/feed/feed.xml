@@ -5,12 +5,33 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-07-11T00:00:00Z</updated>
+	<updated>2024-09-11T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>IT Professionalism</title>
+		<link href="http://mikepropst.com/blog/it-professionalism/"/>
+		<updated>2024-09-11T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/it-professionalism/</id>
+		<content type="html">&lt;p&gt;I&#39;ve now been &lt;a href=&quot;http://mikepropst.com/blog/building-a-useful-homelab/&quot;&gt;self-hosting&lt;/a&gt; some stuff for a while. It started small, with an old not-very-powerful machine and the urge to replace Google.&lt;/p&gt;
+&lt;p&gt;Easier said than done, right? Well, some of the process of implementing a &amp;quot;homelab&amp;quot; is straightforward and some of it is even easy — but none of it comes without &lt;em&gt;escalation&lt;/em&gt;. And my latest, as we moved into a new house, was to implement Unraid on a new machine.&lt;/p&gt;
+&lt;p&gt;The benefit of Unraid is that it allows you to mix and match as many drive sizes as you want, which to my ears means &amp;quot;you have the ability to fill your bays with whatever crap you have lying around.&amp;quot; It maintains what&#39;s called parity, and this allows swapping of drives even in situations where RAID arrays might make it difficult. I don&#39;t know a ton about this stuff, but I know that it&#39;s got a great UI, some best practices for security, and a built-in Docker manager. What it doesn&#39;t have, obviously, is a guide for how to make it aesthetic.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/lab2024.jpg&quot; alt=&quot;The Lab. It&#39;s not that pretty.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The computer is a surprisingly powerful Beelink mini-pc with a 6-core Ryzen processor, and the drives are... again, what I have lying around. I am going to get a taller (8-space) bay to remove all these rando enclosures sitting around, but at the moment it&#39;s treating me well. Probably costs enough in power I could be paying Google, but it&#39;s the principle. Plus, it&#39;s really about &lt;em&gt;control&lt;/em&gt; and &lt;em&gt;privacy&lt;/em&gt;. &lt;strong&gt;Your stuff should be yours&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;favorite-services&quot; tabindex=&quot;-1&quot;&gt;Favorite services: &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/it-professionalism/#favorite-services&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.paperless-ngx.com/&quot;&gt;Paperless-ngx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://immich.app/&quot;&gt;Immich&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.navidrome.org/&quot;&gt;Navidrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jellyfin.org/&quot;&gt;Jellyfin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cups.org/&quot;&gt;CUPS&lt;/a&gt; (an oldie but a goodie)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>I saw a wiener dog today</title>
@@ -558,6 +579,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/it-professionalism/&quot; class=&quot;postlist-link&quot;&gt;IT Professionalism&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-09-11&quot;&gt;Sep 11, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
