@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-09-11T00:00:00Z</updated>
+	<updated>2024-09-12T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Font Awesome buys Eleventy</title>
+		<link href="http://mikepropst.com/blog/font-awesome-buys-eleventy/"/>
+		<updated>2024-09-12T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/font-awesome-buys-eleventy/</id>
+		<content type="html">&lt;p&gt;I don&#39;t really even know &lt;a href=&quot;https://www.11ty.dev/blog/eleventy-font-awesome/&quot;&gt;what this means&lt;/a&gt;. Font Awesome does seem to be a pretty swell company as these things go, but even if they screw up monumentally, Eleventy being open source means that someone can easily fork the last version that we liked. I will probably continue using Eleventy for the foreseeable future because I like it.&lt;/p&gt;
+&lt;h2 id=&quot;plus-comments&quot; tabindex=&quot;-1&quot;&gt;Plus, comments &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/font-awesome-buys-eleventy/#plus-comments&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In other news, I added some comments to the blog. I don&#39;t know who reads it anymore, but it feels a bit out of touch with anyone who might because it just kind of lives out here on its own. I&#39;m trying out a system called &lt;a href=&quot;https://chirpy.dev/&quot;&gt;Chirpy&lt;/a&gt;, which is hosted but the code is open source and it doesn&#39;t have all the really sus junk that comes with Disqus.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>IT Professionalism</title>
@@ -579,6 +590,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/font-awesome-buys-eleventy/&quot; class=&quot;postlist-link&quot;&gt;Font Awesome buys Eleventy&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-09-12&quot;&gt;Sep 12, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
