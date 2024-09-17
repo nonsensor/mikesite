@@ -662,7 +662,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/music/</loc>
+    <loc>http://mikepropst.com/tags/webdev/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -672,37 +672,32 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/computers/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ui/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/software/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <loc>http://mikepropst.com/tags/homelab/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/my-creative-works/</loc>
+    <loc>http://mikepropst.com/tags/computers/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/synth/</loc>
+    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/internet/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -713,6 +708,91 @@
   
   <url>
     <loc>http://mikepropst.com/tags/front-end/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/startup-nonsense/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/tech/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/music/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/music-projects/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/synth/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/recording/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ui/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/mixing/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/engineering/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/react/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ux/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/accessibility/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/figma/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/gear/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/my-creative-works/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -732,27 +812,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/gear/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ux/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/webdev/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/usability/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/obsidian/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/audio/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/daw/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -772,17 +842,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/audio/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/engineering/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/daw/</loc>
+    <loc>http://mikepropst.com/tags/usability/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -797,11 +857,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/life/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/style-guides/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -812,7 +867,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
+    <loc>http://mikepropst.com/tags/life/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -822,22 +877,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/technology/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/art/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/information-architecture/</loc>
+    <loc>http://mikepropst.com/tags/technology/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -847,7 +892,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/wordpress/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/information-architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -862,22 +917,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/history/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/akai-mpc/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/html/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/copy/</loc>
+    <loc>http://mikepropst.com/tags/history/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -887,7 +932,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/cms/</loc>
+    <loc>http://mikepropst.com/tags/copy/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -897,12 +942,22 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/akai-mpc/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/cms/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/work/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/ai/</loc>
+    <loc>http://mikepropst.com/tags/random/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -917,12 +972,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/figma/</loc>
+    <loc>http://mikepropst.com/tags/ai/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -932,27 +982,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/accessibility/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/random/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/covid/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/composition/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/recording/</loc>
+    <loc>http://mikepropst.com/tags/novation-circuit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -967,12 +997,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/homelab/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/democracy/</loc>
+    <loc>http://mikepropst.com/tags/covid/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -982,12 +1007,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/kirby/</loc>
+    <loc>http://mikepropst.com/tags/composition/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/tech/</loc>
+    <loc>http://mikepropst.com/tags/democracy/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/kirby/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -997,12 +1027,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/audio-engineering/</loc>
+    <loc>http://mikepropst.com/tags/dad-stuff/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/dad-stuff/</loc>
+    <loc>http://mikepropst.com/tags/audio-engineering/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1042,32 +1072,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/javascript/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/startup-nonsense/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/mixing/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/react/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1254,5 +1259,10 @@
   <url>
     <loc>http://mikepropst.com/blog/when-you-cant-be-an-early-adopter/</loc>
     <lastmod>2024-09-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/live-video/</loc>
+    <lastmod>2024-09-17</lastmod>
   </url>
 </urlset>

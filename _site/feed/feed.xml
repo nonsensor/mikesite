@@ -5,12 +5,22 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-09-16T00:00:00Z</updated>
+	<updated>2024-09-17T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Live video</title>
+		<link href="http://mikepropst.com/blog/live-video/"/>
+		<updated>2024-09-17T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/live-video/</id>
+		<content type="html">&lt;p&gt;Here&#39;s my new-ish project &lt;a href=&quot;https://shiveringnw.bandcamp.com/&quot;&gt;SHIVERING&lt;/a&gt; at a show a few weeks back. We play few shows so we try to make it decent, with lights and projections and whatnot, since a couple guys pushing buttons and turning knobs isn&#39;t the most dynamic and interesting thing to look at.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/tj7z3u_MD2Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>When you can&#39;t be an early adopter</title>
@@ -601,6 +611,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/live-video/&quot; class=&quot;postlist-link&quot;&gt;Live video&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-09-17&quot;&gt;Sep 17, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
