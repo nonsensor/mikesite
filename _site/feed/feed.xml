@@ -5,12 +5,23 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-09-12T00:00:00Z</updated>
+	<updated>2024-09-16T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>When you can&#39;t be an early adopter</title>
+		<link href="http://mikepropst.com/blog/when-you-cant-be-an-early-adopter/"/>
+		<updated>2024-09-16T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/when-you-cant-be-an-early-adopter/</id>
+		<content type="html">&lt;p&gt;The beta version of the &lt;a href=&quot;https://www.akaipro.com/mpc3&quot;&gt;MPC version 3 software&lt;/a&gt; is out, and I can&#39;t install it because I have shows and can&#39;t rely on beta software to not lose all my shit or crash while playing. But oh man, it looks great. On one hand, it does not dispel the notion that modern MPCs are &amp;quot;DAWs in a box,&amp;quot; but it also looks more touch-friendly and visible onstage in many ways.&lt;/p&gt;
+&lt;p&gt;Unfortunately, one of the coolest things (IMO) about the MPC is how the desktop software is sort of an extension — a bigger interface, a plugin host, etc. And until version 3 of that comes out, I have no idea what the experience is going to be like when using the thing in controller mode.&lt;/p&gt;
+&lt;p&gt;Still... stoked.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Font Awesome buys Eleventy</title>
@@ -590,6 +601,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/when-you-cant-be-an-early-adopter/&quot; class=&quot;postlist-link&quot;&gt;When you can&amp;#39;t be an early adopter&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-09-16&quot;&gt;Sep 16, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
