@@ -682,6 +682,16 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/typography/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/internet/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -698,16 +708,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/obit/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/typography/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/design/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -832,6 +832,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/css/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/kirby/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -852,22 +857,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/css/</loc>
+    <loc>http://mikepropst.com/tags/dad-stuff/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/audio-engineering/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/style-guides/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/design-systems/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -882,7 +877,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/dad-stuff/</loc>
+    <loc>http://mikepropst.com/tags/style-guides/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design-systems/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -897,17 +897,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/wordpress/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/capitalism/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/wordpress/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1017,6 +1017,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/productivity/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/dataviz/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1068,11 +1073,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/work/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/productivity/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
