@@ -5,7 +5,7 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-09-26T00:00:00Z</updated>
+	<updated>2024-09-28T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
@@ -13,12 +13,29 @@
 	</author>
 	
 	<entry>
+		<title>The tortured artist stereotype</title>
+		<link href="http://mikepropst.com/blog/tortured-artist/"/>
+		<updated>2024-09-28T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/tortured-artist/</id>
+		<content type="html">&lt;p&gt;I hate it, but it has to come from somewhere. Sometimes Van Gogh gets blamed for it and maybe that&#39;s not without merit.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What am I in most people&#39;s eyes? A nonentity, or an eccentric and disagreeable man -somebody who has no position in society and never will have, in short, the lowest of the low.&lt;/p&gt;
+&lt;p&gt;All right, then — even if that were absolutely true, then I should one day like to show by my work what such an eccentric, such a nobody, has in his heart.&lt;/p&gt;
+&lt;p&gt;This is my ambition, which is, in spite of everything, founded less on anger than on love, more on serenity than on passion.&lt;/p&gt;
+&lt;p&gt;Though I am often in the depths of misery, there is still calmness, pure harmony and music inside me. I see paintings or drawings in the poorest cottages, in the dirtiest corners. And my mind is driven toward these things with an irresistible force.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I guess at least he had the opportunity to achieve that calm and harmony, though he was by most accounts not wealthy or even comfortable. Modern life should afford more of this than the early industrial revolution, but we&#39;re spending our technological efforts teaching computers to paint the sunflowers instead of ourselves. Yes, I&#39;m still ranting about that, and &lt;a href=&quot;https://www.bloomberg.com/opinion/articles/2024-09-25/microsoft-three-mile-island-deal-isn-t-a-nuclear-renaissance-at-least-not-yet&quot;&gt;shit like this&lt;/a&gt; is not gonna make me stop anytime soon.&lt;/p&gt;
+&lt;p&gt;Also: I think the piece about love vs anger is important: it&#39;s lost so often because he&#39;s still thought of as &amp;quot;disagreeable.&amp;quot;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Chappell Roan trying to change the game</title>
 		<link href="http://mikepropst.com/blog/a-new-kind-of-pop-star/"/>
 		<updated>2024-09-26T00:00:00Z</updated>
 		<id>http://mikepropst.com/blog/a-new-kind-of-pop-star/</id>
 		<content type="html">&lt;p&gt;A year after Billie Eilish &lt;a href=&quot;https://www.nme.com/news/music/billie-eilish-speaks-out-against-being-sexualised-3538352&quot;&gt;justified her baggy clothing&lt;/a&gt; by saying she &amp;quot;didn&#39;t want people to have access to [her] body, even visually,&amp;quot; Chappell Roan is trying to &lt;a href=&quot;https://slate.com/culture/2024/08/chappell-roan-tiktok-video-fame-fans-pop-star.html&quot;&gt;take things a bit further&lt;/a&gt; by asserting that her fans don&#39;t own her and that she&#39;ll just up and quit if they don&#39;t back off.&lt;/p&gt;
-&lt;p&gt;The fact that she&#39;s doing this on TikTok starts to get into the complicated nature of what&#39;s going on here. When artists and celebrities are on social media sites and talk so directly to their fans as she does, it exacerbates the &lt;a href=&quot;https://www.psychologytoday.com/us/basics/parasocial-relationships&quot;&gt;parasocial&lt;/a&gt; feelings that some fans already have, which were probably initiated by the unique and sometimes explicitly confessional aspects of her music and lyrics. But how else to communicate that she is indeed a person and wants to be treated as one? Hard to unravel.&lt;/p&gt;
+&lt;p&gt;The fact that she&#39;s doing this on TikTok starts to get into the complicated nature of what&#39;s going on here. When artists and celebrities are on social media sites and talk so directly to their fans as she does, it exacerbates the &lt;a href=&quot;https://www.psychologytoday.com/us/basics/parasocial-relationships&quot;&gt;parasocial&lt;/a&gt; feelings that some fans already have, which were probably initiated by the unique and sometimes explicitly confessional aspects of her music and lyrics. But how else to communicate that she is indeed a person and wants to be treated as one? Hard to unravel. it&#39;s similar to Eilish&#39;s dilemma about sexualization: how to feel positive about people praising her baggy clothes when she feels there&#39;s an element of slut-shaming to it?&lt;/p&gt;
 &lt;p&gt;Of course there are always the commenters and even music writers who&#39;ll say that she knew what she was getting into, that this is fame. But fame these days is a different beast, and you&#39;re gonna get it from all sides if you&#39;re a young woman (from the girls your music is aimed at because you spoke so directly to them, and from men because uhhh we&#39;re creeps). Despite being discovered on YouTube, Roan seems like a pop star who belongs in a pre-social-media era, when her stage name could&#39;ve been the only thing people knew about her. But in the 2020s, &lt;a href=&quot;https://www.youtube.com/watch?v=aSLZFdqwh7E&quot;&gt;Stan&lt;/a&gt; isn&#39;t even an outlier anymore.&lt;/p&gt;
 &lt;p&gt;I don&#39;t really have a point, not sure I even have an opinion, but I do feel for these young women. Sure, they wanted fame, but for an artist that usually means &amp;quot;sharing the stuff I make with people,&amp;quot; not sharing their entire existence.&lt;/p&gt;
 </content>
@@ -634,6 +651,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/tortured-artist/&quot; class=&quot;postlist-link&quot;&gt;The tortured artist stereotype&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-09-28&quot;&gt;Sep 28, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
