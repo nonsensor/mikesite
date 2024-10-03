@@ -662,21 +662,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/music/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/industrial/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/coil/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/random/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -688,6 +673,21 @@
   
   <url>
     <loc>http://mikepropst.com/tags/design/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/music/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/industrial/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/coil/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -708,11 +708,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/social-media/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -738,6 +733,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/movies/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -778,6 +778,16 @@
   
   <url>
     <loc>http://mikepropst.com/tags/politics/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/blog/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/housekeeping/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -832,11 +842,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/blog/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/kirby/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -868,11 +873,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/eleventy/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/housekeeping/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1032,12 +1032,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
+    <loc>http://mikepropst.com/tags/art/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/art/</loc>
+    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1062,12 +1062,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/history/</loc>
+    <loc>http://mikepropst.com/tags/html/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/html/</loc>
+    <loc>http://mikepropst.com/tags/history/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
