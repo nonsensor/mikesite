@@ -692,17 +692,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/ux/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/internet/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/ai/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ux/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -907,12 +907,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <loc>http://mikepropst.com/tags/capitalism/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/capitalism/</loc>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -947,12 +947,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <loc>http://mikepropst.com/tags/computers/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/computers/</loc>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -972,12 +972,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
+    <loc>http://mikepropst.com/tags/react/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/react/</loc>
+    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1042,6 +1042,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/information-architecture/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1053,11 +1058,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/markdown/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/information-architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1289,5 +1289,10 @@
   <url>
     <loc>http://mikepropst.com/blog/rip-kris-kristofferson/</loc>
     <lastmod>2024-10-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/the-web-we-could-have/</loc>
+    <lastmod>2024-10-20</lastmod>
   </url>
 </urlset>
