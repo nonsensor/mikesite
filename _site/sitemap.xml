@@ -667,16 +667,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/typography/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/design/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/music/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -688,6 +678,16 @@
   
   <url>
     <loc>http://mikepropst.com/tags/coil/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/typography/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -708,6 +708,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/social-media/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -733,11 +738,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/movies/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -972,12 +972,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/react/</loc>
+    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/inclusive-design/</loc>
+    <loc>http://mikepropst.com/tags/react/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1042,11 +1042,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/information-architecture/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1058,6 +1053,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/markdown/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/information-architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
