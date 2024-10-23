@@ -692,17 +692,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/ux/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/internet/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/ai/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ux/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -947,12 +947,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/computers/</loc>
+    <loc>http://mikepropst.com/tags/twitter/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/twitter/</loc>
+    <loc>http://mikepropst.com/tags/computers/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1042,6 +1042,11 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/html/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/information-architecture/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1062,11 +1067,6 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/html/</loc>
-    <lastmod>2022-08-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/history/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
@@ -1078,6 +1078,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/work/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/comics/</loc>
     <lastmod>2022-08-08</lastmod>
   </url>
   
@@ -1294,5 +1299,10 @@
   <url>
     <loc>http://mikepropst.com/blog/the-web-we-could-have/</loc>
     <lastmod>2024-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/its-democratic-values-charlie-brown/</loc>
+    <lastmod>2024-10-22</lastmod>
   </url>
 </urlset>

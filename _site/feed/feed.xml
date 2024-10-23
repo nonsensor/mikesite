@@ -5,12 +5,26 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-10-20T00:00:00Z</updated>
+	<updated>2024-10-22T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>It&#39;s democratic values, Charlie Brown</title>
+		<link href="http://mikepropst.com/blog/its-democratic-values-charlie-brown/"/>
+		<updated>2024-10-22T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/its-democratic-values-charlie-brown/</id>
+		<content type="html">&lt;p&gt;The problem with believing the things about America and democracy that we were taught in school is that a huge chunk of it was untrue, so it&#39;s just as easy for the current crop of fashy oligarch bootlickers to say they&#39;re the ones pushing American Values. And I can&#39;t really enjoy hearing liberals or even progressives say &amp;quot;this is not what America is about,&amp;quot; because it is. But the fun thing is, conservatives have always been talking about &amp;quot;getting back to American Virtues&amp;quot; — and people like George Wallace, Newt Gingrich, and Donald Trump have justified segregation, child labor, and family separation using that kind of language.&lt;/p&gt;
+&lt;p&gt;Maybe they&#39;re more right. After all, conservatism is by its nature status quo at best, regressive at worst, and if you go all the way back to the beginning you get a pretty explicitly white supremacist, patriarchal America where a good chunk of the voting populace are religious extremists.&lt;/p&gt;
+&lt;p&gt;But then you see something that reminds you that there have always been people trying to push &lt;em&gt;forward&lt;/em&gt; and make us our best. And that almost gives me a sense of pride.&lt;/p&gt;
+&lt;p&gt;No, I don&#39;t mean John Brown. Here&#39;s some inspiration from the great Charles Schulz. He&#39;s a man who fought hard to get a Black character included in &lt;em&gt;Peanuts&lt;/em&gt; (even if that character wasn&#39;t too distinctive). He espoused Christian values that actually seemed kind of Jesus-y. And he has a nice little inspirational civics lesson for a kid who asked him &amp;quot;What makes a good citizen?&amp;quot; during the Nixon years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/schulz.png&quot; alt=&quot;Letter from Charles Schulz&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;(Via &lt;a href=&quot;https://www.openculture.com/2024/10/eanuts-creator-charles-schulz-shares-with-a-10-year-old-kid-the-true-meaning-of-good-citizenship.html&quot;&gt;Open Culture&lt;/a&gt;)&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Believe it or not, we could still have the web we want</title>
@@ -671,6 +685,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/its-democratic-values-charlie-brown/&quot; class=&quot;postlist-link&quot;&gt;It&amp;#39;s democratic values, Charlie Brown&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-10-22&quot;&gt;Oct 22, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
