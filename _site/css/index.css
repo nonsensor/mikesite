@@ -218,6 +218,10 @@ body {
     border-radius: 4px;
 }
 
+.post__tags a:hover {
+    background: #fff;
+}
+
 .pager {
     display: table;
     width: 100%;
@@ -250,6 +254,25 @@ body {
 
 .pager__home {
     text-align: center;
+}
+
+.taglist li {
+    list-style: none;
+    display: inline;
+}
+
+.homeblurb__content .taglist a {
+    background: var(--hilite-color);
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.2em 0.32em;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+.homeblurb__content .taglist a:hover {
+    background: #fff;
 }
 
 .footer {
