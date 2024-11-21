@@ -5,12 +5,31 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-11-14T00:00:00Z</updated>
+	<updated>2024-11-21T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>What am I playing</title>
+		<link href="http://mikepropst.com/blog/what-am-i-playing/"/>
+		<updated>2024-11-21T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/what-am-i-playing/</id>
+		<content type="html">&lt;p&gt;I do get the occasional time to play video games. Here&#39;s what I&#39;ve been into the past few months.&lt;/p&gt;
+&lt;h2 id=&quot;the-legend-of-zelda-echoes-of-wisdom&quot; tabindex=&quot;-1&quot;&gt;The Legend of Zelda: Echoes of Wisdom &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/what-am-i-playing/#the-legend-of-zelda-echoes-of-wisdom&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The promise of a top-down, somewhat linear Zelda with all of the flexibility of &lt;em&gt;Tears of the Kingdom&lt;/em&gt; is borderline irresistible, and then it’s executed in a cute &lt;em&gt;Link’s Awakening&lt;/em&gt; style. Plus you get to be Zelda. Resist it, I dare you!! I couldn’t. It was not super long and it was a lot of fun, though the Echo menu got really long and unwieldy by the end.&lt;/p&gt;
+&lt;h2 id=&quot;star-wars-jedi-survivor&quot; tabindex=&quot;-1&quot;&gt;Star Wars: Jedi Survivor &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/what-am-i-playing/#star-wars-jedi-survivor&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I can see why it got so much love. It’s everything the first game was and a bit more. More force powers, more lightsaber stances, horse(ish) riding, and flying on bats. Yet again, you guide Cal through some amazingly designed landscapes and ancient ruins that really put you &lt;em&gt;in&lt;/em&gt; Star Wars. The story is not all that hopeful — it made me think of &lt;em&gt;Empire&lt;/em&gt; or even &lt;em&gt;Rogue One.&lt;/em&gt; Suffice to say, the Empire is bad. &lt;a href=&quot;https://www.youtube.com/watch?v=_qp77W97Jb0&quot;&gt;Even if the stormtroopers’ dialog is still funny.&lt;/a&gt; Maybe this game&#39;s greatest achievement is getting me excited about something Star-Wars-related in 2024.&lt;/p&gt;
+&lt;h2 id=&quot;dragon-s-dogma-ii&quot; tabindex=&quot;-1&quot;&gt;Dragon’s Dogma II &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/what-am-i-playing/#dragon-s-dogma-ii&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I bought the first one on sale for Switch at around $5. It’s borderline impossible to say a game of its scope isn’t worth 5 bucks. I didn’t pay full price for this one either, but it was definitely more than that. I haven’t been as taken by it yet — there’s a lot of the inventory and party management stuff that gets old about RPGs to me, same as the first one. But it’s a great looking game and the combat (and gore level) is pretty unique among action RPGs. I’m gonna try to give it a fair shake.&lt;/p&gt;
+&lt;h2 id=&quot;hades&quot; tabindex=&quot;-1&quot;&gt;Hades &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/what-am-i-playing/#hades&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I’ve never gotten too into roguelikes. If I want to beat my head against a wall repeatedly, I’ll just go straight to Fromsoft. But I loved every previous Supergiant game and there’s barely ever a bad word spoken about this one. So when it was $10 for Switch I grabbed it. Sure enough, it’s a treat. Portable is the perfect platform because you can just pick it up, do a run, and be done. But it’s dangerous: It’s pretty easy to keep saying “Just one more run” way past your intended time. Beats doomscrolling, though.&lt;/p&gt;
+&lt;h2 id=&quot;baldur-s-gate-iii&quot; tabindex=&quot;-1&quot;&gt;Baldur’s Gate III &lt;a class=&quot;direct-link&quot; href=&quot;http://mikepropst.com/blog/what-am-i-playing/#baldur-s-gate-iii&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This one’s tough because I love D&amp;amp;D and Forgotten Realms. I love the idea of a mind flayer-centric story. And I love that I can play a Githyanki main character (which I am). It’s deeply customizable and flexible, the turn based combat is some of the best around, and the story and characters really keep getting better as you go. But I don’t love it. At every turn I’m reminded that I’m playing alone — in a game based on something that has very long-held social associations for me. D&amp;amp;D by oneself is maybe just not something I’m into. And frankly, I’m also not that excited to discover when the penis customization becomes relevant.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Happy 85th Birthday to Wendy Carlos</title>
@@ -34,6 +53,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/what-am-i-playing/&quot; class=&quot;postlist-link&quot;&gt;What am I playing&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-11-21&quot;&gt;Nov 21, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
