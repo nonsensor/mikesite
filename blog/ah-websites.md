@@ -1,0 +1,16 @@
+---
+title: Ah, websites
+date: 2024-12-02
+tags:
+  - internet
+---
+
+Remember websites?
+
+Some friends and some people I don't know got together after the brief run of cohost to start a group blog about... stuff? Things? Not sure. But they started with ["Websites I have known and loved,"](https://eggbugrotator.bearblog.dev/eggbug-memorial-rotator-1-websites-we-have-known-and-loved/), and though many are younger than I am they're old enough to remember the days before the social media takeover of the internet. I think it's a pretty serious bummer that we're so into our own idea of audience that we prefer these walled gardens of garbage and speedy dopamine that we've all but abandoned websites except when we want to look at a restaurant menu (and that's been co-opted by Bezos's GrubHub more than half the time).
+
+Yes, there are exceptions to this: artists who work in the medium. Think of Dril or the second era of webcomics that blossomed before Instagram's algorithms crushed their ability to actually be read. But though it's cheaper and easier than ever to stand up a website, there may never be another [zombo.com](https://zombo.com/) (miraculously, it has kept up with technology and still works). There will probably never be another rotten.com either, and while you might think that's great, the more "social" online spaces where that kind of stuff is shared are the worst breeding grounds of right-wing, incel, white supremacist, misogynist trash online. Which means I do have to say, I don't think it's all rose-colored. Something Awful was a great place in some ways, but contributed to the caustic way we interact online (and of course Lowtax turned out to be pretty terrible even if he did have ideas about content moderation that we could probably use more of these days).
+
+Though I like to turn to [Molly White's speech](/blog/the-web-we-could-have/) that I linked earlier, I think "websites" as means of expression will probably remain fringe. I suppose they always were, it's just the rest of the web that's grown.
+
+Pontifus mentions shortwave as something that resembles the internet in some key ways, and that's kind of fun. Like a lot of people, I developed an interest in shortwave via the [Conet Project](https://soundcloud.com/the-conet-project/sets/the-conet-project) in the late 90s. I doubt I was the first person to start sampling them, but I sure as shit did it right away. I nerded out so hard on it that I even bought a radio. Sitting on my rooftop porch in Bloomfield, Pittsburgh, my friends and I listened to some very random stuff until finally coming across what I believe was probably [HM01](https://priyom.org/number-stations/digital/hm01) out of Cuba. That was a magical moment the likes of which I probably won't have anymore. Would I trade our connected world and the magic thingies in our pockets? I dunno, but I miss _not knowing_ about stuff. I think that's why stuff like the [Most Mysterious Song on the Internet](/blog/mystery-solved/) resonates so much with people. There are so few mysteries anymore — at least the ones that a layperson can really feel like a part of — and it's great to recapture that feeling of sitting on your roof and hearing the spooky radio voice.

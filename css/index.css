@@ -2,13 +2,14 @@
 
 :root {
     /* --bg-color: #21021f;
-  --text-color: #f4dcf3; */
+  --text-color: #f4dcf3; 
     --bg-color: rgb(48, 48, 75);
-    --header-color: rgb(40, 40, 62);
     --text-color: rgb(232, 233, 240);
-    --text-color-darker: rgb(193, 196, 215);
-    /* --hilite-color: #ee6; */
-    --hilite-color: rgb(148, 159, 224);
+    --text-color-darker: rgb(193, 196, 215); */
+    --header-color: #566680;
+    --text-color: #28282A;
+    --bg-color: #E8E1C9;
+    --hilite-color: #F0623C;
     --lighter-color: rgb(148, 159, 224);
     --main-text: "Inconsolata", sans-serif;
     --heading-font: "Karla", sans-serif;
@@ -67,7 +68,7 @@ body {
     content: "LATEST";
     font-size: 0.6em;
     display: block;
-    color: #fff;
+    color: var(--header-color);
 }
 
 .postlist-date {
@@ -83,7 +84,7 @@ body {
 
 .single .editorial .post__body > p:first-child {
     font-size: 1.1em;
-    background: var(--lighter-color);
+    background: var(--header-color);
     color: var(--bg-color);
     padding: 1em;
     border-radius: 1lvw;
@@ -135,7 +136,7 @@ body {
 
 .post__body a,
 .audio-project__listen a {
-    color: #fff;
+    color: var(--hilite-color);
     text-decoration: none;
     border-bottom: 2px solid var(--hilite-color);
 }
@@ -211,7 +212,7 @@ body {
 
 .post__tags a {
     background: var(--hilite-color);
-    color: #333;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: 0.2em 0.32em;
@@ -220,6 +221,7 @@ body {
 
 .post__tags a:hover {
     background: #fff;
+    color: var(--hilite-color);
 }
 
 .pager {
@@ -263,7 +265,7 @@ body {
 
 .homeblurb__content .taglist a {
     background: var(--hilite-color);
-    color: #333;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: 0.2em 0.32em;
@@ -282,14 +284,14 @@ body {
 }
 
 .homeblurb__content a {
-    color: #fff;
+    color: var(--hilite-color);
     text-decoration: none;
     border-bottom: 2px solid var(--hilite-color);
 }
 
 .homeblurb__content a:hover {
-    background: var(--hilite-color);
-    color: var(--bg-color);
+    background: #fff;
+    color: var(--hilite-color);
 }
 
 .audio-projects__title {

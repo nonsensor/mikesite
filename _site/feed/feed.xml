@@ -5,12 +5,25 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-11-21T00:00:00Z</updated>
+	<updated>2024-12-02T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Ah, websites</title>
+		<link href="http://mikepropst.com/blog/ah-websites/"/>
+		<updated>2024-12-02T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/ah-websites/</id>
+		<content type="html">&lt;p&gt;Remember websites?&lt;/p&gt;
+&lt;p&gt;Some friends and some people I don&#39;t know got together after the brief run of cohost to start a group blog about... stuff? Things? Not sure. But they started with &lt;a href=&quot;https://eggbugrotator.bearblog.dev/eggbug-memorial-rotator-1-websites-we-have-known-and-loved/&quot;&gt;&amp;quot;Websites I have known and loved,&amp;quot;&lt;/a&gt;, and though many are younger than I am they&#39;re old enough to remember the days before the social media takeover of the internet. I think it&#39;s a pretty serious bummer that we&#39;re so into our own idea of audience that we prefer these walled gardens of garbage and speedy dopamine that we&#39;ve all but abandoned websites except when we want to look at a restaurant menu (and that&#39;s been co-opted by Bezos&#39;s GrubHub more than half the time).&lt;/p&gt;
+&lt;p&gt;Yes, there are exceptions to this: artists who work in the medium. Think of Dril or the second era of webcomics that blossomed before Instagram&#39;s algorithms crushed their ability to actually be read. But though it&#39;s cheaper and easier than ever to stand up a website, there may never be another &lt;a href=&quot;https://zombo.com/&quot;&gt;zombo.com&lt;/a&gt; (miraculously, it has kept up with technology and still works). There will probably never be another &lt;a href=&quot;http://rotten.com/&quot;&gt;rotten.com&lt;/a&gt; either, and while you might think that&#39;s great, the more &amp;quot;social&amp;quot; online spaces where that kind of stuff is shared are the worst breeding grounds of right-wing, incel, white supremacist, misogynist trash online. Which means I do have to say, I don&#39;t think it&#39;s all rose-colored. Something Awful was a great place in some ways, but contributed to the caustic way we interact online (and of course Lowtax turned out to be pretty terrible even if he did have ideas about content moderation that we could probably use more of these days).&lt;/p&gt;
+&lt;p&gt;Though I like to turn to &lt;a href=&quot;http://mikepropst.com/blog/the-web-we-could-have/&quot;&gt;Molly White&#39;s speech&lt;/a&gt; that I linked earlier, I think &amp;quot;websites&amp;quot; as means of expression will probably remain fringe. I suppose they always were, it&#39;s just the rest of the web that&#39;s grown.&lt;/p&gt;
+&lt;p&gt;Pontifus mentions shortwave as something that resembles the internet in some key ways, and that&#39;s kind of fun. Like a lot of people, I developed an interest in shortwave via the &lt;a href=&quot;https://soundcloud.com/the-conet-project/sets/the-conet-project&quot;&gt;Conet Project&lt;/a&gt; in the late 90s. I doubt I was the first person to start sampling them, but I sure as shit did it right away. I nerded out so hard on it that I even bought a radio. Sitting on my rooftop porch in Bloomfield, Pittsburgh, my friends and I listened to some very random stuff until finally coming across what I believe was probably &lt;a href=&quot;https://priyom.org/number-stations/digital/hm01&quot;&gt;HM01&lt;/a&gt; out of Cuba. That was a magical moment the likes of which I probably won&#39;t have anymore. Would I trade our connected world and the magic thingies in our pockets? I dunno, but I miss &lt;em&gt;not knowing&lt;/em&gt; about stuff. I think that&#39;s why stuff like the &lt;a href=&quot;http://mikepropst.com/blog/mystery-solved/&quot;&gt;Most Mysterious Song on the Internet&lt;/a&gt; resonates so much with people. There are so few mysteries anymore — at least the ones that a layperson can really feel like a part of — and it&#39;s great to recapture that feeling of sitting on your roof and hearing the spooky radio voice.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>What am I playing</title>
@@ -53,6 +66,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/ah-websites/&quot; class=&quot;postlist-link&quot;&gt;Ah, websites&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-12-02&quot;&gt;Dec 2, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
