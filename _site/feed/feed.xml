@@ -5,12 +5,21 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2024-12-02T00:00:00Z</updated>
+	<updated>2024-12-26T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>The DAK catalog</title>
+		<link href="http://mikepropst.com/blog/dak/"/>
+		<updated>2024-12-26T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/dak/</id>
+		<content type="html">&lt;p&gt;I had forgotten about &lt;a href=&quot;https://cabel.com/2023/11/06/dak-and-the-golden-age-of-gadget-catalogs/&quot;&gt;the DAK catalog&lt;/a&gt;, but I used to love it. If you had met me only in the past couple years, you&#39;d think I was some kind of tech-hater, knowledgeable but only using it when necessary. But I think it&#39;s people like me who were so enamored with gadgets and the possibilities of tech who hate it even more these days. Everything seemed so wild and &lt;em&gt;possible.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Ah, websites</title>
@@ -66,6 +75,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/dak/&quot; class=&quot;postlist-link&quot;&gt;The DAK catalog&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2024-12-26&quot;&gt;Dec 26, 2024&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;

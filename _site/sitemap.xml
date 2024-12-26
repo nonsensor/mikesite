@@ -887,6 +887,21 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/random/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/typography/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/design/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/music/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
@@ -912,22 +927,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/typography/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/design/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/ux/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/random/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -937,12 +937,32 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/movies/</loc>
+    <loc>http://mikepropst.com/tags/obit/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/obit/</loc>
+    <loc>http://mikepropst.com/tags/figma/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/software/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/ui/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/a11y/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/movies/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -982,32 +1002,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/figma/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/software/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/ui/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/a11y/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/politics/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/guitar/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1022,12 +1017,7 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/user-research/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/covid/</loc>
+    <loc>http://mikepropst.com/tags/guitar/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1042,12 +1032,27 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/user-research/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/covid/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/composition/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/recording/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1102,17 +1107,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/drums/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/style-guides/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/design-systems/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/drums/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1132,32 +1137,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/capitalism/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/customer-experience/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/engineering/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/home-studio/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/nerd-shit/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1172,17 +1162,27 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/computers/</loc>
-    <lastmod>2024-11-08</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/twitter/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/computers/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/comics/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/engineering/</loc>
+    <lastmod>2024-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/home-studio/</loc>
     <lastmod>2024-11-08</lastmod>
   </url>
   
@@ -1324,5 +1324,10 @@
   <url>
     <loc>http://mikepropst.com/blog/ah-websites/</loc>
     <lastmod>2024-12-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/blog/dak/</loc>
+    <lastmod>2024-12-26</lastmod>
   </url>
 </urlset>
