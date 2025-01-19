@@ -5,12 +5,28 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2025-01-13T00:00:00Z</updated>
+	<updated>2025-01-19T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>One day, the sadness will end</title>
+		<link href="http://mikepropst.com/blog/david-lynch/"/>
+		<updated>2025-01-19T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/david-lynch/</id>
+		<content type="html">&lt;p&gt;So said David Lynch, via the Log Lady. Not today, though.&lt;/p&gt;
+&lt;p&gt;I can&#39;t remember the last time such a wide swathe of people and social media accounts were pouring their hearts out about how they feel on someone&#39;s passing. It&#39;s a testament to how he touched everyone he met and worked with, and how he inspired the artists he never did. Even NASA posted a tribute.&lt;/p&gt;
+&lt;p&gt;The work, as you probably can imagine if you know me, is hugely important. &lt;em&gt;Eraserhead&lt;/em&gt; is a bible for a certain aesthetic that I&#39;ll never really grow out of. Pabst Blue Ribbon, no matter how many times I hold a can, will always make me hear Dennis Hopper in my head. And of course, coffee and pie are magical talismans of goodness and purity in a dark, corrupted world.&lt;/p&gt;
+&lt;p&gt;The thing that probably stands out most to me about the man himself was that he just didn&#39;t compromise. Well, he did once, and that was &lt;em&gt;Dune&lt;/em&gt;. He would just as soon that hadn&#39;t happened, though it holds a special place in a lot of our movie collections. He wouldn&#39;t shorten scenes, he wouldn&#39;t remove parts, he wouldn&#39;t use product placement. As a result, he perhaps made fewer movies before retiring than he might&#39;ve wanted to — but they were all &lt;em&gt;his&lt;/em&gt; movies. I think most artists, especially in this era where even the hobbyists and weekenders are pressured into feeling like they need to turn their work into &amp;quot;content,&amp;quot; should pay attention to that.&lt;/p&gt;
+&lt;p&gt;And whether you believe this or not, it&#39;s worth taking it into account as we grieve:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You have to keep Angelo [Badalamenti, of course] alive. I believe life is a continuum, and that no one really dies, they just drop their physical body and we&#39;ll all meet again, like the song says. It&#39;s sad but it&#39;s not devastating if you think like that. Otherwise I don&#39;t see how anybody could ever, once they see someone die, that they&#39;d just disappear forever and that&#39;s what we&#39;re all bound to do. I&#39;m sorry but it just doesn&#39;t make any sense, it&#39;s a continuum, and we&#39;re all going to be fine at the end of the story.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Sounds of Jarre</title>
@@ -90,6 +106,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/david-lynch/&quot; class=&quot;postlist-link&quot;&gt;One day, the sadness will end&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2025-01-19&quot;&gt;Jan 19, 2025&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
