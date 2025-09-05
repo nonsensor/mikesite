@@ -5,12 +5,28 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2025-09-01T18:36:37Z</updated>
+	<updated>2025-09-05T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>No really, what happened?</title>
+		<link href="http://mikepropst.com/blog/no-really-what-happened/"/>
+		<updated>2025-09-05T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/no-really-what-happened/</id>
+		<content type="html">&lt;p&gt;I think if you&#39;d asked me even a year and a half ago what I thought of soulslikes, I probably would&#39;ve cursed Blighttown, felt bad about myself for my inadequacies, and sent you on your way. But after a full round of Miyazaki&#39;s Cruelest Trials and some other genre highlights such as &lt;em&gt;Lies of P,&lt;/em&gt; &lt;em&gt;Jedi Survivor,&lt;/em&gt; and &lt;em&gt;Another Crab&#39;s Treasure,&lt;/em&gt; I think I&#39;m too far gone.&lt;/p&gt;
+&lt;p&gt;It&#39;s not that I crave &lt;strong&gt;Fromsoft&lt;/strong&gt;&#39;s punishing difficulty or even that it&#39;s my favorite genre of game, though I&#39;d say &lt;em&gt;Bloodborne&lt;/em&gt; is now among my all-time favorites of any genre. But something keeps me coming back to the satisfying combat and magical feeling of a hard-won victory. Beating a boss like the &lt;a href=&quot;https://darksouls.fandom.com/wiki/Dancer_of_the_Boreal_Valley&quot;&gt;Dancer of the Boreal Valley&lt;/a&gt; or &lt;a href=&quot;https://eldenring.fandom.com/wiki/Margit,_the_Fell_Omen&quot;&gt;Marge, the Fell Homer&lt;/a&gt; (a dastardly guy made worse by how early you have to fight him) after way too many tries is simply one of the best rushes that a video game can give you.&lt;/p&gt;
+&lt;p&gt;When you fully &amp;quot;get&amp;quot; a boss, dodging and blocking at the right moment, attacking effectively — you might not even take damage at all, and you start to understand the old saw of &lt;a href=&quot;https://duckduckgo.com/?q=dark+souls+is+a+rhythm+game&amp;amp;ia=web&quot;&gt;&amp;quot;Dark Souls is a rhythm game.&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On an intellectual level, thinking about these games, they&#39;re admirable for not being anything else. Maybe &lt;strong&gt;Naughty Dog&lt;/strong&gt; would rather their games be movies (&lt;em&gt;Uncharted&lt;/em&gt; was a passable movie despite Marky Mark, and HBO&#39;s &lt;em&gt;The Last of Us&lt;/em&gt; is excellent). Maybe &lt;strong&gt;Suda51&lt;/strong&gt; loves meta-commentary about games more than actually making games. &lt;strong&gt;Hidetaka Miyazaki&lt;/strong&gt; and co., on the other hand, have created a kind of game that can &lt;em&gt;only&lt;/em&gt; be a game. The story is emergent based on the items and characters you find. The paths you take determine the world&#39;s progression. But what I think about most of all is that the mechanics are &lt;em&gt;simple&lt;/em&gt;. Not &amp;quot;easy,&amp;quot; mind you. Simple.&lt;/p&gt;
+&lt;p&gt;Skill trees, character classes, multiple kinds of currencies, minigames, superfluous collectibles, overblown cosmetics, quest markers, databases of enemy info, in-app purchases — get &#39;em outta here! Even your currency and XP are the same thing.&lt;/p&gt;
+&lt;p&gt;Obviously you put your scores where you want them, which influences your weapon choices and ways of fighting. And there are quests, as inscrutable as they might sometimes be. But at the end of the day, you hit things, you get stronger, you die, and you repeat. That&#39;s refreshing!&lt;/p&gt;
+&lt;p&gt;Some contrast. &lt;strong&gt;Hideo Kojima&lt;/strong&gt;, wannabe Hollywood auteur and inventor of the stealth mechanic, has made a &lt;a href=&quot;https://en.wikipedia.org/wiki/Death_Stranding&quot;&gt;very successful pair of games&lt;/a&gt; where the open-world task of &amp;quot;getting from one place to another&amp;quot; is the &lt;em&gt;entire game&lt;/em&gt;, with a side of inventory management. It&#39;s like the yin to Suda&#39;s &amp;quot;completely empty town&amp;quot; yang in &lt;em&gt;No More Heroes&lt;/em&gt;. Just when I think I get the hang of &lt;em&gt;Death Stranding&lt;/em&gt;&#39;s numerous controls, mechanics, and things to remember, another three or fourteen get put on the pile. I struggled for a while, then &lt;em&gt;Lies of P&lt;/em&gt; was a PS Online game of the month and it was all over. Before that I tried &lt;em&gt;Star Wars Outlaws&lt;/em&gt;, where the futility of fetch quests and the abundance of markers (insert Ubisoft joke here) made me feel aimless and listless... and suddenly &lt;em&gt;Bloodborne&lt;/em&gt; was on sale.&lt;/p&gt;
+&lt;p&gt;Maybe these are dumb games. Maybe you&#39;re not moved by un-cancelable attacks,  mumbly British-accented NPCs, or endlessly bleak environments with clever shortcuts. But soulslikes are an elegant kind of dumb, a precise and carefully-honed brick in a world of games that want to be complicated and thingamabobs — and I will continue to come back to them.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title></title>
@@ -24,6 +40,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/no-really-what-happened/&quot; class=&quot;postlist-link&quot;&gt;No really, what happened?&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2025-09-05&quot;&gt;Sep 5, 2025&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
 

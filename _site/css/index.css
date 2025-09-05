@@ -7,7 +7,7 @@
     --text-color: rgb(232, 233, 240);
     --text-color-darker: rgb(193, 196, 215); */
     --header-color: #566680;
-    --text-color: #28282A;
+    --text-color: #625760;
     --bg-color: #E8E1C9;
     --hilite-color: #F0623C;
     --lighter-color: rgb(148, 159, 224);
@@ -130,7 +130,7 @@ body {
 }
 
 .post__date {
-    color: #eec;
+    color: var(--lighter-color);
     margin-bottom: 0.24em;
 }
 

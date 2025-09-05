@@ -1012,6 +1012,21 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/front-end/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/webdev/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/accessibility/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/gear/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
@@ -1028,21 +1043,6 @@
   
   <url>
     <loc>http://mikepropst.com/tags/akai-mpc/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/front-end/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/webdev/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/accessibility/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1117,22 +1117,22 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/kirby/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mikepropst.com/tags/cms/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/tech/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/frugal-but-at-what-cost/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/kirby/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/cms/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1182,12 +1182,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/text-editors/</loc>
+    <loc>http://mikepropst.com/tags/capitalism/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/capitalism/</loc>
+    <loc>http://mikepropst.com/tags/text-editors/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1222,12 +1222,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/computers/</loc>
+    <loc>http://mikepropst.com/tags/comics/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/comics/</loc>
+    <loc>http://mikepropst.com/tags/computers/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1262,12 +1262,12 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/obsidian/</loc>
+    <loc>http://mikepropst.com/tags/usability/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/usability/</loc>
+    <loc>http://mikepropst.com/tags/obsidian/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1283,6 +1283,11 @@
   
   <url>
     <loc>http://mikepropst.com/tags/daw/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/the-bad-miyazaki/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1312,17 +1317,17 @@
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mikepropst.com/tags/html/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
     <loc>http://mikepropst.com/tags/information-architecture/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mikepropst.com/tags/my-psychic-powers/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
@@ -1352,12 +1357,17 @@
   </url>
   
   <url>
+    <loc>http://mikepropst.com/tags/oh-shit-fire/</loc>
+    <lastmod>2025-09-01</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mikepropst.com/tags/work/</loc>
     <lastmod>2025-09-01</lastmod>
   </url>
   
   <url>
-    <loc>http://mikepropst.com/tags/oh-shit-fire/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <loc>http://mikepropst.com/blog/no-really-what-happened/</loc>
+    <lastmod>2025-09-05</lastmod>
   </url>
 </urlset>
