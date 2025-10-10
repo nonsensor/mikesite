@@ -5,12 +5,27 @@
 	
 	<link href="http://mikepropst.com/feed/feed.xml" rel="self"/>
 	<link href="http://mikepropst.com/"/>
-	<updated>2025-09-05T00:00:00Z</updated>
+	<updated>2025-10-10T00:00:00Z</updated>
 	<id>http://mikepropst.com/</id>
 	<author>
 		<name>Mike Propst</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Goodbye, doof</title>
+		<link href="http://mikepropst.com/blog/cyrus/"/>
+		<updated>2025-10-10T00:00:00Z</updated>
+		<id>http://mikepropst.com/blog/cyrus/</id>
+		<content type="html">&lt;p&gt;I sit here in my temporary housing, embracing the coziness of fall weather and its attendant sweaters and cocoas and whatnot, and face the prospect of being in a house without a dog to snuggle for the first time in around 20 years. Today we euthanized Cyrus, our absolute doof of a Boxer/Shepherd mix after a pretty darn long life and a much longer run with cancer than anyone expected.&lt;/p&gt;
+&lt;p&gt;He was certainly not always a good dog (friends who know about it... know about it), which only makes the feelings more complicated. And of course, when someone&#39;s life is in your hands, even a four-legged life, it&#39;s always complicated.&lt;/p&gt;
+&lt;p&gt;But we&#39;ll miss him a lot. Here&#39;s some pictures, mostly of him doing his one job: looking very sad with his Gregory Peck eyebrow.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://mikepropst.com/img/cyrus1.png&quot; alt=&quot;Cyrus&quot; /&gt;
+&lt;img src=&quot;http://mikepropst.com/img/cyrus2.png&quot; alt=&quot;Cyrus&quot; /&gt;
+&lt;img src=&quot;http://mikepropst.com/img/cyrus3.png&quot; alt=&quot;Cyrus&quot; /&gt;
+&lt;img src=&quot;http://mikepropst.com/img/cyrus4.png&quot; alt=&quot;Cyrus&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>No really, what happened?</title>
@@ -40,6 +55,13 @@
   
   
   &lt;ul class=&quot;postlist&quot;&gt;
+
+
+  &lt;li class=&quot;postlist-item&quot;&gt;
+    &lt;a href=&quot;http://mikepropst.com/blog/cyrus/&quot; class=&quot;postlist-link&quot;&gt;Goodbye, doof&lt;/a&gt;
+    &lt;time class=&quot;postlist-date&quot; datetime=&quot;2025-10-10&quot;&gt;Oct 10, 2025&lt;/time&gt;
+  &lt;/li&gt;
+  
 
 
   &lt;li class=&quot;postlist-item&quot;&gt;
