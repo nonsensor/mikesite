@@ -2,11 +2,13 @@
 title: Probably pretty typical thoughts on Japan
 date: 2025-10-31
 tags:
-  - life
-  - travel
+    - life
+    - travel
 ---
 
 We just returned from 10 days in Japan, and though I've been a horrible weeb for many years it was my first time. This was a family trip, so balancing some cultural stuff and "endless shopping for the pop culture items the kids really love" was a tough act, but we managed.
+
+![Torii gate in Nara](/img/nara_torii.jpg)
 
 ## What they do well - slash - what I will miss
 - **Trains.** Duh. New York and maybe DC aside, the US is not very good at this at all. Thanks, Detroit. Combine the urban rail of big cities like Tokyo or Osaka with the national infrastructure of the Shinkansen and others, and you get a really easily navigable country.
@@ -18,6 +20,7 @@ We just returned from 10 days in Japan, and though I've been a horrible weeb for
 ## Things I could do without
 - **Standing.** Oh my god, they hate to sit. This isn't just in Tokyo where space is at an ultimate premium. It's everywhere. They have a fetish for standing. Combine this with never letting your bags hit the floor, and your lazy American feet will rebel within a couple days. I suppose this is one of those "how little everyone has to contribute" things for a nice society, but would it kill you to add a chair?
 - **Holding on to your trash.** It's counterintuitive, but I assume not having trash cans anywhere probably does contribute to an overall cleaner place.
+- **Humidity.** *Why does nobody use raincoats*, I think to myself. *Why do they all use umbrellas?* Then I wind up with clothes drenched in sweat, as wet as if I wasn't wearing the raincoat at all. Now I get it. I guess enough years living out here has made me forget what humidity is like.
 
 ## Pleasant surprises
 - **Great service.** You never know what the customer service level in a place is gonna be like. And my standards have dropped significantly since living in Eugene. But though interactions are generally short and polite, there's a basic floor for service that is "pretty decent."
